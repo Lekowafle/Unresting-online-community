@@ -1,0 +1,1083 @@
+characters = {
+	XAA_Kumari_Tharai={
+		name="Kumari Tharai"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { right_industrialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XAA_Kiranoj_Thunporugava={
+		name="Kiranoj Thunporugava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Kiranoj_Thunporugava
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAA_Mohanoj_Kuranai={
+		name="Mohanoj Kuranai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Mohanoj_Kuranai
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAA_Jagadeen_Veli={
+		name="Jagadeen Veli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Jagadeen_Veli
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAA_Mohan_Siriyanbam={
+		name="Mohan Siriyanbam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Mohan_Siriyanbam
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAA_Ravi_Thakkal={
+		name="Ravi Thakkal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Ravi_Thakkal
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAA_Vijay_Megaval={
+		name="Vijay Megaval"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Vijay_Megaval
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAA_Jagadeenthik_Vizhcharai={
+		name="Jagadeenthik Vizhcharai"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Jagadeenthik_Vizhcharai
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	XAA_Harish_Nilam={
+		name="Harish Nilam"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Harish_Nilam
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	XAA_Jagadeenth_Kalai={
+		name="Jagadeenth Kalai"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Jagadeenth_Kalai
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	XAA_Vinod_Thaganai={
+		name="Vinod Thaganai"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Vinod_Thaganai
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	XAA_Deesh_Kuranbam={
+		name="Deesh Kuranbam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAA_Deesh_Kuranbam
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	XAA_Naveesh_Kadutham={
+		name="Naveesh Kadutham"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAA_Naveesh_Kadutham
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	XAA_Vinod_Oosaignadila={
+		name="Vinod Oosaignadila"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAA_Vinod_Oosaignadila
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	XAA_Anil_Thozhchai={
+		name="Anil Thozhchai"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAA_Anil_Thozhchai
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	XAA_Arun_Thonmai={
+		name="Arun Thonmai"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Arun_Thonmai
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	XAA_Jaghan_Thaiyanai={
+		name="Jaghan Thaiyanai"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Jaghan_Thaiyanai
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	XAA_Presh_Elimayambu={
+		name="Presh Elimayambu"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Presh_Elimayambu
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	XAA_Harish_Kuranbam={
+		name="Harish Kuranbam"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Harish_Kuranbam
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	XAA_Ravi_Kanthinam={
+		name="Ravi Kanthinam"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Ravi_Kanthinam
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	XAA_Vinoj_Kazhar={
+		name="Vinoj Kazhar"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Vinoj_Kazhar
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	XAA_Manesh_Thozi={
+		name="Manesh Thozi"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { vapsid_economist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XAA_Raghan_Sugavalam={
+		name="Raghan Sugavalam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Raghan_Sugavalam
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAA_Raghan_Elimayambu={
+		name="Raghan Elimayambu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Raghan_Elimayambu
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAA_Prem_Thagizhi={
+		name="Prem Thagizhi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Prem_Thagizhi
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAA_Chanoj_Paal={
+		name="Chanoj Paal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Chanoj_Paal
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAA_Jagadeen_Kanneedutrug={
+		name="Jagadeen Kanneedutrug"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Jagadeen_Kanneedutrug
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAA_Prandrakash_Unaignai={
+		name="Prandrakash Unaignai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Prandrakash_Unaignai
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAA_Manesh_Kanneerku={
+		name="Manesh Kanneerku"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Manesh_Kanneerku
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	XAA_Anil_Sugavalam={
+		name="Anil Sugavalam"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Anil_Sugavalam
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	XAA_Mohanoj_Sirai={
+		name="Mohanoj Sirai"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Mohanoj_Sirai
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	XAA_Karthil_Thozhchai={
+		name="Karthil Thozhchai"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Karthil_Thozhchai
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	XAA_Raghan_Kurai={
+		name="Raghan Kurai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAA_Raghan_Kurai
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	XAA_Mohaveen_Thozhi={
+		name="Mohaveen Thozhi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAA_Mohaveen_Thozhi
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	XAA_Jagadeenthik_Thakkal={
+		name="Jagadeenthik Thakkal"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAA_Jagadeenthik_Thakkal
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	XAA_Siddhan_Kuranai={
+		name="Siddhan Kuranai"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAA_Siddhan_Kuranai
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	XAA_Prem_Vizhippu={
+		name="Prem Vizhippu"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Prem_Vizhippu
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	XAA_Varthik_Elimayambu={
+		name="Varthik Elimayambu"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Varthik_Elimayambu
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	XAA_Deesh_Pesu={
+		name="Deesh Pesu"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Deesh_Pesu
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	XAA_Preshna_Suvam={
+		name="Preshna Suvam"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Preshna_Suvam
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	XAA_Mohan_Elichagannol={
+		name="Mohan Elichagannol"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Mohan_Elichagannol
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	XAA_Kumarthik_Thoppu={
+		name="Kumarthik Thoppu"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Kumarthik_Thoppu
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	XAA_Chan_Thaikku={
+		name="Chan Thaikku"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { devoted_marxist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XAA_Dinoj_Sirai={
+		name="Dinoj Sirai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Dinoj_Sirai
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAA_Karun_Saadakkal={
+		name="Karun Saadakkal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Karun_Saadakkal
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAA_Krish_Kazhar={
+		name="Krish Kazhar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Krish_Kazhar
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAA_Naveen_Siravu={
+		name="Naveen Siravu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Naveen_Siravu
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAA_Ganesh_Thozhunavam={
+		name="Ganesh Thozhunavam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Ganesh_Thozhunavam
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAA_Deepakash_Kazhar={
+		name="Deepakash Kazhar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Deepakash_Kazhar
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAA_Preshna_Inbam={
+		name="Preshna Inbam"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Preshna_Inbam
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	XAA_Mohandran_Unaignai={
+		name="Mohandran Unaignai"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Mohandran_Unaignai
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	XAA_Vinesh_Puthi={
+		name="Vinesh Puthi"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Vinesh_Puthi
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	XAA_Varthik_Kanthinam={
+		name="Varthik Kanthinam"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Varthik_Kanthinam
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	XAA_Jagadeen_Oorulai={
+		name="Jagadeen Oorulai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAA_Jagadeen_Oorulai
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	XAA_Chanoj_Thozhi={
+		name="Chanoj Thozhi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAA_Chanoj_Thozhi
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	XAA_Harthil_Theerai={
+		name="Harthil Theerai"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAA_Harthil_Theerai
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	XAA_Mohaveen_Vizhunbu={
+		name="Mohaveen Vizhunbu"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAA_Mohaveen_Vizhunbu
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	XAA_Prem_Koli={
+		name="Prem Koli"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Prem_Koli
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	XAA_Harish_Thozi={
+		name="Harish Thozi"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Harish_Thozi
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	XAA_Karthil_Veli={
+		name="Karthil Veli"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Karthil_Veli
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	XAA_Jaghan_Kadam={
+		name="Jaghan Kadam"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Jaghan_Kadam
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	XAA_Jaghan_Unaignai={
+		name="Jaghan Unaignai"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Jaghan_Unaignai
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	XAA_Jaghan_Kazhar={
+		name="Jaghan Kazhar"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Jaghan_Kazhar
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	XAA_Ganesh_Thakku={
+		name="Ganesh Thakku"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XAA_Karth_Thumayal={
+		name="Karth Thumayal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Karth_Thumayal
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAA_Chan_Isai={
+		name="Chan Isai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Chan_Isai
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAA_Mohandran_Puthi={
+		name="Mohandran Puthi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Mohandran_Puthi
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAA_Pran_Vizhunbu={
+		name="Pran Vizhunbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Pran_Vizhunbu
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAA_Dinoj_Thogu={
+		name="Dinoj Thogu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Dinoj_Thogu
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAA_Prandrakash_Sanarai={
+		name="Prandrakash Sanarai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAA_Prandrakash_Sanarai
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAA_Jagadeen_Vizhunbu={
+		name="Jagadeen Vizhunbu"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Jagadeen_Vizhunbu
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	XAA_Siddhan_Mozhai={
+		name="Siddhan Mozhai"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Siddhan_Mozhai
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	XAA_Presh_Olichi={
+		name="Presh Olichi"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Presh_Olichi
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	XAA_Dinoj_Siravu={
+		name="Dinoj Siravu"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAA_Dinoj_Siravu
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	XAA_Mohaveen_Sugam={
+		name="Mohaveen Sugam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAA_Mohaveen_Sugam
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	XAA_Mohanoj_Inbam={
+		name="Mohanoj Inbam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAA_Mohanoj_Inbam
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	XAA_Harthik_Kuranai={
+		name="Harthik Kuranai"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAA_Harthik_Kuranai
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	XAA_Satish_Inbam={
+		name="Satish Inbam"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAA_Satish_Inbam
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	XAA_Ganod_Kanavai={
+		name="Ganod Kanavai"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Ganod_Kanavai
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	XAA_Arun_Olichi={
+		name="Arun Olichi"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Arun_Olichi
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	XAA_Varthik_Oosaignadila={
+		name="Varthik Oosaignadila"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Varthik_Oosaignadila
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	XAA_Harthik_Nilam={
+		name="Harthik Nilam"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Harthik_Nilam
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	XAA_Suresh_Pesu={
+		name="Suresh Pesu"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Suresh_Pesu
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	XAA_Pran_Kanavai={
+		name="Pran Kanavai"
+
+		advisor={
+			slot = high_command
+			idea_token = XAA_Pran_Kanavai
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	XAA_Satish_Sugavu={
+		name="Satish Sugavu"
+
+		advisor={
+			slot = theorist
+			idea_token = XAA_Satish_Sugavu
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	XAA_Prem_Pesu={
+		name="Prem Pesu"
+
+		advisor={
+			slot = theorist
+			idea_token = XAA_Prem_Pesu
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	XAA_Harish_Tharai={
+		name="Harish Tharai"
+
+		advisor={
+			slot = theorist
+			idea_token = XAA_Harish_Tharai
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

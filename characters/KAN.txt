@@ -1,0 +1,1083 @@
+characters = {
+	KAN_Vijay_Thakkal={
+		name="Vijay Thakkal"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { royal_dictator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAN_Vinod_Paal={
+		name="Vinod Paal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Vinod_Paal
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KAN_Kumarthik_Velalam={
+		name="Kumarthik Velalam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Kumarthik_Velalam
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KAN_Satishna_Vanbu={
+		name="Satishna Vanbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Satishna_Vanbu
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KAN_Rajiv_Paal={
+		name="Rajiv Paal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Rajiv_Paal
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KAN_Naveesh_Siravu={
+		name="Naveesh Siravu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Naveesh_Siravu
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KAN_Charth_Thozhchai={
+		name="Charth Thozhchai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Charth_Thozhchai
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KAN_Vinod_Sugavalam={
+		name="Vinod Sugavalam"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Vinod_Sugavalam
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	KAN_Krish_Thanadilanai={
+		name="Krish Thanadilanai"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Krish_Thanadilanai
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	KAN_Naveen_Koli={
+		name="Naveen Koli"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Naveen_Koli
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	KAN_Preshna_Veli={
+		name="Preshna Veli"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Preshna_Veli
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	KAN_Prem_Inippu={
+		name="Prem Inippu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAN_Prem_Inippu
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	KAN_Vinoj_Saadakkal={
+		name="Vinoj Saadakkal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAN_Vinoj_Saadakkal
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	KAN_Satish_Kazhar={
+		name="Satish Kazhar"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAN_Satish_Kazhar
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	KAN_Arun_Thoppu={
+		name="Arun Thoppu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAN_Arun_Thoppu
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	KAN_Ganesh_Oosaignadila={
+		name="Ganesh Oosaignadila"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Ganesh_Oosaignadila
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	KAN_Chan_Inbam={
+		name="Chan Inbam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Chan_Inbam
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	KAN_Naveesh_Puthi={
+		name="Naveesh Puthi"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Naveesh_Puthi
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	KAN_Pran_Thaikku={
+		name="Pran Thaikku"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Pran_Thaikku
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	KAN_Chandrandran_Kaadu={
+		name="Chandrandran Kaadu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Chandrandran_Kaadu
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	KAN_Preshna_Saadakkal={
+		name="Preshna Saadakkal"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Preshna_Saadakkal
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	KAN_Ravi_Saadakkal={
+		name="Ravi Saadakkal"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAN_Chan_Sugavu={
+		name="Chan Sugavu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Chan_Sugavu
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KAN_Karth_Thozi={
+		name="Karth Thozi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Karth_Thozi
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KAN_Dinesh_Kanthinam={
+		name="Dinesh Kanthinam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Dinesh_Kanthinam
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KAN_Rajesh_Pudhangalam={
+		name="Rajesh Pudhangalam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Rajesh_Pudhangalam
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KAN_Vinod_Vizhunbu={
+		name="Vinod Vizhunbu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Vinod_Vizhunbu
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KAN_Chandrandran_Siravu={
+		name="Chandrandran Siravu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Chandrandran_Siravu
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KAN_Krish_Kudhan={
+		name="Krish Kudhan"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Krish_Kudhan
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	KAN_Vinoj_Kadam={
+		name="Vinoj Kadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Vinoj_Kadam
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	KAN_Ravi_Vadhuravai={
+		name="Ravi Vadhuravai"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Ravi_Vadhuravai
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	KAN_Dinoj_Sanarai={
+		name="Dinoj Sanarai"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Dinoj_Sanarai
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	KAN_Harthik_Thonmai={
+		name="Harthik Thonmai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAN_Harthik_Thonmai
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	KAN_Varthik_Kudhan={
+		name="Varthik Kudhan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAN_Varthik_Kudhan
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	KAN_Hari_Thakkal={
+		name="Hari Thakkal"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAN_Hari_Thakkal
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	KAN_Charth_Puthi={
+		name="Charth Puthi"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAN_Charth_Puthi
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	KAN_Prak_Thumayal={
+		name="Prak Thumayal"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Prak_Thumayal
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	KAN_Satish_Paatturambu={
+		name="Satish Paatturambu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Satish_Paatturambu
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	KAN_Chan_Poru={
+		name="Chan Poru"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Chan_Poru
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	KAN_Siddhan_Megavu={
+		name="Siddhan Megavu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Siddhan_Megavu
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	KAN_Jagadeen_Uyiran={
+		name="Jagadeen Uyiran"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Jagadeen_Uyiran
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	KAN_Rajiv_Thumayal={
+		name="Rajiv Thumayal"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Rajiv_Thumayal
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	KAN_Anil_Mozhai={
+		name="Anil Mozhai"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { leftist_intellectual  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAN_Ragadeepak_Thai={
+		name="Ragadeepak Thai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Ragadeepak_Thai
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KAN_Arun_Thozhi={
+		name="Arun Thozhi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Arun_Thozhi
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KAN_Manesh_Vidu={
+		name="Manesh Vidu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Manesh_Vidu
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KAN_Mohaveen_Vadhuravai={
+		name="Mohaveen Vadhuravai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Mohaveen_Vadhuravai
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KAN_Hari_Makku={
+		name="Hari Makku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Hari_Makku
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KAN_Mohandranesh_Kazhar={
+		name="Mohandranesh Kazhar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Mohandranesh_Kazhar
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KAN_Jaghan_Mozhai={
+		name="Jaghan Mozhai"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Jaghan_Mozhai
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	KAN_Dinoj_Thaikku={
+		name="Dinoj Thaikku"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Dinoj_Thaikku
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	KAN_Chan_Thakku={
+		name="Chan Thakku"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Chan_Thakku
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	KAN_Kiranoj_Sirai={
+		name="Kiranoj Sirai"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Kiranoj_Sirai
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	KAN_Siddhari_Kuranbam={
+		name="Siddhari Kuranbam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAN_Siddhari_Kuranbam
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	KAN_Mohavi_Oosaignadila={
+		name="Mohavi Oosaignadila"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAN_Mohavi_Oosaignadila
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	KAN_Siddhandran_Vidiyal={
+		name="Siddhandran Vidiyal"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAN_Siddhandran_Vidiyal
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	KAN_Mohandranesh_Vidu={
+		name="Mohandranesh Vidu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAN_Mohandranesh_Vidu
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	KAN_Krish_Sanam={
+		name="Krish Sanam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Krish_Sanam
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	KAN_Dinesh_Oorulai={
+		name="Dinesh Oorulai"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Dinesh_Oorulai
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	KAN_Harthil_Nunbam={
+		name="Harthil Nunbam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Harthil_Nunbam
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	KAN_Ganesh_Thogu={
+		name="Ganesh Thogu"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Ganesh_Thogu
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	KAN_Jagadeenth_Suvam={
+		name="Jagadeenth Suvam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Jagadeenth_Suvam
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	KAN_Chan_Elichagannol={
+		name="Chan Elichagannol"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Chan_Elichagannol
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	KAN_Harthil_Poru={
+		name="Harthil Poru"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAN_Varun_Thozhi={
+		name="Varun Thozhi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Varun_Thozhi
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KAN_Deesh_Inippu={
+		name="Deesh Inippu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Deesh_Inippu
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KAN_Jagadeen_Elichagannol={
+		name="Jagadeen Elichagannol"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Jagadeen_Elichagannol
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KAN_Bala_Kanneedutrug={
+		name="Bala Kanneedutrug"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Bala_Kanneedutrug
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KAN_Presh_Uyiran={
+		name="Presh Uyiran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Presh_Uyiran
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KAN_Satishna_Vizhchai={
+		name="Satishna Vizhchai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAN_Satishna_Vizhchai
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KAN_Karun_Kudhaichi={
+		name="Karun Kudhaichi"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Karun_Kudhaichi
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	KAN_Bala_Poru={
+		name="Bala Poru"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Bala_Poru
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	KAN_Chanoj_Vadhuravai={
+		name="Chanoj Vadhuravai"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Chanoj_Vadhuravai
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	KAN_Naveesh_Vanbu={
+		name="Naveesh Vanbu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAN_Naveesh_Vanbu
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	KAN_Mohanoj_Thozi={
+		name="Mohanoj Thozi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAN_Mohanoj_Thozi
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	KAN_Satish_Thogu={
+		name="Satish Thogu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAN_Satish_Thogu
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	KAN_Naveen_Vanbu={
+		name="Naveen Vanbu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAN_Naveen_Vanbu
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	KAN_Vinod_Vizhippu={
+		name="Vinod Vizhippu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAN_Vinod_Vizhippu
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	KAN_Harish_Panai={
+		name="Harish Panai"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Harish_Panai
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	KAN_Anil_Makku={
+		name="Anil Makku"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Anil_Makku
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	KAN_Karun_Kadam={
+		name="Karun Kadam"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Karun_Kadam
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	KAN_Ganesh_Mozhai={
+		name="Ganesh Mozhai"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Ganesh_Mozhai
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	KAN_Ganod_Kudhan={
+		name="Ganod Kudhan"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Ganod_Kudhan
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	KAN_Vinoj_Megaval={
+		name="Vinoj Megaval"
+
+		advisor={
+			slot = high_command
+			idea_token = KAN_Vinoj_Megaval
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	KAN_Kumarthik_Nadu={
+		name="Kumarthik Nadu"
+
+		advisor={
+			slot = theorist
+			idea_token = KAN_Kumarthik_Nadu
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	KAN_Mohaveen_Udam={
+		name="Mohaveen Udam"
+
+		advisor={
+			slot = theorist
+			idea_token = KAN_Mohaveen_Udam
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	KAN_Dinoj_Thakku={
+		name="Dinoj Thakku"
+
+		advisor={
+			slot = theorist
+			idea_token = KAN_Dinoj_Thakku
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

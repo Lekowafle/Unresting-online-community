@@ -1,0 +1,1083 @@
+characters = {
+	MAK_Raghan_Panai={
+		name="Raghan Panai"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAK_Chanoj_Uyiran={
+		name="Chanoj Uyiran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Chanoj_Uyiran
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAK_Arun_Kadam={
+		name="Arun Kadam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Arun_Kadam
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Mohandranesh_Kuranbam={
+		name="Mohandranesh Kuranbam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Mohandranesh_Kuranbam
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAK_Hari_Thonmai={
+		name="Hari Thonmai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Hari_Thonmai
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Ganesh_Isai={
+		name="Ganesh Isai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Ganesh_Isai
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAK_Ravi_Kudhaichi={
+		name="Ravi Kudhaichi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Ravi_Kudhaichi
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Harthil_Inippu={
+		name="Harthil Inippu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Harthil_Inippu
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MAK_Satish_Elimaiaraiya={
+		name="Satish Elimaiaraiya"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Satish_Elimaiaraiya
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	MAK_Ravi_Irai={
+		name="Ravi Irai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Ravi_Irai
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	MAK_Satishna_Suvam={
+		name="Satishna Suvam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Satishna_Suvam
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	MAK_Jagadeenthik_Thogu={
+		name="Jagadeenthik Thogu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Jagadeenthik_Thogu
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	MAK_Vinesh_Paal={
+		name="Vinesh Paal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Vinesh_Paal
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	MAK_Kumari_Nilam={
+		name="Kumari Nilam"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Kumari_Nilam
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	MAK_Jagadeenthik_Vadhuravai={
+		name="Jagadeenthik Vadhuravai"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Jagadeenthik_Vadhuravai
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MAK_Bala_Nadu={
+		name="Bala Nadu"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Bala_Nadu
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	MAK_Mohavi_Nadu={
+		name="Mohavi Nadu"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Mohavi_Nadu
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	MAK_Ganod_Thunporugava={
+		name="Ganod Thunporugava"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Ganod_Thunporugava
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	MAK_Prandrakash_Kanneerku={
+		name="Prandrakash Kanneerku"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Prandrakash_Kanneerku
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	MAK_Satishna_Kadam={
+		name="Satishna Kadam"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Satishna_Kadam
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	MAK_Prem_Theerai={
+		name="Prem Theerai"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Prem_Theerai
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	MAK_Chandrandran_Isai={
+		name="Chandrandran Isai"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAK_Chanoj_Kanavai={
+		name="Chanoj Kanavai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Chanoj_Kanavai
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAK_Chan_Elimayambu={
+		name="Chan Elimayambu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Chan_Elimayambu
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAK_Mohaveen_Olichi={
+		name="Mohaveen Olichi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Mohaveen_Olichi
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAK_Deepakash_Kadal={
+		name="Deepakash Kadal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Deepakash_Kadal
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAK_Mohaveen_Thaikku={
+		name="Mohaveen Thaikku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Mohaveen_Thaikku
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Deesh_Makkal={
+		name="Deesh Makkal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Deesh_Makkal
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAK_Manesh_Kudhan={
+		name="Manesh Kudhan"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Manesh_Kudhan
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	MAK_Manesh_Theerai={
+		name="Manesh Theerai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Manesh_Theerai
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	MAK_Vijay_Unaignai={
+		name="Vijay Unaignai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Vijay_Unaignai
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	MAK_Mohandran_Makkal={
+		name="Mohandran Makkal"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Mohandran_Makkal
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	MAK_Varthik_Puthi={
+		name="Varthik Puthi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Varthik_Puthi
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	MAK_Vinesh_Sanarai={
+		name="Vinesh Sanarai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Vinesh_Sanarai
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	MAK_Naveen_Nadu={
+		name="Naveen Nadu"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Naveen_Nadu
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MAK_Vinesh_Vidiyal={
+		name="Vinesh Vidiyal"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Vinesh_Vidiyal
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	MAK_Hari_Unaignai={
+		name="Hari Unaignai"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Hari_Unaignai
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	MAK_Siddhan_Thozhi={
+		name="Siddhan Thozhi"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Siddhan_Thozhi
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	MAK_Prak_Sugavalam={
+		name="Prak Sugavalam"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Prak_Sugavalam
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	MAK_Pran_Thai={
+		name="Pran Thai"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Pran_Thai
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	MAK_Mohandran_Irai={
+		name="Mohandran Irai"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Mohandran_Irai
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	MAK_Rajesh_Sanarai={
+		name="Rajesh Sanarai"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Rajesh_Sanarai
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	MAK_Mohan_Thunporugava={
+		name="Mohan Thunporugava"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { socialist_justice  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAK_Dinoj_Thunporugava={
+		name="Dinoj Thunporugava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Dinoj_Thunporugava
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Karthil_Thozhunavam={
+		name="Karthil Thozhunavam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Karthil_Thozhunavam
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Ganesh_Inippu={
+		name="Ganesh Inippu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Ganesh_Inippu
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAK_Chanoj_Pesu={
+		name="Chanoj Pesu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Chanoj_Pesu
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Harthik_Inbam={
+		name="Harthik Inbam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Harthik_Inbam
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Mohanoj_Katchaadu={
+		name="Mohanoj Katchaadu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Mohanoj_Katchaadu
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Presh_Kaadu={
+		name="Presh Kaadu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Presh_Kaadu
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	MAK_Satishna_Elimaiaraiya={
+		name="Satishna Elimaiaraiya"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Satishna_Elimaiaraiya
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	MAK_Naveen_Sugavu={
+		name="Naveen Sugavu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Naveen_Sugavu
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	MAK_Chandrandran_Kadam={
+		name="Chandrandran Kadam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Chandrandran_Kadam
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	MAK_Kiranoj_Thai={
+		name="Kiranoj Thai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Kiranoj_Thai
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	MAK_Dinoj_Sirai={
+		name="Dinoj Sirai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Dinoj_Sirai
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	MAK_Mohandran_Kurai={
+		name="Mohandran Kurai"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Mohandran_Kurai
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MAK_Bala_Megavu={
+		name="Bala Megavu"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Bala_Megavu
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	MAK_Varthik_Kanthinam={
+		name="Varthik Kanthinam"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Varthik_Kanthinam
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	MAK_Ajay_Sugavalam={
+		name="Ajay Sugavalam"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Ajay_Sugavalam
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	MAK_Arun_Thagizhi={
+		name="Arun Thagizhi"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Arun_Thagizhi
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	MAK_Harthil_Tharai={
+		name="Harthil Tharai"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Harthil_Tharai
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	MAK_Jagadeenthik_Siravu={
+		name="Jagadeenthik Siravu"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Jagadeenthik_Siravu
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	MAK_Prandrakash_Thozhunavam={
+		name="Prandrakash Thozhunavam"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Prandrakash_Thozhunavam
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	MAK_Bala_Saadakkal={
+		name="Bala Saadakkal"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAK_Naveen_Kaadu={
+		name="Naveen Kaadu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Naveen_Kaadu
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAK_Prak_Sugam={
+		name="Prak Sugam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Prak_Sugam
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAK_Jagadeenthik_Kurai={
+		name="Jagadeenthik Kurai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Jagadeenthik_Kurai
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Dinoj_Kudhaichi={
+		name="Dinoj Kudhaichi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Dinoj_Kudhaichi
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAK_Mohan_Thanadilanai={
+		name="Mohan Thanadilanai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Mohan_Thanadilanai
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Vinoj_Kaadu={
+		name="Vinoj Kaadu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Vinoj_Kaadu
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Hari_Vadhuravai={
+		name="Hari Vadhuravai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Hari_Vadhuravai
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	MAK_Presh_Kanthinam={
+		name="Presh Kanthinam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Presh_Kanthinam
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MAK_Charth_Inbam={
+		name="Charth Inbam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Charth_Inbam
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MAK_Kumarthik_Vizhchai={
+		name="Kumarthik Vizhchai"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Kumarthik_Vizhchai
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MAK_Harthil_Irai={
+		name="Harthil Irai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Harthil_Irai
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	MAK_Kumarthik_Veli={
+		name="Kumarthik Veli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Kumarthik_Veli
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	MAK_Harthik_Vizhchai={
+		name="Harthik Vizhchai"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Harthik_Vizhchai
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	MAK_Hari_Kadal={
+		name="Hari Kadal"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Hari_Kadal
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	MAK_Kiranoj_Kalai={
+		name="Kiranoj Kalai"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Kiranoj_Kalai
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	MAK_Mohandranesh_Thozhi={
+		name="Mohandranesh Thozhi"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Mohandranesh_Thozhi
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	MAK_Satishna_Thozi={
+		name="Satishna Thozi"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Satishna_Thozi
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	MAK_Rajiv_Megam={
+		name="Rajiv Megam"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Rajiv_Megam
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	MAK_Ganesh_Oorulai={
+		name="Ganesh Oorulai"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Ganesh_Oorulai
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	MAK_Mohanoj_Karam={
+		name="Mohanoj Karam"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Mohanoj_Karam
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	MAK_Pran_Thozi={
+		name="Pran Thozi"
+
+		advisor={
+			slot = theorist
+			idea_token = MAK_Pran_Thozi
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	MAK_Siddhari_Thakkal={
+		name="Siddhari Thakkal"
+
+		advisor={
+			slot = theorist
+			idea_token = MAK_Siddhari_Thakkal
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	MAK_Harthil_Thogu={
+		name="Harthil Thogu"
+
+		advisor={
+			slot = theorist
+			idea_token = MAK_Harthil_Thogu
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,1083 @@
+characters = {
+	KAP_Ivanis_Prad={
+		name="Ivanis Prad"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_aristocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAP_Mila_Svinjicak={
+		name="Mila Svinjicak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Mila_Svinjicak
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KAP_Miroslanis_Svinjicak={
+		name="Miroslanis Svinjicak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Miroslanis_Svinjicak
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KAP_Matefan_Prirod={
+		name="Matefan Prirod"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Matefan_Prirod
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KAP_Ilya_Nadzbica={
+		name="Ilya Nadzbica"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Ilya_Nadzbica
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KAP_Boranovan_Zemenatadar={
+		name="Boranovan Zemenatadar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Boranovan_Zemenatadar
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KAP_Bogdan_Zvet={
+		name="Bogdan Zvet"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Bogdan_Zvet
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KAP_Kazimitan_Glaksinja={
+		name="Kazimitan Glaksinja"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Kazimitan_Glaksinja
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	KAP_Radimiroslav_Ribar={
+		name="Radimiroslav Ribar"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Radimiroslav_Ribar
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	KAP_Peta_Suma={
+		name="Peta Suma"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Peta_Suma
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	KAP_Zori_Drvotinjica={
+		name="Zori Drvotinjica"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Zori_Drvotinjica
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	KAP_Matefan_Kram={
+		name="Matefan Kram"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAP_Matefan_Kram
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	KAP_Juragomir_Obicana={
+		name="Juragomir Obicana"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAP_Juragomir_Obicana
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	KAP_Boranovan_Delova={
+		name="Boranovan Delova"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAP_Boranovan_Delova
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	KAP_Ivanis_Kram={
+		name="Ivanis Kram"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAP_Ivanis_Kram
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	KAP_Dmiroslav_Dobar={
+		name="Dmiroslav Dobar"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Dmiroslav_Dobar
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	KAP_Bohdanovan_Izvo={
+		name="Bohdanovan Izvo"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Bohdanovan_Izvo
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	KAP_Ivanis_Zlak={
+		name="Ivanis Zlak"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Ivanis_Zlak
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	KAP_Bohdanovan_Zemenatadar={
+		name="Bohdanovan Zemenatadar"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Bohdanovan_Zemenatadar
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	KAP_Matefanovan_Kapija={
+		name="Matefanovan Kapija"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Matefanovan_Kapija
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	KAP_Alek_Boginazan={
+		name="Alek Boginazan"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Alek_Boginazan
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	KAP_Radimiroslav_Drvo={
+		name="Radimiroslav Drvo"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { falangist_militarist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAP_Matefanov_Obicana={
+		name="Matefanov Obicana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Matefanov_Obicana
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KAP_Pavel_Prad={
+		name="Pavel Prad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Pavel_Prad
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KAP_Radimiroslav_Kovot={
+		name="Radimiroslav Kovot"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Radimiroslav_Kovot
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KAP_Slanko_Ostvo={
+		name="Slanko Ostvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Slanko_Ostvo
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KAP_Slanko_Oblika={
+		name="Slanko Oblika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Slanko_Oblika
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KAP_Lubomiroslav_Kucaj={
+		name="Lubomiroslav Kucaj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Lubomiroslav_Kucaj
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KAP_Dusan_Svinjicak={
+		name="Dusan Svinjicak"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Dusan_Svinjicak
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	KAP_Nikitri_Sporisa={
+		name="Nikitri Sporisa"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Nikitri_Sporisa
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	KAP_Mateusan_Kovo={
+		name="Mateusan Kovo"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Mateusan_Kovo
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	KAP_Simir_Vecnostvot={
+		name="Simir Vecnostvot"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Simir_Vecnostvot
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	KAP_Radoslav_Muzika={
+		name="Radoslav Muzika"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAP_Radoslav_Muzika
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	KAP_Kazimitan_Zven={
+		name="Kazimitan Zven"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAP_Kazimitan_Zven
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	KAP_Maroslavelim_Teat={
+		name="Maroslavelim Teat"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAP_Maroslavelim_Teat
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	KAP_Matefanov_Ljubar={
+		name="Matefanov Ljubar"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAP_Matefanov_Ljubar
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	KAP_Vladeksei_Drvo={
+		name="Vladeksei Drvo"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Vladeksei_Drvo
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	KAP_Dran_Vitar={
+		name="Dran Vitar"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Dran_Vitar
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	KAP_Ivanislav_Srenitezan={
+		name="Ivanislav Srenitezan"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Ivanislav_Srenitezan
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	KAP_Petan_Kralava={
+		name="Petan Kralava"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Petan_Kralava
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	KAP_Goran_Hralja={
+		name="Goran Hralja"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Goran_Hralja
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	KAP_Vlav_Vatak={
+		name="Vlav Vatak"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Vlav_Vatak
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	KAP_Goran_Voda={
+		name="Goran Voda"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAP_Vladeksei_Otak={
+		name="Vladeksei Otak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Vladeksei_Otak
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KAP_Vladeksei_Vreme={
+		name="Vladeksei Vreme"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Vladeksei_Vreme
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KAP_Kazimitan_Delova={
+		name="Kazimitan Delova"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Kazimitan_Delova
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KAP_Slan_Tvrdje={
+		name="Slan Tvrdje"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Slan_Tvrdje
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KAP_Viko_Ribaveza={
+		name="Viko Ribaveza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Viko_Ribaveza
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KAP_Vlav_Korefeka={
+		name="Vlav Korefeka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Vlav_Korefeka
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KAP_Tomiri_Kucaj={
+		name="Tomiri Kucaj"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Tomiri_Kucaj
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	KAP_Goragomas_Izvori={
+		name="Goragomas Izvori"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Goragomas_Izvori
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	KAP_Tomas_Dobar={
+		name="Tomas Dobar"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Tomas_Dobar
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	KAP_Zori_Boginazan={
+		name="Zori Boginazan"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Zori_Boginazan
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	KAP_Pavel_Ribar={
+		name="Pavel Ribar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAP_Pavel_Ribar
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	KAP_Lubomitarkol_Slicaj={
+		name="Lubomitarkol Slicaj"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAP_Lubomitarkol_Slicaj
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	KAP_Boranovan_Ribar={
+		name="Boranovan Ribar"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAP_Boranovan_Ribar
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	KAP_Dusan_Viladarom={
+		name="Dusan Viladarom"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAP_Dusan_Viladarom
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	KAP_Velimir_Graljska={
+		name="Velimir Graljska"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Velimir_Graljska
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	KAP_Matefanov_Grod={
+		name="Matefanov Grod"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Matefanov_Grod
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	KAP_Juragomir_Otak={
+		name="Juragomir Otak"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Juragomir_Otak
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	KAP_Mirosladov_Miroda={
+		name="Mirosladov Miroda"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Mirosladov_Miroda
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	KAP_Miroslanis_Solj={
+		name="Miroslanis Solj"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Miroslanis_Solj
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	KAP_Lubomir_Ribaveza={
+		name="Lubomir Ribaveza"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Lubomir_Ribaveza
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	KAP_Juragomir_Stran={
+		name="Juragomir Stran"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KAP_Boranovan_Otak={
+		name="Boranovan Otak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Boranovan_Otak
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KAP_Kazimitan_Kovot={
+		name="Kazimitan Kovot"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Kazimitan_Kovot
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KAP_Goraj_Nebo={
+		name="Goraj Nebo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Goraj_Nebo
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KAP_Ilya_Vino={
+		name="Ilya Vino"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Ilya_Vino
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KAP_Slanko_Slika={
+		name="Slanko Slika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Slanko_Slika
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KAP_Nikitan_Rekt={
+		name="Nikitan Rekt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KAP_Nikitan_Rekt
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KAP_Viko_Knja={
+		name="Viko Knja"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Viko_Knja
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	KAP_Aleksei_Vreme={
+		name="Aleksei Vreme"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Aleksei_Vreme
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	KAP_Zori_Kram={
+		name="Zori Kram"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Zori_Kram
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	KAP_Rado_Nebo={
+		name="Rado Nebo"
+
+		advisor={
+			slot = army_chief
+			idea_token = KAP_Rado_Nebo
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	KAP_Vladovan_Hralja={
+		name="Vladovan Hralja"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAP_Vladovan_Hralja
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	KAP_Alek_Otak={
+		name="Alek Otak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KAP_Alek_Otak
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	KAP_Bohdanovan_Slat={
+		name="Bohdanovan Slat"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAP_Bohdanovan_Slat
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	KAP_Lubomir_Svitar={
+		name="Lubomir Svitar"
+
+		advisor={
+			slot = air_chief
+			idea_token = KAP_Lubomir_Svitar
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	KAP_Mateusz_Ribava={
+		name="Mateusz Ribava"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Mateusz_Ribava
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	KAP_Ilya_Zven={
+		name="Ilya Zven"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Ilya_Zven
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	KAP_Zdek_Nebo={
+		name="Zdek Nebo"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Zdek_Nebo
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	KAP_Yuri_Ribaveza={
+		name="Yuri Ribaveza"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Yuri_Ribaveza
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	KAP_Miroslav_Prirod={
+		name="Miroslav Prirod"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Miroslav_Prirod
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	KAP_Dmiroslav_Slat={
+		name="Dmiroslav Slat"
+
+		advisor={
+			slot = high_command
+			idea_token = KAP_Dmiroslav_Slat
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	KAP_Luboslav_Prirod={
+		name="Luboslav Prirod"
+
+		advisor={
+			slot = theorist
+			idea_token = KAP_Luboslav_Prirod
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	KAP_Vlav_Zemenatadar={
+		name="Vlav Zemenatadar"
+
+		advisor={
+			slot = theorist
+			idea_token = KAP_Vlav_Zemenatadar
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	KAP_Miroslav_Gvotican={
+		name="Miroslav Gvotican"
+
+		advisor={
+			slot = theorist
+			idea_token = KAP_Miroslav_Gvotican
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

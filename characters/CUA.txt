@@ -1,0 +1,1083 @@
+characters = {
+	CUA_Ciamus_Bealaill={
+		name="Ciamus Bealaill"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { royal_dictator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CUA_Padraig_Torcras={
+		name="Padraig Torcras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Padraig_Torcras
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CUA_Ulrich_Torc={
+		name="Ulrich Torc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Ulrich_Torc
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CUA_Liamus_Aite={
+		name="Liamus Aite"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Liamus_Aite
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CUA_Owen_Dine={
+		name="Owen Dine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Owen_Dine
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	CUA_Ciareth_Torcras={
+		name="Ciareth Torcras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Ciareth_Torcras
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CUA_Braig_Cuar={
+		name="Braig Cuar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Braig_Cuar
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CUA_Niam_Seart={
+		name="Niam Seart"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Niam_Seart
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	CUA_Malcolm_Snamh={
+		name="Malcolm Snamh"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Malcolm_Snamh
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CUA_Hugh_Ruaislin={
+		name="Hugh Ruaislin"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Hugh_Ruaislin
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	CUA_Eoinn_Laoc={
+		name="Eoinn Laoc"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Eoinn_Laoc
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	CUA_Liamus_Beathaill={
+		name="Liamus Beathaill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUA_Liamus_Beathaill
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	CUA_Nialcolm_Ceil={
+		name="Nialcolm Ceil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUA_Nialcolm_Ceil
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	CUA_Ciamus_Dora={
+		name="Ciamus Dora"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUA_Ciamus_Dora
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	CUA_Bran_Luas={
+		name="Bran Luas"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUA_Bran_Luas
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	CUA_Bran_Baighdeart={
+		name="Bran Baighdeart"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Bran_Baighdeart
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	CUA_Taran_Feart={
+		name="Taran Feart"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Taran_Feart
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	CUA_Liam_Talamhreall={
+		name="Liam Talamhreall"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Liam_Talamhreall
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	CUA_Fergus_Laile={
+		name="Fergus Laile"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Fergus_Laile
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	CUA_Keiran_Dinne={
+		name="Keiran Dinne"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Keiran_Dinne
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	CUA_Padran_Buidh={
+		name="Padran Buidh"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Padran_Buidh
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	CUA_Gareth_Fein={
+		name="Gareth Fein"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { militant_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CUA_Aidan_Laile={
+		name="Aidan Laile"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Aidan_Laile
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CUA_Nialcolm_Eachasach={
+		name="Nialcolm Eachasach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Nialcolm_Eachasach
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CUA_Padran_Slamh={
+		name="Padran Slamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Padran_Slamh
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CUA_Aidan_Leanas={
+		name="Aidan Leanas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Aidan_Leanas
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CUA_Hugh_Eachasach={
+		name="Hugh Eachasach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Hugh_Eachasach
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CUA_Liaran_Domhradh={
+		name="Liaran Domhradh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Liaran_Domhradh
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	CUA_Fergus_Solamhne={
+		name="Fergus Solamhne"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Fergus_Solamhne
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	CUA_Niareth_Cuar={
+		name="Niareth Cuar"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Niareth_Cuar
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	CUA_Padran_Faoch={
+		name="Padran Faoch"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Padran_Faoch
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	CUA_Niaran_Tras={
+		name="Niaran Tras"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Niaran_Tras
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CUA_Ciaran_Fail={
+		name="Ciaran Fail"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUA_Ciaran_Fail
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	CUA_Niam_Athart={
+		name="Niam Athart"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUA_Niam_Athart
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	CUA_Nialcolm_Anach={
+		name="Nialcolm Anach"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUA_Nialcolm_Anach
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	CUA_Braig_Lionn={
+		name="Braig Lionn"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUA_Braig_Lionn
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	CUA_Quinn_Cilteart={
+		name="Quinn Cilteart"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Quinn_Cilteart
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	CUA_Ciamus_Snamh={
+		name="Ciamus Snamh"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Ciamus_Snamh
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	CUA_Rhys_Torcradheamh={
+		name="Rhys Torcradheamh"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Rhys_Torcradheamh
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	CUA_Iwan_Boglamhreo={
+		name="Iwan Boglamhreo"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Iwan_Boglamhreo
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	CUA_Gareth_Feart={
+		name="Gareth Feart"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Gareth_Feart
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	CUA_Mall_Baich={
+		name="Mall Baich"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Mall_Baich
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	CUA_Seam_Sonn={
+		name="Seam Sonn"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { socialist_autocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CUA_Owen_Eolamh={
+		name="Owen Eolamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Owen_Eolamh
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CUA_Ciamus_Feite={
+		name="Ciamus Feite"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Ciamus_Feite
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CUA_Seam_Talamhreall={
+		name="Seam Talamhreall"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Seam_Talamhreall
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CUA_Aidan_Tall={
+		name="Aidan Tall"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Aidan_Tall
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	CUA_Bran_Feite={
+		name="Bran Feite"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Bran_Feite
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	CUA_Declan_Gorcradhe={
+		name="Declan Gorcradhe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Declan_Gorcradhe
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CUA_Padraig_Buidh={
+		name="Padraig Buidh"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Padraig_Buidh
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	CUA_Seam_Slairsean={
+		name="Seam Slairsean"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Seam_Slairsean
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	CUA_Taran_Snam={
+		name="Taran Snam"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Taran_Snam
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	CUA_Declan_Torch={
+		name="Declan Torch"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Declan_Torch
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	CUA_Rhys_Faoch={
+		name="Rhys Faoch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUA_Rhys_Faoch
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	CUA_Owen_Criann={
+		name="Owen Criann"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUA_Owen_Criann
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	CUA_Niaran_Gluais={
+		name="Niaran Gluais"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUA_Niaran_Gluais
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	CUA_Ciamus_Cailte={
+		name="Ciamus Cailte"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUA_Ciamus_Cailte
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	CUA_Mall_Sona={
+		name="Mall Sona"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Mall_Sona
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	CUA_Aidan_Cilte={
+		name="Aidan Cilte"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Aidan_Cilte
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	CUA_Keiraig_Seach={
+		name="Keiraig Seach"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Keiraig_Seach
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	CUA_Seam_Coinamha={
+		name="Seam Coinamha"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Seam_Coinamha
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	CUA_Eoinn_Guthaigna={
+		name="Eoinn Guthaigna"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Eoinn_Guthaigna
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	CUA_Braig_Guthaigna={
+		name="Braig Guthaigna"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Braig_Guthaigna
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	CUA_Niaran_Fair={
+		name="Niaran Fair"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CUA_Tareth_Torch={
+		name="Tareth Torch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Tareth_Torch
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CUA_Malcolm_Muimh={
+		name="Malcolm Muimh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Malcolm_Muimh
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CUA_Niamus_Sceanbha={
+		name="Niamus Sceanbha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Niamus_Sceanbha
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CUA_Niaran_Boglamhreala={
+		name="Niaran Boglamhreala"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Niaran_Boglamhreala
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CUA_Aidan_Feite={
+		name="Aidan Feite"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Aidan_Feite
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	CUA_Niareth_Dorc={
+		name="Niareth Dorc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CUA_Niareth_Dorc
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CUA_Ulrich_Dora={
+		name="Ulrich Dora"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Ulrich_Dora
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	CUA_Keiraig_Ruas={
+		name="Keiraig Ruas"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Keiraig_Ruas
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	CUA_Seamus_Boglamhreo={
+		name="Seamus Boglamhreo"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Seamus_Boglamhreo
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CUA_Declan_Sean={
+		name="Declan Sean"
+
+		advisor={
+			slot = army_chief
+			idea_token = CUA_Declan_Sean
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	CUA_Hugh_Bras={
+		name="Hugh Bras"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUA_Hugh_Bras
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	CUA_Garan_Leal={
+		name="Garan Leal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CUA_Garan_Leal
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	CUA_Owen_Teim={
+		name="Owen Teim"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUA_Owen_Teim
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	CUA_Tareth_Beathaill={
+		name="Tareth Beathaill"
+
+		advisor={
+			slot = air_chief
+			idea_token = CUA_Tareth_Beathaill
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	CUA_Quinn_Aite={
+		name="Quinn Aite"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Quinn_Aite
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	CUA_Declan_Sceanbha={
+		name="Declan Sceanbha"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Declan_Sceanbha
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	CUA_Ulrich_Leanas={
+		name="Ulrich Leanas"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Ulrich_Leanas
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	CUA_Padraig_Dorcha={
+		name="Padraig Dorcha"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Padraig_Dorcha
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	CUA_Padraig_Geal={
+		name="Padraig Geal"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Padraig_Geal
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	CUA_Rhys_Boglas={
+		name="Rhys Boglas"
+
+		advisor={
+			slot = high_command
+			idea_token = CUA_Rhys_Boglas
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	CUA_Keiraig_Cluarg={
+		name="Keiraig Cluarg"
+
+		advisor={
+			slot = theorist
+			idea_token = CUA_Keiraig_Cluarg
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	CUA_Owen_Tall={
+		name="Owen Tall"
+
+		advisor={
+			slot = theorist
+			idea_token = CUA_Owen_Tall
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	CUA_Gareth_Aisce={
+		name="Gareth Aisce"
+
+		advisor={
+			slot = theorist
+			idea_token = CUA_Gareth_Aisce
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

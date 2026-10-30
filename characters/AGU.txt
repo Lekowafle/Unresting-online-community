@@ -1,0 +1,1083 @@
+characters = {
+	AGU_Kukulkan_Cozumel={
+		name="Kukulkan Cozumel"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AGU_Nacatl_Bakhak={
+		name="Nacatl Bakhak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Nacatl_Bakhak
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	AGU_Tohil_Bach={
+		name="Tohil Bach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Tohil_Bach
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	AGU_Bacatl_Etzamna={
+		name="Bacatl Etzamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Bacatl_Etzamna
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	AGU_Moctez_Yalacol={
+		name="Moctez Yalacol"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Moctez_Yalacol
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	AGU_Tohichen_Uxul={
+		name="Tohichen Uxul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Tohichen_Uxul
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	AGU_Nacab_Bahpu={
+		name="Nacab Bahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Nacab_Bahpu
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	AGU_Ahkin_Bakaluun={
+		name="Ahkin Bakaluun"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Ahkin_Bakaluun
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	AGU_Nacatl_Calam={
+		name="Nacatl Calam"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Nacatl_Calam
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	AGU_Kukulkalam_Kaaxch={
+		name="Kukulkalam Kaaxch"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Kukulkalam_Kaaxch
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	AGU_Chak_Haaxul={
+		name="Chak Haaxul"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Chak_Haaxul
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	AGU_Popo_Bach={
+		name="Popo Bach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGU_Popo_Bach
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	AGU_Acatl_Haaj={
+		name="Acatl Haaj"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGU_Acatl_Haaj
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	AGU_Moctez_Ikanek={
+		name="Moctez Ikanek"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGU_Moctez_Ikanek
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	AGU_Acab_Kanil={
+		name="Acab Kanil"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGU_Acab_Kanil
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	AGU_Itzam_Zotzamal={
+		name="Itzam Zotzamal"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Itzam_Zotzamal
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	AGU_Ekchichen_Mutalahual={
+		name="Ekchichen Mutalahual"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Ekchichen_Mutalahual
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	AGU_Tohil_Bahpu={
+		name="Tohil Bahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Tohil_Bahpu
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	AGU_Ekchua_Bach={
+		name="Ekchua Bach"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Ekchua_Bach
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	AGU_Ekchichen_Kukulkin={
+		name="Ekchichen Kukulkin"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Ekchichen_Kukulkin
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	AGU_Chichen_Zotzamal={
+		name="Chichen Zotzamal"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Chichen_Zotzamal
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	AGU_Bacatl_Nakmul={
+		name="Bacatl Nakmul"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { militant_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AGU_Nacatl_Bahuwen={
+		name="Nacatl Bahuwen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Nacatl_Bahuwen
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	AGU_Tohil_Chau={
+		name="Tohil Chau"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Tohil_Chau
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	AGU_Kukulkanek_Cozumel={
+		name="Kukulkanek Cozumel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Kukulkanek_Cozumel
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	AGU_Itzam_Chual={
+		name="Itzam Chual"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Itzam_Chual
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	AGU_Acab_Bona={
+		name="Acab Bona"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Acab_Bona
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	AGU_Nacab_Bonampak={
+		name="Nacab Bonampak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Nacab_Bonampak
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	AGU_Itzam_Bonampak={
+		name="Itzam Bonampak"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Itzam_Bonampak
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	AGU_Ekchichen_Yaxulkin={
+		name="Ekchichen Yaxulkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Ekchichen_Yaxulkin
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	AGU_Nacom_Palan={
+		name="Nacom Palan"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Nacom_Palan
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	AGU_Kukulkanek_Naracol={
+		name="Kukulkanek Naracol"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Kukulkanek_Naracol
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	AGU_Chak_Balachen={
+		name="Chak Balachen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGU_Chak_Balachen
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	AGU_Ekchil_Zotzamal={
+		name="Ekchil Zotzamal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGU_Ekchil_Zotzamal
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	AGU_Kukulkanek_Zotzamal={
+		name="Kukulkanek Zotzamal"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGU_Kukulkanek_Zotzamal
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	AGU_Moctez_Bakhak={
+		name="Moctez Bakhak"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGU_Moctez_Bakhak
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	AGU_Tecun_Oxlancue={
+		name="Tecun Oxlancue"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Tecun_Oxlancue
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	AGU_Nacom_Aguatecab={
+		name="Nacom Aguatecab"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Nacom_Aguatecab
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	AGU_Acab_Kate={
+		name="Acab Kate"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Acab_Kate
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	AGU_Tohichen_Bona={
+		name="Tohichen Bona"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Tohichen_Bona
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	AGU_Kanek_Chun={
+		name="Kanek Chun"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Kanek_Chun
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	AGU_Tohichen_Halan={
+		name="Tohichen Halan"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Tohichen_Halan
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	AGU_Pakal_Bakhak={
+		name="Pakal Bakhak"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { revolutionary_poet  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AGU_Bacatl_Nakal={
+		name="Bacatl Nakal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Bacatl_Nakal
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	AGU_Acatl_Xulkin={
+		name="Acatl Xulkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Acatl_Xulkin
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	AGU_Nacom_Chakalahuala={
+		name="Nacom Chakalahuala"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Nacom_Chakalahuala
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	AGU_Acatl_Chunai={
+		name="Acatl Chunai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Acatl_Chunai
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	AGU_Ekchua_Naracol={
+		name="Ekchua Naracol"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Ekchua_Naracol
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	AGU_Ekchakanek_Ajawak={
+		name="Ekchakanek Ajawak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Ekchakanek_Ajawak
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	AGU_Kukulkalam_Nahuwen={
+		name="Kukulkalam Nahuwen"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Kukulkalam_Nahuwen
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	AGU_Tohil_Bona={
+		name="Tohil Bona"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Tohil_Bona
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	AGU_Bacatl_Nacolkabalam={
+		name="Bacatl Nacolkabalam"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Bacatl_Nacolkabalam
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	AGU_Balam_Ikalamanikal={
+		name="Balam Ikalamanikal"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Balam_Ikalamanikal
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	AGU_Tohil_Naranilaman={
+		name="Tohil Naranilaman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGU_Tohil_Naranilaman
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	AGU_Kukulkalam_Tikin={
+		name="Kukulkalam Tikin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGU_Kukulkalam_Tikin
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	AGU_Ekchil_Ikalamanikal={
+		name="Ekchil Ikalamanikal"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGU_Ekchil_Ikalamanikal
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	AGU_Nacatl_Kalen={
+		name="Nacatl Kalen"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGU_Nacatl_Kalen
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	AGU_Acatl_Chok={
+		name="Acatl Chok"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Acatl_Chok
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	AGU_Moctez_Chilacomte={
+		name="Moctez Chilacomte"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Moctez_Chilacomte
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	AGU_Tecun_Oxlacomtecab={
+		name="Tecun Oxlacomtecab"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Tecun_Oxlacomtecab
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	AGU_Tohil_Mutalahual={
+		name="Tohil Mutalahual"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Tohil_Mutalahual
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	AGU_Nacab_Nacolkabalam={
+		name="Nacab Nacolkabalam"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Nacab_Nacolkabalam
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	AGU_Popo_Bacolkin={
+		name="Popo Bacolkin"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Popo_Bacolkin
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	AGU_Tohichen_Kana={
+		name="Tohichen Kana"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AGU_Oxib_Caluun={
+		name="Oxib Caluun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Oxib_Caluun
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	AGU_Kukulkanek_Sotz={
+		name="Kukulkanek Sotz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Kukulkanek_Sotz
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	AGU_Ekchua_Chok={
+		name="Ekchua Chok"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Ekchua_Chok
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	AGU_Nacab_Mutal={
+		name="Nacab Mutal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Nacab_Mutal
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	AGU_Balam_Baluun={
+		name="Balam Baluun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Balam_Baluun
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	AGU_Popo_Naracol={
+		name="Popo Naracol"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGU_Popo_Naracol
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	AGU_Ekchakanek_Imox={
+		name="Ekchakanek Imox"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Ekchakanek_Imox
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	AGU_Oxib_Bona={
+		name="Oxib Bona"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Oxib_Bona
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	AGU_Ahkin_Yaxulkin={
+		name="Ahkin Yaxulkin"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Ahkin_Yaxulkin
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	AGU_Yaxkin_Haaxul={
+		name="Yaxkin Haaxul"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGU_Yaxkin_Haaxul
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	AGU_Pakal_Kalak={
+		name="Pakal Kalak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGU_Pakal_Kalak
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	AGU_Kanek_Nakal={
+		name="Kanek Nakal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGU_Kanek_Nakal
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	AGU_Kanek_Bakaluun={
+		name="Kanek Bakaluun"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGU_Kanek_Bakaluun
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	AGU_Kukulkal_Mutal={
+		name="Kukulkal Mutal"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGU_Kukulkal_Mutal
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	AGU_Bacom_Bona={
+		name="Bacom Bona"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Bacom_Bona
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	AGU_Bacom_Oxlan={
+		name="Bacom Oxlan"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Bacom_Oxlan
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	AGU_Acab_Manque={
+		name="Acab Manque"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Acab_Manque
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	AGU_Ekchichen_Manque={
+		name="Ekchichen Manque"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Ekchichen_Manque
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	AGU_Popo_Yaluun={
+		name="Popo Yaluun"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Popo_Yaluun
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	AGU_Itzam_Palan={
+		name="Itzam Palan"
+
+		advisor={
+			slot = high_command
+			idea_token = AGU_Itzam_Palan
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	AGU_Ekchil_Akban={
+		name="Ekchil Akban"
+
+		advisor={
+			slot = theorist
+			idea_token = AGU_Ekchil_Akban
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	AGU_Tecun_Baluun={
+		name="Tecun Baluun"
+
+		advisor={
+			slot = theorist
+			idea_token = AGU_Tecun_Baluun
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	AGU_Pakal_Chau={
+		name="Pakal Chau"
+
+		advisor={
+			slot = theorist
+			idea_token = AGU_Pakal_Chau
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

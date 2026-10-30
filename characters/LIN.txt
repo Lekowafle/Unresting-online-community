@@ -1,0 +1,1083 @@
+characters = {
+	LIN_Jigme_Niang={
+		name="Jigme Niang"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { agricultural_capitalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LIN_Sonam_Cheng={
+		name="Sonam Cheng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Sonam_Cheng
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	LIN_Sonam_Nian={
+		name="Sonam Nian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Sonam_Nian
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	LIN_Mingdu_Shong={
+		name="Mingdu Shong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Mingdu_Shong
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	LIN_Yuntso_Tiang={
+		name="Yuntso Tiang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Yuntso_Tiang
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	LIN_Mingdu_Xian={
+		name="Mingdu Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Mingdu_Xian
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	LIN_Nima_Huang={
+		name="Nima Huang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Nima_Huang
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	LIN_Heng_Ping={
+		name="Heng Ping"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Heng_Ping
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	LIN_Teng_Ping={
+		name="Teng Ping"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Teng_Ping
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	LIN_Jiangdu_Xian={
+		name="Jiangdu Xian"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Jiangdu_Xian
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	LIN_Wang_Yuan={
+		name="Wang Yuan"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Wang_Yuan
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	LIN_Ming_Reng={
+		name="Ming Reng"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIN_Ming_Reng
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	LIN_Nima_Zheng={
+		name="Nima Zheng"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIN_Nima_Zheng
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	LIN_Phuntsok_Huan={
+		name="Phuntsok Huan"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIN_Phuntsok_Huan
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	LIN_Thubtenzin_Tian={
+		name="Thubtenzin Tian"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIN_Thubtenzin_Tian
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	LIN_Qian_Guang={
+		name="Qian Guang"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Qian_Guang
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	LIN_Fangdu_Feng={
+		name="Fangdu Feng"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Fangdu_Feng
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	LIN_Yangdu_Lian={
+		name="Yangdu Lian"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Yangdu_Lian
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	LIN_Qiang_Zhan={
+		name="Qiang Zhan"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Qiang_Zhan
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	LIN_Yangdu_Shuang={
+		name="Yangdu Shuang"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Yangdu_Shuang
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	LIN_Gyatso_Shou={
+		name="Gyatso Shou"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Gyatso_Shou
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	LIN_Phuntsok_Reng={
+		name="Phuntsok Reng"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { falangist_militarist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LIN_Lobsang_Zheng={
+		name="Lobsang Zheng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Lobsang_Zheng
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	LIN_Gyatsok_Miang={
+		name="Gyatsok Miang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Gyatsok_Miang
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	LIN_Jiangdu_Guang={
+		name="Jiangdu Guang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Jiangdu_Guang
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	LIN_Jigme_Qing={
+		name="Jigme Qing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Jigme_Qing
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	LIN_Phun_Guan={
+		name="Phun Guan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Phun_Guan
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	LIN_Gyatsok_Xian={
+		name="Gyatsok Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Gyatsok_Xian
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	LIN_Phubtenzin_Chuang={
+		name="Phubtenzin Chuang"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Phubtenzin_Chuang
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	LIN_Jigme_Jing={
+		name="Jigme Jing"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Jigme_Jing
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	LIN_Fangdu_Hong={
+		name="Fangdu Hong"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Fangdu_Hong
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	LIN_Juntso_Tian={
+		name="Juntso Tian"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Juntso_Tian
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	LIN_Mingdu_Jian={
+		name="Mingdu Jian"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIN_Mingdu_Jian
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	LIN_Dawang_Qing={
+		name="Dawang Qing"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIN_Dawang_Qing
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	LIN_Fangdu_Guan={
+		name="Fangdu Guan"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIN_Fangdu_Guan
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	LIN_Karma_Zheng={
+		name="Karma Zheng"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIN_Karma_Zheng
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	LIN_Chenzin_Niang={
+		name="Chenzin Niang"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Chenzin_Niang
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	LIN_Qian_Chuang={
+		name="Qian Chuang"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Qian_Chuang
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	LIN_Gyatsok_Zhou={
+		name="Gyatsok Zhou"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Gyatsok_Zhou
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	LIN_Teng_Zhan={
+		name="Teng Zhan"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Teng_Zhan
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	LIN_Ngawang_Ping={
+		name="Ngawang Ping"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Ngawang_Ping
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	LIN_Chen_Yuan={
+		name="Chen Yuan"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Chen_Yuan
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	LIN_Fang_Chuan={
+		name="Fang Chuan"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { leftist_intellectual  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LIN_Wang_Tian={
+		name="Wang Tian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Wang_Tian
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	LIN_Heng_Zhan={
+		name="Heng Zhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Heng_Zhan
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	LIN_Phubteng_Guan={
+		name="Phubteng Guan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Phubteng_Guan
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	LIN_Nima_Shuang={
+		name="Nima Shuang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Nima_Shuang
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	LIN_Lobsang_Qing={
+		name="Lobsang Qing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Lobsang_Qing
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	LIN_Wang_Ping={
+		name="Wang Ping"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Wang_Ping
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	LIN_Dawan_Feng={
+		name="Dawan Feng"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Dawan_Feng
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	LIN_Ming_Huang={
+		name="Ming Huang"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Ming_Huang
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	LIN_Thubtenzin_Guang={
+		name="Thubtenzin Guang"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Thubtenzin_Guang
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	LIN_Qian_Reng={
+		name="Qian Reng"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Qian_Reng
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	LIN_Gyatso_Sheng={
+		name="Gyatso Sheng"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIN_Gyatso_Sheng
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	LIN_Chen_Huan={
+		name="Chen Huan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIN_Chen_Huan
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	LIN_Fangdu_Chuang={
+		name="Fangdu Chuang"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIN_Fangdu_Chuang
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	LIN_Karma_Chuan={
+		name="Karma Chuan"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIN_Karma_Chuan
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	LIN_Dawang_Tiang={
+		name="Dawang Tiang"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Dawang_Tiang
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	LIN_Dawang_Sheng={
+		name="Dawang Sheng"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Dawang_Sheng
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	LIN_Tenzing_Sheng={
+		name="Tenzing Sheng"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Tenzing_Sheng
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	LIN_Jigme_Shou={
+		name="Jigme Shou"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Jigme_Shou
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	LIN_Gyatso_Tong={
+		name="Gyatso Tong"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Gyatso_Tong
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	LIN_Phun_Huang={
+		name="Phun Huang"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Phun_Huang
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	LIN_Phun_Shou={
+		name="Phun Shou"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { veteran_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LIN_Dawan_Miang={
+		name="Dawan Miang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Dawan_Miang
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	LIN_Ngawa_Xian={
+		name="Ngawa Xian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Ngawa_Xian
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	LIN_Sonam_Zhan={
+		name="Sonam Zhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Sonam_Zhan
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	LIN_Jiang_Huang={
+		name="Jiang Huang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Jiang_Huang
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	LIN_Renzin_Tian={
+		name="Renzin Tian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Renzin_Tian
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	LIN_Ming_Zhan={
+		name="Ming Zhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIN_Ming_Zhan
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	LIN_Fangdu_Huan={
+		name="Fangdu Huan"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Fangdu_Huan
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	LIN_Ming_Niang={
+		name="Ming Niang"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Ming_Niang
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	LIN_Fang_Zhou={
+		name="Fang Zhou"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Fang_Zhou
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	LIN_Phun_Tian={
+		name="Phun Tian"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIN_Phun_Tian
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	LIN_Fangdu_Reng={
+		name="Fangdu Reng"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIN_Fangdu_Reng
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	LIN_Heng_Nang={
+		name="Heng Nang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIN_Heng_Nang
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	LIN_Renzin_Zheng={
+		name="Renzin Zheng"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIN_Renzin_Zheng
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	LIN_Phubtenzin_Shen={
+		name="Phubtenzin Shen"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIN_Phubtenzin_Shen
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	LIN_Lobsang_Tian={
+		name="Lobsang Tian"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Lobsang_Tian
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	LIN_Thubtenzin_Jing={
+		name="Thubtenzin Jing"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Thubtenzin_Jing
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	LIN_Jigme_Guan={
+		name="Jigme Guan"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Jigme_Guan
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	LIN_Song_Shuan={
+		name="Song Shuan"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Song_Shuan
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	LIN_Dawang_Huang={
+		name="Dawang Huang"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Dawang_Huang
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	LIN_Teng_Reng={
+		name="Teng Reng"
+
+		advisor={
+			slot = high_command
+			idea_token = LIN_Teng_Reng
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	LIN_Phubtenzin_Guan={
+		name="Phubtenzin Guan"
+
+		advisor={
+			slot = theorist
+			idea_token = LIN_Phubtenzin_Guan
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	LIN_Yangdu_Ping={
+		name="Yangdu Ping"
+
+		advisor={
+			slot = theorist
+			idea_token = LIN_Yangdu_Ping
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	LIN_Mingdu_Yuan={
+		name="Mingdu Yuan"
+
+		advisor={
+			slot = theorist
+			idea_token = LIN_Mingdu_Yuan
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

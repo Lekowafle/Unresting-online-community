@@ -1,0 +1,1083 @@
+characters = {
+	TOH_Chil_Nacol={
+		name="Chil Nacol"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { noble_beurocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TOH_Bacab_Ajtz={
+		name="Bacab Ajtz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Bacab_Ajtz
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TOH_Tecun_Manjo={
+		name="Tecun Manjo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Tecun_Manjo
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TOH_Pakanek_Canai={
+		name="Pakanek Canai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Pakanek_Canai
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TOH_Kanek_Tohich={
+		name="Kanek Tohich"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Kanek_Tohich
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TOH_Tecun_Oxlakabalahu={
+		name="Tecun Oxlakabalahu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Tecun_Oxlakabalahu
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TOH_Acatl_Canilahlanab={
+		name="Acatl Canilahlanab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Acatl_Canilahlanab
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TOH_Ahkin_Aguatunil={
+		name="Ahkin Aguatunil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Ahkin_Aguatunil
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	TOH_Nacab_Caracan={
+		name="Nacab Caracan"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Nacab_Caracan
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	TOH_Oxib_Cobahun={
+		name="Oxib Cobahun"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Oxib_Cobahun
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	TOH_Kukulkalam_Cobahun={
+		name="Kukulkalam Cobahun"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Kukulkalam_Cobahun
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	TOH_Chakal_Kana={
+		name="Chakal Kana"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOH_Chakal_Kana
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	TOH_Kukulkan_Caracan={
+		name="Kukulkan Caracan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOH_Kukulkan_Caracan
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TOH_Kukulkanek_Kaban={
+		name="Kukulkanek Kaban"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOH_Kukulkanek_Kaban
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	TOH_Yaxkin_Uxmanil={
+		name="Yaxkin Uxmanil"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOH_Yaxkin_Uxmanil
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	TOH_Bacom_Tzik={
+		name="Bacom Tzik"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Bacom_Tzik
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	TOH_Chak_Ajawak={
+		name="Chak Ajawak"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Chak_Ajawak
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	TOH_Chakal_Witzib={
+		name="Chakal Witzib"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Chakal_Witzib
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	TOH_Ekchak_Tzik={
+		name="Ekchak Tzik"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Ekchak_Tzik
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	TOH_Chakalam_Ajawaktun={
+		name="Chakalam Ajawaktun"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Chakalam_Ajawaktun
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	TOH_Chak_Uxman={
+		name="Chak Uxman"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Chak_Uxman
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	TOH_Pakalam_Caracan={
+		name="Pakalam Caracan"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TOH_Kukulkalam_Ahcab={
+		name="Kukulkalam Ahcab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Kukulkalam_Ahcab
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TOH_Ekchakanek_Tzikin={
+		name="Ekchakanek Tzikin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Ekchakanek_Tzikin
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TOH_Chakalam_Ahakbal={
+		name="Chakalam Ahakbal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Chakalam_Ahakbal
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TOH_Kukulkalam_Ikalamnahpu={
+		name="Kukulkalam Ikalamnahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Kukulkalam_Ikalamnahpu
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TOH_Ekchua_Tzikalam={
+		name="Ekchua Tzikalam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Ekchua_Tzikalam
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TOH_Ekchak_Uxul={
+		name="Ekchak Uxul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Ekchak_Uxul
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TOH_Tecun_Yaxch={
+		name="Tecun Yaxch"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Tecun_Yaxch
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	TOH_Bacatl_Kanamna={
+		name="Bacatl Kanamna"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Bacatl_Kanamna
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	TOH_Ahkin_Balom={
+		name="Ahkin Balom"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Ahkin_Balom
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	TOH_Nacom_Uxmanil={
+		name="Nacom Uxmanil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Nacom_Uxmanil
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	TOH_Chakanek_Nojil={
+		name="Chakanek Nojil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOH_Chakanek_Nojil
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TOH_Tecun_Canque={
+		name="Tecun Canque"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOH_Tecun_Canque
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TOH_Ekchua_Nacol={
+		name="Ekchua Nacol"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOH_Ekchua_Nacol
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	TOH_Kukulkanek_Bacabanilan={
+		name="Kukulkanek Bacabanilan"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOH_Kukulkanek_Bacabanilan
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	TOH_Acatl_Agualuunil={
+		name="Acatl Agualuunil"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Acatl_Agualuunil
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	TOH_Balam_Tohich={
+		name="Balam Tohich"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Balam_Tohich
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	TOH_Bacatl_Zotz={
+		name="Bacatl Zotz"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Bacatl_Zotz
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	TOH_Chil_Canilahlanab={
+		name="Chil Canilahlanab"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Chil_Canilahlanab
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	TOH_Pakalam_Kukulkanilam={
+		name="Pakalam Kukulkanilam"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Pakalam_Kukulkanilam
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	TOH_Yaxkin_Imox={
+		name="Yaxkin Imox"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Yaxkin_Imox
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	TOH_Bacom_Chok={
+		name="Bacom Chok"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { patriotic_socialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TOH_Tecun_Sotz={
+		name="Tecun Sotz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Tecun_Sotz
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TOH_Ekchakanek_Tzikalam={
+		name="Ekchakanek Tzikalam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Ekchakanek_Tzikalam
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TOH_Nacatl_Akbe={
+		name="Nacatl Akbe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Nacatl_Akbe
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TOH_Chil_Agualuunil={
+		name="Chil Agualuunil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Chil_Agualuunil
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TOH_Pakalam_Cobalachel={
+		name="Pakalam Cobalachel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Pakalam_Cobalachel
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TOH_Nacatl_Coban={
+		name="Nacatl Coban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Nacatl_Coban
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TOH_Ahkin_Katunil={
+		name="Ahkin Katunil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Ahkin_Katunil
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	TOH_Pakal_Katecana={
+		name="Pakal Katecana"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Pakal_Katecana
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	TOH_Chichen_Caracan={
+		name="Chichen Caracan"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Chichen_Caracan
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	TOH_Ekchak_Chau={
+		name="Ekchak Chau"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Ekchak_Chau
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	TOH_Ekchakanek_Kanamna={
+		name="Ekchakanek Kanamna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOH_Ekchakanek_Kanamna
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	TOH_Chakanek_Caracan={
+		name="Chakanek Caracan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOH_Chakanek_Caracan
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TOH_Chichen_Tzikin={
+		name="Chichen Tzikin"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOH_Chichen_Tzikin
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	TOH_Kukulkalam_Imox={
+		name="Kukulkalam Imox"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOH_Kukulkalam_Imox
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	TOH_Pakalam_Tohilamancue={
+		name="Pakalam Tohilamancue"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Pakalam_Tohilamancue
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	TOH_Chakalam_Witzib={
+		name="Chakalam Witzib"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Chakalam_Witzib
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	TOH_Chakalam_Bakmul={
+		name="Chakalam Bakmul"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Chakalam_Bakmul
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	TOH_Tohichen_Katunil={
+		name="Tohichen Katunil"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Tohichen_Katunil
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	TOH_Yaxkin_Cobahun={
+		name="Yaxkin Cobahun"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Yaxkin_Cobahun
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	TOH_Pakan_Mutalom={
+		name="Pakan Mutalom"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Pakan_Mutalom
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	TOH_Kanek_Tohilamancue={
+		name="Kanek Tohilamancue"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TOH_Bacatl_Kanil={
+		name="Bacatl Kanil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Bacatl_Kanil
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TOH_Acatl_Palah={
+		name="Acatl Palah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Acatl_Palah
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TOH_Kukulkalam_Katunilhau={
+		name="Kukulkalam Katunilhau"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Kukulkalam_Katunilhau
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TOH_Nacab_Sotz={
+		name="Nacab Sotz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Nacab_Sotz
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TOH_Pakan_Nojil={
+		name="Pakan Nojil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Pakan_Nojil
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TOH_Chakalam_Oxlakabalahu={
+		name="Chakalam Oxlakabalahu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TOH_Chakalam_Oxlakabalahu
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TOH_Itzam_Tohok={
+		name="Itzam Tohok"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Itzam_Tohok
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	TOH_Pakal_Yaxunabal={
+		name="Pakal Yaxunabal"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Pakal_Yaxunabal
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	TOH_Chichen_Bakmul={
+		name="Chichen Bakmul"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Chichen_Bakmul
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	TOH_Bacab_Sotz={
+		name="Bacab Sotz"
+
+		advisor={
+			slot = army_chief
+			idea_token = TOH_Bacab_Sotz
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	TOH_Pakanek_Itznabalamna={
+		name="Pakanek Itznabalamna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOH_Pakanek_Itznabalamna
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	TOH_Kanek_Chau={
+		name="Kanek Chau"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TOH_Kanek_Chau
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	TOH_Bacab_Chau={
+		name="Bacab Chau"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOH_Bacab_Chau
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	TOH_Chua_Itznabalamna={
+		name="Chua Itznabalamna"
+
+		advisor={
+			slot = air_chief
+			idea_token = TOH_Chua_Itznabalamna
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	TOH_Ekchak_Yaxchen={
+		name="Ekchak Yaxchen"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Ekchak_Yaxchen
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	TOH_Acab_Chakhak={
+		name="Acab Chakhak"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Acab_Chakhak
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	TOH_Ekchakanek_Ajtz={
+		name="Ekchakanek Ajtz"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Ekchakanek_Ajtz
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	TOH_Chil_Nojil={
+		name="Chil Nojil"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Chil_Nojil
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	TOH_Nacatl_Ikalamnahpu={
+		name="Nacatl Ikalamnahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Nacatl_Ikalamnahpu
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	TOH_Chakal_Balom={
+		name="Chakal Balom"
+
+		advisor={
+			slot = high_command
+			idea_token = TOH_Chakal_Balom
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	TOH_Moctez_Aguatunil={
+		name="Moctez Aguatunil"
+
+		advisor={
+			slot = theorist
+			idea_token = TOH_Moctez_Aguatunil
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	TOH_Itzam_Tohich={
+		name="Itzam Tohich"
+
+		advisor={
+			slot = theorist
+			idea_token = TOH_Itzam_Tohich
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	TOH_Chak_Yaxunabal={
+		name="Chak Yaxunabal"
+
+		advisor={
+			slot = theorist
+			idea_token = TOH_Chak_Yaxunabal
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}
