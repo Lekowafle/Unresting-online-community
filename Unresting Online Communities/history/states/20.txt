@@ -21,7 +21,7 @@ state={
 		victory_points = { 209 3}
 		victory_points = { 210 2}
 		
-		owner = QAL
+		owner = VAL
 		buildings = {
 			infrastructure = 3
 			
@@ -30,7 +30,7 @@ state={
 			
 			
 		}
-		add_core_of = QAL
+		add_core_of = VAL
 	}
 
 	provinces={

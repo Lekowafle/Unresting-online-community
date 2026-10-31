@@ -22,7 +22,7 @@ state={
 		victory_points = { 5881 3}
 		victory_points = { 5884 3}
 		
-		owner = NAR
+		owner = CSG
 		buildings = {
 			infrastructure = 3
 			
@@ -34,7 +34,7 @@ state={
 			}
 			
 		}
-		add_core_of = NAR
+		add_core_of = CSG
 	}
 
 	provinces={

@@ -19,7 +19,7 @@ state={
 	history={
 		victory_points = { 5019 1}
 		
-		owner = QAL
+		owner = VAL
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -28,7 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = QAL
+		add_core_of = VAL
 	}
 
 	provinces={

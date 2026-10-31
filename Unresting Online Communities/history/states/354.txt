@@ -7,13 +7,13 @@ state={
 	state_category = pastoral
 	#impassable = yes
 	resources={
-		aluminium=0
-		chromium=0
-		oil=0
+		aluminium=5
+		chromium=4
+		oil=18
 		rubber=0
 		steel=8
-		tungsten=0
-		coal=0
+		tungsten=3
+		coal=32
 	}
 
 	history={
@@ -21,7 +21,7 @@ state={
 		victory_points = { 3996 1}
 		victory_points = { 4008 1}
 		
-		owner = NAR
+		owner = CSG
 		buildings = {
 			infrastructure = 1
 			air_base = 1
@@ -30,7 +30,7 @@ state={
 			
 			
 		}
-		add_core_of = NAR
+		add_core_of = CSG
 	}
 
 	provinces={
