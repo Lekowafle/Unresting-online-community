@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = NAD
+		owner = WTH
 		buildings = {
 			infrastructure = 1
 			
@@ -30,7 +30,7 @@ state={
 			}
 			
 		}
-		add_core_of = NAD
+		add_core_of = WTH
 	}
 
 	provinces={

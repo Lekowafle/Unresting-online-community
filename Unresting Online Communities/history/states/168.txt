@@ -19,7 +19,7 @@ state={
 	history={
 		victory_points = { 1949 7}
 		
-		owner = NAD
+		owner = WTH
 		buildings = {
 			infrastructure = 3
 			
@@ -28,7 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = NAD
+		add_core_of = WTH
 	}
 
 	provinces={

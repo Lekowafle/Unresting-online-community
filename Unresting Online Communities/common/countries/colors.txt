@@ -1,4 +1,8 @@
 #reload countrycolors
+FUR = {
+color = rgb { 32 177 255 }
+color_ui = rgb { 99 188 237 }
+}
 GEN = {
 	color = rgb { 139 85 37 }
 	color_ui = rgb { 156 118 76 }

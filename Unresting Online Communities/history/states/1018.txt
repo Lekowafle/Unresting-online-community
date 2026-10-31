@@ -21,7 +21,7 @@ state={
 		victory_points = { 11870 4}
 		victory_points = { 11873 1}
 		
-		owner = BIN
+		owner = MCR
 		buildings = {
 			infrastructure = 2
 			
@@ -33,7 +33,7 @@ state={
 			}
 			
 		}
-		add_core_of = BIN
+		add_core_of = MCR
 	}
 
 	provinces={

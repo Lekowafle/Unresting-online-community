@@ -21,7 +21,7 @@ state={
 		victory_points = { 1195 3}
 		victory_points = { 1199 3}
 		
-		owner = NAD
+		owner = WTH
 		buildings = {
 			infrastructure = 4
 			air_base = 1
@@ -33,7 +33,7 @@ state={
 			}
 			
 		}
-		add_core_of = NAD
+		add_core_of = WTH
 	}
 
 	provinces={

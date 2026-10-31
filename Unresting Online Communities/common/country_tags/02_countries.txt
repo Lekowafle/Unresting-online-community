@@ -1,4 +1,6 @@
 AGU = "countries/Aguatecab.txt"
+PUB = "countries/Pubg.txt"
+MCR = "countries/Minecraft.txt"
 CSG = "countries/CSGO.txt"
 FUR = "countries/Furry.txt"
 HOI = "countries/HOI4.txt"

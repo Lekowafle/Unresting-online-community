@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = BIN
+		owner = MCR
 		buildings = {
 			infrastructure = 1
 			
@@ -27,7 +27,7 @@ state={
 			
 			
 		}
-		add_core_of = BIN
+		add_core_of = MCR
 	}
 
 	provinces={
