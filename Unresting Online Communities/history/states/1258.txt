@@ -20,7 +20,7 @@ state={
 		victory_points = { 14549 7}
 		victory_points = { 14551 1}
 		
-		owner = UAT
+		owner = GEN
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -29,7 +29,7 @@ state={
 			
 			
 		}
-		add_core_of = UAT
+		add_core_of = GEN
 	}
 
 	provinces={

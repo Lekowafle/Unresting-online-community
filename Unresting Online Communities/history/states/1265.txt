@@ -19,7 +19,7 @@ state={
 	history={
 		victory_points = { 14673 1}
 		
-		owner = UAT
+		owner = GEN
 		buildings = {
 			infrastructure = 3
 			
@@ -28,7 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = UAT
+		add_core_of = GEN
 	}
 
 	provinces={
