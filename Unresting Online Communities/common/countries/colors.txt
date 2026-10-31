@@ -1,5 +1,24 @@
 #reload countrycolors
-
+GEN = {
+	color = rgb { 139 85 37 }
+	color_ui = rgb { 156 118 76 }
+}
+HOI = {
+	color = rgb { 181 230 235 }
+	color_ui = rgb { 181 230 235 }
+}
+VAL = {
+	color = rgb { 206 37 158}
+	color_ui = rgb { 241 156 205}
+}
+WTH = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 228 106 106 }
+}
+CSG = {
+	color = rgb { 248 151 0 }
+	color_ui = rgb { 249 187 90 }
+}
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }

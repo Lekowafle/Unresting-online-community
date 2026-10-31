@@ -1,0 +1,31 @@
+capital = 1
+
+
+
+starting_train_buffer = 2
+set_fuel_ratio = 1
+
+# starting_truck_buffer = 0.8
+
+
+# Starting Stats of various kinds
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.4
+set_war_support = 0.8
+
+
+# Setup Politics
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 5
+	fascism = 92
+	communism = 0
+	neutrality = 3
+}
+
