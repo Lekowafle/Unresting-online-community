@@ -1,0 +1,41 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Paal Fleet"			
+		naval_base = 17169
+		task_force = {
+			name = "Paal Fleet"
+			location = 17169
+			
+						ship = { name = "Kalai" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = XAA version_name = "Megam Class" } }	}
+			ship = { name = "Makku" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = XAA version_name = "Isai Class" } }	}
+			ship = { name = "Elimaiaraiya" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = XAA version_name = "Kurai Class" } }	}
+			ship = { name = "Elimaiaraiya 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = XAA version_name = "Nadu Class" } }	}
+			ship = { name = "Thoppu" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = XAA version_name = "Sugam Class" } }	}
+			ship = { name = "Elimaiaraiya 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = XAA version_name = "Nadu Class" } }	}
+			ship = { name = "Megavu" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = XAA version_name = "Sugam Class" } }	}
+			ship = { name = "Vidu" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = XAA version_name = "Sugam Class" } }	}
+			ship = { name = "Thaikku" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = XAA version_name = "Nadu Class" } }	}
+			ship = { name = "Kurai" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = XAA version_name = "Nadu Class" } }	}
+			ship = { name = "Vizhippu" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = XAA version_name = "Isai Class" } }	}
+			ship = { name = "Elimaiaraiya 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = XAA version_name = "Kurai Class" } }	}
+			ship = { name = "Vizhippu 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = XAA version_name = "Nadu Class" } }	}
+			ship = { name = "Thaiyanai" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = XAA version_name = "Nadu Class" } }	}
+			ship = { name = "Pudhangalam" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = XAA version_name = "Nadu Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

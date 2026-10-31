@@ -1,0 +1,20 @@
+air_wings = {
+		1433 = { 								
+		CAS_equipment_0 = { owner = "NUN" amount = 31 version_name = "Nunirnaaliki Mk 2" }
+
+	}
+	1423 = { 								
+		strat_bomber_equipment_0 = { owner = "NUN" amount = 42 version_name = "Anuq Mk 2" }
+
+	}
+	1382 = { 								
+		fighter_equipment_0 = { owner = "NUN" amount = 38 version_name = "Nuvuk Mk 0" }
+
+	}
+	1432 = { 								
+		nav_bomber_equipment_0 = { owner = "NUN" amount = 48 version_name = "Atuk Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=916
+	name="STATE_916"
+	manpower = 2157958
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10630 1}
+		victory_points = { 10632 1}
+		victory_points = { 10636 1}
+		victory_points = { 10638 1}
+		
+		owner = RIB
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			10634 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = RIB
+	}
+
+	provinces={
+		10630 10631 10632 10633 10634 10635 10636 10637 10638 10639 10640 
+	}
+	local_supplies=0.0 
+}

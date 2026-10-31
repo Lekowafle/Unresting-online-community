@@ -1,0 +1,38 @@
+
+state={
+	id=997
+	name="STATE_997"
+	manpower = 631784
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11640 2}
+		
+		owner = JIA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = JIA
+	}
+
+	provinces={
+		11640 11641 11642 
+	}
+	local_supplies=0.0 
+}

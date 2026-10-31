@@ -1,0 +1,40 @@
+
+state={
+	id=164
+	name="STATE_164"
+	manpower = 394761
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=6
+		chromium=6
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=6
+		coal=15
+	}
+
+	history={
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			1922 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		1922 1923 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,61 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Alaka Fleet"			
+		naval_base = 17182
+		task_force = {
+			name = "Alaka Fleet"
+			location = 17182
+			
+						ship = { name = "Jemba" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ALA version_name = "Bapat Class" } }	}
+			ship = { name = "Bulaut" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ALA version_name = "Petawah Class" } }	}
+			ship = { name = "Jemba 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ALA version_name = "Mulat Class" } }	}
+			ship = { name = "Teti" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ALA version_name = "Pendelamhal Class" } }	}
+			ship = { name = "Peta" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ALA version_name = "Bulampisuan Class" } }	}
+			ship = { name = "Adik" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ALA version_name = "Dang Class" } }	}
+			ship = { name = "Pinda" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ALA version_name = "Dang Class" } }	}
+			ship = { name = "Bahu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ALA version_name = "Dang Class" } }	}
+			ship = { name = "Gerbu" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ALA version_name = "Bulampisuan Class" } }	}
+			ship = { name = "Bulampisuan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ALA version_name = "Mulat Class" } }	}
+			ship = { name = "Harnau" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ALA version_name = "Mulat Class" } }	}
+			ship = { name = "Keradat" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ALA version_name = "Mulat Class" } }	}
+			ship = { name = "Tuah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ALA version_name = "Dang Class" } }	}
+			ship = { name = "Bulampisuan 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ALA version_name = "Bulampisuan Class" } }	}
+			ship = { name = "Petawah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ALA version_name = "Dang Class" } }	}
+			ship = { name = "Upacak" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ALA version_name = "Mulat Class" } }	}
+			ship = { name = "Raja" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ALA version_name = "Pendelamhal Class" } }	}
+			ship = { name = "Mulat" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ALA version_name = "Bulampisuan Class" } }	}
+			ship = { name = "Senda" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ALA version_name = "Mulat Class" } }	}
+			ship = { name = "Petan" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ALA version_name = "Pendelamhal Class" } }	}
+			ship = { name = "Bahayaremu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ALA version_name = "Dang Class" } }	}
+			ship = { name = "Keradat 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ALA version_name = "Dang Class" } }	}
+			ship = { name = "Punung" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ALA version_name = "Pendelamhal Class" } }	}
+			ship = { name = "Cerah" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ALA version_name = "Pendelamhal Class" } }	}
+			ship = { name = "Mulat 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ALA version_name = "Pendelamhal Class" } }	}
+			ship = { name = "Peta 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ALA version_name = "Pendelamhal Class" } }	}
+			ship = { name = "Jemba 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ALA version_name = "Mulat Class" } }	}
+			ship = { name = "Senda 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ALA version_name = "Pendelamhal Class" } }	}
+			ship = { name = "Tarnahgung" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ALA version_name = "Dang Class" } }	}
+			ship = { name = "Lemi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ALA version_name = "Pendelamhal Class" } }	}
+			ship = { name = "Pindan" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ALA version_name = "Pendelamhal Class" } }	}
+			ship = { name = "Bahayaremu 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ALA version_name = "Dang Class" } }	}
+			ship = { name = "Apisununyi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ALA version_name = "Pendelamhal Class" } }	}
+			ship = { name = "Bulan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ALA version_name = "Mulat Class" } }	}
+			ship = { name = "Petir" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ALA version_name = "Dang Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

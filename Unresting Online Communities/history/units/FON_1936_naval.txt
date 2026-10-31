@@ -1,0 +1,51 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Fone Fleet"			
+		naval_base = 17150
+		task_force = {
+			name = "Fone Fleet"
+			location = 17150
+			
+						ship = { name = "Esero" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FON version_name = "Reanza Class" } }	}
+			ship = { name = "Cavolo" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FON version_name = "Reanza Class" } }	}
+			ship = { name = "Freto" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FON version_name = "Reanza Class" } }	}
+			ship = { name = "Traccame" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FON version_name = "Cavallo Class" } }	}
+			ship = { name = "Mesimente" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FON version_name = "Cavallo Class" } }	}
+			ship = { name = "Temichia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FON version_name = "Cavallo Class" } }	}
+			ship = { name = "Lina" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FON version_name = "Cavallo Class" } }	}
+			ship = { name = "Freto 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FON version_name = "Cavallo Class" } }	}
+			ship = { name = "Fiusce" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FON version_name = "Cavallo Class" } }	}
+			ship = { name = "Lanyone" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = FON version_name = "Cavalo Class" } }	}
+			ship = { name = "Muradiognali" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FON version_name = "Cavallo Class" } }	}
+			ship = { name = "Giusce" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = FON version_name = "Cavalo Class" } }	}
+			ship = { name = "Alberna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FON version_name = "Lagna Class" } }	}
+			ship = { name = "Incia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FON version_name = "Cavallo Class" } }	}
+			ship = { name = "Mone" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FON version_name = "Cavallo Class" } }	}
+			ship = { name = "Lina 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = FON version_name = "Cavalo Class" } }	}
+			ship = { name = "Spitanto" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FON version_name = "Lagna Class" } }	}
+			ship = { name = "Cavale" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = FON version_name = "Cavalo Class" } }	}
+			ship = { name = "Cappama" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FON version_name = "Cavallo Class" } }	}
+			ship = { name = "Reanza" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = FON version_name = "Cavalo Class" } }	}
+			ship = { name = "Corra" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FON version_name = "Lagna Class" } }	}
+			ship = { name = "Menza" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FON version_name = "Cavallo Class" } }	}
+			ship = { name = "Guera" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FON version_name = "Cavallo Class" } }	}
+			ship = { name = "Mesimente 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FON version_name = "Cavallo Class" } }	}
+			ship = { name = "Acqua" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FON version_name = "Lagna Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

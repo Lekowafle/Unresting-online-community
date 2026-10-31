@@ -1,0 +1,40 @@
+
+state={
+	id=902
+	name="STATE_902"
+	manpower = 4137023
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=13
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10471 2}
+		victory_points = { 10473 2}
+		victory_points = { 10481 2}
+		
+		owner = XEN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XEN
+	}
+
+	provinces={
+		10462 10463 10464 10465 10466 10467 10468 10469 10470 10471 10472 10473 10474 10475 10476 10477 10478 10479 10480 10481 10482 10483 10484 10485 10486 10487 10488 10489 10490 10491 
+	}
+	local_supplies=0.0 
+}

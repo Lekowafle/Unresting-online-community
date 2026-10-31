@@ -1,0 +1,257 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			artillery_brigade = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Bakmul' Supported Infantry Division"
+		location = 15273
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.834347
+		start_equipment_factor = 0.913812
+	}
+	division= {
+		name = "2nd 'Bacolkin' Supported Infantry Division"
+		location = 15660
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.730742
+		start_equipment_factor = 0.945998
+	}
+	division= {
+		name = "3rd 'Chakha' Supported Infantry Division"
+		location = 15242
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.446221
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Kanil' Supported Infantry Division"
+		location = 15221
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.245821
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Bakmul' Supported Infantry Division"
+		location = 15536
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.142817
+		start_equipment_factor = 0.918663
+	}
+	division= {
+		name = "6th 'Balana' Supported Infantry Division"
+		location = 15392
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.386416
+		start_equipment_factor = 0.991150
+	}
+	division= {
+		name = "7th 'Baluun' Supported Infantry Division"
+		location = 15625
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.287175
+		start_equipment_factor = 0.882019
+	}
+	division= {
+		name = "8th 'Saktun' Supported Infantry Division"
+		location = 15485
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.064690
+		start_equipment_factor = 0.940893
+	}
+	division= {
+		name = "9th 'Naracol' Supported Infantry Division"
+		location = 15609
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.561120
+		start_equipment_factor = 0.958924
+	}
+	division= {
+		name = "10th 'Tojil' Supported Infantry Division"
+		location = 15468
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.918515
+		start_equipment_factor = 0.994986
+	}
+	division= {
+		name = "11th 'Kukulkin' Supported Infantry Division"
+		location = 15201
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.864945
+		start_equipment_factor = 0.890215
+	}
+	division= {
+		name = "1st 'Bakhak' Artillery Division"
+		location = 15265
+		division_template = "Artillery Division"
+		start_experience_factor = 0.096669
+		start_equipment_factor = 0.885440
+	}
+	division= {
+		name = "2nd 'Chun' Artillery Division"
+		location = 15611
+		division_template = "Artillery Division"
+		start_experience_factor = 0.332908
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Bahpu' Artillery Division"
+		location = 15653
+		division_template = "Artillery Division"
+		start_experience_factor = 0.930171
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Bakhak' Artillery Division"
+		location = 15433
+		division_template = "Artillery Division"
+		start_experience_factor = 0.140704
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Ikalamanikal' Artillery Division"
+		location = 15340
+		division_template = "Artillery Division"
+		start_experience_factor = 0.793671
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "6th 'Ajtzamnamna' Artillery Division"
+		location = 15683
+		division_template = "Artillery Division"
+		start_experience_factor = 0.348053
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "7th 'Bahuwenque' Artillery Division"
+		location = 15623
+		division_template = "Artillery Division"
+		start_experience_factor = 0.754699
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "8th 'Chual' Artillery Division"
+		location = 15234
+		division_template = "Artillery Division"
+		start_experience_factor = 0.680039
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "9th 'Oxlancue' Artillery Division"
+		location = 17103
+		division_template = "Artillery Division"
+		start_experience_factor = 0.630938
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "10th 'Kaaxch' Artillery Division"
+		location = 15205
+		division_template = "Artillery Division"
+		start_experience_factor = 0.752978
+		start_equipment_factor = 1.000000
+	}
+
+}

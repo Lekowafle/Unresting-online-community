@@ -1,0 +1,33 @@
+air_wings = {
+		757 = { 								
+		small_plane_airframe_0 = { owner = "KAP" amount = 50 version_name = "Vinja Mk 1" }
+
+	}
+	924 = { 								
+		small_plane_airframe_0 = { owner = "KAP" amount = 50 version_name = "Vinja Mk 1" }
+large_plane_airframe_0 = { owner = "KAP" amount = 50 version_name = "Gvotican Mk 0" }
+
+	}
+	860 = { 								
+		large_plane_airframe_0 = { owner = "KAP" amount = 50 version_name = "Gvotican Mk 0" }
+
+	}
+	815 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "KAP" amount = 50 version_name = "Poljevina Mk 0" }
+
+	}
+	677 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "KAP" amount = 50 version_name = "Poljevina Mk 0" }
+
+	}
+	769 = { 								
+		small_plane_cas_airframe_0 = { owner = "KAP" amount = 50 version_name = "Ljubar Mk 2" }
+
+	}
+	822 = { 								
+		small_plane_cas_airframe_0 = { owner = "KAP" amount = 50 version_name = "Ljubar Mk 2" }
+
+	}
+
+
+}

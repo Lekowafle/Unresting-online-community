@@ -1,0 +1,43 @@
+
+state={
+	id=426
+	name="STATE_426"
+	manpower = 4886476
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4847 3}
+		victory_points = { 4852 7}
+		victory_points = { 4853 13}
+		
+		owner = FON
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 3
+			industrial_complex = 1
+			dockyard = 2
+			4852 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FON
+	}
+
+	provinces={
+		4847 4848 4849 4850 4851 4852 4853 4854 4855 4856 4857 4858 4859 4860 4861 4862 4863 4864 4865 4866 4867 4868 4869 4870 4871 
+	}
+	local_supplies=0.0 
+}

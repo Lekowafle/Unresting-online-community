@@ -1,0 +1,20 @@
+air_wings = {
+		272 = { 								
+		nav_bomber_equipment_0 = { owner = "IMN" amount = 4 version_name = "Tamezi Mk 0" }
+
+	}
+	57 = { 								
+		nav_bomber_equipment_0 = { owner = "IMN" amount = 4 version_name = "Asgwalut Mk 2" }
+fighter_equipment_0 = { owner = "IMN" amount = 2 version_name = "Tighas Mk 2" }
+tac_bomber_equipment_0 = { owner = "IMN" amount = 3 version_name = "Thalut Mk 0" }
+
+	}
+	356 = { 								
+		CAS_equipment_0 = { owner = "IMN" amount = 8 version_name = "Anza Mk 1" }
+fighter_equipment_0 = { owner = "IMN" amount = 2 version_name = "Izerwizi Mk 1" }
+CAS_equipment_0 = { owner = "IMN" amount = 4 version_name = "Nfourt Mk 2" }
+
+	}
+
+
+}

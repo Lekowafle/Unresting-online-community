@@ -1,0 +1,42 @@
+
+state={
+	id=546
+	name="STATE_546"
+	manpower = 2588845
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6065 3}
+		victory_points = { 6070 3}
+		victory_points = { 6071 3}
+		victory_points = { 6072 1}
+		victory_points = { 6076 1}
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		6064 6065 6066 6067 6068 6069 6070 6071 6072 6073 6074 6075 6076 
+	}
+	local_supplies=0.0 
+}

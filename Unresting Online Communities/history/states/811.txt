@@ -1,0 +1,41 @@
+
+state={
+	id=811
+	name="STATE_811"
+	manpower = 2327986
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9258 1}
+		victory_points = { 9259 1}
+		victory_points = { 9261 1}
+		victory_points = { 9264 1}
+		
+		owner = KHU
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KHU
+	}
+
+	provinces={
+		9254 9255 9256 9257 9258 9259 9260 9261 9262 9263 9264 9265 9266 
+	}
+	local_supplies=0.0 
+}

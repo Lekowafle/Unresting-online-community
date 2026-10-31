@@ -1,0 +1,45 @@
+
+state={
+	id=873
+	name="STATE_873"
+	manpower = 2740681
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10122 1}
+		victory_points = { 10124 1}
+		victory_points = { 10125 1}
+		victory_points = { 10126 2}
+		victory_points = { 10134 1}
+		
+		owner = KHU
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			10124 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KHU
+	}
+
+	provinces={
+		10120 10121 10122 10123 10124 10125 10126 10127 10128 10129 10130 10131 10132 10133 10134 10135 10136 
+	}
+	local_supplies=0.0 
+}

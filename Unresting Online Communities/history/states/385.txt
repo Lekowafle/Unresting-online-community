@@ -1,0 +1,44 @@
+
+state={
+	id=385
+	name="STATE_385"
+	manpower = 3690416
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=8
+		rubber=0
+		steel=17
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4379 3}
+		victory_points = { 4382 1}
+		victory_points = { 4391 1}
+		victory_points = { 4392 3}
+		
+		owner = BUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			4383 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BUA
+	}
+
+	provinces={
+		4379 4380 4381 4382 4383 4384 4385 4386 4387 4388 4389 4390 4391 4392 4393 4394 4395 4396 4397 4398 4399 4400 
+	}
+	local_supplies=0.0 
+}

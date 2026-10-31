@@ -1,0 +1,25 @@
+air_wings = {
+		859 = { 								
+		CAS_equipment_0 = { owner = "VOD" amount = 50 version_name = "Slika Mk 1" }
+fighter_equipment_0 = { owner = "VOD" amount = 49 version_name = "Galj Mk 2" }
+
+	}
+	651 = { 								
+		nav_bomber_equipment_0 = { owner = "VOD" amount = 42 version_name = "Teat Mk 1" }
+
+	}
+	685 = { 								
+		CAS_equipment_0 = { owner = "VOD" amount = 50 version_name = "Slika Mk 1" }
+
+	}
+	768 = { 								
+		tac_bomber_equipment_0 = { owner = "VOD" amount = 50 version_name = "Ostvo Mk 1" }
+
+	}
+	891 = { 								
+		tac_bomber_equipment_0 = { owner = "VOD" amount = 50 version_name = "Ostvo Mk 1" }
+
+	}
+
+
+}

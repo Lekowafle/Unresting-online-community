@@ -1,0 +1,38 @@
+
+state={
+	id=395
+	name="STATE_395"
+	manpower = 1271052
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4499 1}
+		
+		owner = RUA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RUA
+	}
+
+	provinces={
+		4493 4494 4495 4496 4497 4498 4499 4500 4501 
+	}
+	local_supplies=0.0 
+}

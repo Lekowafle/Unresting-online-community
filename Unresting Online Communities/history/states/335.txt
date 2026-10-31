@@ -1,0 +1,39 @@
+
+state={
+	id=335
+	name="STATE_335"
+	manpower = 2281709
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3777 1}
+		victory_points = { 3780 1}
+		
+		owner = CUA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CUA
+	}
+
+	provinces={
+		3769 3770 3771 3772 3773 3774 3775 3776 3777 3778 3779 3780 3781 3782 3783 3784 
+	}
+	local_supplies=0.0 
+}

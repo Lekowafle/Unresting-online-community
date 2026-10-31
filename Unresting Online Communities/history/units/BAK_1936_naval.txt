@@ -1,0 +1,33 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Bakhak Fleet"			
+		naval_base = 17183
+		task_force = {
+			name = "Bakhak Fleet"
+			location = 17183
+			
+						ship = { name = "Cuim" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = BAK version_name = "Spioc Class" } }	}
+			ship = { name = "Cileart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAK version_name = "Talte Class" } }	}
+			ship = { name = "Grian" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BAK version_name = "Nean Class" } }	}
+			ship = { name = "Banwa" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BAK version_name = "Beim Class" } }	}
+			ship = { name = "Rata" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BAK version_name = "Boile Class" } }	}
+			ship = { name = "Domh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BAK version_name = "Boile Class" } }	}
+			ship = { name = "Spioc" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAK version_name = "Talte Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

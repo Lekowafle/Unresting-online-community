@@ -1,0 +1,40 @@
+
+state={
+	id=772
+	name="STATE_772"
+	manpower = 1189545
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = COB
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			8768 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = COB
+	}
+
+	provinces={
+		8768 8769 8770 8771 8772 8773 8774 
+	}
+	local_supplies=0.0 
+}

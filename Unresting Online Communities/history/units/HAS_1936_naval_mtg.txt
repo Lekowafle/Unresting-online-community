@@ -1,0 +1,36 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Basan Fleet"			
+		naval_base = 13067
+		task_force = {
+			name = "Basan Fleet"
+			location = 13067
+			
+						ship = { name = "Scator" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HAS version_name = "Poetor Class" } }	}
+			ship = { name = "Murrum" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HAS version_name = "Amorsulgus Class" } }	}
+			ship = { name = "Tons" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HAS version_name = "Amorsulgus Class" } }	}
+			ship = { name = "Anis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAS version_name = "Para Class" } }	}
+			ship = { name = "Fulax" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAS version_name = "Scator Class" } }	}
+			ship = { name = "Nobis" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HAS version_name = "Amorsulgus Class" } }	}
+			ship = { name = "Tons 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HAS version_name = "Amorsulgus Class" } }	}
+			ship = { name = "Herittellume" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAS version_name = "Para Class" } }	}
+			ship = { name = "Aetas" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HAS version_name = "Plum Class" } }	}
+			ship = { name = "Pophus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAS version_name = "Para Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

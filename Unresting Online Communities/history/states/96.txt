@@ -1,0 +1,43 @@
+
+state={
+	id=96
+	name="STATE_96"
+	manpower = 2414889
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1193 3}
+		victory_points = { 1195 3}
+		victory_points = { 1199 3}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 3
+			
+			1203 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		1192 1193 1194 1195 1196 1197 1198 1199 1200 1201 1202 1203 
+	}
+	local_supplies=0.0 
+}

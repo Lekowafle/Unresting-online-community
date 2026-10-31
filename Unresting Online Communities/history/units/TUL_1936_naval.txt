@@ -1,0 +1,58 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Tulaja Fleet"			
+		naval_base = 17173
+		task_force = {
+			name = "Tulaja Fleet"
+			location = 17173
+			
+						ship = { name = "Gurgangitu" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUL version_name = "Pinda Class" } }	}
+			ship = { name = "Bulaut" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TUL version_name = "Gung Class" } }	}
+			ship = { name = "Anan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Gurgangitu 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Pendelamhal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Keradat" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUL version_name = "Gung Class" } }	}
+			ship = { name = "Apisununyi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Gung" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUL version_name = "Lemi Class" } }	}
+			ship = { name = "Suci" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Pasi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUL version_name = "Lemi Class" } }	}
+			ship = { name = "Keraki" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Senja" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUL version_name = "Gung Class" } }	}
+			ship = { name = "Apisununyi 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUL version_name = "Gung Class" } }	}
+			ship = { name = "Pinda" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Peran" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Jiwo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Mimbah" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUL version_name = "Gung Class" } }	}
+			ship = { name = "Senja 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUL version_name = "Lemi Class" } }	}
+			ship = { name = "Keradat 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Senda" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Jiwo 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUL version_name = "Gung Class" } }	}
+			ship = { name = "Pendelamhal 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUL version_name = "Gung Class" } }	}
+			ship = { name = "Kota" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Buncak" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUL version_name = "Lemi Class" } }	}
+			ship = { name = "Takil" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Ayawan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Gung 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Tulaja" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUL version_name = "Lemi Class" } }	}
+			ship = { name = "Bulaut 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUL version_name = "Gung Class" } }	}
+			ship = { name = "Gerbu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Mulat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+			ship = { name = "Suci 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUL version_name = "Mimbah Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,43 @@
+
+state={
+	id=11
+	name="STATE_11"
+	manpower = 1867739
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=10
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 111 1}
+		victory_points = { 112 2}
+		victory_points = { 113 1}
+		
+		owner = BAT
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			111 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BAT
+	}
+
+	provinces={
+		111 112 113 114 115 116 117 118 119 120 
+	}
+	local_supplies=0.0 
+}

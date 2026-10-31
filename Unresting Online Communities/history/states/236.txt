@@ -1,0 +1,41 @@
+
+state={
+	id=236
+	name="STATE_236"
+	manpower = 984627
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=2
+		oil=0
+		rubber=5
+		steel=0
+		tungsten=2
+		coal=6
+	}
+
+	history={
+		victory_points = { 2724 1}
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			2725 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		2723 2724 2725 2726 2727 2728 
+	}
+	local_supplies=0.0 
+}

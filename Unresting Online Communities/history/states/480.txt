@@ -1,0 +1,39 @@
+
+state={
+	id=480
+	name="STATE_480"
+	manpower = 1796413
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=4
+		chromium=5
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=4
+		coal=11
+	}
+
+	history={
+		victory_points = { 5342 3}
+		victory_points = { 5348 2}
+		
+		owner = BUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BUA
+	}
+
+	provinces={
+		5340 5341 5342 5343 5344 5345 5346 5347 5348 5349 5350 
+	}
+	local_supplies=0.0 
+}

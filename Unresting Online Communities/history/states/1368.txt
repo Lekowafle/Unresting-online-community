@@ -1,0 +1,45 @@
+
+state={
+	id=1368
+	name="STATE_1368"
+	manpower = 3756862
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15788 2}
+		victory_points = { 15792 2}
+		victory_points = { 15798 1}
+		victory_points = { 15800 1}
+		victory_points = { 15801 2}
+		
+		owner = ORA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			15789 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = ORA
+	}
+
+	provinces={
+		15787 15788 15789 15790 15791 15792 15793 15794 15795 15796 15797 15798 15799 15800 15801 15802 15803 15804 15805 15806 15807 15808 
+	}
+	local_supplies=0.0 
+}

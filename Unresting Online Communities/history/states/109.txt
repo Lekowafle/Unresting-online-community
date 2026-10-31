@@ -1,0 +1,41 @@
+
+state={
+	id=109
+	name="STATE_109"
+	manpower = 1379542
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=8
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1358 1}
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			1355 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		1353 1354 1355 1356 1357 1358 1359 1360 
+	}
+	local_supplies=0.0 
+}

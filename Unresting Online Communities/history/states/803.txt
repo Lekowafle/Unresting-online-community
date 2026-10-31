@@ -1,0 +1,42 @@
+
+state={
+	id=803
+	name="STATE_803"
+	manpower = 3109898
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=4
+	}
+
+	history={
+		victory_points = { 9153 1}
+		victory_points = { 9155 2}
+		victory_points = { 9158 1}
+		victory_points = { 9160 2}
+		victory_points = { 9162 2}
+		
+		owner = TOH
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TOH
+	}
+
+	provinces={
+		9151 9152 9153 9154 9155 9156 9157 9158 9159 9160 9161 9162 9163 9164 9165 9166 9167 9168 
+	}
+	local_supplies=0.0 
+}

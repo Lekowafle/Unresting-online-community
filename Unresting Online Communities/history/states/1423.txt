@@ -1,0 +1,42 @@
+
+state={
+	id=1423
+	name="STATE_1423"
+	manpower = 1279563
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=7
+		chromium=8
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=8
+		coal=19
+	}
+
+	history={
+		victory_points = { 16345 2}
+		victory_points = { 16346 1}
+		
+		owner = NUN
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			16343 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NUN
+	}
+
+	provinces={
+		16343 16344 16345 16346 16347 16348 
+	}
+	local_supplies=0.0 
+}

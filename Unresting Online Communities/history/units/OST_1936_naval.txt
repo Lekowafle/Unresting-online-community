@@ -1,0 +1,49 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Ostvo Fleet"			
+		naval_base = 10587
+		task_force = {
+			name = "Ostvo Fleet"
+			location = 10587
+			
+						ship = { name = "Ribaveza" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = OST version_name = "Laga Class" } }	}
+			ship = { name = "Laga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+			ship = { name = "Stran" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = OST version_name = "Ruca Class" } }	}
+			ship = { name = "Nebo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+			ship = { name = "Maslja" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+			ship = { name = "Laga 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+			ship = { name = "Nebo 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+			ship = { name = "Galj" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+			ship = { name = "Solj" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = OST version_name = "Ruca Class" } }	}
+			ship = { name = "Suma" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+			ship = { name = "Maslja 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+			ship = { name = "Solj 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+			ship = { name = "Telik" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = OST version_name = "Ruca Class" } }	}
+			ship = { name = "Bogina" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = OST version_name = "Ruca Class" } }	}
+			ship = { name = "Kisac" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = OST version_name = "Ruca Class" } }	}
+			ship = { name = "Kralava" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = OST version_name = "Ruca Class" } }	}
+			ship = { name = "Stran 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+			ship = { name = "Ribar" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = OST version_name = "Ruca Class" } }	}
+			ship = { name = "Konzulturalj" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+			ship = { name = "Zlatralja" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+			ship = { name = "Pesec" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = OST version_name = "Ruca Class" } }	}
+			ship = { name = "Svena" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+			ship = { name = "Konzulturalj 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OST version_name = "Suma Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

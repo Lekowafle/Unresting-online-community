@@ -1,0 +1,39 @@
+
+state={
+	id=130
+	name="STATE_130"
+	manpower = 1306598
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1572 1}
+		victory_points = { 1577 1}
+		
+		owner = BUI
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BUI
+	}
+
+	provinces={
+		1570 1571 1572 1573 1574 1575 1576 1577 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=216
+	name="STATE_216"
+	manpower = 1387839
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=15
+		chromium=16
+		oil=0
+		rubber=8
+		steel=0
+		tungsten=15
+		coal=38
+	}
+
+	history={
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			2512 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		2509 2510 2511 2512 2513 2514 2515 2516 2517 
+	}
+	local_supplies=0.0 
+}

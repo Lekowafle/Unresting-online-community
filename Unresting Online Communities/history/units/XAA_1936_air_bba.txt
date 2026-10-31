@@ -1,0 +1,30 @@
+air_wings = {
+		862 = { 								
+		medium_plane_airframe_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+
+	}
+	656 = { 								
+		medium_plane_airframe_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+
+	}
+	664 = { 								
+		medium_plane_airframe_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+
+	}
+	854 = { 								
+		medium_plane_airframe_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+medium_plane_airframe_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+
+	}
+	640 = { 								
+		medium_plane_airframe_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+
+	}
+	1552 = { 								
+		medium_plane_airframe_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+medium_plane_airframe_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+
+	}
+
+
+}

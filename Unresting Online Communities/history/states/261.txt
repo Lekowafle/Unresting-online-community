@@ -1,0 +1,38 @@
+
+state={
+	id=261
+	name="STATE_261"
+	manpower = 2182866
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3066 2}
+		
+		owner = GRI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = GRI
+	}
+
+	provinces={
+		3058 3059 3060 3061 3062 3063 3064 3065 3066 3067 3068 3069 3070 3071 3072 
+	}
+	local_supplies=0.0 
+}

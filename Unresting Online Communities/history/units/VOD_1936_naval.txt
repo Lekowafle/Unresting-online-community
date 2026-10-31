@@ -1,0 +1,32 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Voda Fleet"			
+		naval_base = 10681
+		task_force = {
+			name = "Voda Fleet"
+			location = 10681
+			
+						ship = { name = "Zvemenika" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = VOD version_name = "Maslja Class" } }	}
+			ship = { name = "Svitar" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VOD version_name = "Nadzbica Class" } }	}
+			ship = { name = "Grefekar" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VOD version_name = "Nadzbica Class" } }	}
+			ship = { name = "Konzulturalj" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOD version_name = "Prana Class" } }	}
+			ship = { name = "Zvet" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOD version_name = "Prana Class" } }	}
+			ship = { name = "Poljevina" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOD version_name = "Prana Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

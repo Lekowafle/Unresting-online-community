@@ -1,0 +1,41 @@
+
+state={
+	id=300
+	name="STATE_300"
+	manpower = 2851648
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=5
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3434 2}
+		victory_points = { 3435 2}
+		victory_points = { 3438 2}
+		victory_points = { 3443 2}
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		3430 3431 3432 3433 3434 3435 3436 3437 3438 3439 3440 3441 3442 3443 3444 
+	}
+	local_supplies=0.0 
+}

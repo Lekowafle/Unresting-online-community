@@ -1,0 +1,26 @@
+air_wings = {
+		1383 = { 								
+		medium_plane_airframe_0 = { owner = "ORA" amount = 50 version_name = "Aritto Mk 1" }
+
+	}
+	1417 = { 								
+		small_plane_cas_airframe_0 = { owner = "ORA" amount = 50 version_name = "Amicontesta Mk 0" }
+
+	}
+	1376 = { 								
+		small_plane_cas_airframe_0 = { owner = "ORA" amount = 50 version_name = "Amicontesta Mk 0" }
+
+	}
+	1385 = { 								
+		small_plane_airframe_0 = { owner = "ORA" amount = 50 version_name = "Nazia Mk 1" }
+small_plane_airframe_0 = { owner = "ORA" amount = 50 version_name = "Nazia Mk 1" }
+medium_plane_airframe_0 = { owner = "ORA" amount = 50 version_name = "Aritto Mk 1" }
+
+	}
+	1540 = { 								
+		small_plane_cas_airframe_0 = { owner = "ORA" amount = 50 version_name = "Amicontesta Mk 0" }
+
+	}
+
+
+}

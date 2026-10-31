@@ -1,0 +1,45 @@
+
+state={
+	id=47
+	name="STATE_47"
+	manpower = 4204055
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=9
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 526 2}
+		victory_points = { 538 2}
+		victory_points = { 542 1}
+		victory_points = { 548 2}
+		victory_points = { 549 2}
+		
+		owner = QAL
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			546 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = QAL
+	}
+
+	provinces={
+		526 527 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 
+	}
+	local_supplies=0.0 
+}

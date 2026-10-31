@@ -1,0 +1,30 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Seni Fleet"			
+		naval_base = 14343
+		task_force = {
+			name = "Seni Fleet"
+			location = 14343
+			
+						ship = { name = "Raja" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = XEN version_name = "Bapa Class" } }	}
+			ship = { name = "Jemba" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = XEN version_name = "Peruh Class" } }	}
+			ship = { name = "Bapa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = XEN version_name = "Peruh Class" } }	}
+			ship = { name = "Hutri" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = XEN version_name = "Peruh Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

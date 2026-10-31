@@ -1,0 +1,849 @@
+capital = 1312
+
+oob = "AGU_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "AGU_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "AGU_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	interwar_antitank= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	fuel_refining= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Sotz Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = expanded_fuel_tank
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Naranilaman Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = extra_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Naracol Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Chilacomte Mk 2"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Bakbe Mk 1"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Bakaluun Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "AGU_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			basic_small_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Chilacomte Mk 0"
+			type = cv_small_plane_cas_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Zamna Mk 1"
+			type = cv_small_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Ikalamanikal Mk 1"
+			type = cv_small_plane_naval_bomber_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Chau Mk 2"
+			type = small_plane_cas_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Oxib Mk 1"
+			type = small_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Balana Mk 2"
+			type = small_plane_naval_bomber_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Ikanek Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Kalak Mk 0"
+			type = cv_small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Yaxulkin Mk 2"
+			type = cv_small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Chual Mk 0"
+			type = cv_small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Aguatecab Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tojil Mk 2"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Mutal Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "AGU_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	basic_carrier = 1
+	basic_destroyer = 1
+	basic_heavy_cruiser = 1
+	basic_light_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "AGU_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Naktunil Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Mutal Class"
+			type = destroyer_2
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Nakal Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Bakaluun Class"
+			type = light_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Kalak Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Chunai Class"
+			type = heavy_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Bakaluun Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Xulkin Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Chual Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Nakal Class"
+			type = carrier_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Nahuwen Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_heavy_armor_scheme = 1
+	basic_heavy_battery = 1
+	basic_naval_mines = 1
+	basic_ship_hull_carrier = 1
+	basic_ship_hull_cruiser = 1
+	basic_ship_hull_light = 1
+	basic_torpedo = 1
+	damage_control_1 = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	fire_control_methods_1 = 1
+	improved_sonar = 1
+	magnetic_detonator = 1
+	mtg_transport = 1
+	sonar = 1
+	submarine_mine_laying = 1
+	
+	}
+	set_naval_oob = "AGU_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Naktunil Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Mutal Class"
+			type = ship_hull_light_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = ship_mine_layer_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Nakal Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Bakaluun Class"
+			type = ship_hull_cruiser_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				mid_2_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Kalak Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_torpedo_1
+				mid_2_custom_slot = ship_medium_battery_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Chunai Class"
+			type = ship_hull_cruiser_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_mine_layer_1
+				mid_2_custom_slot = ship_mine_layer_1
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Bakaluun Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_bc_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_anti_air_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Xulkin Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_bb_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Chual Class"
+			type = ship_hull_carrier_conversion_ca
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Nakal Class"
+			type = ship_hull_carrier_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = ship_anti_air_1
+				mid_1_custom_slot = ship_armor_carrier_deck
+			}
+		}
+		create_equipment_variant = {
+			name = "Nahuwen Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = AGU_Kukulkan_Cozumel
+recruit_character = AGU_Nacatl_Bakhak
+recruit_character = AGU_Tohil_Bach
+recruit_character = AGU_Bacatl_Etzamna
+recruit_character = AGU_Moctez_Yalacol
+recruit_character = AGU_Tohichen_Uxul
+recruit_character = AGU_Nacab_Bahpu
+recruit_character = AGU_Ahkin_Bakaluun
+recruit_character = AGU_Nacatl_Calam
+recruit_character = AGU_Kukulkalam_Kaaxch
+recruit_character = AGU_Chak_Haaxul
+recruit_character = AGU_Popo_Bach
+recruit_character = AGU_Acatl_Haaj
+recruit_character = AGU_Moctez_Ikanek
+recruit_character = AGU_Acab_Kanil
+recruit_character = AGU_Itzam_Zotzamal
+recruit_character = AGU_Ekchichen_Mutalahual
+recruit_character = AGU_Tohil_Bahpu
+recruit_character = AGU_Ekchua_Bach
+recruit_character = AGU_Ekchichen_Kukulkin
+recruit_character = AGU_Chichen_Zotzamal
+recruit_character = AGU_Bacatl_Nakmul
+recruit_character = AGU_Nacatl_Bahuwen
+recruit_character = AGU_Tohil_Chau
+recruit_character = AGU_Kukulkanek_Cozumel
+recruit_character = AGU_Itzam_Chual
+recruit_character = AGU_Acab_Bona
+recruit_character = AGU_Nacab_Bonampak
+recruit_character = AGU_Itzam_Bonampak
+recruit_character = AGU_Ekchichen_Yaxulkin
+recruit_character = AGU_Nacom_Palan
+recruit_character = AGU_Kukulkanek_Naracol
+recruit_character = AGU_Chak_Balachen
+recruit_character = AGU_Ekchil_Zotzamal
+recruit_character = AGU_Kukulkanek_Zotzamal
+recruit_character = AGU_Moctez_Bakhak
+recruit_character = AGU_Tecun_Oxlancue
+recruit_character = AGU_Nacom_Aguatecab
+recruit_character = AGU_Acab_Kate
+recruit_character = AGU_Tohichen_Bona
+recruit_character = AGU_Kanek_Chun
+recruit_character = AGU_Tohichen_Halan
+recruit_character = AGU_Pakal_Bakhak
+recruit_character = AGU_Bacatl_Nakal
+recruit_character = AGU_Acatl_Xulkin
+recruit_character = AGU_Nacom_Chakalahuala
+recruit_character = AGU_Acatl_Chunai
+recruit_character = AGU_Ekchua_Naracol
+recruit_character = AGU_Ekchakanek_Ajawak
+recruit_character = AGU_Kukulkalam_Nahuwen
+recruit_character = AGU_Tohil_Bona
+recruit_character = AGU_Bacatl_Nacolkabalam
+recruit_character = AGU_Balam_Ikalamanikal
+recruit_character = AGU_Tohil_Naranilaman
+recruit_character = AGU_Kukulkalam_Tikin
+recruit_character = AGU_Ekchil_Ikalamanikal
+recruit_character = AGU_Nacatl_Kalen
+recruit_character = AGU_Acatl_Chok
+recruit_character = AGU_Moctez_Chilacomte
+recruit_character = AGU_Tecun_Oxlacomtecab
+recruit_character = AGU_Tohil_Mutalahual
+recruit_character = AGU_Nacab_Nacolkabalam
+recruit_character = AGU_Popo_Bacolkin
+recruit_character = AGU_Tohichen_Kana
+recruit_character = AGU_Oxib_Caluun
+recruit_character = AGU_Kukulkanek_Sotz
+recruit_character = AGU_Ekchua_Chok
+recruit_character = AGU_Nacab_Mutal
+recruit_character = AGU_Balam_Baluun
+recruit_character = AGU_Popo_Naracol
+recruit_character = AGU_Ekchakanek_Imox
+recruit_character = AGU_Oxib_Bona
+recruit_character = AGU_Ahkin_Yaxulkin
+recruit_character = AGU_Yaxkin_Haaxul
+recruit_character = AGU_Pakal_Kalak
+recruit_character = AGU_Kanek_Nakal
+recruit_character = AGU_Kanek_Bakaluun
+recruit_character = AGU_Kukulkal_Mutal
+recruit_character = AGU_Bacom_Bona
+recruit_character = AGU_Bacom_Oxlan
+recruit_character = AGU_Acab_Manque
+recruit_character = AGU_Ekchichen_Manque
+recruit_character = AGU_Popo_Yaluun
+recruit_character = AGU_Itzam_Palan
+recruit_character = AGU_Ekchil_Akban
+recruit_character = AGU_Tecun_Baluun
+recruit_character = AGU_Pakal_Chau
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 320
+set_stability = 0.91
+set_war_support = 0.76
+
+add_ideas = {
+extensive_conscription
+civilian_economy
+closed_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1929.6.25"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 1
+	communism = 57
+	neutrality = 32
+}
+
+
+
+
+

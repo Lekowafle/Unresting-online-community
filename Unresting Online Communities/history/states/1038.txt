@@ -1,0 +1,44 @@
+
+state={
+	id=1038
+	name="STATE_1038"
+	manpower = 4368725
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12123 4}
+		victory_points = { 12124 4}
+		victory_points = { 12125 4}
+		victory_points = { 12130 4}
+		
+		owner = AKG
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 2
+			12134 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AKG
+	}
+
+	provinces={
+		12118 12119 12120 12121 12122 12123 12124 12125 12126 12127 12128 12129 12130 12131 12132 12133 12134 12135 12136 12137 12138 12139 
+	}
+	local_supplies=0.0 
+}

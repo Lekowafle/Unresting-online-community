@@ -1,0 +1,30 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Nadal Fleet"			
+		naval_base = 6432
+		task_force = {
+			name = "Nadal Fleet"
+			location = 6432
+			
+						ship = { name = "Ruaislin" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NAD version_name = "Solamhne Class" } }	}
+			ship = { name = "Dorc" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NAD version_name = "Solamhne Class" } }	}
+			ship = { name = "Mail" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NAD version_name = "Solamhne Class" } }	}
+			ship = { name = "Leanas" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NAD version_name = "Solamhne Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,34 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Laoisceas Fleet"			
+		naval_base = 17142
+		task_force = {
+			name = "Laoisceas Fleet"
+			location = 17142
+			
+						ship = { name = "Abhailte" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LPO version_name = "Baigh Class" } }	}
+			ship = { name = "Dubh" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LPO version_name = "Bailin Class" } }	}
+			ship = { name = "Buailte" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LPO version_name = "Baigh Class" } }	}
+			ship = { name = "Rata" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LPO version_name = "Tall Class" } }	}
+			ship = { name = "Bunasam" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = LPO version_name = "Baigh Class" } }	}
+			ship = { name = "Muim" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LPO version_name = "Tall Class" } }	}
+			ship = { name = "Tras" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LPO version_name = "Tall Class" } }	}
+			ship = { name = "Each" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LPO version_name = "Tall Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

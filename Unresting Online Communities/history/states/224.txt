@@ -1,0 +1,37 @@
+
+state={
+	id=224
+	name="STATE_224"
+	manpower = 694756
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LPO
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = LPO
+	}
+
+	provinces={
+		2604 2605 2606 2607 
+	}
+	local_supplies=0.0 
+}

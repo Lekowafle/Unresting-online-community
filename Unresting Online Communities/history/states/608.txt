@@ -1,0 +1,45 @@
+
+state={
+	id=608
+	name="STATE_608"
+	manpower = 4699555
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=6
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6704 9}
+		victory_points = { 6707 4}
+		victory_points = { 6708 4}
+		victory_points = { 6710 1}
+		victory_points = { 6717 4}
+		
+		owner = KAP
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 2
+			6704 = {
+				naval_base = 4
+			}
+			
+		}
+		add_core_of = KAP
+	}
+
+	provinces={
+		6699 6700 6701 6702 6703 6704 6705 6706 6707 6708 6709 6710 6711 6712 6713 6714 6715 6716 6717 6718 6719 6720 6721 
+	}
+	local_supplies=0.0 
+}

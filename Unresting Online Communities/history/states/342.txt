@@ -1,0 +1,41 @@
+
+state={
+	id=342
+	name="STATE_342"
+	manpower = 1281227
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3836 1}
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			3839 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		3836 3837 3838 3839 3840 3841 3842 
+	}
+	local_supplies=0.0 
+}

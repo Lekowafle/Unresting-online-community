@@ -1,0 +1,41 @@
+
+state={
+	id=720
+	name="STATE_720"
+	manpower = 2725638
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=10
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8152 2}
+		victory_points = { 8156 1}
+		victory_points = { 8158 2}
+		victory_points = { 8161 2}
+		
+		owner = XEN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XEN
+	}
+
+	provinces={
+		8147 8148 8149 8150 8151 8152 8153 8154 8155 8156 8157 8158 8159 8160 8161 
+	}
+	local_supplies=0.0 
+}

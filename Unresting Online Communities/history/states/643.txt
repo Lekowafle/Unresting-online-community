@@ -1,0 +1,39 @@
+
+state={
+	id=643
+	name="STATE_643"
+	manpower = 1449854
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7167 1}
+		victory_points = { 7171 2}
+		
+		owner = VOD
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = VOD
+	}
+
+	provinces={
+		7167 7168 7169 7170 7171 7172 7173 7174 
+	}
+	local_supplies=0.0 
+}

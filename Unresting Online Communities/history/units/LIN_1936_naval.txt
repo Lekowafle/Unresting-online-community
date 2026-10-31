@@ -1,0 +1,30 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Ling Fleet"			
+		naval_base = 12797
+		task_force = {
+			name = "Ling Fleet"
+			location = 12797
+			
+						ship = { name = "Jiang" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LIN version_name = "Shong Class" } }	}
+			ship = { name = "Tian" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LIN version_name = "Shong Class" } }	}
+			ship = { name = "Nang" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = LIN version_name = "Feng Class" } }	}
+			ship = { name = "Sheng" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = LIN version_name = "Feng Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

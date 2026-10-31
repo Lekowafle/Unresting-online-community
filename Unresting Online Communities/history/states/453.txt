@@ -1,0 +1,40 @@
+
+state={
+	id=453
+	name="STATE_453"
+	manpower = 3231936
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=5
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5118 4}
+		victory_points = { 5125 4}
+		victory_points = { 5128 4}
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		5112 5113 5114 5115 5116 5117 5118 5119 5120 5121 5122 5123 5124 5125 5126 5127 5128 
+	}
+	local_supplies=0.0 
+}

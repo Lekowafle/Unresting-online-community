@@ -1,0 +1,38 @@
+
+state={
+	id=552
+	name="STATE_552"
+	manpower = 191701
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6136 1}
+		
+		owner = RUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RUA
+	}
+
+	provinces={
+		6136 
+	}
+	local_supplies=0.0 
+}

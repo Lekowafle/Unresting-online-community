@@ -1,0 +1,40 @@
+
+state={
+	id=1395
+	name="STATE_1395"
+	manpower = 3396484
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16087 3}
+		victory_points = { 16096 3}
+		victory_points = { 16097 4}
+		
+		owner = VOC
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = VOC
+	}
+
+	provinces={
+		16079 16080 16081 16082 16083 16084 16085 16086 16087 16088 16089 16090 16091 16092 16093 16094 16095 16096 16097 
+	}
+	local_supplies=0.0 
+}

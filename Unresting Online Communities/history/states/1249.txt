@@ -1,0 +1,38 @@
+
+state={
+	id=1249
+	name="STATE_1249"
+	manpower = 1296863
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=6
+		chromium=6
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=6
+		coal=14
+	}
+
+	history={
+		victory_points = { 14460 1}
+		
+		owner = XEN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XEN
+	}
+
+	provinces={
+		14458 14459 14460 14461 14462 14463 14464 14465 14466 14467 
+	}
+	local_supplies=0.0 
+}

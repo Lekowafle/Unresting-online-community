@@ -1,0 +1,57 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Oranimortine Fleet"			
+		naval_base = 17166
+		task_force = {
+			name = "Oranimortine Fleet"
+			location = 17166
+			
+						ship = { name = "Giusce" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ORA version_name = "Traccame Class" } }	}
+			ship = { name = "Came" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = ORA version_name = "Acqua Class" } }	}
+			ship = { name = "Cappa" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ORA version_name = "Traccame Class" } }	}
+			ship = { name = "Acqua" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ORA version_name = "Traccame Class" } }	}
+			ship = { name = "Luna" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ORA version_name = "Lamoresero Class" } }	}
+			ship = { name = "Incia" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ORA version_name = "Ricolagna Class" } }	}
+			ship = { name = "Nemordizio" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ORA version_name = "Lamoresero Class" } }	}
+			ship = { name = "Sanza" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ORA version_name = "Lamoresero Class" } }	}
+			ship = { name = "Incia 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ORA version_name = "Lamoresero Class" } }	}
+			ship = { name = "Traccame" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ORA version_name = "Glone Class" } }	}
+			ship = { name = "Chielo" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ORA version_name = "Ricolagna Class" } }	}
+			ship = { name = "Sorra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ORA version_name = "Glone Class" } }	}
+			ship = { name = "Reanza" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ORA version_name = "Ghia Class" } }	}
+			ship = { name = "Acqua 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ORA version_name = "Ricolagna Class" } }	}
+			ship = { name = "Lamoresero" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ORA version_name = "Lamoresero Class" } }	}
+			ship = { name = "Segiave" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ORA version_name = "Ghia Class" } }	}
+			ship = { name = "Cuolla" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ORA version_name = "Glone Class" } }	}
+			ship = { name = "Reggionerno" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ORA version_name = "Lamoresero Class" } }	}
+			ship = { name = "Rume" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ORA version_name = "Ricolagna Class" } }	}
+			ship = { name = "Lina" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ORA version_name = "Ricolagna Class" } }	}
+			ship = { name = "Armanta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ORA version_name = "Glone Class" } }	}
+			ship = { name = "Nemordizio 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ORA version_name = "Lamoresero Class" } }	}
+			ship = { name = "Volon" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ORA version_name = "Lamoresero Class" } }	}
+			ship = { name = "Rume 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ORA version_name = "Glone Class" } }	}
+			ship = { name = "Guera" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ORA version_name = "Ricolagna Class" } }	}
+			ship = { name = "Acqua 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ORA version_name = "Ghia Class" } }	}
+			ship = { name = "Luna 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ORA version_name = "Lamoresero Class" } }	}
+			ship = { name = "Nome" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ORA version_name = "Glone Class" } }	}
+			ship = { name = "Ricolagna" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ORA version_name = "Ghia Class" } }	}
+			ship = { name = "Piavalenedia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ORA version_name = "Ghia Class" } }	}
+			ship = { name = "Lina 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ORA version_name = "Glone Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,45 @@
+
+state={
+	id=10
+	name="STATE_10"
+	manpower = 2725332
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 99 1}
+		victory_points = { 103 2}
+		victory_points = { 105 2}
+		victory_points = { 107 1}
+		victory_points = { 110 2}
+		
+		owner = FON
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			99 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FON
+	}
+
+	provinces={
+		97 98 99 100 101 102 103 104 105 106 107 108 109 110 
+	}
+	local_supplies=0.0 
+}

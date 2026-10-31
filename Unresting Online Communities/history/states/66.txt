@@ -1,0 +1,43 @@
+
+state={
+	id=66
+	name="STATE_66"
+	manpower = 2457325
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 865 5}
+		victory_points = { 867 3}
+		victory_points = { 869 1}
+		
+		owner = BUA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 2
+			
+			869 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BUA
+	}
+
+	provinces={
+		857 858 859 860 861 862 863 864 865 866 867 868 869 
+	}
+	local_supplies=0.0 
+}

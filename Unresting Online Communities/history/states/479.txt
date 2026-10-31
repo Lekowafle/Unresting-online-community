@@ -1,0 +1,39 @@
+
+state={
+	id=479
+	name="STATE_479"
+	manpower = 2248008
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=21
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5331 1}
+		victory_points = { 5335 5}
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		5328 5329 5330 5331 5332 5333 5334 5335 5336 5337 5338 5339 
+	}
+	local_supplies=0.0 
+}

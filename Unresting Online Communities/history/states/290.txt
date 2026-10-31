@@ -1,0 +1,42 @@
+
+state={
+	id=290
+	name="STATE_290"
+	manpower = 1848312
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3334 1}
+		victory_points = { 3342 1}
+		
+		owner = YHI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			3342 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = YHI
+	}
+
+	provinces={
+		3332 3333 3334 3335 3336 3337 3338 3339 3340 3341 3342 3343 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=241
+	name="STATE_241"
+	manpower = 1349043
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2774 6}
+		
+		owner = AME
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AME
+	}
+
+	provinces={
+		2773 2774 2775 2776 2777 2778 2779 
+	}
+	local_supplies=0.0 
+}

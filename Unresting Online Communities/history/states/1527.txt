@@ -1,0 +1,41 @@
+
+state={
+	id=1527
+	name="STATE_1527"
+	manpower = 204756
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17144 1}
+		
+		owner = UAT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17144 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = UAT
+	}
+
+	provinces={
+		17144 
+	}
+	local_supplies=0.0 
+}

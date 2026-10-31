@@ -1,0 +1,38 @@
+
+state={
+	id=598
+	name="STATE_598"
+	manpower = 927540
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6590 2}
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		6590 6591 6592 6593 6594 
+	}
+	local_supplies=0.0 
+}

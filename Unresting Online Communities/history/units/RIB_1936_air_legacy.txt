@@ -1,0 +1,14 @@
+air_wings = {
+		928 = { 								
+		fighter_equipment_0 = { owner = "RIB" amount = 33 version_name = "Tohich Mk 2" }
+tac_bomber_equipment_0 = { owner = "RIB" amount = 38 version_name = "Canilahlanab Mk 1" }
+
+	}
+	626 = { 								
+		CAS_equipment_0 = { owner = "RIB" amount = 24 version_name = "Cobahun Mk 2" }
+nav_bomber_equipment_0 = { owner = "RIB" amount = 34 version_name = "Witz Mk 0" }
+
+	}
+
+
+}

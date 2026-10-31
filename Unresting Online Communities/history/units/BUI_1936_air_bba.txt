@@ -1,0 +1,13 @@
+air_wings = {
+		127 = { 								
+		small_plane_airframe_0 = { owner = "BUI" amount = 5 version_name = "Talas Mk 2" }
+medium_plane_airframe_0 = { owner = "BUI" amount = 3 version_name = "Beamhreach Mk 1" }
+
+	}
+	445 = { 								
+		small_plane_cas_airframe_0 = { owner = "BUI" amount = 2 version_name = "Gluach Mk 2" }
+
+	}
+
+
+}

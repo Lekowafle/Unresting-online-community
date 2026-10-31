@@ -1,0 +1,38 @@
+
+state={
+	id=456
+	name="STATE_456"
+	manpower = 2499836
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5160 10}
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		5151 5152 5153 5154 5155 5156 5157 5158 5159 5160 5161 5162 5163 
+	}
+	local_supplies=0.0 
+}

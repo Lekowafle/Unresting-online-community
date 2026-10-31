@@ -1,0 +1,40 @@
+
+state={
+	id=185
+	name="STATE_185"
+	manpower = 2620616
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2127 6}
+		victory_points = { 2128 3}
+		victory_points = { 2133 3}
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		2127 2128 2129 2130 2131 2132 2133 2134 2135 2136 2137 2138 2139 
+	}
+	local_supplies=0.0 
+}

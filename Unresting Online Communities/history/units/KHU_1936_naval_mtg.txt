@@ -1,0 +1,40 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Thunporugava Fleet"			
+		naval_base = 17159
+		task_force = {
+			name = "Thunporugava Fleet"
+			location = 17159
+			
+						ship = { name = "Thoppu" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KHU version_name = "Thai Class" } }	}
+			ship = { name = "Tharai" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KHU version_name = "Nenjil Class" } }	}
+			ship = { name = "Kadutham" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KHU version_name = "Nenjil Class" } }	}
+			ship = { name = "Thaganai" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KHU version_name = "Nenjil Class" } }	}
+			ship = { name = "Thaganai 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KHU version_name = "Nenjil Class" } }	}
+			ship = { name = "Kanavai" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KHU version_name = "Vizhchai Class" } }	}
+			ship = { name = "Inippu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KHU version_name = "Vizhchai Class" } }	}
+			ship = { name = "Thumayal" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KHU version_name = "Nenjil Class" } }	}
+			ship = { name = "Kanavai 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KHU version_name = "Thai Class" } }	}
+			ship = { name = "Vazhai" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KHU version_name = "Thai Class" } }	}
+			ship = { name = "Thaganai 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KHU version_name = "Nenjil Class" } }	}
+			ship = { name = "Sugavalam" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KHU version_name = "Thai Class" } }	}
+			ship = { name = "Thonmai" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KHU version_name = "Vizhchai Class" } }	}
+			ship = { name = "Makkal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KHU version_name = "Vizhchai Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

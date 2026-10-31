@@ -1,0 +1,40 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Imnayt Fleet"			
+		naval_base = 4036
+		task_force = {
+			name = "Imnayt Fleet"
+			location = 4036
+			
+						ship = { name = "Tamdar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMN version_name = "Tazmert Class" } }	}
+			ship = { name = "Tidrawt" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = IMN version_name = "Tamezi Class" } }	}
+			ship = { name = "Tissirem" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = IMN version_name = "Asiremt Class" } }	}
+			ship = { name = "Ameqran" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMN version_name = "Tazmert Class" } }	}
+			ship = { name = "Tidrawt 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = IMN version_name = "Tamezi Class" } }	}
+			ship = { name = "Assous" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMN version_name = "Tazmert Class" } }	}
+			ship = { name = "Assous 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMN version_name = "Tazmert Class" } }	}
+			ship = { name = "Taghremt" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMN version_name = "Tazmert Class" } }	}
+			ship = { name = "Tamdar 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMN version_name = "Tazmert Class" } }	}
+			ship = { name = "Amerwizirem" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMN version_name = "Tazmert Class" } }	}
+			ship = { name = "Amert" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = IMN version_name = "Tamezi Class" } }	}
+			ship = { name = "Amerwizirt" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMN version_name = "Tazmert Class" } }	}
+			ship = { name = "Amert 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMN version_name = "Tazmert Class" } }	}
+			ship = { name = "Amezwur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = IMN version_name = "Tazmert Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

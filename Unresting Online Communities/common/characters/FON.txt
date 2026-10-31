@@ -1,0 +1,1083 @@
+characters = {
+	FON_Vica_Temichia={
+		name="Vica Temichia"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { agricultural_capitalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FON_Victo_Esero={
+		name="Victo Esero"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Victo_Esero
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FON_Nictor_Cappama={
+		name="Nictor Cappama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Nictor_Cappama
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FON_Vica_Cavolo={
+		name="Vica Cavolo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Vica_Cavolo
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FON_Bruno_Solo={
+		name="Bruno Solo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Bruno_Solo
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FON_Steo_Arma={
+		name="Steo Arma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Steo_Arma
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FON_Felien_Cava={
+		name="Felien Cava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Felien_Cava
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FON_Rico_Ponfo={
+		name="Rico Ponfo"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Rico_Ponfo
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	FON_Antor_Segiave={
+		name="Antor Segiave"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Antor_Segiave
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	FON_Andro_Lagna={
+		name="Andro Lagna"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Andro_Lagna
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	FON_Ramonio_Lagio={
+		name="Ramonio Lagio"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Ramonio_Lagio
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	FON_Francescomon_Reanza={
+		name="Francescomon Reanza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FON_Francescomon_Reanza
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	FON_Enzo_Neve={
+		name="Enzo Neve"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FON_Enzo_Neve
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	FON_Nico_Spitanto={
+		name="Nico Spitanto"
+
+		advisor={
+			slot = air_chief
+			idea_token = FON_Nico_Spitanto
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	FON_Alexancescom_Fiusce={
+		name="Alexancescom Fiusce"
+
+		advisor={
+			slot = air_chief
+			idea_token = FON_Alexancescom_Fiusce
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	FON_Pedre_Merria={
+		name="Pedre Merria"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Pedre_Merria
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	FON_Frano_Accio={
+		name="Frano Accio"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Frano_Accio
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	FON_Bruno_Legio={
+		name="Bruno Legio"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Bruno_Legio
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	FON_Rico_Lego={
+		name="Rico Lego"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Rico_Lego
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	FON_Felien_Nazia={
+		name="Felien Nazia"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Felien_Nazia
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	FON_Thien_Segiave={
+		name="Thien Segiave"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Thien_Segiave
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	FON_Ramonio_Aritto={
+		name="Ramonio Aritto"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { militant_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FON_Lucario_Corra={
+		name="Lucario Corra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Lucario_Corra
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FON_Marlo_Cavalo={
+		name="Marlo Cavalo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Marlo_Cavalo
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FON_Leonio_Glone={
+		name="Leonio Glone"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Leonio_Glone
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FON_Mattefandre_Glone={
+		name="Mattefandre Glone"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Mattefandre_Glone
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FON_Robertor_Incia={
+		name="Robertor Incia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Robertor_Incia
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FON_Ramonarcolas_Freto={
+		name="Ramonarcolas Freto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Ramonarcolas_Freto
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FON_Felipe_Fuorincia={
+		name="Felipe Fuorincia"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Felipe_Fuorincia
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	FON_Vicomo_Legio={
+		name="Vicomo Legio"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Vicomo_Legio
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	FON_Andro_Vocelleamenz={
+		name="Andro Vocelleamenz"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Andro_Vocelleamenz
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	FON_Vico_Lagna={
+		name="Vico Lagna"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Vico_Lagna
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	FON_Mardo_Imperrola={
+		name="Mardo Imperrola"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FON_Mardo_Imperrola
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	FON_Paolas_Reanza={
+		name="Paolas Reanza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FON_Paolas_Reanza
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	FON_Lucario_Lina={
+		name="Lucario Lina"
+
+		advisor={
+			slot = air_chief
+			idea_token = FON_Lucario_Lina
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	FON_Vica_Terolagliern={
+		name="Vica Terolagliern"
+
+		advisor={
+			slot = air_chief
+			idea_token = FON_Vica_Terolagliern
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	FON_Julien_Terolagliern={
+		name="Julien Terolagliern"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Julien_Terolagliern
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	FON_Luis_Cavallo={
+		name="Luis Cavallo"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Luis_Cavallo
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	FON_Frano_Reggionerno={
+		name="Frano Reggionerno"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Frano_Reggionerno
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	FON_Andro_Traccame={
+		name="Andro Traccame"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Andro_Traccame
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	FON_Albertonio_Arco={
+		name="Albertonio Arco"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Albertonio_Arco
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	FON_Alexano_Oasimonto={
+		name="Alexano Oasimonto"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Alexano_Oasimonto
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	FON_Mattefandre_Imperrola={
+		name="Mattefandre Imperrola"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FON_Alexano_Temichia={
+		name="Alexano Temichia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Alexano_Temichia
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FON_Andro_Mone={
+		name="Andro Mone"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Andro_Mone
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FON_Andre_Labircolo={
+		name="Andre Labircolo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Andre_Labircolo
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FON_Paolas_Accio={
+		name="Paolas Accio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Paolas_Accio
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FON_Julipe_Reggionerno={
+		name="Julipe Reggionerno"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Julipe_Reggionerno
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FON_Jeancesco_Mapiracelo={
+		name="Jeancesco Mapiracelo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Jeancesco_Mapiracelo
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FON_Andre_Oranimortine={
+		name="Andre Oranimortine"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Andre_Oranimortine
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	FON_Nicardo_Fone={
+		name="Nicardo Fone"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Nicardo_Fone
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	FON_Vico_Oasimonto={
+		name="Vico Oasimonto"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Vico_Oasimonto
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	FON_Francescomon_Oasi={
+		name="Francescomon Oasi"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Francescomon_Oasi
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	FON_Nictor_Sogna={
+		name="Nictor Sogna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FON_Nictor_Sogna
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	FON_Thien_Glone={
+		name="Thien Glone"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FON_Thien_Glone
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	FON_Ramon_Amicontesta={
+		name="Ramon Amicontesta"
+
+		advisor={
+			slot = air_chief
+			idea_token = FON_Ramon_Amicontesta
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	FON_Pablo_Giusce={
+		name="Pablo Giusce"
+
+		advisor={
+			slot = air_chief
+			idea_token = FON_Pablo_Giusce
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	FON_Marco_Rume={
+		name="Marco Rume"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Marco_Rume
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	FON_Julierto_Muradiognali={
+		name="Julierto Muradiognali"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Julierto_Muradiognali
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	FON_Stefano_Traccame={
+		name="Stefano Traccame"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Stefano_Traccame
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	FON_Pedre_Cappama={
+		name="Pedre Cappama"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Pedre_Cappama
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	FON_Roberry_Lamoresero={
+		name="Roberry Lamoresero"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Roberry_Lamoresero
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	FON_Victo_Anguaro={
+		name="Victo Anguaro"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Victo_Anguaro
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	FON_Julierto_Spitanto={
+		name="Julierto Spitanto"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FON_Fran_Cavolo={
+		name="Fran Cavolo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Fran_Cavolo
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FON_Mattefandre_Santello={
+		name="Mattefandre Santello"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Mattefandre_Santello
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FON_Jeandre_Volon={
+		name="Jeandre Volon"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Jeandre_Volon
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FON_Julierto_Cappadizio={
+		name="Julierto Cappadizio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Julierto_Cappadizio
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FON_Nictor_Cavalo={
+		name="Nictor Cavalo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Nictor_Cavalo
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FON_Paolas_Menza={
+		name="Paolas Menza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FON_Paolas_Menza
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FON_Mardo_Fiusce={
+		name="Mardo Fiusce"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Mardo_Fiusce
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	FON_Felien_Freto={
+		name="Felien Freto"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Felien_Freto
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	FON_Stefano_Cavalo={
+		name="Stefano Cavalo"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Stefano_Cavalo
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	FON_Pablo_Pacorionto={
+		name="Pablo Pacorionto"
+
+		advisor={
+			slot = army_chief
+			idea_token = FON_Pablo_Pacorionto
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	FON_Leonio_Chielo={
+		name="Leonio Chielo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FON_Leonio_Chielo
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	FON_Anto_Legio={
+		name="Anto Legio"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FON_Anto_Legio
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	FON_Pedre_Mura={
+		name="Pedre Mura"
+
+		advisor={
+			slot = air_chief
+			idea_token = FON_Pedre_Mura
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	FON_Nictor_Verego={
+		name="Nictor Verego"
+
+		advisor={
+			slot = air_chief
+			idea_token = FON_Nictor_Verego
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	FON_Felipe_Impo={
+		name="Felipe Impo"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Felipe_Impo
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	FON_Nicardo_Oasimonto={
+		name="Nicardo Oasimonto"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Nicardo_Oasimonto
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	FON_Giaco_Ghia={
+		name="Giaco Ghia"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Giaco_Ghia
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	FON_Felien_Mesimente={
+		name="Felien Mesimente"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Felien_Mesimente
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	FON_Matteo_Mura={
+		name="Matteo Mura"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Matteo_Mura
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	FON_Pablo_Cavalo={
+		name="Pablo Cavalo"
+
+		advisor={
+			slot = high_command
+			idea_token = FON_Pablo_Cavalo
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	FON_Felien_Neve={
+		name="Felien Neve"
+
+		advisor={
+			slot = theorist
+			idea_token = FON_Felien_Neve
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	FON_Julierto_Labircolo={
+		name="Julierto Labircolo"
+
+		advisor={
+			slot = theorist
+			idea_token = FON_Julierto_Labircolo
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	FON_Bruno_Sogna={
+		name="Bruno Sogna"
+
+		advisor={
+			slot = theorist
+			idea_token = FON_Bruno_Sogna
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

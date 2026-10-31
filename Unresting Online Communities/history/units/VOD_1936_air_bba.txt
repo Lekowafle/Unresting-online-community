@@ -1,0 +1,25 @@
+air_wings = {
+		859 = { 								
+		small_plane_cas_airframe_0 = { owner = "VOD" amount = 50 version_name = "Slika Mk 1" }
+small_plane_airframe_0 = { owner = "VOD" amount = 49 version_name = "Galj Mk 2" }
+
+	}
+	651 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "VOD" amount = 42 version_name = "Teat Mk 1" }
+
+	}
+	685 = { 								
+		small_plane_cas_airframe_0 = { owner = "VOD" amount = 50 version_name = "Slika Mk 1" }
+
+	}
+	768 = { 								
+		medium_plane_airframe_0 = { owner = "VOD" amount = 50 version_name = "Ostvo Mk 1" }
+
+	}
+	891 = { 								
+		medium_plane_airframe_0 = { owner = "VOD" amount = 50 version_name = "Ostvo Mk 1" }
+
+	}
+
+
+}

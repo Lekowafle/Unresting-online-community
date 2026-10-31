@@ -1,0 +1,19 @@
+air_wings = {
+		214 = { 								
+		small_plane_airframe_0 = { owner = "CUA" amount = 50 version_name = "Gluais Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "CUA" amount = 50 version_name = "Slas Mk 0" }
+
+	}
+	223 = { 								
+		small_plane_cas_airframe_0 = { owner = "CUA" amount = 50 version_name = "Faislinntarr Mk 1" }
+small_plane_cas_airframe_0 = { owner = "CUA" amount = 50 version_name = "Faislinntarr Mk 1" }
+
+	}
+	147 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "CUA" amount = 50 version_name = "Slas Mk 0" }
+medium_plane_airframe_0 = { owner = "CUA" amount = 49 version_name = "Torcras Mk 0" }
+
+	}
+
+
+}

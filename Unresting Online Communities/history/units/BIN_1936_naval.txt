@@ -1,0 +1,39 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Bing Fleet"			
+		naval_base = 17171
+		task_force = {
+			name = "Bing Fleet"
+			location = 17171
+			
+						ship = { name = "Bing" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = BIN version_name = "Bing Class" } }	}
+			ship = { name = "Shong" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BIN version_name = "Xing Class" } }	}
+			ship = { name = "Guan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BIN version_name = "Reng Class" } }	}
+			ship = { name = "Zheng" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BIN version_name = "Huan Class" } }	}
+			ship = { name = "Ying" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BIN version_name = "Xing Class" } }	}
+			ship = { name = "Xing" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BIN version_name = "Xing Class" } }	}
+			ship = { name = "Jiang" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BIN version_name = "Ping Class" } }	}
+			ship = { name = "Shen" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BIN version_name = "Ping Class" } }	}
+			ship = { name = "Lian" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BIN version_name = "Xing Class" } }	}
+			ship = { name = "Reng" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BIN version_name = "Ping Class" } }	}
+			ship = { name = "Jiang 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = BIN version_name = "Xing Class" } }	}
+			ship = { name = "Tiang" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BIN version_name = "Ping Class" } }	}
+			ship = { name = "Chuang" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BIN version_name = "Huan Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

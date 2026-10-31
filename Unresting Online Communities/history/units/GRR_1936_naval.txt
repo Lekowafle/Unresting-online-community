@@ -1,0 +1,30 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Gerbu Fleet"			
+		naval_base = 14468
+		task_force = {
+			name = "Gerbu Fleet"
+			location = 14468
+			
+						ship = { name = "Petawah" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GRR version_name = "Bahu Class" } }	}
+			ship = { name = "Punung" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRR version_name = "Petir Class" } }	}
+			ship = { name = "Petawah 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRR version_name = "Petir Class" } }	}
+			ship = { name = "Batan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRR version_name = "Petir Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,41 @@
+
+state={
+	id=680
+	name="STATE_680"
+	manpower = 3741424
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=7
+		rubber=0
+		steel=8
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7587 1}
+		victory_points = { 7590 2}
+		victory_points = { 7596 4}
+		victory_points = { 7597 2}
+		
+		owner = VOD
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = VOD
+	}
+
+	provinces={
+		7587 7588 7589 7590 7591 7592 7593 7594 7595 7596 7597 7598 7599 7600 7601 7602 7603 7604 7605 7606 7607 
+	}
+	local_supplies=0.0 
+}

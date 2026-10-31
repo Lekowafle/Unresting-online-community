@@ -1,0 +1,39 @@
+
+state={
+	id=1193
+	name="STATE_1193"
+	manpower = 1292986
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13874 1}
+		victory_points = { 13875 1}
+		
+		owner = ALA
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ALA
+	}
+
+	provinces={
+		13874 13875 13876 13877 13878 13879 13880 13881 
+	}
+	local_supplies=0.0 
+}

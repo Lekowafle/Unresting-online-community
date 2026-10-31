@@ -1,0 +1,43 @@
+
+state={
+	id=434
+	name="STATE_434"
+	manpower = 1725910
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4956 3}
+		victory_points = { 4957 1}
+		victory_points = { 4958 1}
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			4959 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		4955 4956 4957 4958 4959 4960 4961 4962 4963 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=88
+	name="STATE_88"
+	manpower = 5032942
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=36
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1096 2}
+		victory_points = { 1105 1}
+		victory_points = { 1106 2}
+		victory_points = { 1113 2}
+		victory_points = { 1119 1}
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		1090 1091 1092 1093 1094 1095 1096 1097 1098 1099 1100 1101 1102 1103 1104 1105 1106 1107 1108 1109 1110 1111 1112 1113 1114 1115 1116 1117 1118 1119 1120 1121 
+	}
+	local_supplies=0.0 
+}

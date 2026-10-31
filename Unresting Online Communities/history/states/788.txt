@@ -1,0 +1,42 @@
+
+state={
+	id=788
+	name="STATE_788"
+	manpower = 3236234
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8991 5}
+		victory_points = { 8997 6}
+		
+		owner = COB
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 2
+			8995 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = COB
+	}
+
+	provinces={
+		8985 8986 8987 8988 8989 8990 8991 8992 8993 8994 8995 8996 8997 8998 8999 9000 9001 
+	}
+	local_supplies=0.0 
+}

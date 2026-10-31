@@ -1,0 +1,40 @@
+
+state={
+	id=469
+	name="STATE_469"
+	manpower = 1053990
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = FAI
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			5262 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FAI
+	}
+
+	provinces={
+		5257 5258 5259 5260 5261 5262 5263 5264 
+	}
+	local_supplies=0.0 
+}

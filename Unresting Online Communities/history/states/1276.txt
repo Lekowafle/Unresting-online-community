@@ -1,0 +1,44 @@
+
+state={
+	id=1276
+	name="STATE_1276"
+	manpower = 1074475
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14799 1}
+		victory_points = { 14800 1}
+		victory_points = { 14801 1}
+		victory_points = { 14802 1}
+		
+		owner = UAT
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			14801 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = UAT
+	}
+
+	provinces={
+		14799 14800 14801 14802 14803 
+	}
+	local_supplies=0.0 
+}

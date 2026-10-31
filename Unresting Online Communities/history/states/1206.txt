@@ -1,0 +1,43 @@
+
+state={
+	id=1206
+	name="STATE_1206"
+	manpower = 4522548
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14010 2}
+		victory_points = { 14022 2}
+		victory_points = { 14032 2}
+		
+		owner = ALA
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			14030 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = ALA
+	}
+
+	provinces={
+		14002 14003 14004 14005 14006 14007 14008 14009 14010 14011 14012 14013 14014 14015 14016 14017 14018 14019 14020 14021 14022 14023 14024 14025 14026 14027 14028 14029 14030 14031 14032 14033 14034 14035 
+	}
+	local_supplies=0.0 
+}

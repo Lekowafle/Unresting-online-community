@@ -1,0 +1,32 @@
+air_wings = {
+		1275 = { 								
+		medium_plane_airframe_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+	1297 = { 								
+		medium_plane_airframe_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+	1277 = { 								
+		medium_plane_airframe_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+	1267 = { 								
+		medium_plane_airframe_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+	1263 = { 								
+		medium_plane_airframe_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+	1287 = { 								
+		medium_plane_airframe_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+	1293 = { 								
+		medium_plane_airframe_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+
+
+}

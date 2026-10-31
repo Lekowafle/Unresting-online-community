@@ -1,0 +1,39 @@
+
+state={
+	id=560
+	name="STATE_560"
+	manpower = 1694884
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6223 3}
+		victory_points = { 6226 1}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 2
+			air_base = 7
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		6219 6220 6221 6222 6223 6224 6225 6226 6227 6228 
+	}
+	local_supplies=0.0 
+}

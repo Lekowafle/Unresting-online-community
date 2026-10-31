@@ -1,0 +1,41 @@
+
+state={
+	id=100
+	name="STATE_100"
+	manpower = 1780310
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1255 4}
+		
+		owner = AHK
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			1249 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AHK
+	}
+
+	provinces={
+		1246 1247 1248 1249 1250 1251 1252 1253 1254 1255 
+	}
+	local_supplies=0.0 
+}

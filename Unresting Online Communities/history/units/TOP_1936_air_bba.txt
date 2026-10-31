@@ -1,0 +1,8 @@
+air_wings = {
+		1068 = { 								
+		medium_plane_airframe_0 = { owner = "TOP" amount = 47 version_name = "Kaye Mk 2" }
+
+	}
+
+
+}

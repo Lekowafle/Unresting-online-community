@@ -1,0 +1,40 @@
+
+state={
+	id=95
+	name="STATE_95"
+	manpower = 2559046
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=7
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1178 3}
+		victory_points = { 1183 2}
+		victory_points = { 1186 2}
+		
+		owner = TOR
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TOR
+	}
+
+	provinces={
+		1178 1179 1180 1181 1182 1183 1184 1185 1186 1187 1188 1189 1190 1191 
+	}
+	local_supplies=0.0 
+}

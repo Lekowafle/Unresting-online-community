@@ -1,0 +1,17 @@
+air_wings = {
+		244 = { 								
+		CAS_equipment_0 = { owner = "BUA" amount = 28 version_name = "Croith Mk 1" }
+
+	}
+	276 = { 								
+		tac_bomber_equipment_0 = { owner = "BUA" amount = 19 version_name = "Rata Mk 2" }
+
+	}
+	102 = { 								
+		fighter_equipment_0 = { owner = "BUA" amount = 17 version_name = "Tuailleanch Mk 2" }
+nav_bomber_equipment_0 = { owner = "BUA" amount = 20 version_name = "Balas Mk 1" }
+
+	}
+
+
+}

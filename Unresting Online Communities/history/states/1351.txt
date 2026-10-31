@@ -1,0 +1,41 @@
+
+state={
+	id=1351
+	name="STATE_1351"
+	manpower = 283376
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15623 1}
+		
+		owner = AGU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			15623 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGU
+	}
+
+	provinces={
+		15623 
+	}
+	local_supplies=0.0 
+}

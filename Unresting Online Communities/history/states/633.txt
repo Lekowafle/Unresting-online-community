@@ -1,0 +1,38 @@
+
+state={
+	id=633
+	name="STATE_633"
+	manpower = 1168038
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7047 2}
+		
+		owner = TOH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TOH
+	}
+
+	provinces={
+		7045 7046 7047 7048 7049 
+	}
+	local_supplies=0.0 
+}

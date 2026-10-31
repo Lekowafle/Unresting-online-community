@@ -1,0 +1,12 @@
+air_wings = {
+		1120 = { 								
+		fighter_equipment_0 = { owner = "YAN" amount = 4 version_name = "Sakin Mk 1" }
+
+	}
+	1060 = { 								
+		nav_bomber_equipment_0 = { owner = "YAN" amount = 5 version_name = "Saniz Mk 1" }
+
+	}
+
+
+}

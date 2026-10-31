@@ -1,0 +1,42 @@
+
+state={
+	id=1498
+	name="STATE_1498"
+	manpower = 1093471
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17016 2}
+		victory_points = { 17018 2}
+		
+		owner = UAT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			17018 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = UAT
+	}
+
+	provinces={
+		17014 17015 17016 17017 17018 17019 
+	}
+	local_supplies=0.0 
+}

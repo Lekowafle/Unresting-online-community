@@ -1,0 +1,40 @@
+
+state={
+	id=18
+	name="STATE_18"
+	manpower = 2875076
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=7
+		chromium=8
+		oil=0
+		rubber=2
+		steel=1
+		tungsten=7
+		coal=18
+	}
+
+	history={
+		victory_points = { 189 5}
+		victory_points = { 191 2}
+		victory_points = { 199 5}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=1432
+	name="STATE_1432"
+	manpower = 692116
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NUN
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			16405 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NUN
+	}
+
+	provinces={
+		16405 16406 16407 
+	}
+	local_supplies=0.0 
+}

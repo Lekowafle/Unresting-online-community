@@ -1,0 +1,25 @@
+air_wings = {
+		674 = { 								
+		nav_bomber_equipment_0 = { owner = "PAA" amount = 50 version_name = "Unaignai Mk 2" }
+tac_bomber_equipment_0 = { owner = "PAA" amount = 50 version_name = "Udam Mk 2" }
+
+	}
+	785 = { 								
+		nav_bomber_equipment_0 = { owner = "PAA" amount = 50 version_name = "Unaignai Mk 2" }
+
+	}
+	722 = { 								
+		fighter_equipment_0 = { owner = "PAA" amount = 42 version_name = "Kadam Mk 1" }
+
+	}
+	691 = { 								
+		tac_bomber_equipment_0 = { owner = "PAA" amount = 50 version_name = "Udam Mk 2" }
+
+	}
+	742 = { 								
+		CAS_equipment_0 = { owner = "PAA" amount = 34 version_name = "Makku Mk 2" }
+
+	}
+
+
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=432
+	name="STATE_432"
+	manpower = 3382104
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4919 3}
+		victory_points = { 4921 2}
+		victory_points = { 4925 2}
+		victory_points = { 4930 3}
+		victory_points = { 4934 2}
+		
+		owner = BAT
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = BAT
+	}
+
+	provinces={
+		4918 4919 4920 4921 4922 4923 4924 4925 4926 4927 4928 4929 4930 4931 4932 4933 4934 4935 
+	}
+	local_supplies=0.0 
+}

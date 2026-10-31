@@ -1,0 +1,40 @@
+
+state={
+	id=267
+	name="STATE_267"
+	manpower = 1561286
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			3116 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = RUA
+	}
+
+	provinces={
+		3115 3116 3117 3118 3119 3120 3121 3122 3123 
+	}
+	local_supplies=0.0 
+}

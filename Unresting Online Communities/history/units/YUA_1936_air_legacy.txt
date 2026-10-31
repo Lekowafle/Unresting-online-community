@@ -1,0 +1,21 @@
+air_wings = {
+		1034 = { 								
+		tac_bomber_equipment_0 = { owner = "YUA" amount = 11 version_name = "Ming Mk 1" }
+
+	}
+	1076 = { 								
+		CAS_equipment_0 = { owner = "YUA" amount = 8 version_name = "Sheng Mk 2" }
+strat_bomber_equipment_0 = { owner = "YUA" amount = 16 version_name = "Shuang Mk 1" }
+
+	}
+	962 = { 								
+		fighter_equipment_0 = { owner = "YUA" amount = 8 version_name = "Reng Mk 0" }
+
+	}
+	1108 = { 								
+		nav_bomber_equipment_0 = { owner = "YUA" amount = 10 version_name = "Shong Mk 1" }
+
+	}
+
+
+}

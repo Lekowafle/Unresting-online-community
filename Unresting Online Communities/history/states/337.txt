@@ -1,0 +1,41 @@
+
+state={
+	id=337
+	name="STATE_337"
+	manpower = 1469813
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3788 1}
+		victory_points = { 3790 1}
+		victory_points = { 3792 1}
+		victory_points = { 3793 2}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		3788 3789 3790 3791 3792 3793 3794 
+	}
+	local_supplies=0.0 
+}

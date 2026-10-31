@@ -1,0 +1,39 @@
+
+state={
+	id=73
+	name="STATE_73"
+	manpower = 1795142
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 933 3}
+		victory_points = { 938 2}
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		929 930 931 932 933 934 935 936 937 938 
+	}
+	local_supplies=0.0 
+}

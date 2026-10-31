@@ -1,0 +1,197 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			artillery_brigade = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Tuktuuq' Supported Infantry Division"
+		location = 15786
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.901789
+		start_equipment_factor = 0.880787
+	}
+	division= {
+		name = "2nd 'Kuvakak' Supported Infantry Division"
+		location = 16407
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.534876
+		start_equipment_factor = 0.883576
+	}
+	division= {
+		name = "3rd 'Upikigaq' Supported Infantry Division"
+		location = 15775
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.540476
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Qiku' Supported Infantry Division"
+		location = 16289
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.103883
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Anikigaaqpaq' Supported Infantry Division"
+		location = 16077
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.452182
+		start_equipment_factor = 0.977343
+	}
+	division= {
+		name = "6th 'Druttana' Supported Infantry Division"
+		location = 16474
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.434922
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "7th 'Upikiggaq' Supported Infantry Division"
+		location = 15825
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.491896
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "8th 'Saniq' Supported Infantry Division"
+		location = 15781
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.996313
+		start_equipment_factor = 0.922459
+	}
+	division= {
+		name = "1st 'Ituk' Artillery Division"
+		location = 16400
+		division_template = "Artillery Division"
+		start_experience_factor = 0.919035
+		start_equipment_factor = 0.964432
+	}
+	division= {
+		name = "2nd 'Angikuttanfo' Artillery Division"
+		location = 16444
+		division_template = "Artillery Division"
+		start_experience_factor = 0.635983
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Arvivikupaq' Artillery Division"
+		location = 16410
+		division_template = "Artillery Division"
+		start_experience_factor = 0.841002
+		start_equipment_factor = 0.915635
+	}
+	division= {
+		name = "4th 'Kimuviqtuk' Artillery Division"
+		location = 15827
+		division_template = "Artillery Division"
+		start_experience_factor = 0.758725
+		start_equipment_factor = 0.959635
+	}
+	division= {
+		name = "5th 'Susit' Artillery Division"
+		location = 16326
+		division_template = "Artillery Division"
+		start_experience_factor = 0.446171
+		start_equipment_factor = 0.965588
+	}
+	division= {
+		name = "6th 'Nanaq' Artillery Division"
+		location = 16475
+		division_template = "Artillery Division"
+		start_experience_factor = 0.817412
+		start_equipment_factor = 0.903721
+	}
+	division= {
+		name = "7th 'Kuvivaq' Artillery Division"
+		location = 16040
+		division_template = "Artillery Division"
+		start_experience_factor = 0.953863
+		start_equipment_factor = 0.897844
+	}
+
+}

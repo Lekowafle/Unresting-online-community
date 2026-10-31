@@ -1,0 +1,39 @@
+
+state={
+	id=1239
+	name="STATE_1239"
+	manpower = 1234073
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14347 1}
+		victory_points = { 14350 1}
+		
+		owner = UIN
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = UIN
+	}
+
+	provinces={
+		14345 14346 14347 14348 14349 14350 14351 
+	}
+	local_supplies=0.0 
+}

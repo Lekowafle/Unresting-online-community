@@ -1,0 +1,39 @@
+
+state={
+	id=971
+	name="STATE_971"
+	manpower = 2150334
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11282 1}
+		victory_points = { 11285 1}
+		
+		owner = TOP
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TOP
+	}
+
+	provinces={
+		11279 11280 11281 11282 11283 11284 11285 11286 11287 11288 11289 11290 11291 11292 
+	}
+	local_supplies=0.0 
+}

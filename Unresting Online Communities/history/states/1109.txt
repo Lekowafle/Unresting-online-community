@@ -1,0 +1,41 @@
+
+state={
+	id=1109
+	name="STATE_1109"
+	manpower = 6146680
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12864 3}
+		victory_points = { 12870 4}
+		victory_points = { 12877 3}
+		victory_points = { 12889 4}
+		
+		owner = AKG
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = AKG
+	}
+
+	provinces={
+		12861 12862 12863 12864 12865 12866 12867 12868 12869 12870 12871 12872 12873 12874 12875 12876 12877 12878 12879 12880 12881 12882 12883 12884 12885 12886 12887 12888 12889 12890 12891 12892 12893 12894 12895 12896 12897 
+	}
+	local_supplies=0.0 
+}

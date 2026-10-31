@@ -1,0 +1,185 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			maintenance_company = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			artillery_brigade = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Zhan' Militia Division"
+		location = 12347
+		division_template = "Militia Division"
+		start_experience_factor = 0.773523
+		start_equipment_factor = 0.969229
+	}
+	division= {
+		name = "2nd 'Reng' Militia Division"
+		location = 12765
+		division_template = "Militia Division"
+		start_experience_factor = 0.643819
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Zhen' Militia Division"
+		location = 12454
+		division_template = "Militia Division"
+		start_experience_factor = 0.465243
+		start_equipment_factor = 0.937097
+	}
+	division= {
+		name = "1st 'Qing' Infantry Division"
+		location = 13030
+		division_template = "Infantry Division"
+		start_experience_factor = 0.436227
+		start_equipment_factor = 0.957065
+	}
+	division= {
+		name = "2nd 'Shen' Infantry Division"
+		location = 13031
+		division_template = "Infantry Division"
+		start_experience_factor = 0.514498
+		start_equipment_factor = 0.841083
+	}
+	division= {
+		name = "3rd 'Xing' Infantry Division"
+		location = 11181
+		division_template = "Infantry Division"
+		start_experience_factor = 0.962484
+		start_equipment_factor = 0.829320
+	}
+	division= {
+		name = "1st 'Xing' Supported Infantry Division"
+		location = 11567
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.917235
+		start_equipment_factor = 0.851159
+	}
+	division= {
+		name = "2nd 'Shou' Supported Infantry Division"
+		location = 12946
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.584886
+		start_equipment_factor = 0.835700
+	}
+	division= {
+		name = "3rd 'Huang' Supported Infantry Division"
+		location = 11516
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.297668
+		start_equipment_factor = 0.856633
+	}
+	division= {
+		name = "1st 'Jing' Artillery Division"
+		location = 11969
+		division_template = "Artillery Division"
+		start_experience_factor = 0.054904
+		start_equipment_factor = 0.959816
+	}
+	division= {
+		name = "2nd 'Zhen' Artillery Division"
+		location = 11360
+		division_template = "Artillery Division"
+		start_experience_factor = 0.545324
+		start_equipment_factor = 0.946318
+	}
+	division= {
+		name = "1st 'Huang' Cavalry Division"
+		location = 12576
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.138119
+		start_equipment_factor = 0.920848
+	}
+	division= {
+		name = "2nd 'Miang' Cavalry Division"
+		location = 12348
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.007182
+		start_equipment_factor = 0.860174
+	}
+
+}

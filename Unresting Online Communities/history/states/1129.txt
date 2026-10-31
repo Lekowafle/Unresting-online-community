@@ -1,0 +1,40 @@
+
+state={
+	id=1129
+	name="STATE_1129"
+	manpower = 1765354
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13046 2}
+		victory_points = { 13048 1}
+		victory_points = { 13052 2}
+		
+		owner = JIA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = JIA
+	}
+
+	provinces={
+		13046 13047 13048 13049 13050 13051 13052 13053 13054 
+	}
+	local_supplies=0.0 
+}

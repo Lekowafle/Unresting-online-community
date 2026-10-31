@@ -1,0 +1,35 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Katchaadappu Fleet"			
+		naval_base = 17172
+		task_force = {
+			name = "Katchaadappu Fleet"
+			location = 17172
+			
+						ship = { name = "Nadamudiyam" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BAT version_name = "Panaichar Class" } }	}
+			ship = { name = "Mool" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BAT version_name = "Kadithangu Class" } }	}
+			ship = { name = "Thogugavu" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BAT version_name = "Natturam Class" } }	}
+			ship = { name = "Nattu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BAT version_name = "Kadithangu Class" } }	}
+			ship = { name = "Thogugavu 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BAT version_name = "Kadithangu Class" } }	}
+			ship = { name = "Kadithangu" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAT version_name = "Siraiarambu Class" } }	}
+			ship = { name = "Tham" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BAT version_name = "Kadithangu Class" } }	}
+			ship = { name = "Kadithanthi" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BAT version_name = "Natturam Class" } }	}
+			ship = { name = "Merai" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAT version_name = "Siraiarambu Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

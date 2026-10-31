@@ -1,0 +1,41 @@
+
+state={
+	id=1466
+	name="STATE_1466"
+	manpower = 2101035
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16688 1}
+		
+		owner = TUL
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			16696 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TUL
+	}
+
+	provinces={
+		16685 16686 16687 16688 16689 16690 16691 16692 16693 16694 16695 16696 16697 16698 16699 
+	}
+	local_supplies=0.0 
+}

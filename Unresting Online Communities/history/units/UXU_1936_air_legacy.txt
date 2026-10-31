@@ -1,0 +1,75 @@
+air_wings = {
+		667 = { 								
+		fighter_equipment_0 = { owner = "UXU" amount = 50 version_name = "Akbe Mk 2" }
+
+	}
+	913 = { 								
+		strat_bomber_equipment_0 = { owner = "UXU" amount = 50 version_name = "Tohilamancue Mk 2" }
+
+	}
+	807 = { 								
+		CAS_equipment_0 = { owner = "UXU" amount = 50 version_name = "Tzikalam Mk 1" }
+
+	}
+	826 = { 								
+		nav_bomber_equipment_0 = { owner = "UXU" amount = 50 version_name = "Tzikin Mk 2" }
+
+	}
+	880 = { 								
+		nav_bomber_equipment_0 = { owner = "UXU" amount = 50 version_name = "Chol Mk 0" }
+fighter_equipment_0 = { owner = "UXU" amount = 50 version_name = "Palah Mk 2" }
+
+	}
+	614 = { 								
+		tac_bomber_equipment_0 = { owner = "UXU" amount = 50 version_name = "Katecana Mk 2" }
+tac_bomber_equipment_0 = { owner = "UXU" amount = 50 version_name = "Kawak Mk 2" }
+
+	}
+	751 = { 								
+		tac_bomber_equipment_0 = { owner = "UXU" amount = 50 version_name = "Kawak Mk 2" }
+
+	}
+	908 = { 								
+		fighter_equipment_0 = { owner = "UXU" amount = 50 version_name = "Palah Mk 2" }
+
+	}
+	697 = { 								
+		CAS_equipment_0 = { owner = "UXU" amount = 50 version_name = "Witzib Mk 0" }
+
+	}
+	711 = { 								
+		strat_bomber_equipment_0 = { owner = "UXU" amount = 50 version_name = "Tzikalam Mk 2" }
+
+	}
+	827 = { 								
+		strat_bomber_equipment_0 = { owner = "UXU" amount = 50 version_name = "Tohilamancue Mk 2" }
+
+	}
+	871 = { 								
+		strat_bomber_equipment_0 = { owner = "UXU" amount = 50 version_name = "Tzikalam Mk 2" }
+
+	}
+	936 = { 								
+		CAS_equipment_0 = { owner = "UXU" amount = 50 version_name = "Tzikalam Mk 1" }
+tac_bomber_equipment_0 = { owner = "UXU" amount = 50 version_name = "Katecana Mk 2" }
+
+	}
+	906 = { 								
+		nav_bomber_equipment_0 = { owner = "UXU" amount = 50 version_name = "Chol Mk 0" }
+
+	}
+	761 = { 								
+		nav_bomber_equipment_0 = { owner = "UXU" amount = 50 version_name = "Tzikin Mk 2" }
+
+	}
+	700 = { 								
+		CAS_equipment_0 = { owner = "UXU" amount = 50 version_name = "Witzib Mk 0" }
+
+	}
+	838 = { 								
+		fighter_equipment_0 = { owner = "UXU" amount = 50 version_name = "Akbe Mk 2" }
+
+	}
+
+
+}

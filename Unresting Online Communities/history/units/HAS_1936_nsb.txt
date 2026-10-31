@@ -1,0 +1,166 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+			artillery_brigade = {  x = 3 y = 2 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Boldiz' Supported Infantry Division"
+		location = 11914
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.970774
+		start_equipment_factor = 0.872499
+	}
+	division= {
+		name = "2nd 'Basarlis' Supported Infantry Division"
+		location = 12441
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.645023
+		start_equipment_factor = 0.908818
+	}
+	division= {
+		name = "3rd 'Savas' Supported Infantry Division"
+		location = 11119
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.210402
+		start_equipment_factor = 0.938949
+	}
+	division= {
+		name = "4th 'Malum' Supported Infantry Division"
+		location = 12824
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.398083
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Lens' Supported Infantry Division"
+		location = 12604
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.262187
+		start_equipment_factor = 0.866703
+	}
+	division= {
+		name = "6th 'Yaglil' Supported Infantry Division"
+		location = 11146
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.051168
+		start_equipment_factor = 0.915844
+	}
+	division= {
+		name = "7th 'Saat' Supported Infantry Division"
+		location = 12615
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.668308
+		start_equipment_factor = 0.879748
+	}
+	division= {
+		name = "1st 'Asim' Artillery Division"
+		location = 13236
+		division_template = "Artillery Division"
+		start_experience_factor = 0.970006
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Nublittes' Artillery Division"
+		location = 11433
+		division_template = "Artillery Division"
+		start_experience_factor = 0.389927
+		start_equipment_factor = 0.944850
+	}
+	division= {
+		name = "3rd 'Mura' Artillery Division"
+		location = 12680
+		division_template = "Artillery Division"
+		start_experience_factor = 0.282882
+		start_equipment_factor = 0.940209
+	}
+
+}

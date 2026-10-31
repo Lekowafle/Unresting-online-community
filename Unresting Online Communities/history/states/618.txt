@@ -1,0 +1,40 @@
+
+state={
+	id=618
+	name="STATE_618"
+	manpower = 1687721
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6827 2}
+		victory_points = { 6831 1}
+		victory_points = { 6833 2}
+		
+		owner = PAA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = PAA
+	}
+
+	provinces={
+		6827 6828 6829 6830 6831 6832 6833 6834 6835 
+	}
+	local_supplies=0.0 
+}

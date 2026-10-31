@@ -1,0 +1,39 @@
+
+state={
+	id=309
+	name="STATE_309"
+	manpower = 1721132
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=6
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3516 1}
+		victory_points = { 3517 1}
+		
+		owner = BAT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BAT
+	}
+
+	provinces={
+		3508 3509 3510 3511 3512 3513 3514 3515 3516 3517 
+	}
+	local_supplies=0.0 
+}

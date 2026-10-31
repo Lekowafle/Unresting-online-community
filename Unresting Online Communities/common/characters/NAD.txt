@@ -1,0 +1,1083 @@
+characters = {
+	NAD_Iwan_Dorcha={
+		name="Iwan Dorcha"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { agricultural_nationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAD_Niareth_Tein={
+		name="Niareth Tein"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Niareth_Tein
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NAD_Seam_Bealaill={
+		name="Seam Bealaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Seam_Bealaill
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NAD_Tareth_Gealte={
+		name="Tareth Gealte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Tareth_Gealte
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NAD_Mall_Talamh={
+		name="Mall Talamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Mall_Talamh
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NAD_Keiran_Faoch={
+		name="Keiran Faoch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Keiran_Faoch
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NAD_Seam_Gluach={
+		name="Seam Gluach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Seam_Gluach
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NAD_Owen_Boglas={
+		name="Owen Boglas"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Owen_Boglas
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	NAD_Gareth_Ruas={
+		name="Gareth Ruas"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Gareth_Ruas
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	NAD_Ulrich_Luas={
+		name="Ulrich Luas"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Ulrich_Luas
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	NAD_Keiran_Sonn={
+		name="Keiran Sonn"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Keiran_Sonn
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	NAD_Owen_Tras={
+		name="Owen Tras"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAD_Owen_Tras
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	NAD_Niareth_Dora={
+		name="Niareth Dora"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAD_Niareth_Dora
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	NAD_Owen_Fair={
+		name="Owen Fair"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAD_Owen_Fair
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	NAD_Owen_Dinne={
+		name="Owen Dinne"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAD_Owen_Dinne
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	NAD_Bran_Beathaill={
+		name="Bran Beathaill"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Bran_Beathaill
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	NAD_Niamus_Seach={
+		name="Niamus Seach"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Niamus_Seach
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	NAD_Niareth_Grionadh={
+		name="Niareth Grionadh"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Niareth_Grionadh
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	NAD_Owen_Mail={
+		name="Owen Mail"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Owen_Mail
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	NAD_Liam_Cuar={
+		name="Liam Cuar"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Liam_Cuar
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	NAD_Ciam_Spionn={
+		name="Ciam Spionn"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Ciam_Spionn
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	NAD_Rhys_Sceanbha={
+		name="Rhys Sceanbha"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAD_Ciam_Beamhreach={
+		name="Ciam Beamhreach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Ciam_Beamhreach
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NAD_Malcolm_Snam={
+		name="Malcolm Snam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Malcolm_Snam
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NAD_Ulrich_Taill={
+		name="Ulrich Taill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Ulrich_Taill
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NAD_Keiran_Dine={
+		name="Keiran Dine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Keiran_Dine
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NAD_Ciareth_Aisle={
+		name="Ciareth Aisle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Ciareth_Aisle
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NAD_Declan_Lionn={
+		name="Declan Lionn"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Declan_Lionn
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NAD_Fergus_Laile={
+		name="Fergus Laile"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Fergus_Laile
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	NAD_Liamus_Talamhreall={
+		name="Liamus Talamhreall"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Liamus_Talamhreall
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	NAD_Seam_Teilin={
+		name="Seam Teilin"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Seam_Teilin
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	NAD_Declan_Criann={
+		name="Declan Criann"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Declan_Criann
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	NAD_Liam_Lainn={
+		name="Liam Lainn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAD_Liam_Lainn
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	NAD_Niamus_Laile={
+		name="Niamus Laile"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAD_Niamus_Laile
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	NAD_Keiran_Talamhreall={
+		name="Keiran Talamhreall"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAD_Keiran_Talamhreall
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	NAD_Nialcolm_Snach={
+		name="Nialcolm Snach"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAD_Nialcolm_Snach
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	NAD_Aidan_Cilte={
+		name="Aidan Cilte"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Aidan_Cilte
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	NAD_Malcolm_Ardanwa={
+		name="Malcolm Ardanwa"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Malcolm_Ardanwa
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	NAD_Ciamus_Eagne={
+		name="Ciamus Eagne"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Ciamus_Eagne
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	NAD_Iwan_Cing={
+		name="Iwan Cing"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Iwan_Cing
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	NAD_Keiraig_Neannta={
+		name="Keiraig Neannta"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Keiraig_Neannta
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	NAD_Malcolm_Lionn={
+		name="Malcolm Lionn"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Malcolm_Lionn
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	NAD_Niaran_Eachasach={
+		name="Niaran Eachasach"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { devoted_marxist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAD_Ciam_Torc={
+		name="Ciam Torc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Ciam_Torc
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NAD_Mall_Tras={
+		name="Mall Tras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Mall_Tras
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NAD_Niamus_Feart={
+		name="Niamus Feart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Niamus_Feart
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NAD_Liamus_Gorcradhe={
+		name="Liamus Gorcradhe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Liamus_Gorcradhe
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NAD_Niam_Talamh={
+		name="Niam Talamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Niam_Talamh
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NAD_Eoin_Bealaill={
+		name="Eoin Bealaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Eoin_Bealaill
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NAD_Nialcolm_Buidh={
+		name="Nialcolm Buidh"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Nialcolm_Buidh
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	NAD_Owen_Luas={
+		name="Owen Luas"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Owen_Luas
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	NAD_Ulrich_Sonn={
+		name="Ulrich Sonn"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Ulrich_Sonn
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	NAD_Seamus_Torcras={
+		name="Seamus Torcras"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Seamus_Torcras
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	NAD_Ciaran_Leal={
+		name="Ciaran Leal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAD_Ciaran_Leal
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	NAD_Eoin_Grionadh={
+		name="Eoin Grionadh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAD_Eoin_Grionadh
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	NAD_Eoinn_Sceanbha={
+		name="Eoinn Sceanbha"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAD_Eoinn_Sceanbha
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	NAD_Rhys_Taill={
+		name="Rhys Taill"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAD_Rhys_Taill
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	NAD_Gareth_Slamh={
+		name="Gareth Slamh"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Gareth_Slamh
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	NAD_Ciareth_Criann={
+		name="Ciareth Criann"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Ciareth_Criann
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	NAD_Keiraig_Luch={
+		name="Keiraig Luch"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Keiraig_Luch
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	NAD_Seamus_Bann={
+		name="Seamus Bann"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Seamus_Bann
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	NAD_Seamus_Tras={
+		name="Seamus Tras"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Seamus_Tras
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	NAD_Niaran_Talas={
+		name="Niaran Talas"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Niaran_Talas
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	NAD_Liamus_Aite={
+		name="Liamus Aite"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAD_Declan_Talamhreoill={
+		name="Declan Talamhreoill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Declan_Talamhreoill
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NAD_Bran_Cluarg={
+		name="Bran Cluarg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Bran_Cluarg
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NAD_Eoin_Cluarg={
+		name="Eoin Cluarg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Eoin_Cluarg
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NAD_Malcolm_Feart={
+		name="Malcolm Feart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Malcolm_Feart
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NAD_Rhys_Slas={
+		name="Rhys Slas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Rhys_Slas
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NAD_Hugh_Luas={
+		name="Hugh Luas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAD_Hugh_Luas
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NAD_Niareth_Leal={
+		name="Niareth Leal"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Niareth_Leal
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	NAD_Niamus_Talamhreoill={
+		name="Niamus Talamhreoill"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Niamus_Talamhreoill
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	NAD_Padraig_Cuaintir={
+		name="Padraig Cuaintir"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Padraig_Cuaintir
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	NAD_Niaran_Leanas={
+		name="Niaran Leanas"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAD_Niaran_Leanas
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	NAD_Liaran_Slairsean={
+		name="Liaran Slairsean"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAD_Liaran_Slairsean
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	NAD_Eoin_Gluais={
+		name="Eoin Gluais"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAD_Eoin_Gluais
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	NAD_Tareth_Coinamha={
+		name="Tareth Coinamha"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAD_Tareth_Coinamha
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	NAD_Ciareth_Fail={
+		name="Ciareth Fail"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAD_Ciareth_Fail
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	NAD_Seam_Eolamh={
+		name="Seam Eolamh"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Seam_Eolamh
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	NAD_Tareth_Fail={
+		name="Tareth Fail"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Tareth_Fail
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	NAD_Niall_Muidh={
+		name="Niall Muidh"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Niall_Muidh
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	NAD_Declan_Torcradheamh={
+		name="Declan Torcradheamh"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Declan_Torcradheamh
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	NAD_Keiran_Dora={
+		name="Keiran Dora"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Keiran_Dora
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	NAD_Niaran_Gearrasach={
+		name="Niaran Gearrasach"
+
+		advisor={
+			slot = high_command
+			idea_token = NAD_Niaran_Gearrasach
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	NAD_Seamus_Coileal={
+		name="Seamus Coileal"
+
+		advisor={
+			slot = theorist
+			idea_token = NAD_Seamus_Coileal
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	NAD_Niareth_Leanas={
+		name="Niareth Leanas"
+
+		advisor={
+			slot = theorist
+			idea_token = NAD_Niareth_Leanas
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	NAD_Declan_Buidh={
+		name="Declan Buidh"
+
+		advisor={
+			slot = theorist
+			idea_token = NAD_Declan_Buidh
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

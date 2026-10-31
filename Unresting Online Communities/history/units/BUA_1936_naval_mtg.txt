@@ -1,0 +1,52 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Buatharcrada Fleet"			
+		naval_base = 6407
+		task_force = {
+			name = "Buatharcrada Fleet"
+			location = 6407
+			
+						ship = { name = "Sonach" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BUA version_name = "Tort Class" } }	}
+			ship = { name = "Dintirsear" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BUA version_name = "Tort Class" } }	}
+			ship = { name = "Ceill" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUA version_name = "Ceill Class" } }	}
+			ship = { name = "Bancht" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUA version_name = "Ceill Class" } }	}
+			ship = { name = "Cileart" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUA version_name = "Ceill Class" } }	}
+			ship = { name = "Feart" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BUA version_name = "Rata Class" } }	}
+			ship = { name = "Dorg" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUA version_name = "Ceill Class" } }	}
+			ship = { name = "Sonach 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUA version_name = "Ceill Class" } }	}
+			ship = { name = "Tuas" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BUA version_name = "Rata Class" } }	}
+			ship = { name = "Ceill 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUA version_name = "Ceill Class" } }	}
+			ship = { name = "Tuas 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BUA version_name = "Rata Class" } }	}
+			ship = { name = "Rata" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUA version_name = "Ceill Class" } }	}
+			ship = { name = "Eaghe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUA version_name = "Ceill Class" } }	}
+			ship = { name = "Dintirsear 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BUA version_name = "Rata Class" } }	}
+			ship = { name = "Each" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUA version_name = "Ceill Class" } }	}
+			ship = { name = "Eaghe 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BUA version_name = "Rata Class" } }	}
+			ship = { name = "Muidh" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BUA version_name = "Gearg Class" } }	}
+			ship = { name = "Ceill 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BUA version_name = "Gearg Class" } }	}
+			ship = { name = "Feart 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = BUA version_name = "Rata Class" } }	}
+			ship = { name = "Ceill 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BUA version_name = "Gearg Class" } }	}
+			ship = { name = "Ardan" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BUA version_name = "Gearg Class" } }	}
+			ship = { name = "Eaghe 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUA version_name = "Ceill Class" } }	}
+			ship = { name = "Taig" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BUA version_name = "Gearg Class" } }	}
+			ship = { name = "Dorm" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUA version_name = "Ceill Class" } }	}
+			ship = { name = "Gluarna" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BUA version_name = "Gearg Class" } }	}
+			ship = { name = "Bunamhra" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = BUA version_name = "Ceill Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,38 @@
+
+state={
+	id=1496
+	name="STATE_1496"
+	manpower = 720461
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16988 1}
+		
+		owner = ALA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ALA
+	}
+
+	provinces={
+		16987 16988 16989 16990 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=579
+	name="STATE_579"
+	manpower = 1006067
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=16
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 1
+			air_base = 4
+			arms_factory = 0
+			industrial_complex = 0
+			
+			6427 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		6425 6426 6427 6428 6429 6430 6431 
+	}
+	local_supplies=0.0 
+}

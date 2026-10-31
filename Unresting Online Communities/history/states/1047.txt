@@ -1,0 +1,40 @@
+
+state={
+	id=1047
+	name="STATE_1047"
+	manpower = 2113535
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12234 1}
+		victory_points = { 12237 1}
+		victory_points = { 12238 1}
+		
+		owner = ZHE
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ZHE
+	}
+
+	provinces={
+		12232 12233 12234 12235 12236 12237 12238 12239 12240 12241 12242 12243 12244 
+	}
+	local_supplies=0.0 
+}

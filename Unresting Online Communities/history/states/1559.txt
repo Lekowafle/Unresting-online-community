@@ -1,0 +1,41 @@
+
+state={
+	id=1559
+	name="STATE_1559"
+	manpower = 13234
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17176 1}
+		
+		owner = QAL
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			17176 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = QAL
+	}
+
+	provinces={
+		17176 
+	}
+	local_supplies=0.0 
+}

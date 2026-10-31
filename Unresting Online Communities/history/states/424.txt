@@ -1,0 +1,43 @@
+
+state={
+	id=424
+	name="STATE_424"
+	manpower = 3098798
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=14
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4811 1}
+		victory_points = { 4813 4}
+		victory_points = { 4822 3}
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			4811 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		4809 4810 4811 4812 4813 4814 4815 4816 4817 4818 4819 4820 4821 4822 4823 4824 4825 4826 
+	}
+	local_supplies=0.0 
+}

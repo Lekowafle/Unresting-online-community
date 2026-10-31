@@ -1,0 +1,64 @@
+air_wings = {
+		332 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "AME" amount = 50 version_name = "Tigharem Mk 2" }
+
+	}
+	122 = { 								
+		small_plane_cas_airframe_0 = { owner = "AME" amount = 50 version_name = "Amdarwaremou Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "AME" amount = 50 version_name = "Tigharem Mk 2" }
+
+	}
+	545 = { 								
+		small_plane_cas_airframe_0 = { owner = "AME" amount = 50 version_name = "Amdarwaremou Mk 1" }
+medium_plane_airframe_0 = { owner = "AME" amount = 50 version_name = "Tamezi Mk 1" }
+
+	}
+	177 = { 								
+		medium_plane_airframe_0 = { owner = "AME" amount = 50 version_name = "Tamezi Mk 1" }
+
+	}
+	515 = { 								
+		medium_plane_airframe_0 = { owner = "AME" amount = 50 version_name = "Tamezi Mk 1" }
+
+	}
+	595 = { 								
+		small_plane_cas_airframe_0 = { owner = "AME" amount = 50 version_name = "Amdarwaremou Mk 1" }
+
+	}
+	441 = { 								
+		small_plane_airframe_0 = { owner = "AME" amount = 50 version_name = "Izenzawen Mk 1" }
+
+	}
+	279 = { 								
+		medium_plane_airframe_0 = { owner = "AME" amount = 50 version_name = "Tamezi Mk 1" }
+
+	}
+	254 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "AME" amount = 50 version_name = "Tigharem Mk 2" }
+
+	}
+	373 = { 								
+		small_plane_cas_airframe_0 = { owner = "AME" amount = 50 version_name = "Amdarwaremou Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "AME" amount = 50 version_name = "Tigharem Mk 2" }
+
+	}
+	8 = { 								
+		small_plane_airframe_0 = { owner = "AME" amount = 50 version_name = "Izenzawen Mk 1" }
+medium_plane_airframe_0 = { owner = "AME" amount = 50 version_name = "Tamezi Mk 1" }
+
+	}
+	390 = { 								
+		small_plane_airframe_0 = { owner = "AME" amount = 50 version_name = "Izenzawen Mk 1" }
+
+	}
+	217 = { 								
+		small_plane_cas_airframe_0 = { owner = "AME" amount = 50 version_name = "Amdarwaremou Mk 1" }
+
+	}
+	22 = { 								
+		small_plane_airframe_0 = { owner = "AME" amount = 50 version_name = "Izenzawen Mk 1" }
+
+	}
+
+
+}

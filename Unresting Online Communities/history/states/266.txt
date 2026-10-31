@@ -1,0 +1,39 @@
+
+state={
+	id=266
+	name="STATE_266"
+	manpower = 2090434
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3102 1}
+		victory_points = { 3107 1}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		3102 3103 3104 3105 3106 3107 3108 3109 3110 3111 3112 3113 3114 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=1226
+	name="STATE_1226"
+	manpower = 1991054
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=21
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14229 1}
+		victory_points = { 14237 2}
+		
+		owner = UIN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			14228 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = UIN
+	}
+
+	provinces={
+		14228 14229 14230 14231 14232 14233 14234 14235 14236 14237 14238 14239 14240 14241 
+	}
+	local_supplies=0.0 
+}

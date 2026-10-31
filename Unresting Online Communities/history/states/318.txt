@@ -1,0 +1,41 @@
+
+state={
+	id=318
+	name="STATE_318"
+	manpower = 3113294
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=6
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3591 1}
+		victory_points = { 3592 2}
+		victory_points = { 3593 2}
+		victory_points = { 3597 2}
+		
+		owner = QAL
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = QAL
+	}
+
+	provinces={
+		3589 3590 3591 3592 3593 3594 3595 3596 3597 3598 3599 3600 3601 3602 3603 3604 3605 3606 3607 3608 
+	}
+	local_supplies=0.0 
+}

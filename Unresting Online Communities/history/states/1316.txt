@@ -1,0 +1,39 @@
+
+state={
+	id=1316
+	name="STATE_1316"
+	manpower = 1867905
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15294 1}
+		victory_points = { 15298 1}
+		
+		owner = AGU
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AGU
+	}
+
+	provinces={
+		15291 15292 15293 15294 15295 15296 15297 15298 15299 15300 15301 
+	}
+	local_supplies=0.0 
+}

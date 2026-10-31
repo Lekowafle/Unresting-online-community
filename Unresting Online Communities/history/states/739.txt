@@ -1,0 +1,39 @@
+
+state={
+	id=739
+	name="STATE_739"
+	manpower = 2167316
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8392 6}
+		victory_points = { 8399 1}
+		
+		owner = COB
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = COB
+	}
+
+	provinces={
+		8392 8393 8394 8395 8396 8397 8398 8399 8400 8401 8402 
+	}
+	local_supplies=0.0 
+}

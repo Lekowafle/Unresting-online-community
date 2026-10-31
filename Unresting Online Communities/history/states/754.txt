@@ -1,0 +1,38 @@
+
+state={
+	id=754
+	name="STATE_754"
+	manpower = 869249
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8571 1}
+		
+		owner = PAA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PAA
+	}
+
+	provinces={
+		8569 8570 8571 8572 8573 
+	}
+	local_supplies=0.0 
+}

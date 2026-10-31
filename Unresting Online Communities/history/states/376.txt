@@ -1,0 +1,43 @@
+
+state={
+	id=376
+	name="STATE_376"
+	manpower = 4936741
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=4
+		chromium=4
+		oil=0
+		rubber=0
+		steel=29
+		tungsten=4
+		coal=10
+	}
+
+	history={
+		victory_points = { 4271 2}
+		victory_points = { 4273 2}
+		victory_points = { 4274 5}
+		
+		owner = QAL
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			4272 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = QAL
+	}
+
+	provinces={
+		4268 4269 4270 4271 4272 4273 4274 4275 4276 4277 4278 4279 4280 4281 4282 4283 4284 4285 4286 4287 4288 4289 4290 4291 4292 4293 4294 4295 4296 4297 4298 4299 
+	}
+	local_supplies=0.0 
+}

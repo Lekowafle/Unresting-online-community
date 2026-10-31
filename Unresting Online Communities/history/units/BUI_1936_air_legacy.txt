@@ -1,0 +1,13 @@
+air_wings = {
+		127 = { 								
+		fighter_equipment_0 = { owner = "BUI" amount = 5 version_name = "Talas Mk 2" }
+tac_bomber_equipment_0 = { owner = "BUI" amount = 3 version_name = "Beamhreach Mk 1" }
+
+	}
+	445 = { 								
+		CAS_equipment_0 = { owner = "BUI" amount = 2 version_name = "Gluach Mk 2" }
+
+	}
+
+
+}

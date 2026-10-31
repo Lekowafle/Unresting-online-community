@@ -1,0 +1,41 @@
+
+state={
+	id=666
+	name="STATE_666"
+	manpower = 1262906
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7424 1}
+		
+		owner = OST
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			7422 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = OST
+	}
+
+	provinces={
+		7418 7419 7420 7421 7422 7423 7424 
+	}
+	local_supplies=0.0 
+}

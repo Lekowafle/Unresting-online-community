@@ -1,0 +1,41 @@
+
+state={
+	id=922
+	name="STATE_922"
+	manpower = 5117983
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=11
+		rubber=0
+		steel=24
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10706 4}
+		victory_points = { 10712 4}
+		victory_points = { 10718 2}
+		victory_points = { 10730 3}
+		
+		owner = PAA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = PAA
+	}
+
+	provinces={
+		10702 10703 10704 10705 10706 10707 10708 10709 10710 10711 10712 10713 10714 10715 10716 10717 10718 10719 10720 10721 10722 10723 10724 10725 10726 10727 10728 10729 10730 10731 
+	}
+	local_supplies=0.0 
+}

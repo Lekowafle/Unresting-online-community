@@ -1,0 +1,40 @@
+
+state={
+	id=162
+	name="STATE_162"
+	manpower = 2134931
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1883 3}
+		victory_points = { 1884 2}
+		victory_points = { 1890 2}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		1880 1881 1882 1883 1884 1885 1886 1887 1888 1889 1890 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=378
+	name="STATE_378"
+	manpower = 3933244
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4308 1}
+		victory_points = { 4310 2}
+		victory_points = { 4316 1}
+		victory_points = { 4317 2}
+		victory_points = { 4327 2}
+		
+		owner = RUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RUA
+	}
+
+	provinces={
+		4306 4307 4308 4309 4310 4311 4312 4313 4314 4315 4316 4317 4318 4319 4320 4321 4322 4323 4324 4325 4326 4327 4328 4329 
+	}
+	local_supplies=0.0 
+}

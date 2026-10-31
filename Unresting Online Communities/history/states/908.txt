@@ -1,0 +1,40 @@
+
+state={
+	id=908
+	name="STATE_908"
+	manpower = 3015916
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10531 1}
+		victory_points = { 10532 1}
+		victory_points = { 10542 1}
+		
+		owner = UXU
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = UXU
+	}
+
+	provinces={
+		10531 10532 10533 10534 10535 10536 10537 10538 10539 10540 10541 10542 10543 10544 10545 10546 10547 10548 10549 10550 
+	}
+	local_supplies=0.0 
+}

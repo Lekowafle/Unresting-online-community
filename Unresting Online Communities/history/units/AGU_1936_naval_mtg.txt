@@ -1,0 +1,59 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Aguatecab Fleet"			
+		naval_base = 17111
+		task_force = {
+			name = "Aguatecab Fleet"
+			location = 17111
+			
+						ship = { name = "Yalacol" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = AGU version_name = "Chual Class" } }	}
+			ship = { name = "Oxlan" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AGU version_name = "Xulkin Class" } }	}
+			ship = { name = "Chakalahuala" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AGU version_name = "Nakal Class" } }	}
+			ship = { name = "Bakmul" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AGU version_name = "Naktunil Class" } }	}
+			ship = { name = "Bach" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AGU version_name = "Mutal Class" } }	}
+			ship = { name = "Tojil" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AGU version_name = "Nakal Class" } }	}
+			ship = { name = "Kalak" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AGU version_name = "Mutal Class" } }	}
+			ship = { name = "Bakbe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AGU version_name = "Naktunil Class" } }	}
+			ship = { name = "Yalacol 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AGU version_name = "Mutal Class" } }	}
+			ship = { name = "Halan" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AGU version_name = "Bakaluun Class" } }	}
+			ship = { name = "Baktun" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AGU version_name = "Mutal Class" } }	}
+			ship = { name = "Uxul" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AGU version_name = "Nakal Class" } }	}
+			ship = { name = "Halan 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AGU version_name = "Bakaluun Class" } }	}
+			ship = { name = "Naktunil" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AGU version_name = "Bakaluun Class" } }	}
+			ship = { name = "Chau" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AGU version_name = "Mutal Class" } }	}
+			ship = { name = "Cozumel" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AGU version_name = "Nakal Class" } }	}
+			ship = { name = "Kalak 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AGU version_name = "Bakaluun Class" } }	}
+			ship = { name = "Baktun 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AGU version_name = "Naktunil Class" } }	}
+			ship = { name = "Chau 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AGU version_name = "Mutal Class" } }	}
+			ship = { name = "Chual" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AGU version_name = "Naktunil Class" } }	}
+			ship = { name = "Ajpu" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AGU version_name = "Nakal Class" } }	}
+			ship = { name = "Halan 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AGU version_name = "Naktunil Class" } }	}
+			ship = { name = "Chun" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AGU version_name = "Bakaluun Class" } }	}
+			ship = { name = "Ajtzamnamna" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AGU version_name = "Mutal Class" } }	}
+			ship = { name = "Mutal" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AGU version_name = "Nakal Class" } }	}
+			ship = { name = "Mutal 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AGU version_name = "Bakaluun Class" } }	}
+			ship = { name = "Naktunil 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AGU version_name = "Mutal Class" } }	}
+			ship = { name = "Xulkin" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AGU version_name = "Nakal Class" } }	}
+			ship = { name = "Nahuwen" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AGU version_name = "Mutal Class" } }	}
+			ship = { name = "Yaxulkin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AGU version_name = "Naktunil Class" } }	}
+			ship = { name = "Kalen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AGU version_name = "Naktunil Class" } }	}
+			ship = { name = "Mutal 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AGU version_name = "Mutal Class" } }	}
+			ship = { name = "Bakbe 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AGU version_name = "Nakal Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

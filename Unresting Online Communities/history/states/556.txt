@@ -1,0 +1,40 @@
+
+state={
+	id=556
+	name="STATE_556"
+	manpower = 510906
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = QAL
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			6167 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = QAL
+	}
+
+	provinces={
+		6165 6166 6167 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,1083 @@
+characters = {
+	NUN_Nutarak_Panuk={
+		name="Nutarak Panuk"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { agricultural_nationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NUN_Ukpik_Aglupak={
+		name="Ukpik Aglupak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Ukpik_Aglupak
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NUN_Olik_Aglupak={
+		name="Olik Aglupak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Olik_Aglupak
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NUN_Qajaq_Napagutaktaq={
+		name="Qajaq Napagutaktaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Qajaq_Napagutaktaq
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NUN_Naluk_Ituugak={
+		name="Naluk Ituugak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Naluk_Ituugak
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NUN_Kunikigaq_Ikipak={
+		name="Kunikigaq Ikipak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Kunikigaq_Ikipak
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NUN_Nanuq_Kavigaq={
+		name="Nanuq Kavigaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Nanuq_Kavigaq
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NUN_Sila_Amaqatuvigan={
+		name="Sila Amaqatuvigan"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Sila_Amaqatuvigan
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	NUN_Atka_Qiku={
+		name="Atka Qiku"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Atka_Qiku
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	NUN_Maniku_Redoubt={
+		name="Maniku Redoubt"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Maniku_Redoubt
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	NUN_Manaq_Nanuk={
+		name="Manaq Nanuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Manaq_Nanuk
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	NUN_Kanuq_Nuvannupaaq={
+		name="Kanuq Nuvannupaaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NUN_Kanuq_Nuvannupaaq
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	NUN_Iluk_Akigak={
+		name="Iluk Akigak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NUN_Iluk_Akigak
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	NUN_Olik_Nunirnaaliki={
+		name="Olik Nunirnaaliki"
+
+		advisor={
+			slot = air_chief
+			idea_token = NUN_Olik_Nunirnaaliki
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	NUN_Pana_Tikuq={
+		name="Pana Tikuq"
+
+		advisor={
+			slot = air_chief
+			idea_token = NUN_Pana_Tikuq
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	NUN_Kunikigaq_Tingiq={
+		name="Kunikigaq Tingiq"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Kunikigaq_Tingiq
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	NUN_Kanuq_Amaqatuvigan={
+		name="Kanuq Amaqatuvigan"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Kanuq_Amaqatuvigan
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	NUN_Sila_Inuk={
+		name="Sila Inuk"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Sila_Inuk
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	NUN_Iluk_Kipik={
+		name="Iluk Kipik"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Iluk_Kipik
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	NUN_Kunik_Ilupaapaapik={
+		name="Kunik Ilupaapaapik"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Kunik_Ilupaapaapik
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	NUN_Maniku_Kanuk={
+		name="Maniku Kanuk"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Maniku_Kanuk
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	NUN_Manaq_Kuvivaq={
+		name="Manaq Kuvivaq"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { dictator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NUN_Kanik_Qineq={
+		name="Kanik Qineq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Kanik_Qineq
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NUN_Maniku_Tuktuuq={
+		name="Maniku Tuktuuq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Maniku_Tuktuuq
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NUN_Qajaq_Anuq={
+		name="Qajaq Anuq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Qajaq_Anuq
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NUN_Kanuq_Kigaviku={
+		name="Kanuq Kigaviku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Kanuq_Kigaviku
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NUN_Naluk_Avanik={
+		name="Naluk Avanik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Naluk_Avanik
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NUN_Naluk_Nunat={
+		name="Naluk Nunat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Naluk_Nunat
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NUN_Sikigaq_Ikipak={
+		name="Sikigaq Ikipak"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Sikigaq_Ikipak
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	NUN_Nuvuk_Nunat={
+		name="Nuvuk Nunat"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Nuvuk_Nunat
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	NUN_Sila_Tingmiaq={
+		name="Sila Tingmiaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Sila_Tingmiaq
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	NUN_Kana_Kaniqtuvivan={
+		name="Kana Kaniqtuvivan"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Kana_Kaniqtuvivan
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	NUN_Kanik_Tulik={
+		name="Kanik Tulik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NUN_Kanik_Tulik
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	NUN_Nutarak_Iliak={
+		name="Nutarak Iliak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NUN_Nutarak_Iliak
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	NUN_Ukpik_Susit={
+		name="Ukpik Susit"
+
+		advisor={
+			slot = air_chief
+			idea_token = NUN_Ukpik_Susit
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	NUN_Nanik_Upikigaq={
+		name="Nanik Upikigaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = NUN_Nanik_Upikigaq
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	NUN_Qajaq_Saniq={
+		name="Qajaq Saniq"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Qajaq_Saniq
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	NUN_Naluk_Nulineq={
+		name="Naluk Nulineq"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Naluk_Nulineq
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	NUN_Kunikigaq_Imaqpurjuk={
+		name="Kunikigaq Imaqpurjuk"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Kunikigaq_Imaqpurjuk
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	NUN_Kunik_Maniq={
+		name="Kunik Maniq"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Kunik_Maniq
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	NUN_Tulok_Qineq={
+		name="Tulok Qineq"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Tulok_Qineq
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	NUN_Kanik_Aniq={
+		name="Kanik Aniq"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Kanik_Aniq
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	NUN_Kavik_Nangiq={
+		name="Kavik Nangiq"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NUN_Nanuq_Imaq={
+		name="Nanuq Imaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Nanuq_Imaq
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NUN_Olik_Ilingmiamaq={
+		name="Olik Ilingmiamaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Olik_Ilingmiamaq
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NUN_Sikigaq_Ilupaapaapik={
+		name="Sikigaq Ilupaapaapik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Sikigaq_Ilupaapaapik
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NUN_Panaq_Amaqatuvigan={
+		name="Panaq Amaqatuvigan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Panaq_Amaqatuvigan
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NUN_Nanuq_Tingiq={
+		name="Nanuq Tingiq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Nanuq_Tingiq
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NUN_Panik_Imaq={
+		name="Panik Imaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Panik_Imaq
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NUN_Kanaq_Ilupaapaapik={
+		name="Kanaq Ilupaapaapik"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Kanaq_Ilupaapaapik
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	NUN_Ukpik_Ilikigakuaq={
+		name="Ukpik Ilikigakuaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Ukpik_Ilikigakuaq
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	NUN_Nuvuk_Kuvivaniq={
+		name="Nuvuk Kuvivaniq"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Nuvuk_Kuvivaniq
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	NUN_Panuq_Tuktuuq={
+		name="Panuq Tuktuuq"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Panuq_Tuktuuq
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	NUN_Kuniku_Kaniqtuvivan={
+		name="Kuniku Kaniqtuvivan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NUN_Kuniku_Kaniqtuvivan
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	NUN_Kanaq_Anuq={
+		name="Kanaq Anuq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NUN_Kanaq_Anuq
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	NUN_Tulok_Aniq={
+		name="Tulok Aniq"
+
+		advisor={
+			slot = air_chief
+			idea_token = NUN_Tulok_Aniq
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	NUN_Kaviku_Kanuk={
+		name="Kaviku Kanuk"
+
+		advisor={
+			slot = air_chief
+			idea_token = NUN_Kaviku_Kanuk
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	NUN_Nutarak_Kavigaq={
+		name="Nutarak Kavigaq"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Nutarak_Kavigaq
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	NUN_Olik_Panuk={
+		name="Olik Panuk"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Olik_Panuk
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	NUN_Kunikigaq_Nulineq={
+		name="Kunikigaq Nulineq"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Kunikigaq_Nulineq
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	NUN_Kunik_Akigak={
+		name="Kunik Akigak"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Kunik_Akigak
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	NUN_Manaq_Kaniqtuvivan={
+		name="Manaq Kaniqtuvivan"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Manaq_Kaniqtuvivan
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	NUN_Naluk_Nalluk={
+		name="Naluk Nalluk"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Naluk_Nalluk
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	NUN_Amaq_Redoubt={
+		name="Amaq Redoubt"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NUN_Kavikigaq_Iliak={
+		name="Kavikigaq Iliak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Kavikigaq_Iliak
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NUN_Nutarak_Nalluk={
+		name="Nutarak Nalluk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Nutarak_Nalluk
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NUN_Amaq_Kanuran={
+		name="Amaq Kanuran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Amaq_Kanuran
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NUN_Kana_Napik={
+		name="Kana Napik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Kana_Napik
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NUN_Nutarak_Foraniq={
+		name="Nutarak Foraniq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Nutarak_Foraniq
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NUN_Kavik_Imaqpurjuk={
+		name="Kavik Imaqpurjuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NUN_Kavik_Imaqpurjuk
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NUN_Panaq_Qineq={
+		name="Panaq Qineq"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Panaq_Qineq
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	NUN_Nutarak_Ikivanuk={
+		name="Nutarak Ikivanuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Nutarak_Ikivanuk
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	NUN_Mana_Ilik={
+		name="Mana Ilik"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Mana_Ilik
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	NUN_Panaq_Qikiq={
+		name="Panaq Qikiq"
+
+		advisor={
+			slot = army_chief
+			idea_token = NUN_Panaq_Qikiq
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	NUN_Mana_Nuvannupaaq={
+		name="Mana Nuvannupaaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NUN_Mana_Nuvannupaaq
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	NUN_Kavikigaq_Napik={
+		name="Kavikigaq Napik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NUN_Kavikigaq_Napik
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	NUN_Manaq_Kavigaq={
+		name="Manaq Kavigaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = NUN_Manaq_Kavigaq
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	NUN_Panuq_Tingmiaq={
+		name="Panuq Tingmiaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = NUN_Panuq_Tingmiaq
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	NUN_Oliku_Tingmiaq={
+		name="Oliku Tingmiaq"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Oliku_Tingmiaq
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	NUN_Atka_Avanik={
+		name="Atka Avanik"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Atka_Avanik
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	NUN_Kavik_Qikuilun={
+		name="Kavik Qikuilun"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Kavik_Qikuilun
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	NUN_Olik_Nulik={
+		name="Olik Nulik"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Olik_Nulik
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	NUN_Atka_Atuugaq={
+		name="Atka Atuugaq"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Atka_Atuugaq
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	NUN_Nuvuk_Nulik={
+		name="Nuvuk Nulik"
+
+		advisor={
+			slot = high_command
+			idea_token = NUN_Nuvuk_Nulik
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	NUN_Sila_Nalataniq={
+		name="Sila Nalataniq"
+
+		advisor={
+			slot = theorist
+			idea_token = NUN_Sila_Nalataniq
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	NUN_Naluk_Upikiggaq={
+		name="Naluk Upikiggaq"
+
+		advisor={
+			slot = theorist
+			idea_token = NUN_Naluk_Upikiggaq
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	NUN_Kana_Kaniqtuk={
+		name="Kana Kaniqtuk"
+
+		advisor={
+			slot = theorist
+			idea_token = NUN_Kana_Kaniqtuk
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

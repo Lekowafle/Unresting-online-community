@@ -1,0 +1,50 @@
+air_wings = {
+		1322 = { 								
+		cv_small_plane_airframe_1 = { owner = "AGU" amount = 36 version_name = "Zamna Mk 1" }
+
+	}
+	1363 = { 								
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "AGU" amount = 32 version_name = "Chual Mk 0" }
+
+	}
+	1311 = { 								
+		cv_small_plane_cas_airframe_1 = { owner = "AGU" amount = 40 version_name = "Chilacomte Mk 0" }
+small_plane_cas_airframe_0 = { owner = "AGU" amount = 32 version_name = "Ikanek Mk 1" }
+
+	}
+	1348 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "AGU" amount = 29 version_name = "Tojil Mk 2" }
+
+	}
+	1346 = { 								
+		medium_plane_airframe_0 = { owner = "AGU" amount = 31 version_name = "Mutal Mk 1" }
+
+	}
+	1319 = { 								
+		small_plane_cas_airframe_1 = { owner = "AGU" amount = 36 version_name = "Chau Mk 2" }
+cv_small_plane_airframe_0 = { owner = "AGU" amount = 28 version_name = "Yaxulkin Mk 2" }
+
+	}
+	1511 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "AGU" amount = 41 version_name = "Balana Mk 2" }
+
+	}
+	1355 = { 								
+		cv_small_plane_cas_airframe_0 = { owner = "AGU" amount = 35 version_name = "Kalak Mk 0" }
+
+	}
+	1349 = { 								
+		small_plane_airframe_0 = { owner = "AGU" amount = 32 version_name = "Aguatecab Mk 1" }
+
+	}
+	1345 = { 								
+		small_plane_airframe_1 = { owner = "AGU" amount = 31 version_name = "Oxib Mk 1" }
+
+	}
+	1312 = { 								
+		cv_small_plane_naval_bomber_airframe_1 = { owner = "AGU" amount = 40 version_name = "Ikalamanikal Mk 1" }
+
+	}
+
+
+}

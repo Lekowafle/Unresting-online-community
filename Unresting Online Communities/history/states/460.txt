@@ -1,0 +1,39 @@
+
+state={
+	id=460
+	name="STATE_460"
+	manpower = 918483
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5187 1}
+		victory_points = { 5188 1}
+		
+		owner = FAI
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FAI
+	}
+
+	provinces={
+		5186 5187 5188 5189 5190 
+	}
+	local_supplies=0.0 
+}

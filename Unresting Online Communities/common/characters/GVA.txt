@@ -1,0 +1,1083 @@
+characters = {
+	GVA_Chenzin_Shou={
+		name="Chenzin Shou"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GVA_Ngawa_Nian={
+		name="Ngawa Nian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Ngawa_Nian
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GVA_Yangdu_Shong={
+		name="Yangdu Shong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Yangdu_Shong
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVA_Heng_Zhan={
+		name="Heng Zhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Heng_Zhan
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVA_Jiangdu_Jing={
+		name="Jiangdu Jing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Jiangdu_Jing
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVA_Heng_Chuang={
+		name="Heng Chuang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Heng_Chuang
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GVA_Jiang_Jian={
+		name="Jiang Jian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Jiang_Jian
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GVA_Chen_Chuang={
+		name="Chen Chuang"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Chen_Chuang
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	GVA_Phun_Sheng={
+		name="Phun Sheng"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Phun_Sheng
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	GVA_Qiang_Niang={
+		name="Qiang Niang"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Qiang_Niang
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	GVA_Qian_Nang={
+		name="Qian Nang"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Qian_Nang
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	GVA_Qian_Hong={
+		name="Qian Hong"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVA_Qian_Hong
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	GVA_Phun_Tong={
+		name="Phun Tong"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVA_Phun_Tong
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	GVA_Teng_Zheng={
+		name="Teng Zheng"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVA_Teng_Zheng
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	GVA_Fangdu_Yuan={
+		name="Fangdu Yuan"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVA_Fangdu_Yuan
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	GVA_Lonam_Jian={
+		name="Lonam Jian"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Lonam_Jian
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	GVA_Heng_Yuan={
+		name="Heng Yuan"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Heng_Yuan
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	GVA_Karma_Chuang={
+		name="Karma Chuang"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Karma_Chuang
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	GVA_Lobsangdu_Niang={
+		name="Lobsangdu Niang"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Lobsangdu_Niang
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	GVA_Juntso_Jing={
+		name="Juntso Jing"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Juntso_Jing
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	GVA_Yang_Shong={
+		name="Yang Shong"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Yang_Shong
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	GVA_Renzin_Yuan={
+		name="Renzin Yuan"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { falangist_militarist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GVA_Dawang_Cheng={
+		name="Dawang Cheng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Dawang_Cheng
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVA_Yangdu_Shen={
+		name="Yangdu Shen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Yangdu_Shen
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVA_Nima_Shong={
+		name="Nima Shong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Nima_Shong
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GVA_Qian_Tong={
+		name="Qian Tong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Qian_Tong
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GVA_Yuntso_Cheng={
+		name="Yuntso Cheng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Yuntso_Cheng
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVA_Chen_Jian={
+		name="Chen Jian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Chen_Jian
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVA_Thubtenzin_Guang={
+		name="Thubtenzin Guang"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Thubtenzin_Guang
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	GVA_Phubtenzin_Guan={
+		name="Phubtenzin Guan"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Phubtenzin_Guan
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	GVA_Long_Tian={
+		name="Long Tian"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Long_Tian
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	GVA_Jiangdu_Chuan={
+		name="Jiangdu Chuan"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Jiangdu_Chuan
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	GVA_Renzin_Zheng={
+		name="Renzin Zheng"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVA_Renzin_Zheng
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	GVA_Phun_Shuan={
+		name="Phun Shuan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVA_Phun_Shuan
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	GVA_Song_Zhou={
+		name="Song Zhou"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVA_Song_Zhou
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	GVA_Thun_Guang={
+		name="Thun Guang"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVA_Thun_Guang
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	GVA_Nima_Qing={
+		name="Nima Qing"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Nima_Qing
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	GVA_Fang_Tian={
+		name="Fang Tian"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Fang_Tian
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	GVA_Sonam_Xian={
+		name="Sonam Xian"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Sonam_Xian
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	GVA_Lobsang_Nian={
+		name="Lobsang Nian"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Lobsang_Nian
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	GVA_Ngawang_Tong={
+		name="Ngawang Tong"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Ngawang_Tong
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	GVA_Sonam_Ping={
+		name="Sonam Ping"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Sonam_Ping
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	GVA_Heng_Jian={
+		name="Heng Jian"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GVA_Dawang_Chuan={
+		name="Dawang Chuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Dawang_Chuan
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVA_Mingdu_Jing={
+		name="Mingdu Jing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Mingdu_Jing
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVA_Phubten_Tian={
+		name="Phubten Tian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Phubten_Tian
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVA_Yuntso_Shuan={
+		name="Yuntso Shuan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Yuntso_Shuan
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVA_Nima_Huan={
+		name="Nima Huan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Nima_Huan
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVA_Qian_Shong={
+		name="Qian Shong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Qian_Shong
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVA_Jiang_Cheng={
+		name="Jiang Cheng"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Jiang_Cheng
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	GVA_Qian_Tiang={
+		name="Qian Tiang"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Qian_Tiang
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	GVA_Wang_Hong={
+		name="Wang Hong"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Wang_Hong
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	GVA_Phubten_Jing={
+		name="Phubten Jing"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Phubten_Jing
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	GVA_Thun_Sheng={
+		name="Thun Sheng"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVA_Thun_Sheng
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	GVA_Qian_Guang={
+		name="Qian Guang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVA_Qian_Guang
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	GVA_Fangdu_Jian={
+		name="Fangdu Jian"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVA_Fangdu_Jian
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	GVA_Yang_Jian={
+		name="Yang Jian"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVA_Yang_Jian
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	GVA_Long_Shuang={
+		name="Long Shuang"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Long_Shuang
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	GVA_Long_Qing={
+		name="Long Qing"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Long_Qing
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	GVA_Fang_Cheng={
+		name="Fang Cheng"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Fang_Cheng
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	GVA_Jigme_Zhou={
+		name="Jigme Zhou"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Jigme_Zhou
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	GVA_Sonam_Lian={
+		name="Sonam Lian"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Sonam_Lian
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	GVA_Dawan_Reng={
+		name="Dawan Reng"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Dawan_Reng
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	GVA_Tenzing_Shuan={
+		name="Tenzing Shuan"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GVA_Ngawang_Nang={
+		name="Ngawang Nang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Ngawang_Nang
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVA_Thubtenzin_Zheng={
+		name="Thubtenzin Zheng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Thubtenzin_Zheng
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVA_Ngawa_Zheng={
+		name="Ngawa Zheng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Ngawa_Zheng
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVA_Sonam_Sheng={
+		name="Sonam Sheng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Sonam_Sheng
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GVA_Ming_Tian={
+		name="Ming Tian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Ming_Tian
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVA_Song_Zheng={
+		name="Song Zheng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVA_Song_Zheng
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVA_Tenzing_Jian={
+		name="Tenzing Jian"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Tenzing_Jian
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	GVA_Long_Guan={
+		name="Long Guan"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Long_Guan
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	GVA_Yuntso_Yuan={
+		name="Yuntso Yuan"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Yuntso_Yuan
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	GVA_Mingdu_Guang={
+		name="Mingdu Guang"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVA_Mingdu_Guang
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	GVA_Wang_Shuan={
+		name="Wang Shuan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVA_Wang_Shuan
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	GVA_Long_Shuan={
+		name="Long Shuan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVA_Long_Shuan
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	GVA_Heng_Shou={
+		name="Heng Shou"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVA_Heng_Shou
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	GVA_Yuntso_Hong={
+		name="Yuntso Hong"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVA_Yuntso_Hong
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	GVA_Yuntso_Reng={
+		name="Yuntso Reng"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Yuntso_Reng
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	GVA_Dawan_Jian={
+		name="Dawan Jian"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Dawan_Jian
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	GVA_Dawan_Shuang={
+		name="Dawan Shuang"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Dawan_Shuang
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	GVA_Teng_Nang={
+		name="Teng Nang"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Teng_Nang
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	GVA_Chenzin_Nang={
+		name="Chenzin Nang"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Chenzin_Nang
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	GVA_Ngawa_Jian={
+		name="Ngawa Jian"
+
+		advisor={
+			slot = high_command
+			idea_token = GVA_Ngawa_Jian
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	GVA_Phun_Niang={
+		name="Phun Niang"
+
+		advisor={
+			slot = theorist
+			idea_token = GVA_Phun_Niang
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	GVA_Yang_Chuan={
+		name="Yang Chuan"
+
+		advisor={
+			slot = theorist
+			idea_token = GVA_Yang_Chuan
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	GVA_Gyatso_Chuang={
+		name="Gyatso Chuang"
+
+		advisor={
+			slot = theorist
+			idea_token = GVA_Gyatso_Chuang
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

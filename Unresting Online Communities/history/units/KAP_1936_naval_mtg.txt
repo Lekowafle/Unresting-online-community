@@ -1,0 +1,119 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Kapija Fleet"			
+		naval_base = 10765
+		task_force = {
+			name = "Kapija Fleet"
+			location = 10765
+			
+						ship = { name = "Ruca" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Ribav" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Zlatralja" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Drvotinjica" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Konzulturalj" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Drvotinjica 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Otak" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Prirod" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Izvori" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Ostvo" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Otak 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Miroda" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Kovo" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Teat" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Vreme" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Otak 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Umena" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Drvotinjica 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Prirod 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Kram" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Laga" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Prirod 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Drvo" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Kucaj" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Krava" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Delova" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Zlatralja 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Solje" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Obica" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Vino" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Viladarom" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Voda" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Kovo 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Vecnostvot" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Vecnostvot 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Prirod 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Maslja" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Drvo 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Konzulturalj 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Nebo" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Hralja" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Nebo 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Vinja" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Nadzbica" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Prirod 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Boginazan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Kram 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Solj" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Knja" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Solj 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Miroda 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Knja 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Kucaj 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Boginazan 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Rekt" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Ribav 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Nacina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Zlatralja 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Prirod 6" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Prirod 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Istvozduh" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Miroda 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Vinja 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Kram 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Nadzbica 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Drvo 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Grefekar" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Solje 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Nebo 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Vreme 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Nadzbica 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Ribar" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Vino 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Prirod 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Maslja 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Solj 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Izvori 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Knja 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Drvo 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Maslja 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Grom" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Grefekar 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Nebo 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Kucaj 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Solje 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Istvozduh 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Knja 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Ribav 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Ostvo 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Otak 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Nacina 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+			ship = { name = "Kovo 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAP version_name = "Vreme Class" } }	}
+			ship = { name = "Kovo 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAP version_name = "Drvo Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

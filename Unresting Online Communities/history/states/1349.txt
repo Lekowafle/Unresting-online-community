@@ -1,0 +1,41 @@
+
+state={
+	id=1349
+	name="STATE_1349"
+	manpower = 1114494
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=2
+		oil=0
+		rubber=0
+		steel=5
+		tungsten=2
+		coal=4
+	}
+
+	history={
+		victory_points = { 15604 2}
+		
+		owner = AGU
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+			arms_factory = 1
+			industrial_complex = 0
+			
+			15608 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGU
+	}
+
+	provinces={
+		15604 15605 15606 15607 15608 15609 
+	}
+	local_supplies=0.0 
+}

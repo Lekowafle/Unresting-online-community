@@ -1,0 +1,44 @@
+
+state={
+	id=343
+	name="STATE_343"
+	manpower = 3710912
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=31
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3847 2}
+		victory_points = { 3852 2}
+		victory_points = { 3854 1}
+		victory_points = { 3856 1}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+			arms_factory = 0
+			industrial_complex = 1
+			
+			3850 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		3843 3844 3845 3846 3847 3848 3849 3850 3851 3852 3853 3854 3855 3856 3857 3858 3859 3860 3861 3862 3863 3864 3865 3866 
+	}
+	local_supplies=0.0 
+}

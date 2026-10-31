@@ -1,0 +1,40 @@
+
+state={
+	id=1075
+	name="STATE_1075"
+	manpower = 736564
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LIN
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			12559 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = LIN
+	}
+
+	provinces={
+		12556 12557 12558 12559 
+	}
+	local_supplies=0.0 
+}

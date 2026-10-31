@@ -1,0 +1,40 @@
+
+state={
+	id=900
+	name="STATE_900"
+	manpower = 372234
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = COB
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			10449 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = COB
+	}
+
+	provinces={
+		10449 10450 
+	}
+	local_supplies=0.0 
+}

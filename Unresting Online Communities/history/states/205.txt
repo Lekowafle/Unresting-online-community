@@ -1,0 +1,43 @@
+
+state={
+	id=205
+	name="STATE_205"
+	manpower = 2855169
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=16
+		steel=0
+		tungsten=1
+		coal=3
+	}
+
+	history={
+		victory_points = { 2371 1}
+		victory_points = { 2382 1}
+		victory_points = { 2383 1}
+		
+		owner = IMN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			2375 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = IMN
+	}
+
+	provinces={
+		2369 2370 2371 2372 2373 2374 2375 2376 2377 2378 2379 2380 2381 2382 2383 2384 2385 2386 
+	}
+	local_supplies=0.0 
+}

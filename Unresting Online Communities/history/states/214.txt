@@ -1,0 +1,39 @@
+
+state={
+	id=214
+	name="STATE_214"
+	manpower = 2263677
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=5
+	}
+
+	history={
+		victory_points = { 2500 2}
+		victory_points = { 2502 4}
+		
+		owner = CUA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CUA
+	}
+
+	provinces={
+		2491 2492 2493 2494 2495 2496 2497 2498 2499 2500 2501 2502 2503 
+	}
+	local_supplies=0.0 
+}

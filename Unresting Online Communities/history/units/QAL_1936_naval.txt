@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Qalak Fleet"			
+		naval_base = 17176
+		task_force = {
+			name = "Qalak Fleet"
+			location = 17176
+			
+						ship = { name = "Naml" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QAL version_name = "Rawi Class" } }	}
+			ship = { name = "Madin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QAL version_name = "Rawi Class" } }	}
+			ship = { name = "Qalak" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = QAL version_name = "Harq Class" } }	}
+			ship = { name = "Shar" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QAL version_name = "Rabr Class" } }	}
+			ship = { name = "Madin 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = QAL version_name = "Rawi Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

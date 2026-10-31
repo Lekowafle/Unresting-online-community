@@ -1,0 +1,41 @@
+
+state={
+	id=341
+	name="STATE_341"
+	manpower = 714619
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=8
+		chromium=8
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=8
+		coal=20
+	}
+
+	history={
+		victory_points = { 3833 1}
+		
+		owner = AME
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			3834 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AME
+	}
+
+	provinces={
+		3832 3833 3834 3835 
+	}
+	local_supplies=0.0 
+}

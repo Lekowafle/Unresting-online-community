@@ -1,0 +1,39 @@
+
+state={
+	id=442
+	name="STATE_442"
+	manpower = 1438002
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5013 3}
+		victory_points = { 5015 2}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		5012 5013 5014 5015 5016 5017 5018 
+	}
+	local_supplies=0.0 
+}

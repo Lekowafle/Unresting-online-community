@@ -1,0 +1,42 @@
+
+state={
+	id=1073
+	name="STATE_1073"
+	manpower = 1579770
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12547 5}
+		victory_points = { 12549 2}
+		
+		owner = JIA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 2
+			12548 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JIA
+	}
+
+	provinces={
+		12546 12547 12548 12549 12550 12551 12552 12553 
+	}
+	local_supplies=0.0 
+}

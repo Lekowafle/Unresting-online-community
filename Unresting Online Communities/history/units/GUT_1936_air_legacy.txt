@@ -1,0 +1,17 @@
+air_wings = {
+		116 = { 								
+		fighter_equipment_0 = { owner = "GUT" amount = 8 version_name = "Buaill Mk 2" }
+nav_bomber_equipment_0 = { owner = "GUT" amount = 9 version_name = "Ceithairim Mk 0" }
+
+	}
+	220 = { 								
+		CAS_equipment_0 = { owner = "GUT" amount = 8 version_name = "Buidhe Mk 1" }
+
+	}
+	1531 = { 								
+		tac_bomber_equipment_0 = { owner = "GUT" amount = 6 version_name = "Spioc Mk 1" }
+
+	}
+
+
+}

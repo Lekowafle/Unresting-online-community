@@ -1,0 +1,44 @@
+
+state={
+	id=846
+	name="STATE_846"
+	manpower = 6375508
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=9
+		rubber=0
+		steel=38
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9737 8}
+		victory_points = { 9738 7}
+		victory_points = { 9742 1}
+		victory_points = { 9743 7}
+		
+		owner = OST
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			9754 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = OST
+	}
+
+	provinces={
+		9737 9738 9739 9740 9741 9742 9743 9744 9745 9746 9747 9748 9749 9750 9751 9752 9753 9754 9755 9756 9757 9758 9759 9760 9761 9762 9763 9764 9765 9766 9767 9768 9769 9770 
+	}
+	local_supplies=0.0 
+}

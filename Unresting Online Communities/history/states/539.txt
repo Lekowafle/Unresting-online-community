@@ -1,0 +1,39 @@
+
+state={
+	id=539
+	name="STATE_539"
+	manpower = 1046970
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5986 1}
+		victory_points = { 5990 1}
+		
+		owner = TOR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TOR
+	}
+
+	provinces={
+		5986 5987 5988 5989 5990 
+	}
+	local_supplies=0.0 
+}

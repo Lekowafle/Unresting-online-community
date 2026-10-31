@@ -1,0 +1,43 @@
+
+state={
+	id=1382
+	name="STATE_1382"
+	manpower = 3024180
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=4
+		chromium=4
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=4
+		coal=10
+	}
+
+	history={
+		victory_points = { 15956 4}
+		victory_points = { 15960 5}
+		victory_points = { 15968 3}
+		
+		owner = NUN
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 3
+			15968 = {
+				naval_base = 4
+			}
+			
+		}
+		add_core_of = NUN
+	}
+
+	provinces={
+		15954 15955 15956 15957 15958 15959 15960 15961 15962 15963 15964 15965 15966 15967 15968 15969 
+	}
+	local_supplies=0.0 
+}

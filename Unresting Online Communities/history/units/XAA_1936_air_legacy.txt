@@ -1,0 +1,30 @@
+air_wings = {
+		862 = { 								
+		tac_bomber_equipment_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+
+	}
+	656 = { 								
+		tac_bomber_equipment_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+
+	}
+	664 = { 								
+		tac_bomber_equipment_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+
+	}
+	854 = { 								
+		tac_bomber_equipment_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+tac_bomber_equipment_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+
+	}
+	640 = { 								
+		tac_bomber_equipment_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+
+	}
+	1552 = { 								
+		tac_bomber_equipment_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+tac_bomber_equipment_0 = { owner = "XAA" amount = 50 version_name = "Thakku Mk 2" }
+
+	}
+
+
+}

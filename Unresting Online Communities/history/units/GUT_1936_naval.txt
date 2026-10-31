@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Guthailt Fleet"			
+		naval_base = 17148
+		task_force = {
+			name = "Guthailt Fleet"
+			location = 17148
+			
+						ship = { name = "Eirear" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GUT version_name = "Radhe Class" } }	}
+			ship = { name = "Tuailleanch" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GUT version_name = "Dorm Class" } }	}
+			ship = { name = "Buatharcrada" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GUT version_name = "Radhe Class" } }	}
+			ship = { name = "Radhe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GUT version_name = "Dorm Class" } }	}
+			ship = { name = "Laoisceas" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GUT version_name = "Radhe Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

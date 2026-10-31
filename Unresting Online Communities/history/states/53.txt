@@ -1,0 +1,39 @@
+
+state={
+	id=53
+	name="STATE_53"
+	manpower = 5171071
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 610 11}
+		victory_points = { 622 7}
+		
+		owner = BAT
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = BAT
+	}
+
+	provinces={
+		605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 
+	}
+	local_supplies=0.0 
+}

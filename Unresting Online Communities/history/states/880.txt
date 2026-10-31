@@ -1,0 +1,40 @@
+
+state={
+	id=880
+	name="STATE_880"
+	manpower = 2139671
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10216 2}
+		victory_points = { 10219 5}
+		victory_points = { 10220 1}
+		
+		owner = UXU
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = UXU
+	}
+
+	provinces={
+		10215 10216 10217 10218 10219 10220 10221 10222 10223 10224 
+	}
+	local_supplies=0.0 
+}

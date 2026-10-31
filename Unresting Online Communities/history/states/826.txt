@@ -1,0 +1,41 @@
+
+state={
+	id=826
+	name="STATE_826"
+	manpower = 2656018
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=20
+		chromium=21
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=20
+		coal=51
+	}
+
+	history={
+		victory_points = { 9445 1}
+		victory_points = { 9447 1}
+		victory_points = { 9453 1}
+		victory_points = { 9454 1}
+		
+		owner = UXU
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = UXU
+	}
+
+	provinces={
+		9442 9443 9444 9445 9446 9447 9448 9449 9450 9451 9452 9453 9454 9455 9456 9457 
+	}
+	local_supplies=0.0 
+}

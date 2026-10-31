@@ -1,0 +1,28 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Amerwizirt Fleet"			
+		naval_base = 6315
+		task_force = {
+			name = "Amerwizirt Fleet"
+			location = 6315
+			
+						ship = { name = "Islit" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AME version_name = "Amdanemt Class" } }	}
+			ship = { name = "Tighas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AME version_name = "Amdanemt Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,39 @@
+
+state={
+	id=1461
+	name="STATE_1461"
+	manpower = 2112573
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16645 1}
+		victory_points = { 16650 1}
+		
+		owner = TUL
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TUL
+	}
+
+	provinces={
+		16645 16646 16647 16648 16649 16650 16651 16652 16653 16654 16655 16656 16657 16658 
+	}
+	local_supplies=0.0 
+}

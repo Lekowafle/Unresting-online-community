@@ -1,0 +1,38 @@
+
+state={
+	id=612
+	name="STATE_612"
+	manpower = 3315667
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=12
+		chromium=12
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=12
+		coal=30
+	}
+
+	history={
+		victory_points = { 6764 10}
+		
+		owner = KHU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KHU
+	}
+
+	provinces={
+		6755 6756 6757 6758 6759 6760 6761 6762 6763 6764 6765 6766 6767 6768 6769 6770 6771 6772 6773 
+	}
+	local_supplies=0.0 
+}

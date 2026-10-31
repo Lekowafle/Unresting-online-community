@@ -1,0 +1,434 @@
+capital = 1026
+
+oob = "TON_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "TON_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "TON_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	marines= 1
+	tech_mountaineers= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	basic_fire_control_system= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Jiang Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Jian Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Xian Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Ming Mk 1"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Lian Mk 1"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Shuang Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_medium_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "TON_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			early_bombs = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			
+		}
+
+	else = {
+		set_air_oob = "TON_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			CAS1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "TON_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Chen Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "TON_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Chen Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = TON_Yangdu_Guang
+recruit_character = TON_Sonam_Shuan
+recruit_character = TON_Dawan_Zhou
+recruit_character = TON_Yuntso_Nang
+recruit_character = TON_Ngawang_Hong
+recruit_character = TON_Thun_Huang
+recruit_character = TON_Fang_Chuang
+recruit_character = TON_Gyatsok_Tong
+recruit_character = TON_Teng_Shuang
+recruit_character = TON_Dawang_Chuan
+recruit_character = TON_Heng_Shuan
+recruit_character = TON_Phun_Shuan
+recruit_character = TON_Song_Xian
+recruit_character = TON_Phuntsok_Jian
+recruit_character = TON_Yangdu_Shou
+recruit_character = TON_Mingdu_Shen
+recruit_character = TON_Phubteng_Miang
+recruit_character = TON_Gyatsok_Cheng
+recruit_character = TON_Ngawa_Reng
+recruit_character = TON_Teng_Jian
+recruit_character = TON_Lonam_Qing
+recruit_character = TON_Jiangdu_Zheng
+recruit_character = TON_Yuntso_Guan
+recruit_character = TON_Qiang_Guan
+recruit_character = TON_Nima_Nang
+recruit_character = TON_Yuntso_Xian
+recruit_character = TON_Qian_Shong
+recruit_character = TON_Jigme_Xian
+recruit_character = TON_Ming_Shen
+recruit_character = TON_Gyatsok_Shong
+recruit_character = TON_Jiangdu_Guang
+recruit_character = TON_Dawang_Chuang
+recruit_character = TON_Song_Tian
+recruit_character = TON_Yuntso_Reng
+recruit_character = TON_Dawan_Yuan
+recruit_character = TON_Lobsangdu_Xian
+recruit_character = TON_Wang_Zhan
+recruit_character = TON_Ngawang_Qing
+recruit_character = TON_Jiang_Qing
+recruit_character = TON_Lonam_Zhou
+recruit_character = TON_Dawang_Shong
+recruit_character = TON_Phubten_Qing
+recruit_character = TON_Phuntsok_Yuan
+recruit_character = TON_Wang_Zhou
+recruit_character = TON_Phubten_Huang
+recruit_character = TON_Phuntsok_Cheng
+recruit_character = TON_Tenzing_Zhan
+recruit_character = TON_Yangdu_Tong
+recruit_character = TON_Karma_Jian
+recruit_character = TON_Song_Tiang
+recruit_character = TON_Tenzing_Shen
+recruit_character = TON_Yang_Nian
+recruit_character = TON_Dawan_Huan
+recruit_character = TON_Lobsangdu_Guang
+recruit_character = TON_Jiang_Nang
+recruit_character = TON_Long_Chuang
+recruit_character = TON_Fangdu_Reng
+recruit_character = TON_Chen_Cheng
+recruit_character = TON_Phubtenzin_Zhan
+recruit_character = TON_Thun_Tiang
+recruit_character = TON_Yangdu_Xian
+recruit_character = TON_Jiang_Shuan
+recruit_character = TON_Ngawang_Shuang
+recruit_character = TON_Long_Reng
+recruit_character = TON_Jigme_Cheng
+recruit_character = TON_Phubten_Shen
+recruit_character = TON_Teng_Xian
+recruit_character = TON_Chenzin_Chuan
+recruit_character = TON_Renzin_Huang
+recruit_character = TON_Wang_Qing
+recruit_character = TON_Teng_Nang
+recruit_character = TON_Fangdu_Zhou
+recruit_character = TON_Sonam_Hong
+recruit_character = TON_Lonam_Niang
+recruit_character = TON_Chenzin_Cheng
+recruit_character = TON_Qian_Tiang
+recruit_character = TON_Chen_Huang
+recruit_character = TON_Karma_Ping
+recruit_character = TON_Thubtenzin_Sheng
+recruit_character = TON_Thun_Shong
+recruit_character = TON_Phubteng_Qing
+recruit_character = TON_Lobsang_Lian
+recruit_character = TON_Ngawang_Lian
+recruit_character = TON_Chenzin_Zhou
+recruit_character = TON_Ming_Ping
+recruit_character = TON_Tenzing_Huan
+recruit_character = TON_Ming_Yuan
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.74
+set_war_support = 0.50
+
+add_ideas = {
+disarmed_nation
+civilian_economy
+closed_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1898.2.13"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 28
+	fascism = 16
+	communism = 29
+	neutrality = 27
+}
+
+
+
+
+

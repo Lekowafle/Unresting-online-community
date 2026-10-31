@@ -1,0 +1,38 @@
+
+state={
+	id=407
+	name="STATE_407"
+	manpower = 1120620
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4611 2}
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		4611 4612 4613 4614 4615 4616 
+	}
+	local_supplies=0.0 
+}

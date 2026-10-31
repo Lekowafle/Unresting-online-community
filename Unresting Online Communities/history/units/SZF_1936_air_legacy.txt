@@ -1,0 +1,14 @@
+air_wings = {
+		1558 = { 								
+		CAS_equipment_0 = { owner = "SZF" amount = 1 version_name = "Amarq Mk 0" }
+fighter_equipment_0 = { owner = "SZF" amount = 1 version_name = "Hikmah Mk 2" }
+nav_bomber_equipment_0 = { owner = "SZF" amount = 4 version_name = "Mashfa Mk 0" }
+
+	}
+	1547 = { 								
+		tac_bomber_equipment_0 = { owner = "SZF" amount = 4 version_name = "Mufti Mk 0" }
+
+	}
+
+
+}

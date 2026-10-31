@@ -1,0 +1,40 @@
+
+state={
+	id=657
+	name="STATE_657"
+	manpower = 1319262
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=10
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7301 1}
+		victory_points = { 7302 1}
+		victory_points = { 7306 1}
+		
+		owner = GVO
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = GVO
+	}
+
+	provinces={
+		7301 7302 7303 7304 7305 7306 7307 
+	}
+	local_supplies=0.0 
+}

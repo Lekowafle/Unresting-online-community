@@ -1,0 +1,44 @@
+
+state={
+	id=63
+	name="STATE_63"
+	manpower = 6750430
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=10
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 791 1}
+		victory_points = { 823 2}
+		victory_points = { 832 2}
+		victory_points = { 835 2}
+		
+		owner = NAR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			791 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NAR
+	}
+
+	provinces={
+		789 790 791 792 793 794 795 796 797 798 799 800 801 802 803 804 805 806 807 808 809 810 811 812 813 814 815 816 817 818 819 820 821 822 823 824 825 826 827 828 829 830 831 832 833 834 835 836 
+	}
+	local_supplies=0.0 
+}

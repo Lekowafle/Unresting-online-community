@@ -1,0 +1,41 @@
+
+state={
+	id=408
+	name="STATE_408"
+	manpower = 880297
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4618 2}
+		
+		owner = FON
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			4620 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FON
+	}
+
+	provinces={
+		4617 4618 4619 4620 
+	}
+	local_supplies=0.0 
+}

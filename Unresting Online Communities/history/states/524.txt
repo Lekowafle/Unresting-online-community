@@ -1,0 +1,45 @@
+
+state={
+	id=524
+	name="STATE_524"
+	manpower = 3436069
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5788 1}
+		victory_points = { 5789 1}
+		victory_points = { 5791 1}
+		victory_points = { 5800 1}
+		victory_points = { 5806 1}
+		
+		owner = FAI
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			5796 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FAI
+	}
+
+	provinces={
+		5787 5788 5789 5790 5791 5792 5793 5794 5795 5796 5797 5798 5799 5800 5801 5802 5803 5804 5805 5806 
+	}
+	local_supplies=0.0 
+}

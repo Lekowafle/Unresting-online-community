@@ -1,0 +1,43 @@
+
+state={
+	id=642
+	name="STATE_642"
+	manpower = 1674823
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7161 2}
+		victory_points = { 7163 4}
+		victory_points = { 7164 1}
+		
+		owner = UXU
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 1
+			
+			7166 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = UXU
+	}
+
+	provinces={
+		7159 7160 7161 7162 7163 7164 7165 7166 
+	}
+	local_supplies=0.0 
+}

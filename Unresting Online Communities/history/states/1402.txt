@@ -1,0 +1,45 @@
+
+state={
+	id=1402
+	name="STATE_1402"
+	manpower = 3816523
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16151 3}
+		victory_points = { 16152 3}
+		victory_points = { 16158 3}
+		victory_points = { 16159 3}
+		victory_points = { 16164 3}
+		
+		owner = ORA
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 4
+			
+			16156 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = ORA
+	}
+
+	provinces={
+		16151 16152 16153 16154 16155 16156 16157 16158 16159 16160 16161 16162 16163 16164 16165 16166 16167 16168 16169 16170 
+	}
+	local_supplies=0.0 
+}

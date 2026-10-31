@@ -1,0 +1,39 @@
+
+state={
+	id=877
+	name="STATE_877"
+	manpower = 3503601
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10174 2}
+		victory_points = { 10185 11}
+		
+		owner = KAP
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = KAP
+	}
+
+	provinces={
+		10171 10172 10173 10174 10175 10176 10177 10178 10179 10180 10181 10182 10183 10184 10185 10186 10187 10188 10189 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=473
+	name="STATE_473"
+	manpower = 817730
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=4
+	}
+
+	history={
+		victory_points = { 5295 1}
+		
+		owner = BUI
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BUI
+	}
+
+	provinces={
+		5294 5295 5296 5297 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=519
+	name="STATE_519"
+	manpower = 3183890
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5728 1}
+		victory_points = { 5738 1}
+		victory_points = { 5746 1}
+		
+		owner = FAI
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FAI
+	}
+
+	provinces={
+		5725 5726 5727 5728 5729 5730 5731 5732 5733 5734 5735 5736 5737 5738 5739 5740 5741 5742 5743 5744 5745 5746 5747 5748 
+	}
+	local_supplies=0.0 
+}

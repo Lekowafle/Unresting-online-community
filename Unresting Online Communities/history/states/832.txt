@@ -1,0 +1,40 @@
+
+state={
+	id=832
+	name="STATE_832"
+	manpower = 2868803
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9537 1}
+		victory_points = { 9539 1}
+		victory_points = { 9543 1}
+		
+		owner = TOH
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TOH
+	}
+
+	provinces={
+		9527 9528 9529 9530 9531 9532 9533 9534 9535 9536 9537 9538 9539 9540 9541 9542 9543 9544 
+	}
+	local_supplies=0.0 
+}

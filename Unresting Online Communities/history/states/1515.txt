@@ -1,0 +1,43 @@
+
+state={
+	id=1515
+	name="STATE_1515"
+	manpower = 1287729
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17118 1}
+		victory_points = { 17119 1}
+		victory_points = { 17120 1}
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			17120 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		17117 17118 17119 17120 17121 17122 
+	}
+	local_supplies=0.0 
+}

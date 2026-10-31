@@ -1,0 +1,37 @@
+air_wings = {
+		1106 = { 								
+		medium_plane_airframe_0 = { owner = "JIA" amount = 50 version_name = "Ling Mk 2" }
+
+	}
+	1006 = { 								
+		large_plane_airframe_1 = { owner = "JIA" amount = 45 version_name = "Tong Mk 1" }
+
+	}
+	972 = { 								
+		medium_plane_airframe_1 = { owner = "JIA" amount = 50 version_name = "Zhen Mk 0" }
+
+	}
+	997 = { 								
+		medium_plane_airframe_0 = { owner = "JIA" amount = 50 version_name = "Ling Mk 2" }
+
+	}
+	1111 = { 								
+		large_plane_airframe_0 = { owner = "JIA" amount = 45 version_name = "Bing Mk 0" }
+
+	}
+	964 = { 								
+		small_plane_cas_airframe_0 = { owner = "JIA" amount = 44 version_name = "Nian Mk 1" }
+
+	}
+	1049 = { 								
+		small_plane_airframe_0 = { owner = "JIA" amount = 49 version_name = "Jing Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "JIA" amount = 31 version_name = "Chuang Mk 2" }
+
+	}
+	1042 = { 								
+		medium_plane_airframe_1 = { owner = "JIA" amount = 50 version_name = "Zhen Mk 0" }
+
+	}
+
+
+}

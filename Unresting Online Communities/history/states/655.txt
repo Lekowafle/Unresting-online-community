@@ -1,0 +1,40 @@
+
+state={
+	id=655
+	name="STATE_655"
+	manpower = 1767070
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7281 1}
+		victory_points = { 7282 2}
+		victory_points = { 7285 1}
+		
+		owner = TOH
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TOH
+	}
+
+	provinces={
+		7277 7278 7279 7280 7281 7282 7283 7284 7285 7286 
+	}
+	local_supplies=0.0 
+}

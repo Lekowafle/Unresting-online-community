@@ -1,0 +1,60 @@
+air_wings = {
+		415 = { 								
+		CAS_equipment_0 = { owner = "NAD" amount = 50 version_name = "Talas Mk 2" }
+
+	}
+	69 = { 								
+		nav_bomber_equipment_0 = { owner = "NAD" amount = 50 version_name = "Domhradh Mk 0" }
+
+	}
+	232 = { 								
+		fighter_equipment_0 = { owner = "NAD" amount = 50 version_name = "Leanas Mk 2" }
+fighter_equipment_0 = { owner = "NAD" amount = 50 version_name = "Leanas Mk 2" }
+
+	}
+	374 = { 								
+		nav_bomber_equipment_0 = { owner = "NAD" amount = 50 version_name = "Domhradh Mk 0" }
+
+	}
+	337 = { 								
+		nav_bomber_equipment_0 = { owner = "NAD" amount = 50 version_name = "Domhradh Mk 0" }
+
+	}
+	262 = { 								
+		CAS_equipment_0 = { owner = "NAD" amount = 50 version_name = "Talas Mk 2" }
+
+	}
+	311 = { 								
+		fighter_equipment_0 = { owner = "NAD" amount = 50 version_name = "Leanas Mk 2" }
+fighter_equipment_0 = { owner = "NAD" amount = 50 version_name = "Leanas Mk 2" }
+fighter_equipment_0 = { owner = "NAD" amount = 50 version_name = "Leanas Mk 2" }
+
+	}
+	96 = { 								
+		CAS_equipment_0 = { owner = "NAD" amount = 50 version_name = "Talas Mk 2" }
+CAS_equipment_0 = { owner = "NAD" amount = 50 version_name = "Talas Mk 2" }
+
+	}
+	571 = { 								
+		CAS_equipment_0 = { owner = "NAD" amount = 50 version_name = "Talas Mk 2" }
+
+	}
+	253 = { 								
+		nav_bomber_equipment_0 = { owner = "NAD" amount = 50 version_name = "Domhradh Mk 0" }
+
+	}
+	101 = { 								
+		nav_bomber_equipment_0 = { owner = "NAD" amount = 50 version_name = "Domhradh Mk 0" }
+
+	}
+	466 = { 								
+		CAS_equipment_0 = { owner = "NAD" amount = 50 version_name = "Talas Mk 2" }
+
+	}
+	478 = { 								
+		fighter_equipment_0 = { owner = "NAD" amount = 50 version_name = "Leanas Mk 2" }
+
+	}
+
+
+}

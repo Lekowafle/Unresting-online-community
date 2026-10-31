@@ -1,0 +1,42 @@
+
+state={
+	id=233
+	name="STATE_233"
+	manpower = 2027571
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=9
+		chromium=10
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=9
+		coal=23
+	}
+
+	history={
+		victory_points = { 2679 2}
+		victory_points = { 2686 2}
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			2689 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		2679 2680 2681 2682 2683 2684 2685 2686 2687 2688 2689 
+	}
+	local_supplies=0.0 
+}

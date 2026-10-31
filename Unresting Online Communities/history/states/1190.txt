@@ -1,0 +1,42 @@
+
+state={
+	id=1190
+	name="STATE_1190"
+	manpower = 3335318
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=11
+		chromium=12
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=12
+		coal=29
+	}
+
+	history={
+		victory_points = { 13828 2}
+		victory_points = { 13831 1}
+		
+		owner = ALA
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			13818 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = ALA
+	}
+
+	provinces={
+		13817 13818 13819 13820 13821 13822 13823 13824 13825 13826 13827 13828 13829 13830 13831 13832 13833 13834 13835 13836 13837 13838 13839 13840 13841 13842 
+	}
+	local_supplies=0.0 
+}

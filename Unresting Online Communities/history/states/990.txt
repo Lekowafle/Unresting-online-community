@@ -1,0 +1,43 @@
+
+state={
+	id=990
+	name="STATE_990"
+	manpower = 2703941
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11555 1}
+		victory_points = { 11556 1}
+		victory_points = { 11558 6}
+		
+		owner = BIN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			11555 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BIN
+	}
+
+	provinces={
+		11550 11551 11552 11553 11554 11555 11556 11557 11558 11559 11560 11561 11562 11563 11564 
+	}
+	local_supplies=0.0 
+}

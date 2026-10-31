@@ -1,0 +1,46 @@
+
+state={
+	id=98
+	name="STATE_98"
+	manpower = 3848975
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=42
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1212 1}
+		victory_points = { 1213 1}
+		victory_points = { 1216 1}
+		victory_points = { 1220 1}
+		victory_points = { 1225 1}
+		victory_points = { 1236 1}
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			1225 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		1212 1213 1214 1215 1216 1217 1218 1219 1220 1221 1222 1223 1224 1225 1226 1227 1228 1229 1230 1231 1232 1233 1234 1235 1236 1237 
+	}
+	local_supplies=0.0 
+}

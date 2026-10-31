@@ -1,0 +1,1083 @@
+characters = {
+	GRI_Taran_Dorc={
+		name="Taran Dorc"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GRI_Seam_Teilin={
+		name="Seam Teilin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Seam_Teilin
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GRI_Hugh_Leanas={
+		name="Hugh Leanas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Hugh_Leanas
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GRI_Aidan_Laoc={
+		name="Aidan Laoc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Aidan_Laoc
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	GRI_Owen_Gluais={
+		name="Owen Gluais"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Owen_Gluais
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GRI_Fergus_Torcradheamh={
+		name="Fergus Torcradheamh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Fergus_Torcradheamh
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	GRI_Ciaran_Torcras={
+		name="Ciaran Torcras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Ciaran_Torcras
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GRI_Aidan_Cilte={
+		name="Aidan Cilte"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Aidan_Cilte
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	GRI_Padraig_Snach={
+		name="Padraig Snach"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Padraig_Snach
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	GRI_Niareth_Faoch={
+		name="Niareth Faoch"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Niareth_Faoch
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	GRI_Fergus_Faoch={
+		name="Fergus Faoch"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Fergus_Faoch
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	GRI_Seam_Tein={
+		name="Seam Tein"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GRI_Seam_Tein
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	GRI_Liaran_Faoch={
+		name="Liaran Faoch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GRI_Liaran_Faoch
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	GRI_Eoin_Cilte={
+		name="Eoin Cilte"
+
+		advisor={
+			slot = air_chief
+			idea_token = GRI_Eoin_Cilte
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	GRI_Nialcolm_Cilteart={
+		name="Nialcolm Cilteart"
+
+		advisor={
+			slot = air_chief
+			idea_token = GRI_Nialcolm_Cilteart
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	GRI_Nialcolm_Gorcradhe={
+		name="Nialcolm Gorcradhe"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Nialcolm_Gorcradhe
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	GRI_Bran_Faoch={
+		name="Bran Faoch"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Bran_Faoch
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	GRI_Nialcolm_Anach={
+		name="Nialcolm Anach"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Nialcolm_Anach
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	GRI_Quinn_Fail={
+		name="Quinn Fail"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Quinn_Fail
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	GRI_Gareth_Cuaintir={
+		name="Gareth Cuaintir"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Gareth_Cuaintir
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	GRI_Liam_Bras={
+		name="Liam Bras"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Liam_Bras
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	GRI_Liamus_Criann={
+		name="Liamus Criann"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GRI_Nialcolm_Dine={
+		name="Nialcolm Dine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Nialcolm_Dine
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GRI_Garan_Taill={
+		name="Garan Taill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Garan_Taill
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GRI_Iwan_Torcras={
+		name="Iwan Torcras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Iwan_Torcras
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GRI_Mall_Laile={
+		name="Mall Laile"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Mall_Laile
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	GRI_Liamus_Faoch={
+		name="Liamus Faoch"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Liamus_Faoch
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GRI_Niaran_Boglamhreala={
+		name="Niaran Boglamhreala"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Niaran_Boglamhreala
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GRI_Niareth_Bann={
+		name="Niareth Bann"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Niareth_Bann
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	GRI_Keiran_Spionn={
+		name="Keiran Spionn"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Keiran_Spionn
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	GRI_Ciamus_Ardanwa={
+		name="Ciamus Ardanwa"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Ciamus_Ardanwa
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	GRI_Quinn_Dorcha={
+		name="Quinn Dorcha"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Quinn_Dorcha
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	GRI_Seam_Buailt={
+		name="Seam Buailt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GRI_Seam_Buailt
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	GRI_Keiran_Fail={
+		name="Keiran Fail"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GRI_Keiran_Fail
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	GRI_Ciaran_Faoch={
+		name="Ciaran Faoch"
+
+		advisor={
+			slot = air_chief
+			idea_token = GRI_Ciaran_Faoch
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	GRI_Nialcolm_Leanas={
+		name="Nialcolm Leanas"
+
+		advisor={
+			slot = air_chief
+			idea_token = GRI_Nialcolm_Leanas
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	GRI_Niareth_Seach={
+		name="Niareth Seach"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Niareth_Seach
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	GRI_Declan_Talamhreoill={
+		name="Declan Talamhreoill"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Declan_Talamhreoill
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	GRI_Fergus_Talas={
+		name="Fergus Talas"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Fergus_Talas
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	GRI_Padran_Muidh={
+		name="Padran Muidh"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Padran_Muidh
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	GRI_Keiran_Teim={
+		name="Keiran Teim"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Keiran_Teim
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	GRI_Keiraig_Solamhne={
+		name="Keiraig Solamhne"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Keiraig_Solamhne
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	GRI_Padraig_Dorc={
+		name="Padraig Dorc"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { socialist_justice  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GRI_Rhys_Cuaintir={
+		name="Rhys Cuaintir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Rhys_Cuaintir
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GRI_Ciamus_Dorcha={
+		name="Ciamus Dorcha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Ciamus_Dorcha
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GRI_Niam_Eachasach={
+		name="Niam Eachasach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Niam_Eachasach
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	GRI_Niam_Cluarg={
+		name="Niam Cluarg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Niam_Cluarg
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GRI_Seam_Beathaill={
+		name="Seam Beathaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Seam_Beathaill
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GRI_Iwan_Eagne={
+		name="Iwan Eagne"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Iwan_Eagne
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GRI_Padraig_Taill={
+		name="Padraig Taill"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Padraig_Taill
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	GRI_Padraig_Sean={
+		name="Padraig Sean"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Padraig_Sean
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	GRI_Seam_Leal={
+		name="Seam Leal"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Seam_Leal
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	GRI_Ciamus_Cuaintir={
+		name="Ciamus Cuaintir"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Ciamus_Cuaintir
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	GRI_Niall_Gorcradhe={
+		name="Niall Gorcradhe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GRI_Niall_Gorcradhe
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	GRI_Niaran_Lainn={
+		name="Niaran Lainn"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GRI_Niaran_Lainn
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	GRI_Liamus_Sona={
+		name="Liamus Sona"
+
+		advisor={
+			slot = air_chief
+			idea_token = GRI_Liamus_Sona
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	GRI_Ulrich_Seart={
+		name="Ulrich Seart"
+
+		advisor={
+			slot = air_chief
+			idea_token = GRI_Ulrich_Seart
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	GRI_Keiran_Gluach={
+		name="Keiran Gluach"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Keiran_Gluach
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	GRI_Garan_Talas={
+		name="Garan Talas"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Garan_Talas
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	GRI_Niam_Teilin={
+		name="Niam Teilin"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Niam_Teilin
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	GRI_Liamus_Teim={
+		name="Liamus Teim"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Liamus_Teim
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	GRI_Eoinn_Dorc={
+		name="Eoinn Dorc"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Eoinn_Dorc
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	GRI_Taran_Gealte={
+		name="Taran Gealte"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Taran_Gealte
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	GRI_Fergus_Coileal={
+		name="Fergus Coileal"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GRI_Eoinn_Guthaigna={
+		name="Eoinn Guthaigna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Eoinn_Guthaigna
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	GRI_Aidan_Taill={
+		name="Aidan Taill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Aidan_Taill
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GRI_Taran_Claireitha={
+		name="Taran Claireitha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Taran_Claireitha
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GRI_Seamus_Aisce={
+		name="Seamus Aisce"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Seamus_Aisce
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GRI_Seamus_Seart={
+		name="Seamus Seart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Seamus_Seart
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GRI_Eoinn_Tall={
+		name="Eoinn Tall"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GRI_Eoinn_Tall
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	GRI_Declan_Talamh={
+		name="Declan Talamh"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Declan_Talamh
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	GRI_Niall_Luas={
+		name="Niall Luas"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Niall_Luas
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	GRI_Garan_Ruas={
+		name="Garan Ruas"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Garan_Ruas
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	GRI_Owen_Seart={
+		name="Owen Seart"
+
+		advisor={
+			slot = army_chief
+			idea_token = GRI_Owen_Seart
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	GRI_Malcolm_Teim={
+		name="Malcolm Teim"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GRI_Malcolm_Teim
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	GRI_Mall_Beathaill={
+		name="Mall Beathaill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GRI_Mall_Beathaill
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	GRI_Ciam_Coinamha={
+		name="Ciam Coinamha"
+
+		advisor={
+			slot = air_chief
+			idea_token = GRI_Ciam_Coinamha
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	GRI_Aidan_Bras={
+		name="Aidan Bras"
+
+		advisor={
+			slot = air_chief
+			idea_token = GRI_Aidan_Bras
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	GRI_Ciam_Muidh={
+		name="Ciam Muidh"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Ciam_Muidh
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	GRI_Iwan_Ceil={
+		name="Iwan Ceil"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Iwan_Ceil
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	GRI_Aidan_Talamhreall={
+		name="Aidan Talamhreall"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Aidan_Talamhreall
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	GRI_Mall_Boglamhreala={
+		name="Mall Boglamhreala"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Mall_Boglamhreala
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	GRI_Owen_Gealte={
+		name="Owen Gealte"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Owen_Gealte
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	GRI_Ulrich_Leal={
+		name="Ulrich Leal"
+
+		advisor={
+			slot = high_command
+			idea_token = GRI_Ulrich_Leal
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	GRI_Braig_Aisce={
+		name="Braig Aisce"
+
+		advisor={
+			slot = theorist
+			idea_token = GRI_Braig_Aisce
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	GRI_Ciaran_Beamhreach={
+		name="Ciaran Beamhreach"
+
+		advisor={
+			slot = theorist
+			idea_token = GRI_Ciaran_Beamhreach
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	GRI_Niareth_Torc={
+		name="Niareth Torc"
+
+		advisor={
+			slot = theorist
+			idea_token = GRI_Niareth_Torc
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

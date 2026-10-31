@@ -1,0 +1,42 @@
+
+state={
+	id=415
+	name="STATE_415"
+	manpower = 6461713
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4690 8}
+		victory_points = { 4715 11}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 1
+			4700 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		4683 4684 4685 4686 4687 4688 4689 4690 4691 4692 4693 4694 4695 4696 4697 4698 4699 4700 4701 4702 4703 4704 4705 4706 4707 4708 4709 4710 4711 4712 4713 4714 4715 4716 4717 4718 4719 4720 
+	}
+	local_supplies=0.0 
+}

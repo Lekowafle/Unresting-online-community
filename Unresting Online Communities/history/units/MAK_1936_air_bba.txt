@@ -1,0 +1,17 @@
+air_wings = {
+		716 = { 								
+		small_plane_airframe_0 = { owner = "MAK" amount = 31 version_name = "Paatturambu Mk 2" }
+
+	}
+	851 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MAK" amount = 25 version_name = "Koli Mk 0" }
+
+	}
+	627 = { 								
+		small_plane_cas_airframe_0 = { owner = "MAK" amount = 23 version_name = "Kudhan Mk 0" }
+medium_plane_airframe_0 = { owner = "MAK" amount = 19 version_name = "Paatturambu Mk 2" }
+
+	}
+
+
+}

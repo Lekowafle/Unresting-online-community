@@ -1,0 +1,17 @@
+air_wings = {
+		938 = { 								
+		nav_bomber_equipment_0 = { owner = "KAN" amount = 37 version_name = "Kadam Mk 2" }
+tac_bomber_equipment_0 = { owner = "KAN" amount = 27 version_name = "Nenjil Mk 2" }
+
+	}
+	744 = { 								
+		CAS_equipment_0 = { owner = "KAN" amount = 15 version_name = "Velalam Mk 0" }
+
+	}
+	611 = { 								
+		fighter_equipment_0 = { owner = "KAN" amount = 24 version_name = "Paatturambu Mk 2" }
+
+	}
+
+
+}

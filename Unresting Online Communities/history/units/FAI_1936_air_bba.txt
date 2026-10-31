@@ -1,0 +1,45 @@
+air_wings = {
+		400 = { 								
+		medium_plane_airframe_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	321 = { 								
+		medium_plane_airframe_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	107 = { 								
+		medium_plane_airframe_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	201 = { 								
+		medium_plane_airframe_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	532 = { 								
+		medium_plane_airframe_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	524 = { 								
+		medium_plane_airframe_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	271 = { 								
+		medium_plane_airframe_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+medium_plane_airframe_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	30 = { 								
+		medium_plane_airframe_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	265 = { 								
+		medium_plane_airframe_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	519 = { 								
+		medium_plane_airframe_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+
+
+}

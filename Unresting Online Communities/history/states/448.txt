@@ -1,0 +1,39 @@
+
+state={
+	id=448
+	name="STATE_448"
+	manpower = 2157278
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=7
+		chromium=7
+		oil=0
+		rubber=13
+		steel=1
+		tungsten=7
+		coal=17
+	}
+
+	history={
+		victory_points = { 5060 1}
+		victory_points = { 5065 1}
+		
+		owner = AME
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AME
+	}
+
+	provinces={
+		5056 5057 5058 5059 5060 5061 5062 5063 5064 5065 5066 5067 5068 
+	}
+	local_supplies=0.0 
+}

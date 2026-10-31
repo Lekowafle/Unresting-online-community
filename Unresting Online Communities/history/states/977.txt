@@ -1,0 +1,41 @@
+
+state={
+	id=977
+	name="STATE_977"
+	manpower = 2887923
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=5
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11369 1}
+		victory_points = { 11373 2}
+		victory_points = { 11374 2}
+		victory_points = { 11377 2}
+		
+		owner = WHU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = WHU
+	}
+
+	provinces={
+		11366 11367 11368 11369 11370 11371 11372 11373 11374 11375 11376 11377 11378 11379 11380 11381 11382 
+	}
+	local_supplies=0.0 
+}

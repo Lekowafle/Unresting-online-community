@@ -1,0 +1,24 @@
+air_wings = {
+		383 = { 								
+		nav_bomber_equipment_0 = { owner = "QAL" amount = 50 version_name = "Mawar Mk 1" }
+
+	}
+	376 = { 								
+		CAS_equipment_0 = { owner = "QAL" amount = 50 version_name = "Madrab Mk 1" }
+
+	}
+	146 = { 								
+		nav_bomber_equipment_0 = { owner = "QAL" amount = 50 version_name = "Mawar Mk 1" }
+
+	}
+	1559 = { 								
+		CAS_equipment_0 = { owner = "QAL" amount = 50 version_name = "Madrab Mk 1" }
+
+	}
+	270 = { 								
+		fighter_equipment_0 = { owner = "QAL" amount = 46 version_name = "Wadina Mk 1" }
+
+	}
+
+
+}

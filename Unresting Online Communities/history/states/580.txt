@@ -1,0 +1,43 @@
+
+state={
+	id=580
+	name="STATE_580"
+	manpower = 1231407
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6432 3}
+		victory_points = { 6433 2}
+		victory_points = { 6435 1}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			6432 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		6432 6433 6434 6435 6436 6437 
+	}
+	local_supplies=0.0 
+}

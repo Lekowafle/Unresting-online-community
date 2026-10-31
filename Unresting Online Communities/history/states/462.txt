@@ -1,0 +1,40 @@
+
+state={
+	id=462
+	name="STATE_462"
+	manpower = 1393409
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5201 2}
+		victory_points = { 5202 2}
+		victory_points = { 5204 2}
+		
+		owner = LUA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = LUA
+	}
+
+	provinces={
+		5198 5199 5200 5201 5202 5203 5204 
+	}
+	local_supplies=0.0 
+}

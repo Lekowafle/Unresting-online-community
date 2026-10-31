@@ -1,0 +1,43 @@
+
+state={
+	id=671
+	name="STATE_671"
+	manpower = 3239709
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=16
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7490 5}
+		victory_points = { 7492 1}
+		victory_points = { 7497 5}
+		
+		owner = PAA
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			7491 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = PAA
+	}
+
+	provinces={
+		7485 7486 7487 7488 7489 7490 7491 7492 7493 7494 7495 7496 7497 7498 7499 7500 7501 
+	}
+	local_supplies=0.0 
+}

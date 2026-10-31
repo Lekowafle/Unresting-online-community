@@ -1,0 +1,40 @@
+
+state={
+	id=171
+	name="STATE_171"
+	manpower = 1550386
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1991 1}
+		victory_points = { 1994 1}
+		victory_points = { 1995 3}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		1989 1990 1991 1992 1993 1994 1995 1996 
+	}
+	local_supplies=0.0 
+}

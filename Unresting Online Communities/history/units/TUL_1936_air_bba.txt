@@ -1,0 +1,16 @@
+air_wings = {
+		1464 = { 								
+		medium_plane_airframe_0 = { owner = "TUL" amount = 50 version_name = "Keradat Mk 1" }
+
+	}
+	1453 = { 								
+		medium_plane_airframe_0 = { owner = "TUL" amount = 50 version_name = "Keradat Mk 1" }
+
+	}
+	1497 = { 								
+		medium_plane_airframe_0 = { owner = "TUL" amount = 50 version_name = "Keradat Mk 1" }
+
+	}
+
+
+}

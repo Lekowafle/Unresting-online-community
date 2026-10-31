@@ -1,0 +1,16 @@
+air_wings = {
+		1464 = { 								
+		tac_bomber_equipment_0 = { owner = "TUL" amount = 50 version_name = "Keradat Mk 1" }
+
+	}
+	1453 = { 								
+		tac_bomber_equipment_0 = { owner = "TUL" amount = 50 version_name = "Keradat Mk 1" }
+
+	}
+	1497 = { 								
+		tac_bomber_equipment_0 = { owner = "TUL" amount = 50 version_name = "Keradat Mk 1" }
+
+	}
+
+
+}

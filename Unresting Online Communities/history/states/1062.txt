@@ -1,0 +1,40 @@
+
+state={
+	id=1062
+	name="STATE_1062"
+	manpower = 3840449
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=8
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12395 4}
+		victory_points = { 12408 3}
+		victory_points = { 12415 3}
+		
+		owner = LIN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = LIN
+	}
+
+	provinces={
+		12395 12396 12397 12398 12399 12400 12401 12402 12403 12404 12405 12406 12407 12408 12409 12410 12411 12412 12413 12414 12415 12416 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=363
+	name="STATE_363"
+	manpower = 666812
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4181 1}
+		
+		owner = BAT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BAT
+	}
+
+	provinces={
+		4179 4180 4181 4182 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=1442
+	name="STATE_1442"
+	manpower = 1915756
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=12
+		chromium=13
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=13
+		coal=32
+	}
+
+	history={
+		victory_points = { 16468 4}
+		victory_points = { 16470 1}
+		victory_points = { 16474 2}
+		
+		owner = NUN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			16468 = {
+				naval_base = 5
+			}
+			
+		}
+		add_core_of = NUN
+	}
+
+	provinces={
+		16466 16467 16468 16469 16470 16471 16472 16473 16474 16475 
+	}
+	local_supplies=0.0 
+}

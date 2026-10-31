@@ -1,0 +1,41 @@
+
+state={
+	id=348
+	name="STATE_348"
+	manpower = 2275043
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=4
+		chromium=4
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=4
+		coal=11
+	}
+
+	history={
+		victory_points = { 3927 3}
+		victory_points = { 3928 1}
+		victory_points = { 3929 1}
+		victory_points = { 3935 1}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		3924 3925 3926 3927 3928 3929 3930 3931 3932 3933 3934 3935 
+	}
+	local_supplies=0.0 
+}

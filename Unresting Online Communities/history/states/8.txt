@@ -1,0 +1,39 @@
+
+state={
+	id=8
+	name="STATE_8"
+	manpower = 1877333
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=13
+		chromium=14
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=14
+		coal=34
+	}
+
+	history={
+		victory_points = { 82 2}
+		victory_points = { 84 1}
+		
+		owner = AME
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AME
+	}
+
+	provinces={
+		76 77 78 79 80 81 82 83 84 85 86 87 
+	}
+	local_supplies=0.0 
+}

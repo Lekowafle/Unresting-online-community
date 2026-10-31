@@ -1,0 +1,42 @@
+
+state={
+	id=332
+	name="STATE_332"
+	manpower = 2763513
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3739 1}
+		victory_points = { 3742 1}
+		victory_points = { 3747 1}
+		victory_points = { 3752 1}
+		victory_points = { 3753 1}
+		
+		owner = AME
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AME
+	}
+
+	provinces={
+		3739 3740 3741 3742 3743 3744 3745 3746 3747 3748 3749 3750 3751 3752 3753 
+	}
+	local_supplies=0.0 
+}

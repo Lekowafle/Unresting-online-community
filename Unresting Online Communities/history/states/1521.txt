@@ -1,0 +1,41 @@
+
+state={
+	id=1521
+	name="STATE_1521"
+	manpower = 203519
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17138 1}
+		
+		owner = AHK
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17138 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AHK
+	}
+
+	provinces={
+		17138 
+	}
+	local_supplies=0.0 
+}

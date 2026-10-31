@@ -1,0 +1,1083 @@
+characters = {
+	TUL_Budi_Bulamah={
+		name="Budi Bulamah"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { agricultural_nationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TUL_Mario_Musuhabanaut={
+		name="Mario Musuhabanaut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Mario_Musuhabanaut
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Agus_Apintu={
+		name="Agus Apintu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Agus_Apintu
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Surya_Kerilau={
+		name="Surya Kerilau"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Surya_Kerilau
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Putfi_Suarahas={
+		name="Putfi Suarahas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Putfi_Suarahas
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Wayan_Buncak={
+		name="Wayan Buncak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Wayan_Buncak
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TUL_Hari_Pinda={
+		name="Hari Pinda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Hari_Pinda
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Wayang_Kebin={
+		name="Wayang Kebin"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Wayang_Kebin
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	TUL_Andi_Pindan={
+		name="Andi Pindan"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Andi_Pindan
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	TUL_Lutfi_Lemi={
+		name="Lutfi Lemi"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Lutfi_Lemi
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	TUL_Ketutfi_Bapa={
+		name="Ketutfi Bapa"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Ketutfi_Bapa
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	TUL_Wayang_Keraki={
+		name="Wayang Keraki"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUL_Wayang_Keraki
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	TUL_Bama_Nafas={
+		name="Bama Nafas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUL_Bama_Nafas
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TUL_Lutfi_Peta={
+		name="Lutfi Peta"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUL_Lutfi_Peta
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	TUL_Bama_Bahu={
+		name="Bama Bahu"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUL_Bama_Bahu
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	TUL_Waya_Musuhabanaut={
+		name="Waya Musuhabanaut"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Waya_Musuhabanaut
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	TUL_Bama_Bulamah={
+		name="Bama Bulamah"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Bama_Bulamah
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	TUL_Surya_Mimbah={
+		name="Surya Mimbah"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Surya_Mimbah
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	TUL_Sakti_Punung={
+		name="Sakti Punung"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Sakti_Punung
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	TUL_Rizal_Keraki={
+		name="Rizal Keraki"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Rizal_Keraki
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	TUL_Wayang_Buncak={
+		name="Wayang Buncak"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Wayang_Buncak
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	TUL_Ramban_Musang={
+		name="Ramban Musang"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { subservient_ultranationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TUL_Ketut_Petawah={
+		name="Ketut Petawah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Ketut_Petawah
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TUL_Lutfi_Buka={
+		name="Lutfi Buka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Lutfi_Buka
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Mario_Pohon={
+		name="Mario Pohon"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Mario_Pohon
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TUL_Ketut_Jemba={
+		name="Ketut Jemba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Ketut_Jemba
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Ketutfi_Peta={
+		name="Ketutfi Peta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Ketutfi_Peta
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Budi_Sahrohonkepu={
+		name="Budi Sahrohonkepu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Budi_Sahrohonkepu
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Mario_Mudalagarana={
+		name="Mario Mudalagarana"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Mario_Mudalagarana
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	TUL_Fajario_Senda={
+		name="Fajario Senda"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Fajario_Senda
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	TUL_Sakti_Lemi={
+		name="Sakti Lemi"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Sakti_Lemi
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	TUL_Andi_Bahayaremu={
+		name="Andi Bahayaremu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Andi_Bahayaremu
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	TUL_Waya_Bulan={
+		name="Waya Bulan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUL_Waya_Bulan
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	TUL_Budi_Aromai={
+		name="Budi Aromai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUL_Budi_Aromai
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TUL_Rizal_Pohon={
+		name="Rizal Pohon"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUL_Rizal_Pohon
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	TUL_Sakti_Pindan={
+		name="Sakti Pindan"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUL_Sakti_Pindan
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	TUL_Bama_Matan={
+		name="Bama Matan"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Bama_Matan
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	TUL_Agus_Bulan={
+		name="Agus Bulan"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Agus_Bulan
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	TUL_Dewa_Bahayaremu={
+		name="Dewa Bahayaremu"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Dewa_Bahayaremu
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	TUL_Ketut_Sahrohonkepu={
+		name="Ketut Sahrohonkepu"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Ketut_Sahrohonkepu
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	TUL_Putfi_Bulamah={
+		name="Putfi Bulamah"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Putfi_Bulamah
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	TUL_Ramban_Seni={
+		name="Ramban Seni"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Ramban_Seni
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	TUL_Ketutfi_Ritu={
+		name="Ketutfi Ritu"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { socialist_justice  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TUL_Lutra_Kotasuaran={
+		name="Lutra Kotasuaran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Lutra_Kotasuaran
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Suryang_Apintu={
+		name="Suryang Apintu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Suryang_Apintu
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Ketutfi_Kotasuaran={
+		name="Ketutfi Kotasuaran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Ketutfi_Kotasuaran
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Rama_Upacak={
+		name="Rama Upacak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Rama_Upacak
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Bamban_Petan={
+		name="Bamban Petan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Bamban_Petan
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Agus_Penda={
+		name="Agus Penda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Agus_Penda
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TUL_Wayan_Teti={
+		name="Wayan Teti"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Wayan_Teti
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	TUL_Andi_Petir={
+		name="Andi Petir"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Andi_Petir
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	TUL_Joko_Desai={
+		name="Joko Desai"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Joko_Desai
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	TUL_Wayan_Bahayaremu={
+		name="Wayan Bahayaremu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Wayan_Bahayaremu
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	TUL_Waya_Adik={
+		name="Waya Adik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUL_Waya_Adik
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	TUL_Fajario_Tuah={
+		name="Fajario Tuah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUL_Fajario_Tuah
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TUL_Mario_Bulamah={
+		name="Mario Bulamah"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUL_Mario_Bulamah
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	TUL_Ketut_Mimbah={
+		name="Ketut Mimbah"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUL_Ketut_Mimbah
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	TUL_Fajar_Terahu={
+		name="Fajar Terahu"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Fajar_Terahu
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	TUL_Bama_Aromai={
+		name="Bama Aromai"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Bama_Aromai
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	TUL_Andi_Keraki={
+		name="Andi Keraki"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Andi_Keraki
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	TUL_Bamban_Musang={
+		name="Bamban Musang"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Bamban_Musang
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	TUL_Hari_Takil={
+		name="Hari Takil"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Hari_Takil
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	TUL_Andi_Pasi={
+		name="Andi Pasi"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Andi_Pasi
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	TUL_Ketut_Bulit={
+		name="Ketut Bulit"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TUL_Ketutra_Senja={
+		name="Ketutra Senja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Ketutra_Senja
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Wayang_Suci={
+		name="Wayang Suci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Wayang_Suci
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TUL_Hario_Peta={
+		name="Hario Peta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Hario_Peta
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Surya_Perambuka={
+		name="Surya Perambuka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Surya_Perambuka
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Bama_Keradat={
+		name="Bama Keradat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Bama_Keradat
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Ketut_Pohonkerak={
+		name="Ketut Pohonkerak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUL_Ketut_Pohonkerak
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Fajar_Harnau={
+		name="Fajar Harnau"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Fajar_Harnau
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	TUL_Dewa_Harnau={
+		name="Dewa Harnau"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Dewa_Harnau
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	TUL_Waya_Gurgangitu={
+		name="Waya Gurgangitu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Waya_Gurgangitu
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	TUL_Putfi_Bulampisuan={
+		name="Putfi Bulampisuan"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUL_Putfi_Bulampisuan
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	TUL_Ramban_Nafas={
+		name="Ramban Nafas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUL_Ramban_Nafas
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	TUL_Waya_Pindan={
+		name="Waya Pindan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUL_Waya_Pindan
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	TUL_Bamban_Pindan={
+		name="Bamban Pindan"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUL_Bamban_Pindan
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	TUL_Fajario_Kebin={
+		name="Fajario Kebin"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUL_Fajario_Kebin
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	TUL_Bamban_Senja={
+		name="Bamban Senja"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Bamban_Senja
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	TUL_Hario_Sahrohonkepu={
+		name="Hario Sahrohonkepu"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Hario_Sahrohonkepu
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	TUL_Wayang_Bayi={
+		name="Wayang Bayi"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Wayang_Bayi
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	TUL_Wayang_Teti={
+		name="Wayang Teti"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Wayang_Teti
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	TUL_Hari_Upacak={
+		name="Hari Upacak"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Hari_Upacak
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	TUL_Sakti_Alaka={
+		name="Sakti Alaka"
+
+		advisor={
+			slot = high_command
+			idea_token = TUL_Sakti_Alaka
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	TUL_Rama_Takmatan={
+		name="Rama Takmatan"
+
+		advisor={
+			slot = theorist
+			idea_token = TUL_Rama_Takmatan
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	TUL_Sakti_Anah={
+		name="Sakti Anah"
+
+		advisor={
+			slot = theorist
+			idea_token = TUL_Sakti_Anah
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	TUL_Budi_Matan={
+		name="Budi Matan"
+
+		advisor={
+			slot = theorist
+			idea_token = TUL_Budi_Matan
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

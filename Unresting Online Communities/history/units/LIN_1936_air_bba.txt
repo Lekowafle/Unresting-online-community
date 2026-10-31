@@ -1,0 +1,16 @@
+air_wings = {
+		1117 = { 								
+		small_plane_cas_airframe_0 = { owner = "LIN" amount = 47 version_name = "Zheng Mk 2" }
+
+	}
+	975 = { 								
+		small_plane_airframe_0 = { owner = "LIN" amount = 29 version_name = "Chuan Mk 0" }
+
+	}
+	1055 = { 								
+		medium_plane_airframe_0 = { owner = "LIN" amount = 49 version_name = "Reng Mk 0" }
+
+	}
+
+
+}

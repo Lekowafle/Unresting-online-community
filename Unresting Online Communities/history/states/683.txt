@@ -1,0 +1,42 @@
+
+state={
+	id=683
+	name="STATE_683"
+	manpower = 3229032
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7644 1}
+		victory_points = { 7656 9}
+		
+		owner = XEN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			7644 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = XEN
+	}
+
+	provinces={
+		7640 7641 7642 7643 7644 7645 7646 7647 7648 7649 7650 7651 7652 7653 7654 7655 7656 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=915
+	name="STATE_915"
+	manpower = 1591794
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10623 1}
+		
+		owner = TOH
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TOH
+	}
+
+	provinces={
+		10621 10622 10623 10624 10625 10626 10627 10628 10629 
+	}
+	local_supplies=0.0 
+}

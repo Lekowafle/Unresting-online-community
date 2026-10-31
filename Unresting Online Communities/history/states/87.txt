@@ -1,0 +1,41 @@
+
+state={
+	id=87
+	name="STATE_87"
+	manpower = 1377965
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=7
+		chromium=7
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=7
+		coal=17
+	}
+
+	history={
+		victory_points = { 1085 3}
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			1088 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		1083 1084 1085 1086 1087 1088 1089 
+	}
+	local_supplies=0.0 
+}

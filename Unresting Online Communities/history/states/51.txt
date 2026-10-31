@@ -1,0 +1,39 @@
+
+state={
+	id=51
+	name="STATE_51"
+	manpower = 1814568
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=6
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 579 3}
+		victory_points = { 580 2}
+		
+		owner = CUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CUA
+	}
+
+	provinces={
+		576 577 578 579 580 581 582 583 584 585 586 
+	}
+	local_supplies=0.0 
+}

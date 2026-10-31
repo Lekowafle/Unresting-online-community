@@ -1,0 +1,63 @@
+air_wings = {
+		745 = { 								
+		CAS_equipment_0 = { owner = "TOH" amount = 50 version_name = "Kanamna Mk 2" }
+
+	}
+	858 = { 								
+		fighter_equipment_0 = { owner = "TOH" amount = 50 version_name = "Nojil Mk 2" }
+tac_bomber_equipment_0 = { owner = "TOH" amount = 50 version_name = "Nojil Mk 1" }
+
+	}
+	764 = { 								
+		CAS_equipment_0 = { owner = "TOH" amount = 50 version_name = "Uxmal Mk 0" }
+
+	}
+	803 = { 								
+		nav_bomber_equipment_0 = { owner = "TOH" amount = 50 version_name = "Bahuatun Mk 1" }
+
+	}
+	763 = { 								
+		fighter_equipment_0 = { owner = "TOH" amount = 50 version_name = "Nojil Mk 2" }
+
+	}
+	692 = { 								
+		CAS_equipment_0 = { owner = "TOH" amount = 50 version_name = "Kanamna Mk 2" }
+
+	}
+	856 = { 								
+		fighter_equipment_0 = { owner = "TOH" amount = 50 version_name = "Nojil Mk 2" }
+
+	}
+	934 = { 								
+		fighter_equipment_0 = { owner = "TOH" amount = 50 version_name = "Ajtz Mk 0" }
+
+	}
+	773 = { 								
+		tac_bomber_equipment_0 = { owner = "TOH" amount = 50 version_name = "Nojil Mk 1" }
+
+	}
+	616 = { 								
+		CAS_equipment_0 = { owner = "TOH" amount = 50 version_name = "Uxmal Mk 0" }
+nav_bomber_equipment_0 = { owner = "TOH" amount = 50 version_name = "Bahuatun Mk 1" }
+
+	}
+	828 = { 								
+		fighter_equipment_0 = { owner = "TOH" amount = 50 version_name = "Ajtz Mk 0" }
+tac_bomber_equipment_0 = { owner = "TOH" amount = 50 version_name = "Nojil Mk 1" }
+
+	}
+	812 = { 								
+		nav_bomber_equipment_0 = { owner = "TOH" amount = 50 version_name = "Kaax Mk 2" }
+
+	}
+	888 = { 								
+		CAS_equipment_0 = { owner = "TOH" amount = 50 version_name = "Kanamna Mk 2" }
+
+	}
+	940 = { 								
+		nav_bomber_equipment_0 = { owner = "TOH" amount = 50 version_name = "Kaax Mk 2" }
+
+	}
+
+
+}

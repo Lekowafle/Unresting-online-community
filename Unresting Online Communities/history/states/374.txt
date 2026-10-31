@@ -1,0 +1,38 @@
+
+state={
+	id=374
+	name="STATE_374"
+	manpower = 1373401
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=11
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4247 1}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		4243 4244 4245 4246 4247 4248 4249 4250 4251 
+	}
+	local_supplies=0.0 
+}

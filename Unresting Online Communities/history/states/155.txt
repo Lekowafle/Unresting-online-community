@@ -1,0 +1,41 @@
+
+state={
+	id=155
+	name="STATE_155"
+	manpower = 1835390
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1796 2}
+		victory_points = { 1798 1}
+		victory_points = { 1799 1}
+		victory_points = { 1802 1}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		1796 1797 1798 1799 1800 1801 1802 1803 1804 1805 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=1123
+	name="STATE_1123"
+	manpower = 319245
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13005 1}
+		
+		owner = WHU
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = WHU
+	}
+
+	provinces={
+		13005 
+	}
+	local_supplies=0.0 
+}

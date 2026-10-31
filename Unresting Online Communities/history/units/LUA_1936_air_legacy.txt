@@ -1,0 +1,20 @@
+air_wings = {
+		462 = { 								
+		fighter_equipment_0 = { owner = "LUA" amount = 32 version_name = "Feach Mk 0" }
+
+	}
+	554 = { 								
+		CAS_equipment_0 = { owner = "LUA" amount = 22 version_name = "Guthailt Mk 2" }
+
+	}
+	585 = { 								
+		nav_bomber_equipment_0 = { owner = "LUA" amount = 22 version_name = "Maigh Mk 1" }
+
+	}
+	221 = { 								
+		strat_bomber_equipment_0 = { owner = "LUA" amount = 14 version_name = "Cuim Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=1421
+	name="STATE_1421"
+	manpower = 1361298
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16334 3}
+		
+		owner = VOC
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			16330 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = VOC
+	}
+
+	provinces={
+		16329 16330 16331 16332 16333 16334 16335 16336 
+	}
+	local_supplies=0.0 
+}

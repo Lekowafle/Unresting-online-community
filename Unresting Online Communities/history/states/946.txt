@@ -1,0 +1,39 @@
+
+state={
+	id=946
+	name="STATE_946"
+	manpower = 1680037
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11001 1}
+		victory_points = { 11006 1}
+		
+		owner = ZHE
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ZHE
+	}
+
+	provinces={
+		11000 11001 11002 11003 11004 11005 11006 11007 11008 11009 
+	}
+	local_supplies=0.0 
+}

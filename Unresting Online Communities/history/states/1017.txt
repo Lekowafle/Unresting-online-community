@@ -1,0 +1,39 @@
+
+state={
+	id=1017
+	name="STATE_1017"
+	manpower = 2759019
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11850 5}
+		victory_points = { 11851 5}
+		
+		owner = JIA
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = JIA
+	}
+
+	provinces={
+		11849 11850 11851 11852 11853 11854 11855 11856 11857 11858 11859 11860 11861 11862 
+	}
+	local_supplies=0.0 
+}

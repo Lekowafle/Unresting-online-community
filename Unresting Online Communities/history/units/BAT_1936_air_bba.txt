@@ -1,0 +1,24 @@
+air_wings = {
+		471 = { 								
+		small_plane_cas_airframe_0 = { owner = "BAT" amount = 50 version_name = "Kadithanthi Mk 2" }
+
+	}
+	305 = { 								
+		large_plane_airframe_0 = { owner = "BAT" amount = 37 version_name = "Sangugal Mk 2" }
+
+	}
+	386 = { 								
+		small_plane_cas_airframe_0 = { owner = "BAT" amount = 50 version_name = "Kadithanthi Mk 2" }
+
+	}
+	593 = { 								
+		small_plane_airframe_0 = { owner = "BAT" amount = 29 version_name = "Udakkal Mk 1" }
+
+	}
+	588 = { 								
+		medium_plane_airframe_0 = { owner = "BAT" amount = 47 version_name = "Kuru Mk 1" }
+
+	}
+
+
+}

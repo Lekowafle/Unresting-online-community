@@ -1,0 +1,42 @@
+
+state={
+	id=377
+	name="STATE_377"
+	manpower = 1240906
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4300 1}
+		victory_points = { 4301 1}
+		victory_points = { 4302 1}
+		victory_points = { 4303 1}
+		victory_points = { 4304 1}
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		4300 4301 4302 4303 4304 4305 
+	}
+	local_supplies=0.0 
+}

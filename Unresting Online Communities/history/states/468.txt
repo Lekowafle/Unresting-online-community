@@ -1,0 +1,38 @@
+
+state={
+	id=468
+	name="STATE_468"
+	manpower = 636115
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5254 2}
+		
+		owner = BAT
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BAT
+	}
+
+	provinces={
+		5254 5255 5256 
+	}
+	local_supplies=0.0 
+}

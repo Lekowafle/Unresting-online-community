@@ -1,0 +1,30 @@
+air_wings = {
+		623 = { 								
+		large_plane_airframe_1 = { owner = "KHU" amount = 32 version_name = "Vadhuravai Mk 0" }
+
+	}
+	748 = { 								
+		small_plane_airframe_0 = { owner = "KHU" amount = 31 version_name = "Vizhippu Mk 2" }
+
+	}
+	899 = { 								
+		large_plane_airframe_0 = { owner = "KHU" amount = 21 version_name = "Thumayal Mk 0" }
+
+	}
+	759 = { 								
+		medium_plane_airframe_0 = { owner = "KHU" amount = 27 version_name = "Thogu Mk 2" }
+
+	}
+	811 = { 								
+		small_plane_cas_airframe_1 = { owner = "KHU" amount = 27 version_name = "Inippu Mk 1" }
+small_plane_cas_airframe_0 = { owner = "KHU" amount = 34 version_name = "Oosaignadila Mk 2" }
+
+	}
+	612 = { 								
+		small_plane_airframe_1 = { owner = "KHU" amount = 34 version_name = "Thozhi Mk 1" }
+medium_plane_airframe_1 = { owner = "KHU" amount = 35 version_name = "Thozhunavam Mk 2" }
+
+	}
+
+
+}

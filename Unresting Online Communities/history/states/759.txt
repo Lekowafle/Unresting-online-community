@@ -1,0 +1,39 @@
+
+state={
+	id=759
+	name="STATE_759"
+	manpower = 1293987
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=8
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8630 1}
+		victory_points = { 8631 1}
+		
+		owner = KHU
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KHU
+	}
+
+	provinces={
+		8627 8628 8629 8630 8631 8632 8633 8634 
+	}
+	local_supplies=0.0 
+}

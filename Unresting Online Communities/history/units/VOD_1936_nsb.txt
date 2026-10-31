@@ -1,0 +1,220 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			artillery_brigade = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+			mot_artillery_brigade = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 1 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Telik' Supported Infantry Division"
+		location = 8867
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.771777
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Stran' Artillery Division"
+		location = 7635
+		division_template = "Artillery Division"
+		start_experience_factor = 0.234082
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Vatak' Motorized Division"
+		location = 9548
+		division_template = "Motorized Division"
+		start_experience_factor = 0.930134
+		start_equipment_factor = 0.927882
+	}
+	division= {
+		name = "1st 'Stran' Supported Motorized Division"
+		location = 7242
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.123130
+		start_equipment_factor = 0.914404
+	}
+	division= {
+		name = "2nd 'Maslja' Supported Motorized Division"
+		location = 7432
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.456357
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Prad' Supported Motorized Division"
+		location = 8845
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.965067
+		start_equipment_factor = 0.880512
+	}
+	division= {
+		name = "4th 'Obica' Supported Motorized Division"
+		location = 7661
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.414308
+		start_equipment_factor = 0.975437
+	}
+	division= {
+		name = "1st 'Pesec' Motorized Artillery Division"
+		location = 7229
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.165087
+		start_equipment_factor = 0.996725
+	}
+	division= {
+		name = "2nd 'Izvo' Motorized Artillery Division"
+		location = 10914
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.858947
+		start_equipment_factor = 0.878312
+	}
+	division= {
+		name = "3rd 'Ljubar' Motorized Artillery Division"
+		location = 7368
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.521303
+		start_equipment_factor = 0.909133
+	}
+
+}

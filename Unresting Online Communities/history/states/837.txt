@@ -1,0 +1,44 @@
+
+state={
+	id=837
+	name="STATE_837"
+	manpower = 2264002
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9629 1}
+		victory_points = { 9630 3}
+		victory_points = { 9631 1}
+		victory_points = { 9637 2}
+		
+		owner = TOH
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			9630 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TOH
+	}
+
+	provinces={
+		9627 9628 9629 9630 9631 9632 9633 9634 9635 9636 9637 
+	}
+	local_supplies=0.0 
+}

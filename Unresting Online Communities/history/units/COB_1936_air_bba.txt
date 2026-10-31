@@ -1,0 +1,25 @@
+air_wings = {
+		718 = { 								
+		large_plane_airframe_1 = { owner = "COB" amount = 45 version_name = "Uxman Mk 1" }
+
+	}
+	867 = { 								
+		small_plane_airframe_0 = { owner = "COB" amount = 21 version_name = "Yaxunam Mk 2" }
+medium_plane_airframe_0 = { owner = "COB" amount = 20 version_name = "Bakmul Mk 2" }
+
+	}
+	772 = { 								
+		large_plane_airframe_0 = { owner = "COB" amount = 36 version_name = "Witzib Mk 2" }
+
+	}
+	843 = { 								
+		small_plane_cas_airframe_0 = { owner = "COB" amount = 30 version_name = "Cobalachel Mk 2" }
+
+	}
+	712 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "COB" amount = 29 version_name = "Witzib Mk 1" }
+
+	}
+
+
+}

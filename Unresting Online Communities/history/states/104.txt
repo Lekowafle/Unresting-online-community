@@ -1,0 +1,39 @@
+
+state={
+	id=104
+	name="STATE_104"
+	manpower = 2234808
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=14
+		chromium=15
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=15
+		coal=37
+	}
+
+	history={
+		victory_points = { 1301 1}
+		victory_points = { 1306 1}
+		
+		owner = BUI
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = BUI
+	}
+
+	provinces={
+		1300 1301 1302 1303 1304 1305 1306 1307 1308 1309 1310 1311 1312 1313 
+	}
+	local_supplies=0.0 
+}

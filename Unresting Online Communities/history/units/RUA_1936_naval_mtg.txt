@@ -1,0 +1,27 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Ruas Fleet"			
+		naval_base = 6230
+		task_force = {
+			name = "Ruas Fleet"
+			location = 6230
+			
+						ship = { name = "Teim" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUA version_name = "Athart Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

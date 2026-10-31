@@ -1,0 +1,42 @@
+
+state={
+	id=544
+	name="STATE_544"
+	manpower = 2996913
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6024 1}
+		victory_points = { 6025 2}
+		victory_points = { 6027 2}
+		victory_points = { 6030 2}
+		victory_points = { 6033 2}
+		
+		owner = QAL
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = QAL
+	}
+
+	provinces={
+		6020 6021 6022 6023 6024 6025 6026 6027 6028 6029 6030 6031 6032 6033 6034 
+	}
+	local_supplies=0.0 
+}

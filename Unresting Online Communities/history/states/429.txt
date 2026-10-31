@@ -1,0 +1,38 @@
+
+state={
+	id=429
+	name="STATE_429"
+	manpower = 1155011
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=6
+		tungsten=1
+		coal=2
+	}
+
+	history={
+		victory_points = { 4882 5}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		4882 4883 4884 4885 4886 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=168
+	name="STATE_168"
+	manpower = 1724254
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=3
+		steel=1
+		tungsten=1
+		coal=4
+	}
+
+	history={
+		victory_points = { 1949 7}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		1948 1949 1950 1951 1952 1953 1954 1955 1956 
+	}
+	local_supplies=0.0 
+}

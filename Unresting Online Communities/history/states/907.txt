@@ -1,0 +1,39 @@
+
+state={
+	id=907
+	name="STATE_907"
+	manpower = 1405266
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10526 1}
+		victory_points = { 10527 2}
+		
+		owner = GVO
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = GVO
+	}
+
+	provinces={
+		10524 10525 10526 10527 10528 10529 10530 
+	}
+	local_supplies=0.0 
+}

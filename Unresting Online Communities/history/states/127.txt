@@ -1,0 +1,41 @@
+
+state={
+	id=127
+	name="STATE_127"
+	manpower = 2878235
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=2
+	}
+
+	history={
+		victory_points = { 1545 2}
+		victory_points = { 1549 1}
+		victory_points = { 1556 2}
+		victory_points = { 1557 2}
+		
+		owner = BUI
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = BUI
+	}
+
+	provinces={
+		1545 1546 1547 1548 1549 1550 1551 1552 1553 1554 1555 1556 1557 1558 1559 1560 
+	}
+	local_supplies=0.0 
+}

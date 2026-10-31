@@ -1,0 +1,44 @@
+
+state={
+	id=459
+	name="STATE_459"
+	manpower = 2227273
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5174 3}
+		victory_points = { 5175 1}
+		victory_points = { 5178 1}
+		victory_points = { 5184 1}
+		
+		owner = FON
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			5179 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FON
+	}
+
+	provinces={
+		5174 5175 5176 5177 5178 5179 5180 5181 5182 5183 5184 5185 
+	}
+	local_supplies=0.0 
+}

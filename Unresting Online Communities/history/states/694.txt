@@ -1,0 +1,42 @@
+
+state={
+	id=694
+	name="STATE_694"
+	manpower = 1626877
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7794 2}
+		victory_points = { 7795 2}
+		
+		owner = TOH
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			7795 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TOH
+	}
+
+	provinces={
+		7789 7790 7791 7792 7793 7794 7795 7796 
+	}
+	local_supplies=0.0 
+}

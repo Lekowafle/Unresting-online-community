@@ -1,0 +1,39 @@
+
+state={
+	id=930
+	name="STATE_930"
+	manpower = 3398257
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=10
+		chromium=11
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=10
+		coal=26
+	}
+
+	history={
+		victory_points = { 10801 2}
+		victory_points = { 10805 3}
+		
+		owner = TOH
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TOH
+	}
+
+	provinces={
+		10796 10797 10798 10799 10800 10801 10802 10803 10804 10805 10806 10807 10808 10809 10810 10811 10812 10813 10814 10815 10816 10817 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=137
+	name="STATE_137"
+	manpower = 1718676
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1640 1}
+		victory_points = { 1644 1}
+		
+		owner = YHI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			1639 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = YHI
+	}
+
+	provinces={
+		1637 1638 1639 1640 1641 1642 1643 1644 1645 1646 1647 1648 
+	}
+	local_supplies=0.0 
+}

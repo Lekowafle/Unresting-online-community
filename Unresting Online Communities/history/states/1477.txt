@@ -1,0 +1,43 @@
+
+state={
+	id=1477
+	name="STATE_1477"
+	manpower = 1409550
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16823 1}
+		victory_points = { 16827 2}
+		victory_points = { 16829 2}
+		
+		owner = ALA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			16829 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = ALA
+	}
+
+	provinces={
+		16823 16824 16825 16826 16827 16828 16829 16830 
+	}
+	local_supplies=0.0 
+}

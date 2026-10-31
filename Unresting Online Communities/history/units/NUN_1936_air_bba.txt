@@ -1,0 +1,20 @@
+air_wings = {
+		1433 = { 								
+		small_plane_cas_airframe_0 = { owner = "NUN" amount = 31 version_name = "Nunirnaaliki Mk 2" }
+
+	}
+	1423 = { 								
+		large_plane_airframe_0 = { owner = "NUN" amount = 42 version_name = "Anuq Mk 2" }
+
+	}
+	1382 = { 								
+		small_plane_airframe_0 = { owner = "NUN" amount = 38 version_name = "Nuvuk Mk 0" }
+
+	}
+	1432 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "NUN" amount = 48 version_name = "Atuk Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=327
+	name="STATE_327"
+	manpower = 1917885
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=20
+		chromium=21
+		oil=0
+		rubber=10
+		steel=0
+		tungsten=20
+		coal=50
+	}
+
+	history={
+		victory_points = { 3712 3}
+		
+		owner = AME
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
+			
+			3716 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AME
+	}
+
+	provinces={
+		3711 3712 3713 3714 3715 3716 3717 3718 3719 3720 3721 3722 
+	}
+	local_supplies=0.0 
+}

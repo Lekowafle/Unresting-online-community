@@ -1,0 +1,40 @@
+
+state={
+	id=1053
+	name="STATE_1053"
+	manpower = 2594130
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=5
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12294 2}
+		victory_points = { 12295 2}
+		victory_points = { 12301 2}
+		
+		owner = WHU
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = WHU
+	}
+
+	provinces={
+		12290 12291 12292 12293 12294 12295 12296 12297 12298 12299 12300 12301 12302 12303 12304 
+	}
+	local_supplies=0.0 
+}

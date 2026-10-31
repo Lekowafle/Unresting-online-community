@@ -1,0 +1,41 @@
+
+state={
+	id=143
+	name="STATE_143"
+	manpower = 3160701
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=7
+		chromium=8
+		oil=7
+		rubber=0
+		steel=0
+		tungsten=7
+		coal=18
+	}
+
+	history={
+		victory_points = { 1707 3}
+		victory_points = { 1708 2}
+		victory_points = { 1711 2}
+		victory_points = { 1719 1}
+		
+		owner = BAT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = BAT
+	}
+
+	provinces={
+		1703 1704 1705 1706 1707 1708 1709 1710 1711 1712 1713 1714 1715 1716 1717 1718 1719 1720 1721 
+	}
+	local_supplies=0.0 
+}

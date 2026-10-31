@@ -1,0 +1,41 @@
+
+state={
+	id=734
+	name="STATE_734"
+	manpower = 2611388
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8341 2}
+		victory_points = { 8346 2}
+		victory_points = { 8352 2}
+		victory_points = { 8354 1}
+		
+		owner = PAA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = PAA
+	}
+
+	provinces={
+		8340 8341 8342 8343 8344 8345 8346 8347 8348 8349 8350 8351 8352 8353 8354 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=268
+	name="STATE_268"
+	manpower = 1025326
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3126 1}
+		victory_points = { 3129 1}
+		
+		owner = FON
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			3124 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FON
+	}
+
+	provinces={
+		3124 3125 3126 3127 3128 3129 
+	}
+	local_supplies=0.0 
+}

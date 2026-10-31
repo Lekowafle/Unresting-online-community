@@ -1,0 +1,12 @@
+air_wings = {
+		1120 = { 								
+		small_plane_airframe_0 = { owner = "YAN" amount = 4 version_name = "Sakin Mk 1" }
+
+	}
+	1060 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "YAN" amount = 5 version_name = "Saniz Mk 1" }
+
+	}
+
+
+}

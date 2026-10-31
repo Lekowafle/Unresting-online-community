@@ -1,0 +1,25 @@
+air_wings = {
+		718 = { 								
+		strat_bomber_equipment_0 = { owner = "COB" amount = 45 version_name = "Uxman Mk 1" }
+
+	}
+	867 = { 								
+		fighter_equipment_0 = { owner = "COB" amount = 21 version_name = "Yaxunam Mk 2" }
+tac_bomber_equipment_0 = { owner = "COB" amount = 20 version_name = "Bakmul Mk 2" }
+
+	}
+	772 = { 								
+		strat_bomber_equipment_0 = { owner = "COB" amount = 36 version_name = "Witzib Mk 2" }
+
+	}
+	843 = { 								
+		CAS_equipment_0 = { owner = "COB" amount = 30 version_name = "Cobalachel Mk 2" }
+
+	}
+	712 = { 								
+		nav_bomber_equipment_0 = { owner = "COB" amount = 29 version_name = "Witzib Mk 1" }
+
+	}
+
+
+}

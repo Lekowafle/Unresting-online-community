@@ -1,0 +1,41 @@
+
+state={
+	id=402
+	name="STATE_402"
+	manpower = 1035609
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=16
+		chromium=17
+		oil=2
+		rubber=4
+		steel=0
+		tungsten=17
+		coal=42
+	}
+
+	history={
+		victory_points = { 4579 1}
+		
+		owner = GUT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			4578 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = GUT
+	}
+
+	provinces={
+		4576 4577 4578 4579 4580 4581 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=815
+	name="STATE_815"
+	manpower = 2265418
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=5
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9314 1}
+		victory_points = { 9319 1}
+		victory_points = { 9320 4}
+		victory_points = { 9324 4}
+		
+		owner = KAP
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
+			
+			9315 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KAP
+	}
+
+	provinces={
+		9314 9315 9316 9317 9318 9319 9320 9321 9322 9323 9324 
+	}
+	local_supplies=0.0 
+}

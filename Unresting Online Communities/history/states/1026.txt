@@ -1,0 +1,41 @@
+
+state={
+	id=1026
+	name="STATE_1026"
+	manpower = 5128079
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11959 4}
+		victory_points = { 11960 2}
+		victory_points = { 11964 4}
+		victory_points = { 11984 2}
+		
+		owner = TON
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TON
+	}
+
+	provinces={
+		11954 11955 11956 11957 11958 11959 11960 11961 11962 11963 11964 11965 11966 11967 11968 11969 11970 11971 11972 11973 11974 11975 11976 11977 11978 11979 11980 11981 11982 11983 11984 
+	}
+	local_supplies=0.0 
+}

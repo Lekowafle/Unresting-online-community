@@ -1,0 +1,41 @@
+
+state={
+	id=986
+	name="STATE_986"
+	manpower = 3009077
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=5
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11496 1}
+		victory_points = { 11497 3}
+		victory_points = { 11500 2}
+		victory_points = { 11508 2}
+		
+		owner = WHU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = WHU
+	}
+
+	provinces={
+		11494 11495 11496 11497 11498 11499 11500 11501 11502 11503 11504 11505 11506 11507 11508 11509 11510 
+	}
+	local_supplies=0.0 
+}

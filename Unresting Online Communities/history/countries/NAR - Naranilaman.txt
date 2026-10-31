@@ -1,0 +1,394 @@
+capital = 63
+
+oob = "NAR_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "NAR_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "NAR_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	gw_artillery= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	interwar_antiair= 1
+	fuel_silos= 1
+	fuel_refining= 1
+	basic_fire_control_system= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "NAR_1936_air_bba"
+		set_technology = {
+			early_bombs = 1
+			air_torpedoe_1 = 1
+			bba_early_transport_plane = 1
+			
+		}
+
+	else = {
+		set_air_oob = "NAR_1936_air_legacy"
+		set_technology = {
+			CAS1 = 1
+			naval_bomber1 = 1
+			early_transport_plane = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	basic_submarine = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "NAR_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Nacolkabalam Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Naranjo Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Chok Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Yalacol Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Yaxkin Class"
+			type = submarine_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_depth_charges = 1
+	basic_heavy_armor_scheme = 1
+	basic_light_battery = 1
+	basic_ship_hull_submarine = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	fire_control_methods_1 = 1
+	improved_depth_charges = 1
+	mtg_transport = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "NAR_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Nacolkabalam Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Naranjo Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_medium_battery_1
+				mid_2_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Chok Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_depth_charge_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Yalacol Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = ship_torpedo_sub_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Yaxkin Class"
+			type = ship_hull_submarine_2
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_2
+				fixed_ship_torpedo_slot = ship_torpedo_sub_2
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = NAR_Chichen_Chakalahuala
+recruit_character = NAR_Ekchichen_Akban
+recruit_character = NAR_Yaxkin_Ajpu
+recruit_character = NAR_Kukulkal_Cozumel
+recruit_character = NAR_Ahkin_Naktunil
+recruit_character = NAR_Nacom_Baluun
+recruit_character = NAR_Bacom_Zotzamal
+recruit_character = NAR_Chichen_Naracol
+recruit_character = NAR_Kukulkal_Tzikab
+recruit_character = NAR_Chak_Cobancue
+recruit_character = NAR_Acatl_Oxlacomtecab
+recruit_character = NAR_Kukulkan_Kate
+recruit_character = NAR_Bacatl_Etznaba
+recruit_character = NAR_Kanek_Bakmul
+recruit_character = NAR_Kukulkalam_Calam
+recruit_character = NAR_Ahkin_Chunai
+recruit_character = NAR_Kukulkanek_Xulkin
+recruit_character = NAR_Chichen_Chun
+recruit_character = NAR_Ekchakanek_Haaxul
+recruit_character = NAR_Kukulkal_Tojil
+recruit_character = NAR_Ekchichen_Oxlan
+recruit_character = NAR_Kukulkanek_Baluun
+recruit_character = NAR_Ahkin_Baluun
+recruit_character = NAR_Oxib_Bakmul
+recruit_character = NAR_Nacom_Bahuwen
+recruit_character = NAR_Kukulkal_Imox
+recruit_character = NAR_Itzam_Nacolkabalam
+recruit_character = NAR_Chichen_Kaaxch
+recruit_character = NAR_Kukulkan_Caluun
+recruit_character = NAR_Kukulkalam_Bakbe
+recruit_character = NAR_Kukulkanek_Bona
+recruit_character = NAR_Ekchakanek_Chilacomte
+recruit_character = NAR_Kanek_Etzamna
+recruit_character = NAR_Bacatl_Bahuwenque
+recruit_character = NAR_Itzam_Bonampak
+recruit_character = NAR_Balam_Aguatecab
+recruit_character = NAR_Acab_Nakal
+recruit_character = NAR_Chichen_Palan
+recruit_character = NAR_Ahkin_Bakbe
+recruit_character = NAR_Tecun_Kaaxch
+recruit_character = NAR_Popo_Kalak
+recruit_character = NAR_Nacab_Ahak
+recruit_character = NAR_Chak_Oxlacomtecab
+recruit_character = NAR_Balam_Bach
+recruit_character = NAR_Acab_Kalen
+recruit_character = NAR_Oxib_Chilacomte
+recruit_character = NAR_Ekchichen_Nohok
+recruit_character = NAR_Ekchua_Tojil
+recruit_character = NAR_Balam_Tzam
+recruit_character = NAR_Tecun_Mutal
+recruit_character = NAR_Ekchichen_Ajpu
+recruit_character = NAR_Popo_Nohok
+recruit_character = NAR_Ahkin_Balachen
+recruit_character = NAR_Kukulkalam_Mutalahual
+recruit_character = NAR_Pakal_Naracol
+recruit_character = NAR_Kanek_Kalen
+recruit_character = NAR_Oxib_Itzib
+recruit_character = NAR_Itzam_Bakab
+recruit_character = NAR_Tecun_Balachen
+recruit_character = NAR_Tohichen_Haaj
+recruit_character = NAR_Popo_Nacolkabalam
+recruit_character = NAR_Balam_Palan
+recruit_character = NAR_Kukulkal_Bacolkin
+recruit_character = NAR_Ekchichen_Balachen
+recruit_character = NAR_Nacom_Ikalamanikal
+recruit_character = NAR_Balam_Yaluun
+recruit_character = NAR_Balam_Etzamna
+recruit_character = NAR_Moctez_Cozumel
+recruit_character = NAR_Bacatl_Kawakmul
+recruit_character = NAR_Ahkin_Haaxul
+recruit_character = NAR_Itzam_Mutal
+recruit_character = NAR_Ekchichen_Cozumel
+recruit_character = NAR_Chichen_Oxlan
+recruit_character = NAR_Kukulkanek_Kanil
+recruit_character = NAR_Moctez_Ikalamanikal
+recruit_character = NAR_Yaxkin_Nahuwen
+recruit_character = NAR_Ahkin_Chakha
+recruit_character = NAR_Kanek_Itzib
+recruit_character = NAR_Ahkin_Kate
+recruit_character = NAR_Tecun_Bakbe
+recruit_character = NAR_Balam_Kawakmul
+recruit_character = NAR_Kukulkanek_Tzib
+recruit_character = NAR_Ekchichen_Kate
+recruit_character = NAR_Chak_Bakaluun
+recruit_character = NAR_Kukulkalam_Kana
+recruit_character = NAR_Ekchua_Etznaba
+recruit_character = NAR_Chichen_Cobancue
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 80
+set_stability = 0.25
+set_war_support = 0.43
+
+add_ideas = {
+extensive_conscription
+low_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1887.2.7"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 6
+	fascism = 44
+	communism = 22
+	neutrality = 28
+}
+
+
+
+
+

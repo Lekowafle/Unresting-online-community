@@ -1,0 +1,33 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Safilm Fleet"			
+		naval_base = 17175
+		task_force = {
+			name = "Safilm Fleet"
+			location = 17175
+			
+						ship = { name = "Thana" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SZF version_name = "Samt Class" } }	}
+			ship = { name = "Qaleeh" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SZF version_name = "Alim Class" } }	}
+			ship = { name = "Rawi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SZF version_name = "Samt Class" } }	}
+			ship = { name = "Mufti" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SZF version_name = "Samt Class" } }	}
+			ship = { name = "Madrab" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SZF version_name = "Kita Class" } }	}
+			ship = { name = "Mada" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SZF version_name = "Samt Class" } }	}
+			ship = { name = "Ahlamarb" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SZF version_name = "Samt Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

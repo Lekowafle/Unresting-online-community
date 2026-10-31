@@ -1,0 +1,49 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Ribaveza Fleet"			
+		naval_base = 10634
+		task_force = {
+			name = "Ribaveza Fleet"
+			location = 10634
+			
+						ship = { name = "Tzol" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Tohilamancue" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Witz" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RIB version_name = "Ajawaktun Class" } }	}
+			ship = { name = "Tunai" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Chakhak" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Witzib" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RIB version_name = "Ajawaktun Class" } }	}
+			ship = { name = "Ajawaktun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Palah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Zamna" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Chakhak 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Witzib 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RIB version_name = "Ajawaktun Class" } }	}
+			ship = { name = "Palah 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Witz 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Canque" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Ahakbal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Imox" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Zamna 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RIB version_name = "Xbah Class" } }	}
+			ship = { name = "Tzol 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RIB version_name = "Xbah Class" } }	}
+			ship = { name = "Xbah" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RIB version_name = "Ajawaktun Class" } }	}
+			ship = { name = "Witz 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Kana" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Kanil" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+			ship = { name = "Chol" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RIB version_name = "Chichen Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

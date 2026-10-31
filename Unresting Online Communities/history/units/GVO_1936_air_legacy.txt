@@ -1,0 +1,24 @@
+air_wings = {
+		689 = { 								
+		fighter_equipment_0 = { owner = "GVO" amount = 4 version_name = "Prad Mk 2" }
+
+	}
+	657 = { 								
+		tac_bomber_equipment_0 = { owner = "GVO" amount = 4 version_name = "Otak Mk 1" }
+nav_bomber_equipment_0 = { owner = "GVO" amount = 7 version_name = "Svena Mk 0" }
+
+	}
+	907 = { 								
+		CAS_equipment_0 = { owner = "GVO" amount = 9 version_name = "Tvrdje Mk 2" }
+nav_bomber_equipment_0 = { owner = "GVO" amount = 10 version_name = "Vecnostvot Mk 1" }
+CAS_equipment_0 = { owner = "GVO" amount = 7 version_name = "Dobar Mk 1" }
+tac_bomber_equipment_0 = { owner = "GVO" amount = 8 version_name = "Nacina Mk 0" }
+
+	}
+	864 = { 								
+		fighter_equipment_0 = { owner = "GVO" amount = 8 version_name = "Viladarom Mk 0" }
+
+	}
+
+
+}

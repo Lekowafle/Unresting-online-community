@@ -1,0 +1,1083 @@
+characters = {
+	GVO_Slan_Zven={
+		name="Slan Zven"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GVO_Miroslav_Sporisa={
+		name="Miroslav Sporisa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Miroslav_Sporisa
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVO_Bogdan_Telinaganst={
+		name="Bogdan Telinaganst"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Bogdan_Telinaganst
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVO_Radimiroslav_Prirod={
+		name="Radimiroslav Prirod"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Radimiroslav_Prirod
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GVO_Simir_Telinaganst={
+		name="Simir Telinaganst"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Simir_Telinaganst
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVO_Bogdan_Konzulturalj={
+		name="Bogdan Konzulturalj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Bogdan_Konzulturalj
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GVO_Vladeksei_Kralava={
+		name="Vladeksei Kralava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Vladeksei_Kralava
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GVO_Mirosladov_Nebo={
+		name="Mirosladov Nebo"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Mirosladov_Nebo
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	GVO_Maroslavelim_Drvotinjica={
+		name="Maroslavelim Drvotinjica"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Maroslavelim_Drvotinjica
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	GVO_Dusz_Kralava={
+		name="Dusz Kralava"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Dusz_Kralava
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	GVO_Kazimitan_Nadzbica={
+		name="Kazimitan Nadzbica"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Kazimitan_Nadzbica
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	GVO_Aleksei_Nebo={
+		name="Aleksei Nebo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVO_Aleksei_Nebo
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	GVO_Vladeksei_Krava={
+		name="Vladeksei Krava"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVO_Vladeksei_Krava
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	GVO_Dmiroslav_Obica={
+		name="Dmiroslav Obica"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVO_Dmiroslav_Obica
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	GVO_Tomas_Glaksinja={
+		name="Tomas Glaksinja"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVO_Tomas_Glaksinja
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	GVO_Rado_Ostvo={
+		name="Rado Ostvo"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Rado_Ostvo
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	GVO_Peta_Glaksinja={
+		name="Peta Glaksinja"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Peta_Glaksinja
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	GVO_Marko_Konzulturalj={
+		name="Marko Konzulturalj"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Marko_Konzulturalj
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	GVO_Olexei_Hralja={
+		name="Olexei Hralja"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Olexei_Hralja
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	GVO_Matefan_Ribaveza={
+		name="Matefan Ribaveza"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Matefan_Ribaveza
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	GVO_Zdek_Ribar={
+		name="Zdek Ribar"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Zdek_Ribar
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	GVO_Lubomiroslav_Kovo={
+		name="Lubomiroslav Kovo"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GVO_Alek_Gvotican={
+		name="Alek Gvotican"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Alek_Gvotican
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVO_Simir_Zlatralja={
+		name="Simir Zlatralja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Simir_Zlatralja
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVO_Mirosladov_Sporisa={
+		name="Mirosladov Sporisa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Mirosladov_Sporisa
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVO_Zdek_Grefekar={
+		name="Zdek Grefekar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Zdek_Grefekar
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVO_Petarko_Graljska={
+		name="Petarko Graljska"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Petarko_Graljska
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVO_Viktor_Vecnostvot={
+		name="Viktor Vecnostvot"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Viktor_Vecnostvot
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVO_Miroslanis_Pesec={
+		name="Miroslanis Pesec"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Miroslanis_Pesec
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	GVO_Radoslav_Svena={
+		name="Radoslav Svena"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Radoslav_Svena
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	GVO_Bohdanovan_Sunce={
+		name="Bohdanovan Sunce"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Bohdanovan_Sunce
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	GVO_Dmiroslav_Ljubar={
+		name="Dmiroslav Ljubar"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Dmiroslav_Ljubar
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	GVO_Dmiroslav_Delova={
+		name="Dmiroslav Delova"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVO_Dmiroslav_Delova
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	GVO_Vladovan_Krava={
+		name="Vladovan Krava"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVO_Vladovan_Krava
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	GVO_Vlado_Zvet={
+		name="Vlado Zvet"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVO_Vlado_Zvet
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	GVO_Mila_Svitar={
+		name="Mila Svitar"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVO_Mila_Svitar
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	GVO_Radeksei_Kovo={
+		name="Radeksei Kovo"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Radeksei_Kovo
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	GVO_Mila_Drvo={
+		name="Mila Drvo"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Mila_Drvo
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	GVO_Jarko_Zvet={
+		name="Jarko Zvet"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Jarko_Zvet
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	GVO_Nikitri_Svena={
+		name="Nikitri Svena"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Nikitri_Svena
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	GVO_Juragomir_Poljevina={
+		name="Juragomir Poljevina"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Juragomir_Poljevina
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	GVO_Slanko_Drvo={
+		name="Slanko Drvo"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Slanko_Drvo
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	GVO_Bragomir_Slika={
+		name="Bragomir Slika"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GVO_Rado_Zvemenika={
+		name="Rado Zvemenika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Rado_Zvemenika
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GVO_Lubosladov_Zvet={
+		name="Lubosladov Zvet"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Lubosladov_Zvet
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVO_Zdek_Drvo={
+		name="Zdek Drvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Zdek_Drvo
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVO_Bohdan_Kovot={
+		name="Bohdan Kovot"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Bohdan_Kovot
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GVO_Simiroslavko_Ljubar={
+		name="Simiroslavko Ljubar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Simiroslavko_Ljubar
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVO_Dran_Zemenatadar={
+		name="Dran Zemenatadar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Dran_Zemenatadar
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVO_Simeon_Grefekar={
+		name="Simeon Grefekar"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Simeon_Grefekar
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	GVO_Viko_Ostvo={
+		name="Viko Ostvo"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Viko_Ostvo
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	GVO_Lubosladov_Zvemenika={
+		name="Lubosladov Zvemenika"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Lubosladov_Zvemenika
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	GVO_Goraj_Viladarom={
+		name="Goraj Viladarom"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Goraj_Viladarom
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	GVO_Tomas_Sunce={
+		name="Tomas Sunce"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVO_Tomas_Sunce
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	GVO_Ivan_Zlatralja={
+		name="Ivan Zlatralja"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVO_Ivan_Zlatralja
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	GVO_Mateusan_Prad={
+		name="Mateusan Prad"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVO_Mateusan_Prad
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	GVO_Viko_Viladarom={
+		name="Viko Viladarom"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVO_Viko_Viladarom
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	GVO_Stanovan_Istvozduh={
+		name="Stanovan Istvozduh"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Stanovan_Istvozduh
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	GVO_Miri_Grefekar={
+		name="Miri Grefekar"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Miri_Grefekar
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	GVO_Simeon_Knja={
+		name="Simeon Knja"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Simeon_Knja
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	GVO_Lubomiroslav_Zemenatadar={
+		name="Lubomiroslav Zemenatadar"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Lubomiroslav_Zemenatadar
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	GVO_Lubomir_Miroda={
+		name="Lubomir Miroda"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Lubomir_Miroda
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	GVO_Bohdan_Nadzbica={
+		name="Bohdan Nadzbica"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Bohdan_Nadzbica
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	GVO_Miloslav_Muzik={
+		name="Miloslav Muzik"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GVO_Petan_Vreme={
+		name="Petan Vreme"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Petan_Vreme
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GVO_Stefan_Korefeka={
+		name="Stefan Korefeka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Stefan_Korefeka
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GVO_Slanko_Leka={
+		name="Slanko Leka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Slanko_Leka
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVO_Ivanislav_Obicana={
+		name="Ivanislav Obicana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Ivanislav_Obicana
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVO_Goragomas_Muzik={
+		name="Goragomas Muzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Goragomas_Muzik
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GVO_Viko_Vatak={
+		name="Viko Vatak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GVO_Viko_Vatak
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GVO_Ilya_Vitar={
+		name="Ilya Vitar"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Ilya_Vitar
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	GVO_Andrej_Miroda={
+		name="Andrej Miroda"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Andrej_Miroda
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	GVO_Alek_Ostvo={
+		name="Alek Ostvo"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Alek_Ostvo
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	GVO_Vladeksei_Zvet={
+		name="Vladeksei Zvet"
+
+		advisor={
+			slot = army_chief
+			idea_token = GVO_Vladeksei_Zvet
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	GVO_Dusan_Recnost={
+		name="Dusan Recnost"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVO_Dusan_Recnost
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	GVO_Pavel_Miroda={
+		name="Pavel Miroda"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GVO_Pavel_Miroda
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	GVO_Luboslav_Svena={
+		name="Luboslav Svena"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVO_Luboslav_Svena
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	GVO_Andrej_Dobar={
+		name="Andrej Dobar"
+
+		advisor={
+			slot = air_chief
+			idea_token = GVO_Andrej_Dobar
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	GVO_Matefanov_Oblika={
+		name="Matefanov Oblika"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Matefanov_Oblika
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	GVO_Simeon_Zemenatadar={
+		name="Simeon Zemenatadar"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Simeon_Zemenatadar
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	GVO_Miroslav_Zlatralja={
+		name="Miroslav Zlatralja"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Miroslav_Zlatralja
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	GVO_Viktoraj_Solj={
+		name="Viktoraj Solj"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Viktoraj_Solj
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	GVO_Lubomitarkol_Poljevina={
+		name="Lubomitarkol Poljevina"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Lubomitarkol_Poljevina
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	GVO_Stefan_Zvuk={
+		name="Stefan Zvuk"
+
+		advisor={
+			slot = high_command
+			idea_token = GVO_Stefan_Zvuk
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	GVO_Niko_Prana={
+		name="Niko Prana"
+
+		advisor={
+			slot = theorist
+			idea_token = GVO_Niko_Prana
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	GVO_Ivan_Umena={
+		name="Ivan Umena"
+
+		advisor={
+			slot = theorist
+			idea_token = GVO_Ivan_Umena
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	GVO_Viktor_Krava={
+		name="Viktor Krava"
+
+		advisor={
+			slot = theorist
+			idea_token = GVO_Viktor_Krava
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=729
+	name="STATE_729"
+	manpower = 3218426
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8273 3}
+		victory_points = { 8274 3}
+		victory_points = { 8280 6}
+		victory_points = { 8287 3}
+		
+		owner = MAK
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			8279 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = MAK
+	}
+
+	provinces={
+		8273 8274 8275 8276 8277 8278 8279 8280 8281 8282 8283 8284 8285 8286 8287 
+	}
+	local_supplies=0.0 
+}

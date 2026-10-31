@@ -1,0 +1,43 @@
+
+state={
+	id=1305
+	name="STATE_1305"
+	manpower = 8019049
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=7
+		rubber=9
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15098 4}
+		victory_points = { 15118 16}
+		victory_points = { 15120 4}
+		
+		owner = UAT
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			15098 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = UAT
+	}
+
+	provinces={
+		15094 15095 15096 15097 15098 15099 15100 15101 15102 15103 15104 15105 15106 15107 15108 15109 15110 15111 15112 15113 15114 15115 15116 15117 15118 15119 15120 15121 15122 15123 15124 15125 15126 15127 15128 15129 15130 15131 15132 15133 15134 15135 15136 15137 15138 15139 15140 
+	}
+	local_supplies=0.0 
+}

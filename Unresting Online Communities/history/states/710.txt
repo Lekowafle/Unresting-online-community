@@ -1,0 +1,42 @@
+
+state={
+	id=710
+	name="STATE_710"
+	manpower = 1992696
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8030 1}
+		victory_points = { 8031 3}
+		
+		owner = KHU
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			8031 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KHU
+	}
+
+	provinces={
+		8023 8024 8025 8026 8027 8028 8029 8030 8031 8032 8033 8034 
+	}
+	local_supplies=0.0 
+}

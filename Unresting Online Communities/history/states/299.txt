@@ -1,0 +1,39 @@
+
+state={
+	id=299
+	name="STATE_299"
+	manpower = 1561385
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=11
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3424 1}
+		victory_points = { 3427 1}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		3420 3421 3422 3423 3424 3425 3426 3427 3428 3429 
+	}
+	local_supplies=0.0 
+}

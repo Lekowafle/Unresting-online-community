@@ -1,0 +1,39 @@
+
+state={
+	id=936
+	name="STATE_936"
+	manpower = 2421337
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10860 1}
+		victory_points = { 10862 1}
+		
+		owner = UXU
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = UXU
+	}
+
+	provinces={
+		10859 10860 10861 10862 10863 10864 10865 10866 10867 10868 10869 10870 10871 10872 10873 10874 10875 
+	}
+	local_supplies=0.0 
+}

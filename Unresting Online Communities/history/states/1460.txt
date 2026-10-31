@@ -1,0 +1,37 @@
+
+state={
+	id=1460
+	name="STATE_1460"
+	manpower = 1288789
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TUL
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TUL
+	}
+
+	provinces={
+		16636 16637 16638 16639 16640 16641 16642 16643 16644 
+	}
+	local_supplies=0.0 
+}

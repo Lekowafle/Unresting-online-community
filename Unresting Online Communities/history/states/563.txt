@@ -1,0 +1,42 @@
+
+state={
+	id=563
+	name="STATE_563"
+	manpower = 1448823
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6237 1}
+		victory_points = { 6238 1}
+		
+		owner = QAL
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			6238 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = QAL
+	}
+
+	provinces={
+		6237 6238 6239 6240 6241 6242 6243 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=349
+	name="STATE_349"
+	manpower = 3867917
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=6
+	}
+
+	history={
+		victory_points = { 3946 6}
+		victory_points = { 3956 4}
+		
+		owner = CUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CUA
+	}
+
+	provinces={
+		3936 3937 3938 3939 3940 3941 3942 3943 3944 3945 3946 3947 3948 3949 3950 3951 3952 3953 3954 3955 3956 3957 3958 
+	}
+	local_supplies=0.0 
+}

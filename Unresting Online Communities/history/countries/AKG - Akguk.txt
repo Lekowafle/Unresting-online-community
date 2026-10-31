@@ -1,0 +1,709 @@
+capital = 1109
+
+oob = "AKG_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "AKG_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "AKG_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	synth_oil_experiments= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Basan Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Yane Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tarin Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Dogarinda Mk 1"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Kayla Mk 1"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Kanlik Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "AKG_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			armor_piercing_bombs = 1
+			iw_small_airframe = 1
+			aa_lmg = 1
+			basic_large_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Bahirlik Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Basarlis Mk 0"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Asim Mk 1"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Duvasane Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "AKG_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			early_fighter = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	basic_battlecruiser = 1
+	basic_battleship = 1
+	basic_submarine = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "AKG_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Kanlik Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Aske Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Ilce Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Saniz Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Duygunce Class"
+			type = battle_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Dogarinda Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Kaye Class"
+			type = battleship_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Beldirlik Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Uzar Class"
+			type = submarine_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_depth_charges = 1
+	basic_heavy_armor_scheme = 1
+	basic_heavy_battery = 1
+	basic_ship_hull_cruiser = 1
+	basic_ship_hull_heavy = 1
+	basic_ship_hull_submarine = 1
+	basic_torpedo = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	magnetic_detonator = 1
+	mtg_transport = 1
+	smoke_generator = 1
+	sonar = 1
+	submarine_mine_laying = 1
+	
+	}
+	set_naval_oob = "AKG_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Kanlik Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_torpedo_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Aske Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_torpedo_1
+				mid_2_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Ilce Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Saniz Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_bc_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = ship_anti_air_1
+				mid_2_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Duygunce Class"
+			type = ship_hull_heavy_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_armor_slot = ship_armor_bc_2
+				fixed_ship_battery_slot = ship_heavy_battery_2
+				fixed_ship_engine_slot = heavy_ship_engine_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_anti_air_2
+				mid_1_custom_slot = ship_secondaries_1
+				mid_2_custom_slot = ship_secondaries_1
+				rear_1_custom_slot = ship_anti_air_2
+			}
+		}
+		create_equipment_variant = {
+			name = "Dogarinda Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_bb_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = ship_anti_air_1
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Kaye Class"
+			type = ship_hull_heavy_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_armor_slot = ship_armor_bb_2
+				fixed_ship_battery_slot = ship_heavy_battery_2
+				fixed_ship_engine_slot = heavy_ship_engine_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_2
+				mid_1_custom_slot = ship_secondaries_1
+				mid_2_custom_slot = ship_secondaries_1
+				rear_1_custom_slot = ship_heavy_battery_2
+			}
+		}
+		create_equipment_variant = {
+			name = "Beldirlik Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Uzar Class"
+			type = ship_hull_submarine_2
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_2
+				fixed_ship_torpedo_slot = ship_torpedo_sub_2
+				rear_1_custom_slot = ship_torpedo_sub_2
+			}
+		}
+
+	}
+
+
+recruit_character = AKG_Kadir_Basarlis
+recruit_character = AKG_Yalil_Umur
+recruit_character = AKG_Mustafe_Sakin
+recruit_character = AKG_Selilmaz_Koylu
+recruit_character = AKG_Salcin_Basan
+recruit_character = AKG_Selim_Anahar
+recruit_character = AKG_Yilmazan_Simsek
+recruit_character = AKG_Talih_Aksam
+recruit_character = AKG_Baran_Kayla
+recruit_character = AKG_Yalil_Yaglil
+recruit_character = AKG_Kerem_Golge
+recruit_character = AKG_Yusuf_Asik
+recruit_character = AKG_Zafe_Duyum
+recruit_character = AKG_Yalhat_Ates
+recruit_character = AKG_Iskendem_Daglik
+recruit_character = AKG_Utku_Golculuk
+recruit_character = AKG_Zafa_Beldirlik
+recruit_character = AKG_Bekir_Kalece
+recruit_character = AKG_Cemaz_Sehirlik
+recruit_character = AKG_Farunc_Sane
+recruit_character = AKG_Emir_Boldiz
+recruit_character = AKG_Barulent_Umut
+recruit_character = AKG_Batuhan_Haylu
+recruit_character = AKG_Bekir_Topru
+recruit_character = AKG_Fara_Saat
+recruit_character = AKG_Talih_Ilce
+recruit_character = AKG_Talha_Daglik
+recruit_character = AKG_Resuf_Boldi
+recruit_character = AKG_Yilmazan_Gecek
+recruit_character = AKG_Kaan_Gecek
+recruit_character = AKG_Kadir_Gecek
+recruit_character = AKG_Ertuhan_Dogarinda
+recruit_character = AKG_Orha_Yancek
+recruit_character = AKG_Arif_Akguk
+recruit_character = AKG_Zafa_Koprak
+recruit_character = AKG_Iskerhatugru_Kanlik
+recruit_character = AKG_Selilmaz_Buzgac
+recruit_character = AKG_Onur_Yaglil
+recruit_character = AKG_Iskent_Buzgac
+recruit_character = AKG_Baran_Kaye
+recruit_character = AKG_Utku_Kalp
+recruit_character = AKG_Efer_Sehillik
+recruit_character = AKG_Salcin_Duvasane
+recruit_character = AKG_Arif_Koylu
+recruit_character = AKG_Bekir_Bulu
+recruit_character = AKG_Yalil_Boldi
+recruit_character = AKG_Sinanes_Yaglil
+recruit_character = AKG_Bekir_Deniz
+recruit_character = AKG_Batuhan_Deniz
+recruit_character = AKG_Utku_Duvasane
+recruit_character = AKG_Sinanes_Beldirlik
+recruit_character = AKG_Emin_Akguk
+recruit_character = AKG_Emir_Toplukar
+recruit_character = AKG_Ertuhan_Kale
+recruit_character = AKG_Sinan_Kanlik
+recruit_character = AKG_Yilmazan_Umur
+recruit_character = AKG_Iskent_Bede
+recruit_character = AKG_Eminan_Yancek
+recruit_character = AKG_Ertuhan_Sehil
+recruit_character = AKG_Enesulenderk_Bahirlik
+recruit_character = AKG_Zaferhan_Kale
+recruit_character = AKG_Batuhan_Koprak
+recruit_character = AKG_Eferhan_Oyku
+recruit_character = AKG_Musul_Anahar
+recruit_character = AKG_Batugruk_Golculuk
+recruit_character = AKG_Bora_Boldiz
+recruit_character = AKG_Utku_Ordu
+recruit_character = AKG_Emir_Uzakin
+recruit_character = AKG_Iskendem_Gemis
+recruit_character = AKG_Iskerhatugru_Aske
+recruit_character = AKG_Yilmalha_Duvasane
+recruit_character = AKG_Efer_Sehirlik
+recruit_character = AKG_Zafa_Kalece
+recruit_character = AKG_Emir_Yancek
+recruit_character = AKG_Eferhan_Kalp
+recruit_character = AKG_Bulendemaz_Sahari
+recruit_character = AKG_Talcinan_Toplukar
+recruit_character = AKG_Hakan_Uzar
+recruit_character = AKG_Musulent_Nehir
+recruit_character = AKG_Efer_Sicak
+recruit_character = AKG_Zafe_Simsek
+recruit_character = AKG_Eminan_Isildiz
+recruit_character = AKG_Barul_Tara
+recruit_character = AKG_Murat_Beldirlik
+recruit_character = AKG_Enesulenderk_Ulken
+recruit_character = AKG_Yalih_Dogarinda
+recruit_character = AKG_Orha_Yesilda
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 50
+set_stability = 0.15
+set_war_support = 0.52
+
+add_ideas = {
+extensive_conscription
+low_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1909.7.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 2
+	fascism = 41
+	communism = 25
+	neutrality = 32
+}
+
+
+
+
+

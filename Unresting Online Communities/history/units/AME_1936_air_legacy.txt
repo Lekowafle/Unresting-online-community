@@ -1,0 +1,64 @@
+air_wings = {
+		332 = { 								
+		nav_bomber_equipment_0 = { owner = "AME" amount = 50 version_name = "Tigharem Mk 2" }
+
+	}
+	122 = { 								
+		CAS_equipment_0 = { owner = "AME" amount = 50 version_name = "Amdarwaremou Mk 1" }
+nav_bomber_equipment_0 = { owner = "AME" amount = 50 version_name = "Tigharem Mk 2" }
+
+	}
+	545 = { 								
+		CAS_equipment_0 = { owner = "AME" amount = 50 version_name = "Amdarwaremou Mk 1" }
+tac_bomber_equipment_0 = { owner = "AME" amount = 50 version_name = "Tamezi Mk 1" }
+
+	}
+	177 = { 								
+		tac_bomber_equipment_0 = { owner = "AME" amount = 50 version_name = "Tamezi Mk 1" }
+
+	}
+	515 = { 								
+		tac_bomber_equipment_0 = { owner = "AME" amount = 50 version_name = "Tamezi Mk 1" }
+
+	}
+	595 = { 								
+		CAS_equipment_0 = { owner = "AME" amount = 50 version_name = "Amdarwaremou Mk 1" }
+
+	}
+	441 = { 								
+		fighter_equipment_0 = { owner = "AME" amount = 50 version_name = "Izenzawen Mk 1" }
+
+	}
+	279 = { 								
+		tac_bomber_equipment_0 = { owner = "AME" amount = 50 version_name = "Tamezi Mk 1" }
+
+	}
+	254 = { 								
+		nav_bomber_equipment_0 = { owner = "AME" amount = 50 version_name = "Tigharem Mk 2" }
+
+	}
+	373 = { 								
+		CAS_equipment_0 = { owner = "AME" amount = 50 version_name = "Amdarwaremou Mk 1" }
+nav_bomber_equipment_0 = { owner = "AME" amount = 50 version_name = "Tigharem Mk 2" }
+
+	}
+	8 = { 								
+		fighter_equipment_0 = { owner = "AME" amount = 50 version_name = "Izenzawen Mk 1" }
+tac_bomber_equipment_0 = { owner = "AME" amount = 50 version_name = "Tamezi Mk 1" }
+
+	}
+	390 = { 								
+		fighter_equipment_0 = { owner = "AME" amount = 50 version_name = "Izenzawen Mk 1" }
+
+	}
+	217 = { 								
+		CAS_equipment_0 = { owner = "AME" amount = 50 version_name = "Amdarwaremou Mk 1" }
+
+	}
+	22 = { 								
+		fighter_equipment_0 = { owner = "AME" amount = 50 version_name = "Izenzawen Mk 1" }
+
+	}
+
+
+}

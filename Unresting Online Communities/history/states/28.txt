@@ -1,0 +1,40 @@
+
+state={
+	id=28
+	name="STATE_28"
+	manpower = 1973781
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 311 2}
+		victory_points = { 315 2}
+		victory_points = { 316 2}
+		
+		owner = AME
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AME
+	}
+
+	provinces={
+		308 309 310 311 312 313 314 315 316 317 
+	}
+	local_supplies=0.0 
+}

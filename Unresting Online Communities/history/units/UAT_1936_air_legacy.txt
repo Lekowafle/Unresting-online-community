@@ -1,0 +1,32 @@
+air_wings = {
+		1275 = { 								
+		tac_bomber_equipment_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+	1297 = { 								
+		tac_bomber_equipment_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+	1277 = { 								
+		tac_bomber_equipment_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+	1267 = { 								
+		tac_bomber_equipment_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+	1263 = { 								
+		tac_bomber_equipment_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+	1287 = { 								
+		tac_bomber_equipment_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+	1293 = { 								
+		tac_bomber_equipment_0 = { owner = "UAT" amount = 50 version_name = "Sayilach Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,16 @@
+air_wings = {
+		1099 = { 								
+		medium_plane_airframe_0 = { owner = "HAS" amount = 50 version_name = "Strum Mk 1" }
+
+	}
+	1048 = { 								
+		medium_plane_airframe_0 = { owner = "HAS" amount = 50 version_name = "Strum Mk 1" }
+
+	}
+	969 = { 								
+		medium_plane_airframe_0 = { owner = "HAS" amount = 50 version_name = "Strum Mk 1" }
+
+	}
+
+
+}

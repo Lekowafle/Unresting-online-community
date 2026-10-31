@@ -1,0 +1,41 @@
+
+state={
+	id=515
+	name="STATE_515"
+	manpower = 2697064
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=13
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5666 1}
+		victory_points = { 5672 1}
+		victory_points = { 5673 1}
+		victory_points = { 5676 1}
+		
+		owner = AME
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AME
+	}
+
+	provinces={
+		5665 5666 5667 5668 5669 5670 5671 5672 5673 5674 5675 5676 5677 5678 5679 5680 
+	}
+	local_supplies=0.0 
+}

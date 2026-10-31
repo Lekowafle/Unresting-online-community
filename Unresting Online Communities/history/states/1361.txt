@@ -1,0 +1,45 @@
+
+state={
+	id=1361
+	name="STATE_1361"
+	manpower = 2379424
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15706 2}
+		victory_points = { 15708 1}
+		victory_points = { 15710 1}
+		victory_points = { 15712 1}
+		victory_points = { 15713 1}
+		
+		owner = AGU
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			15712 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGU
+	}
+
+	provinces={
+		15703 15704 15705 15706 15707 15708 15709 15710 15711 15712 15713 15714 15715 15716 
+	}
+	local_supplies=0.0 
+}

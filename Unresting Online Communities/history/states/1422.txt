@@ -1,0 +1,39 @@
+
+state={
+	id=1422
+	name="STATE_1422"
+	manpower = 1046859
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16338 1}
+		victory_points = { 16339 1}
+		
+		owner = VOC
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = VOC
+	}
+
+	provinces={
+		16337 16338 16339 16340 16341 16342 
+	}
+	local_supplies=0.0 
+}

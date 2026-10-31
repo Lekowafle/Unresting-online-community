@@ -1,0 +1,41 @@
+
+state={
+	id=387
+	name="STATE_387"
+	manpower = 4135824
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4424 2}
+		victory_points = { 4427 6}
+		victory_points = { 4432 2}
+		victory_points = { 4433 3}
+		
+		owner = FON
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = FON
+	}
+
+	provinces={
+		4412 4413 4414 4415 4416 4417 4418 4419 4420 4421 4422 4423 4424 4425 4426 4427 4428 4429 4430 4431 4432 4433 
+	}
+	local_supplies=0.0 
+}

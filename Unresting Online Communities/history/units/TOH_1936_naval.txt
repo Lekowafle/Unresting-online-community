@@ -1,0 +1,29 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Tohich Fleet"			
+		naval_base = 10937
+		task_force = {
+			name = "Tohich Fleet"
+			location = 10937
+			
+						ship = { name = "Bacabanilan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TOH version_name = "Chol Class" } }	}
+			ship = { name = "Chol" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TOH version_name = "Chol Class" } }	}
+			ship = { name = "Cozumel" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TOH version_name = "Chol Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

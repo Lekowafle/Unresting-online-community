@@ -1,0 +1,17 @@
+air_wings = {
+		938 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "KAN" amount = 37 version_name = "Kadam Mk 2" }
+medium_plane_airframe_0 = { owner = "KAN" amount = 27 version_name = "Nenjil Mk 2" }
+
+	}
+	744 = { 								
+		small_plane_cas_airframe_0 = { owner = "KAN" amount = 15 version_name = "Velalam Mk 0" }
+
+	}
+	611 = { 								
+		small_plane_airframe_0 = { owner = "KAN" amount = 24 version_name = "Paatturambu Mk 2" }
+
+	}
+
+
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=191
+	name="STATE_191"
+	manpower = 1941433
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2194 1}
+		victory_points = { 2198 1}
+		
+		owner = FON
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = FON
+	}
+
+	provinces={
+		2193 2194 2195 2196 2197 2198 2199 2200 2201 2202 2203 2204 2205 2206 
+	}
+	local_supplies=0.0 
+}

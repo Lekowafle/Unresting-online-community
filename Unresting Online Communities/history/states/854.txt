@@ -1,0 +1,40 @@
+
+state={
+	id=854
+	name="STATE_854"
+	manpower = 1611861
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9900 1}
+		victory_points = { 9901 2}
+		victory_points = { 9903 1}
+		
+		owner = XAA
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = XAA
+	}
+
+	provinces={
+		9900 9901 9902 9903 9904 9905 9906 9907 
+	}
+	local_supplies=0.0 
+}

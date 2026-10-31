@@ -1,0 +1,20 @@
+air_wings = {
+		272 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IMN" amount = 4 version_name = "Tamezi Mk 0" }
+
+	}
+	57 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "IMN" amount = 4 version_name = "Asgwalut Mk 2" }
+small_plane_airframe_0 = { owner = "IMN" amount = 2 version_name = "Tighas Mk 2" }
+medium_plane_airframe_0 = { owner = "IMN" amount = 3 version_name = "Thalut Mk 0" }
+
+	}
+	356 = { 								
+		small_plane_cas_airframe_1 = { owner = "IMN" amount = 8 version_name = "Anza Mk 1" }
+small_plane_airframe_1 = { owner = "IMN" amount = 2 version_name = "Izerwizi Mk 1" }
+small_plane_cas_airframe_0 = { owner = "IMN" amount = 4 version_name = "Nfourt Mk 2" }
+
+	}
+
+
+}

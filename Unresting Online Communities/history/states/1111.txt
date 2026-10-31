@@ -1,0 +1,44 @@
+
+state={
+	id=1111
+	name="STATE_1111"
+	manpower = 2560989
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12903 6}
+		victory_points = { 12907 3}
+		victory_points = { 12909 1}
+		victory_points = { 12913 1}
+		
+		owner = JIA
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 2
+			
+			12906 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JIA
+	}
+
+	provinces={
+		12903 12904 12905 12906 12907 12908 12909 12910 12911 12912 12913 12914 12915 
+	}
+	local_supplies=0.0 
+}

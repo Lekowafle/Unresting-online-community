@@ -1,0 +1,39 @@
+
+state={
+	id=555
+	name="STATE_555"
+	manpower = 1357810
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6161 1}
+		victory_points = { 6162 1}
+		
+		owner = CUA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CUA
+	}
+
+	provinces={
+		6157 6158 6159 6160 6161 6162 6163 6164 
+	}
+	local_supplies=0.0 
+}

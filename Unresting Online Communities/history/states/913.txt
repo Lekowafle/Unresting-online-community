@@ -1,0 +1,40 @@
+
+state={
+	id=913
+	name="STATE_913"
+	manpower = 3284281
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10599 8}
+		victory_points = { 10606 3}
+		victory_points = { 10609 5}
+		
+		owner = UXU
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			arms_factory = 2
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = UXU
+	}
+
+	provinces={
+		10595 10596 10597 10598 10599 10600 10601 10602 10603 10604 10605 10606 10607 10608 10609 10610 
+	}
+	local_supplies=0.0 
+}

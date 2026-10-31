@@ -1,0 +1,42 @@
+
+state={
+	id=1250
+	name="STATE_1250"
+	manpower = 2176031
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=36
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14468 2}
+		victory_points = { 14469 1}
+		
+		owner = GRR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			14468 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = GRR
+	}
+
+	provinces={
+		14468 14469 14470 14471 14472 14473 14474 14475 14476 14477 14478 14479 14480 
+	}
+	local_supplies=0.0 
+}

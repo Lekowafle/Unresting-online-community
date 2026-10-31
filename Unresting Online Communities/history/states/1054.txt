@@ -1,0 +1,43 @@
+
+state={
+	id=1054
+	name="STATE_1054"
+	manpower = 3703356
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12306 2}
+		victory_points = { 12308 2}
+		victory_points = { 12324 8}
+		
+		owner = DUV
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			12308 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DUV
+	}
+
+	provinces={
+		12305 12306 12307 12308 12309 12310 12311 12312 12313 12314 12315 12316 12317 12318 12319 12320 12321 12322 12323 12324 12325 
+	}
+	local_supplies=0.0 
+}

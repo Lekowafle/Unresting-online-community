@@ -1,0 +1,38 @@
+air_wings = {
+		1211 = { 								
+		small_plane_airframe_0 = { owner = "UIN" amount = 50 version_name = "Kampi Mk 2" }
+small_plane_airframe_0 = { owner = "UIN" amount = 50 version_name = "Kampi Mk 2" }
+
+	}
+	1187 = { 								
+		medium_plane_airframe_0 = { owner = "UIN" amount = 50 version_name = "Pendelamhal Mk 1" }
+
+	}
+	1168 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "UIN" amount = 50 version_name = "Peran Mk 1" }
+
+	}
+	1228 = { 								
+		medium_plane_airframe_1 = { owner = "UIN" amount = 50 version_name = "Oraki Mk 2" }
+
+	}
+	1149 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "UIN" amount = 50 version_name = "Peran Mk 1" }
+
+	}
+	1224 = { 								
+		medium_plane_airframe_0 = { owner = "UIN" amount = 50 version_name = "Pendelamhal Mk 1" }
+
+	}
+	1227 = { 								
+		medium_plane_airframe_1 = { owner = "UIN" amount = 50 version_name = "Oraki Mk 2" }
+small_plane_cas_airframe_0 = { owner = "UIN" amount = 50 version_name = "Mulat Mk 0" }
+
+	}
+	1220 = { 								
+		small_plane_cas_airframe_0 = { owner = "UIN" amount = 50 version_name = "Mulat Mk 0" }
+
+	}
+
+
+}

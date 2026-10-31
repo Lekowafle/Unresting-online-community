@@ -1,0 +1,39 @@
+
+state={
+	id=831
+	name="STATE_831"
+	manpower = 2713597
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9513 3}
+		victory_points = { 9516 3}
+		
+		owner = MAK
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MAK
+	}
+
+	provinces={
+		9512 9513 9514 9515 9516 9517 9518 9519 9520 9521 9522 9523 9524 9525 9526 
+	}
+	local_supplies=0.0 
+}

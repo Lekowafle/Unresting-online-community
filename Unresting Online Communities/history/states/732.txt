@@ -1,0 +1,41 @@
+
+state={
+	id=732
+	name="STATE_732"
+	manpower = 1107508
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8317 1}
+		
+		owner = KHU
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			8318 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KHU
+	}
+
+	provinces={
+		8316 8317 8318 8319 8320 8321 8322 
+	}
+	local_supplies=0.0 
+}

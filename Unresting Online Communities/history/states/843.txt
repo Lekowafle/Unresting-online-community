@@ -1,0 +1,39 @@
+
+state={
+	id=843
+	name="STATE_843"
+	manpower = 1393604
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=3
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=3
+		coal=7
+	}
+
+	history={
+		victory_points = { 9709 1}
+		victory_points = { 9710 1}
+		
+		owner = COB
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = COB
+	}
+
+	provinces={
+		9704 9705 9706 9707 9708 9709 9710 9711 
+	}
+	local_supplies=0.0 
+}

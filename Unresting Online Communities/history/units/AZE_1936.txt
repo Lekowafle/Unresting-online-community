@@ -1,0 +1,237 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+			artillery_brigade = {  x = 3 y = 2 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Tafast' Militia Division"
+		location = 5351
+		division_template = "Militia Division"
+		start_experience_factor = 0.105182
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Azenzal' Militia Division"
+		location = 2887
+		division_template = "Militia Division"
+		start_experience_factor = 0.151233
+		start_equipment_factor = 0.851053
+	}
+	division= {
+		name = "3rd 'Amdarwaremou' Militia Division"
+		location = 4012
+		division_template = "Militia Division"
+		start_experience_factor = 0.528256
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Asifas' Infantry Division"
+		location = 5335
+		division_template = "Infantry Division"
+		start_experience_factor = 0.733291
+		start_equipment_factor = 0.999327
+	}
+	division= {
+		name = "1st 'Islit' Supported Infantry Division"
+		location = 1923
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.276429
+		start_equipment_factor = 0.943838
+	}
+	division= {
+		name = "2nd 'Amellala' Supported Infantry Division"
+		location = 2516
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.644688
+		start_equipment_factor = 0.991848
+	}
+	division= {
+		name = "3rd 'Ardanwa' Supported Infantry Division"
+		location = 2210
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.065245
+		start_equipment_factor = 0.907736
+	}
+	division= {
+		name = "4th 'Feart' Supported Infantry Division"
+		location = 5115
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.670652
+		start_equipment_factor = 0.952650
+	}
+	division= {
+		name = "5th 'Torch' Supported Infantry Division"
+		location = 2704
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.620088
+		start_equipment_factor = 0.959133
+	}
+	division= {
+		name = "6th 'Izerwizi' Supported Infantry Division"
+		location = 5330
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.791640
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "7th 'Tafast' Supported Infantry Division"
+		location = 855
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.711615
+		start_equipment_factor = 0.859989
+	}
+	division= {
+		name = "8th 'Fail' Supported Infantry Division"
+		location = 5155
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.792671
+		start_equipment_factor = 0.931528
+	}
+	division= {
+		name = "1st 'Cluarg' Artillery Division"
+		location = 1997
+		division_template = "Artillery Division"
+		start_experience_factor = 0.827221
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Azerwal' Artillery Division"
+		location = 3891
+		division_template = "Artillery Division"
+		start_experience_factor = 0.089351
+		start_equipment_factor = 0.848615
+	}
+	division= {
+		name = "3rd 'Tafast' Artillery Division"
+		location = 4956
+		division_template = "Artillery Division"
+		start_experience_factor = 0.567831
+		start_equipment_factor = 0.916266
+	}
+	division= {
+		name = "4th 'Tamur' Artillery Division"
+		location = 744
+		division_template = "Artillery Division"
+		start_experience_factor = 0.775563
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Tist' Artillery Division"
+		location = 5615
+		division_template = "Artillery Division"
+		start_experience_factor = 0.220014
+		start_equipment_factor = 0.862637
+	}
+	division= {
+		name = "1st 'Torch' Cavalry Division"
+		location = 2704
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.802969
+		start_equipment_factor = 0.949470
+	}
+	division= {
+		name = "2nd 'Spionn' Cavalry Division"
+		location = 1024
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.783831
+		start_equipment_factor = 1.000000
+	}
+
+}

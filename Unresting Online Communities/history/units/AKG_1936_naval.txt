@@ -1,0 +1,32 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Akguk Fleet"			
+		naval_base = 12899
+		task_force = {
+			name = "Akguk Fleet"
+			location = 12899
+			
+						ship = { name = "Sahari" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AKG version_name = "Aske Class" } }	}
+			ship = { name = "Uzar" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AKG version_name = "Aske Class" } }	}
+			ship = { name = "Golculuk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AKG version_name = "Kanlik Class" } }	}
+			ship = { name = "Ulken" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AKG version_name = "Aske Class" } }	}
+			ship = { name = "Sahari 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AKG version_name = "Aske Class" } }	}
+			ship = { name = "Servar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AKG version_name = "Kanlik Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

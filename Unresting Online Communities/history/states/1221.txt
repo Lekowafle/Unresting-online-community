@@ -1,0 +1,44 @@
+
+state={
+	id=1221
+	name="STATE_1221"
+	manpower = 3643963
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=8
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14173 3}
+		victory_points = { 14174 2}
+		victory_points = { 14175 3}
+		victory_points = { 14178 2}
+		
+		owner = ALA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			
+			14176 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = ALA
+	}
+
+	provinces={
+		14168 14169 14170 14171 14172 14173 14174 14175 14176 14177 14178 14179 14180 14181 14182 14183 14184 14185 14186 14187 14188 14189 
+	}
+	local_supplies=0.0 
+}

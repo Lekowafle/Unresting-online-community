@@ -1,0 +1,44 @@
+
+state={
+	id=471
+	name="STATE_471"
+	manpower = 2622354
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5274 2}
+		victory_points = { 5276 2}
+		victory_points = { 5279 2}
+		victory_points = { 5282 2}
+		
+		owner = BAT
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			5277 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BAT
+	}
+
+	provinces={
+		5271 5272 5273 5274 5275 5276 5277 5278 5279 5280 5281 5282 5283 5284 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=46
+	name="STATE_46"
+	manpower = 2584170
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 515 2}
+		victory_points = { 520 1}
+		
+		owner = RUA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RUA
+	}
+
+	provinces={
+		507 508 509 510 511 512 513 514 515 516 517 518 519 520 521 522 523 524 525 
+	}
+	local_supplies=0.0 
+}

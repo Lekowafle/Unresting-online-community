@@ -1,0 +1,40 @@
+
+state={
+	id=500
+	name="STATE_500"
+	manpower = 1013524
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=4
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=4
+		coal=9
+	}
+
+	history={
+		victory_points = { 5532 1}
+		victory_points = { 5533 1}
+		victory_points = { 5536 1}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		5532 5533 5534 5535 5536 
+	}
+	local_supplies=0.0 
+}

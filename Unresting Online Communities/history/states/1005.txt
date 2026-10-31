@@ -1,0 +1,40 @@
+
+state={
+	id=1005
+	name="STATE_1005"
+	manpower = 2095678
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11715 3}
+		victory_points = { 11718 1}
+		victory_points = { 11720 1}
+		
+		owner = GVA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = GVA
+	}
+
+	provinces={
+		11709 11710 11711 11712 11713 11714 11715 11716 11717 11718 11719 11720 
+	}
+	local_supplies=0.0 
+}

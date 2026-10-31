@@ -1,0 +1,37 @@
+
+state={
+	id=863
+	name="STATE_863"
+	manpower = 517501
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=10
+		chromium=11
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=11
+		coal=27
+	}
+
+	history={
+		
+		owner = TOH
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TOH
+	}
+
+	provinces={
+		10025 10026 10027 
+	}
+	local_supplies=0.0 
+}

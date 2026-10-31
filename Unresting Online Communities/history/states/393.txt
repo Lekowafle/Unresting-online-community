@@ -1,0 +1,38 @@
+
+state={
+	id=393
+	name="STATE_393"
+	manpower = 1841465
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4475 1}
+		
+		owner = GRI
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = GRI
+	}
+
+	provinces={
+		4469 4470 4471 4472 4473 4474 4475 4476 4477 4478 4479 4480 
+	}
+	local_supplies=0.0 
+}

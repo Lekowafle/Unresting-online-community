@@ -1,0 +1,1083 @@
+characters = {
+	VOC_Thien_Muradiognali={
+		name="Thien Muradiognali"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VOC_Mattefandre_Corra={
+		name="Mattefandre Corra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Mattefandre_Corra
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VOC_Pedro_Alberra={
+		name="Pedro Alberra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Pedro_Alberra
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VOC_Jeandre_Cavalo={
+		name="Jeandre Cavalo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Jeandre_Cavalo
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VOC_Frano_Regna={
+		name="Frano Regna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Frano_Regna
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VOC_Vico_Imperrola={
+		name="Vico Imperrola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Vico_Imperrola
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VOC_Pedre_Nazia={
+		name="Pedre Nazia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Pedre_Nazia
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VOC_Paolas_Priamancipes={
+		name="Paolas Priamancipes"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Paolas_Priamancipes
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	VOC_Vicomo_Temichia={
+		name="Vicomo Temichia"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Vicomo_Temichia
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	VOC_Alberto_Reanza={
+		name="Alberto Reanza"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Alberto_Reanza
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	VOC_Alexancescom_Nemordizio={
+		name="Alexancescom Nemordizio"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Alexancescom_Nemordizio
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	VOC_Leonio_Aritto={
+		name="Leonio Aritto"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VOC_Leonio_Aritto
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	VOC_Giaco_Sorra={
+		name="Giaco Sorra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VOC_Giaco_Sorra
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	VOC_Marlo_Traccame={
+		name="Marlo Traccame"
+
+		advisor={
+			slot = air_chief
+			idea_token = VOC_Marlo_Traccame
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	VOC_Thien_Cavolo={
+		name="Thien Cavolo"
+
+		advisor={
+			slot = air_chief
+			idea_token = VOC_Thien_Cavolo
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	VOC_Alexano_Nome={
+		name="Alexano Nome"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Alexano_Nome
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	VOC_Victo_Cava={
+		name="Victo Cava"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Victo_Cava
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	VOC_Mattefan_Vocelleamenz={
+		name="Mattefan Vocelleamenz"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Mattefan_Vocelleamenz
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	VOC_Fran_Nemordizio={
+		name="Fran Nemordizio"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Fran_Nemordizio
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	VOC_Anto_Terolagliern={
+		name="Anto Terolagliern"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Anto_Terolagliern
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	VOC_Ramonio_Lamoresero={
+		name="Ramonio Lamoresero"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Ramonio_Lamoresero
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	VOC_Pedre_Lamoresero={
+		name="Pedre Lamoresero"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { militant_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VOC_Stefan_Vittile={
+		name="Stefan Vittile"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Stefan_Vittile
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VOC_Ramon_Ghia={
+		name="Ramon Ghia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Ramon_Ghia
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VOC_Roberry_Reanza={
+		name="Roberry Reanza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Roberry_Reanza
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VOC_Anto_Neve={
+		name="Anto Neve"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Anto_Neve
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VOC_Paolo_Reggionerno={
+		name="Paolo Reggionerno"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Paolo_Reggionerno
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VOC_Paolo_Reanza={
+		name="Paolo Reanza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Paolo_Reanza
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VOC_Jeandre_Lagio={
+		name="Jeandre Lagio"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Jeandre_Lagio
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	VOC_Felipe_Lagio={
+		name="Felipe Lagio"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Felipe_Lagio
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	VOC_Marlo_Chia={
+		name="Marlo Chia"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Marlo_Chia
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	VOC_Ramo_Cava={
+		name="Ramo Cava"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Ramo_Cava
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	VOC_Vicomo_Sanza={
+		name="Vicomo Sanza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VOC_Vicomo_Sanza
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	VOC_Albertonio_Cuolla={
+		name="Albertonio Cuolla"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VOC_Albertonio_Cuolla
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	VOC_Victo_Arco={
+		name="Victo Arco"
+
+		advisor={
+			slot = air_chief
+			idea_token = VOC_Victo_Arco
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	VOC_Alberto_Cappama={
+		name="Alberto Cappama"
+
+		advisor={
+			slot = air_chief
+			idea_token = VOC_Alberto_Cappama
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	VOC_Leonio_Corra={
+		name="Leonio Corra"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Leonio_Corra
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	VOC_Steo_Ghia={
+		name="Steo Ghia"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Steo_Ghia
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	VOC_Steo_Armanta={
+		name="Steo Armanta"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Steo_Armanta
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	VOC_Mardo_Sanza={
+		name="Mardo Sanza"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Mardo_Sanza
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	VOC_Paolo_Gene={
+		name="Paolo Gene"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Paolo_Gene
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	VOC_Stefano_Arma={
+		name="Stefano Arma"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Stefano_Arma
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	VOC_Ramo_Pria={
+		name="Ramo Pria"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VOC_Luis_Piavalenedia={
+		name="Luis Piavalenedia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Luis_Piavalenedia
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VOC_Paolo_Cavalo={
+		name="Paolo Cavalo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Paolo_Cavalo
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VOC_Albertonio_Lina={
+		name="Albertonio Lina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Albertonio_Lina
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VOC_Francescomon_Menza={
+		name="Francescomon Menza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Francescomon_Menza
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VOC_Mardo_Accio={
+		name="Mardo Accio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Mardo_Accio
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VOC_Jeano_Nazia={
+		name="Jeano Nazia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Jeano_Nazia
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VOC_Alexancescom_Legio={
+		name="Alexancescom Legio"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Alexancescom_Legio
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	VOC_Bruno_Cavallo={
+		name="Bruno Cavallo"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Bruno_Cavallo
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	VOC_Jeano_Stro={
+		name="Jeano Stro"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Jeano_Stro
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	VOC_Jeandro_Menza={
+		name="Jeandro Menza"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Jeandro_Menza
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	VOC_Steo_Legio={
+		name="Steo Legio"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VOC_Steo_Legio
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	VOC_Thierry_Gene={
+		name="Thierry Gene"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VOC_Thierry_Gene
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	VOC_Giaco_Solo={
+		name="Giaco Solo"
+
+		advisor={
+			slot = air_chief
+			idea_token = VOC_Giaco_Solo
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	VOC_Mattefan_Anguaro={
+		name="Mattefan Anguaro"
+
+		advisor={
+			slot = air_chief
+			idea_token = VOC_Mattefan_Anguaro
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	VOC_Paolo_Amicontesta={
+		name="Paolo Amicontesta"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Paolo_Amicontesta
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	VOC_Nico_Volon={
+		name="Nico Volon"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Nico_Volon
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	VOC_Felien_Prinale={
+		name="Felien Prinale"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Felien_Prinale
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	VOC_Anto_Lina={
+		name="Anto Lina"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Anto_Lina
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	VOC_Vica_Alberna={
+		name="Vica Alberna"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Vica_Alberna
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	VOC_Giaco_Chielo={
+		name="Giaco Chielo"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Giaco_Chielo
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	VOC_Steo_Chiesi={
+		name="Steo Chiesi"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VOC_Julierry_Vittile={
+		name="Julierry Vittile"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Julierry_Vittile
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VOC_Anto_Alberra={
+		name="Anto Alberra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Anto_Alberra
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VOC_Ramon_Acqua={
+		name="Ramon Acqua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Ramon_Acqua
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VOC_Vico_Lana={
+		name="Vico Lana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Vico_Lana
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VOC_Frano_Imperrola={
+		name="Frano Imperrola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Frano_Imperrola
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VOC_Ramo_Regna={
+		name="Ramo Regna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VOC_Ramo_Regna
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VOC_Thierry_Reggionerno={
+		name="Thierry Reggionerno"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Thierry_Reggionerno
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	VOC_Jeano_Arco={
+		name="Jeano Arco"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Jeano_Arco
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	VOC_Mardo_Ghia={
+		name="Mardo Ghia"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Mardo_Ghia
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	VOC_Enzo_Muradiognali={
+		name="Enzo Muradiognali"
+
+		advisor={
+			slot = army_chief
+			idea_token = VOC_Enzo_Muradiognali
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	VOC_Alexancescom_Sorra={
+		name="Alexancescom Sorra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VOC_Alexancescom_Sorra
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	VOC_Bruno_Oranimortine={
+		name="Bruno Oranimortine"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VOC_Bruno_Oranimortine
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	VOC_Albertor_Pacorionto={
+		name="Albertor Pacorionto"
+
+		advisor={
+			slot = air_chief
+			idea_token = VOC_Albertor_Pacorionto
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	VOC_Frano_Sogna={
+		name="Frano Sogna"
+
+		advisor={
+			slot = air_chief
+			idea_token = VOC_Frano_Sogna
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	VOC_Jeancesco_Pria={
+		name="Jeancesco Pria"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Jeancesco_Pria
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	VOC_Stefano_Armanta={
+		name="Stefano Armanta"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Stefano_Armanta
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	VOC_Jeandro_Cuolla={
+		name="Jeandro Cuolla"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Jeandro_Cuolla
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	VOC_Andro_Alberna={
+		name="Andro Alberna"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Andro_Alberna
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	VOC_Ramonarcolas_Spitanto={
+		name="Ramonarcolas Spitanto"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Ramonarcolas_Spitanto
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	VOC_Nicardo_Ricolagna={
+		name="Nicardo Ricolagna"
+
+		advisor={
+			slot = high_command
+			idea_token = VOC_Nicardo_Ricolagna
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	VOC_Nico_Sancato={
+		name="Nico Sancato"
+
+		advisor={
+			slot = theorist
+			idea_token = VOC_Nico_Sancato
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	VOC_Pedro_Cava={
+		name="Pedro Cava"
+
+		advisor={
+			slot = theorist
+			idea_token = VOC_Pedro_Cava
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	VOC_Thierry_Armanta={
+		name="Thierry Armanta"
+
+		advisor={
+			slot = theorist
+			idea_token = VOC_Thierry_Armanta
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

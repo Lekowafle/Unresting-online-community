@@ -1,0 +1,39 @@
+
+state={
+	id=404
+	name="STATE_404"
+	manpower = 1248392
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=8
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4588 1}
+		victory_points = { 4594 1}
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		4588 4589 4590 4591 4592 4593 4594 
+	}
+	local_supplies=0.0 
+}

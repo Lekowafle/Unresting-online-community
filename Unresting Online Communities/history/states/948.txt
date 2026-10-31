@@ -1,0 +1,44 @@
+
+state={
+	id=948
+	name="STATE_948"
+	manpower = 2710351
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=12
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11021 1}
+		victory_points = { 11023 1}
+		victory_points = { 11025 1}
+		victory_points = { 11032 1}
+		
+		owner = LIN
+		buildings = {
+			infrastructure = 1
+			air_base = 4
+			arms_factory = 0
+			industrial_complex = 1
+			
+			11032 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = LIN
+	}
+
+	provinces={
+		11017 11018 11019 11020 11021 11022 11023 11024 11025 11026 11027 11028 11029 11030 11031 11032 11033 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,21 @@
+air_wings = {
+		417 = { 								
+		tac_bomber_equipment_0 = { owner = "FON" amount = 29 version_name = "Fone Mk 0" }
+
+	}
+	596 = { 								
+		nav_bomber_equipment_0 = { owner = "FON" amount = 38 version_name = "Cava Mk 2" }
+strat_bomber_equipment_0 = { owner = "FON" amount = 44 version_name = "Verego Mk 1" }
+
+	}
+	575 = { 								
+		fighter_equipment_0 = { owner = "FON" amount = 33 version_name = "Came Mk 0" }
+
+	}
+	119 = { 								
+		CAS_equipment_0 = { owner = "FON" amount = 30 version_name = "Lagna Mk 1" }
+
+	}
+
+
+}

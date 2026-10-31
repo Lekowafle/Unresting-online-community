@@ -1,0 +1,40 @@
+
+state={
+	id=871
+	name="STATE_871"
+	manpower = 1148409
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10105 1}
+		victory_points = { 10106 1}
+		victory_points = { 10108 1}
+		
+		owner = UXU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = UXU
+	}
+
+	provinces={
+		10104 10105 10106 10107 10108 
+	}
+	local_supplies=0.0 
+}

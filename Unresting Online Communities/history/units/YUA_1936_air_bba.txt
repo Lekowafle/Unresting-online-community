@@ -1,0 +1,21 @@
+air_wings = {
+		1034 = { 								
+		medium_plane_airframe_0 = { owner = "YUA" amount = 11 version_name = "Ming Mk 1" }
+
+	}
+	1076 = { 								
+		small_plane_cas_airframe_0 = { owner = "YUA" amount = 8 version_name = "Sheng Mk 2" }
+large_plane_airframe_0 = { owner = "YUA" amount = 16 version_name = "Shuang Mk 1" }
+
+	}
+	962 = { 								
+		small_plane_airframe_0 = { owner = "YUA" amount = 8 version_name = "Reng Mk 0" }
+
+	}
+	1108 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "YUA" amount = 10 version_name = "Shong Mk 1" }
+
+	}
+
+
+}

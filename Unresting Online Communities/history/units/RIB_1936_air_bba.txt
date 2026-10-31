@@ -1,0 +1,14 @@
+air_wings = {
+		928 = { 								
+		small_plane_airframe_0 = { owner = "RIB" amount = 33 version_name = "Tohich Mk 2" }
+medium_plane_airframe_0 = { owner = "RIB" amount = 38 version_name = "Canilahlanab Mk 1" }
+
+	}
+	626 = { 								
+		small_plane_cas_airframe_0 = { owner = "RIB" amount = 24 version_name = "Cobahun Mk 2" }
+small_plane_naval_bomber_airframe_0 = { owner = "RIB" amount = 34 version_name = "Witz Mk 0" }
+
+	}
+
+
+}

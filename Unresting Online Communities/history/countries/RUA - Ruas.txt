@@ -1,0 +1,521 @@
+capital = 80
+
+oob = "RUA_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "RUA_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "RUA_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	paratroopers= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	fuel_refining= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Aite Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Teim Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Gluach Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Slairsean Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "RUA_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "RUA_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	
+	}
+	set_naval_oob = "RUA_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Anach Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Athart Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Talamhreoill Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Eachasach Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Bann Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Taill Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	smoke_generator = 1
+	sonar = 1
+	submarine_mine_laying = 1
+	
+	}
+	set_naval_oob = "RUA_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Anach Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Athart Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Talamhreoill Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_medium_battery_1
+				mid_2_custom_slot = ship_medium_battery_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Eachasach Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_bc_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_anti_air_1
+				mid_1_custom_slot = ship_anti_air_1
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Bann Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_bb_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Taill Class"
+			type = ship_hull_carrier_conversion_bb
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+			}
+		}
+
+	}
+
+
+recruit_character = RUA_Nialcolm_Anach
+recruit_character = RUA_Liaran_Cuar
+recruit_character = RUA_Ciam_Seart
+recruit_character = RUA_Gareth_Torcradheamh
+recruit_character = RUA_Fergus_Talamh
+recruit_character = RUA_Quinn_Cilte
+recruit_character = RUA_Padran_Torcradheamh
+recruit_character = RUA_Keiraig_Luch
+recruit_character = RUA_Niamus_Geal
+recruit_character = RUA_Liamus_Gearrasach
+recruit_character = RUA_Niam_Luas
+recruit_character = RUA_Keiran_Gluach
+recruit_character = RUA_Niaran_Slas
+recruit_character = RUA_Gareth_Cing
+recruit_character = RUA_Gareth_Sceanbha
+recruit_character = RUA_Ciamus_Torcras
+recruit_character = RUA_Rhys_Neach
+recruit_character = RUA_Eoin_Talamhreoill
+recruit_character = RUA_Ciareth_Coinamha
+recruit_character = RUA_Seam_Snach
+recruit_character = RUA_Braig_Gorcradhe
+recruit_character = RUA_Ulrich_Luas
+recruit_character = RUA_Rhys_Ruas
+recruit_character = RUA_Seam_Bann
+recruit_character = RUA_Niamus_Aisle
+recruit_character = RUA_Nialcolm_Aisce
+recruit_character = RUA_Seamus_Torcradheamh
+recruit_character = RUA_Aidan_Buailt
+recruit_character = RUA_Declan_Tein
+recruit_character = RUA_Taran_Anach
+recruit_character = RUA_Ulrich_Fair
+recruit_character = RUA_Liam_Muimh
+recruit_character = RUA_Keiran_Eolamh
+recruit_character = RUA_Seam_Mail
+recruit_character = RUA_Garan_Taill
+recruit_character = RUA_Bran_Coileal
+recruit_character = RUA_Owen_Slairsean
+recruit_character = RUA_Garan_Luch
+recruit_character = RUA_Mall_Aisle
+recruit_character = RUA_Quinn_Torc
+recruit_character = RUA_Liam_Talamhreall
+recruit_character = RUA_Keiran_Cailte
+recruit_character = RUA_Owen_Boglamhreo
+recruit_character = RUA_Quinn_Cing
+recruit_character = RUA_Braig_Eagne
+recruit_character = RUA_Ulrich_Teilin
+recruit_character = RUA_Quinn_Eagne
+recruit_character = RUA_Bran_Gearrasach
+recruit_character = RUA_Seam_Cuar
+recruit_character = RUA_Declan_Neach
+recruit_character = RUA_Tareth_Fair
+recruit_character = RUA_Malcolm_Guthaigna
+recruit_character = RUA_Niareth_Ceann
+recruit_character = RUA_Taran_Domhradh
+recruit_character = RUA_Owen_Slas
+recruit_character = RUA_Ciareth_Gluach
+recruit_character = RUA_Keiran_Feite
+recruit_character = RUA_Ciareth_Sonn
+recruit_character = RUA_Seam_Domhradh
+recruit_character = RUA_Eoin_Spionn
+recruit_character = RUA_Braig_Neannta
+recruit_character = RUA_Rhys_Buidh
+recruit_character = RUA_Ciam_Tras
+recruit_character = RUA_Padraig_Cluarg
+recruit_character = RUA_Ulrich_Muimh
+recruit_character = RUA_Padraig_Cuar
+recruit_character = RUA_Seam_Baich
+recruit_character = RUA_Malcolm_Solamhne
+recruit_character = RUA_Niall_Sean
+recruit_character = RUA_Niall_Dorcha
+recruit_character = RUA_Gareth_Boglas
+recruit_character = RUA_Ciamus_Coinamha
+recruit_character = RUA_Niall_Grionadh
+recruit_character = RUA_Ulrich_Seach
+recruit_character = RUA_Seamus_Feart
+recruit_character = RUA_Malcolm_Feite
+recruit_character = RUA_Keiran_Talamhreall
+recruit_character = RUA_Padran_Boglas
+recruit_character = RUA_Iwan_Athart
+recruit_character = RUA_Padran_Gealte
+recruit_character = RUA_Niam_Solamhne
+recruit_character = RUA_Taran_Grionadh
+recruit_character = RUA_Hugh_Slairsean
+recruit_character = RUA_Ciaran_Sonn
+recruit_character = RUA_Seamus_Dora
+recruit_character = RUA_Declan_Cilteart
+recruit_character = RUA_Declan_Talas
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 13
+set_stability = 0.85
+set_war_support = 0.24
+
+add_ideas = {
+volunteer_only
+civilian_economy
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1920.8.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 7
+	fascism = 5
+	communism = 34
+	neutrality = 54
+}
+
+
+
+
+

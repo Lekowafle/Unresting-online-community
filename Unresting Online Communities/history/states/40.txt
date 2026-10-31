@@ -1,0 +1,41 @@
+
+state={
+	id=40
+	name="STATE_40"
+	manpower = 3243262
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 448 1}
+		victory_points = { 452 1}
+		victory_points = { 455 2}
+		victory_points = { 459 2}
+		
+		owner = CUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CUA
+	}
+
+	provinces={
+		441 442 443 444 445 446 447 448 449 450 451 452 453 454 455 456 457 458 459 460 
+	}
+	local_supplies=0.0 
+}

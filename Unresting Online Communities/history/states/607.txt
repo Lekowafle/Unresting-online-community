@@ -1,0 +1,41 @@
+
+state={
+	id=607
+	name="STATE_607"
+	manpower = 996060
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6694 3}
+		
+		owner = XEN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			6695 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = XEN
+	}
+
+	provinces={
+		6694 6695 6696 6697 6698 
+	}
+	local_supplies=0.0 
+}

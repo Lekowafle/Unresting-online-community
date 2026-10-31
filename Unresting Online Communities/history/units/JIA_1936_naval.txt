@@ -1,0 +1,38 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Jian Fleet"			
+		naval_base = 12906
+		task_force = {
+			name = "Jian Fleet"
+			location = 12906
+			
+						ship = { name = "Guan" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = JIA version_name = "Jiang Class" } }	}
+			ship = { name = "Sheng" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JIA version_name = "Nian Class" } }	}
+			ship = { name = "Ying" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JIA version_name = "Nian Class" } }	}
+			ship = { name = "Zheng" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = JIA version_name = "Jiang Class" } }	}
+			ship = { name = "Zheng 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JIA version_name = "Nian Class" } }	}
+			ship = { name = "Sheng 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = JIA version_name = "Bing Class" } }	}
+			ship = { name = "Shen" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = JIA version_name = "Jing Class" } }	}
+			ship = { name = "Feng" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = JIA version_name = "Jing Class" } }	}
+			ship = { name = "Cheng" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JIA version_name = "Nian Class" } }	}
+			ship = { name = "Zhou" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = JIA version_name = "Bing Class" } }	}
+			ship = { name = "Cheng 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JIA version_name = "Nian Class" } }	}
+			ship = { name = "Guan 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = JIA version_name = "Bing Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,40 @@
+
+state={
+	id=78
+	name="STATE_78"
+	manpower = 3675251
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=8
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 979 7}
+		victory_points = { 984 2}
+		victory_points = { 989 2}
+		
+		owner = FAI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = FAI
+	}
+
+	provinces={
+		970 971 972 973 974 975 976 977 978 979 980 981 982 983 984 985 986 987 988 989 990 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,29 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Paatturambu Fleet"			
+		naval_base = 8829
+		task_force = {
+			name = "Paatturambu Fleet"
+			location = 8829
+			
+						ship = { name = "Thaikku" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAA version_name = "Thozhchai Class" } }	}
+			ship = { name = "Sugavu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAA version_name = "Thozhchai Class" } }	}
+			ship = { name = "Kaadu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAA version_name = "Thozhchai Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,42 @@
+
+state={
+	id=841
+	name="STATE_841"
+	manpower = 4411452
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=3
+		oil=0
+		rubber=0
+		steel=10
+		tungsten=3
+		coal=8
+	}
+
+	history={
+		victory_points = { 9669 2}
+		victory_points = { 9677 2}
+		victory_points = { 9684 2}
+		victory_points = { 9686 2}
+		victory_points = { 9688 2}
+		
+		owner = RIB
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = RIB
+	}
+
+	provinces={
+		9667 9668 9669 9670 9671 9672 9673 9674 9675 9676 9677 9678 9679 9680 9681 9682 9683 9684 9685 9686 9687 9688 9689 9690 9691 
+	}
+	local_supplies=0.0 
+}

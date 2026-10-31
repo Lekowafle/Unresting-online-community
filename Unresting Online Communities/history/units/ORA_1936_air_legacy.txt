@@ -1,0 +1,26 @@
+air_wings = {
+		1383 = { 								
+		tac_bomber_equipment_0 = { owner = "ORA" amount = 50 version_name = "Aritto Mk 1" }
+
+	}
+	1417 = { 								
+		CAS_equipment_0 = { owner = "ORA" amount = 50 version_name = "Amicontesta Mk 0" }
+
+	}
+	1376 = { 								
+		CAS_equipment_0 = { owner = "ORA" amount = 50 version_name = "Amicontesta Mk 0" }
+
+	}
+	1385 = { 								
+		fighter_equipment_0 = { owner = "ORA" amount = 50 version_name = "Nazia Mk 1" }
+fighter_equipment_0 = { owner = "ORA" amount = 50 version_name = "Nazia Mk 1" }
+tac_bomber_equipment_0 = { owner = "ORA" amount = 50 version_name = "Aritto Mk 1" }
+
+	}
+	1540 = { 								
+		CAS_equipment_0 = { owner = "ORA" amount = 50 version_name = "Amicontesta Mk 0" }
+
+	}
+
+
+}

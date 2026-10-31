@@ -1,0 +1,44 @@
+
+state={
+	id=1312
+	name="STATE_1312"
+	manpower = 9334721
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=1
+	}
+
+	history={
+		victory_points = { 15205 6}
+		victory_points = { 15218 4}
+		victory_points = { 15224 6}
+		victory_points = { 15248 6}
+		
+		owner = AGU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 3
+			
+			15211 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGU
+	}
+
+	provinces={
+		15202 15203 15204 15205 15206 15207 15208 15209 15210 15211 15212 15213 15214 15215 15216 15217 15218 15219 15220 15221 15222 15223 15224 15225 15226 15227 15228 15229 15230 15231 15232 15233 15234 15235 15236 15237 15238 15239 15240 15241 15242 15243 15244 15245 15246 15247 15248 15249 15250 15251 15252 15253 15254 15255 15256 15257 
+	}
+	local_supplies=0.0 
+}

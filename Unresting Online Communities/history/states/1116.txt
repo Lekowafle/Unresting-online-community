@@ -1,0 +1,38 @@
+
+state={
+	id=1116
+	name="STATE_1116"
+	manpower = 1124825
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12951 1}
+		
+		owner = GVA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = GVA
+	}
+
+	provinces={
+		12949 12950 12951 12952 12953 12954 
+	}
+	local_supplies=0.0 
+}

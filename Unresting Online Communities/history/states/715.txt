@@ -1,0 +1,44 @@
+
+state={
+	id=715
+	name="STATE_715"
+	manpower = 4983210
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8088 5}
+		victory_points = { 8100 5}
+		victory_points = { 8103 5}
+		victory_points = { 8104 5}
+		
+		owner = RIB
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			8101 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = RIB
+	}
+
+	provinces={
+		8080 8081 8082 8083 8084 8085 8086 8087 8088 8089 8090 8091 8092 8093 8094 8095 8096 8097 8098 8099 8100 8101 8102 8103 8104 8105 
+	}
+	local_supplies=0.0 
+}

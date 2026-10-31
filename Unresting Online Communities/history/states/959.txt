@@ -1,0 +1,41 @@
+
+state={
+	id=959
+	name="STATE_959"
+	manpower = 2011829
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=8
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11121 1}
+		victory_points = { 11124 1}
+		victory_points = { 11126 2}
+		victory_points = { 11127 1}
+		
+		owner = BIN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BIN
+	}
+
+	provinces={
+		11121 11122 11123 11124 11125 11126 11127 11128 11129 11130 11131 
+	}
+	local_supplies=0.0 
+}

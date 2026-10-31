@@ -1,0 +1,40 @@
+
+state={
+	id=1267
+	name="STATE_1267"
+	manpower = 915838
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=13
+		rubber=3
+		steel=63
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = UAT
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			14696 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = UAT
+	}
+
+	provinces={
+		14694 14695 14696 14697 14698 14699 
+	}
+	local_supplies=0.0 
+}

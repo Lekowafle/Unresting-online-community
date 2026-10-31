@@ -1,0 +1,40 @@
+
+state={
+	id=1472
+	name="STATE_1472"
+	manpower = 3222296
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=5
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16775 1}
+		victory_points = { 16778 2}
+		victory_points = { 16782 1}
+		
+		owner = TUL
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TUL
+	}
+
+	provinces={
+		16768 16769 16770 16771 16772 16773 16774 16775 16776 16777 16778 16779 16780 16781 16782 16783 16784 16785 16786 16787 
+	}
+	local_supplies=0.0 
+}

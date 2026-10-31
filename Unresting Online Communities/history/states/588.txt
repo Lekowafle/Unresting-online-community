@@ -1,0 +1,37 @@
+
+state={
+	id=588
+	name="STATE_588"
+	manpower = 943975
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = BAT
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BAT
+	}
+
+	provinces={
+		6497 6498 6499 6500 6501 6502 
+	}
+	local_supplies=0.0 
+}

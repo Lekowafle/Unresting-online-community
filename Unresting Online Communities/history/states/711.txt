@@ -1,0 +1,42 @@
+
+state={
+	id=711
+	name="STATE_711"
+	manpower = 3227420
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8036 8}
+		victory_points = { 8039 5}
+		
+		owner = UXU
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 3
+			
+			8040 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = UXU
+	}
+
+	provinces={
+		8035 8036 8037 8038 8039 8040 8041 8042 8043 8044 8045 8046 8047 8048 8049 8050 
+	}
+	local_supplies=0.0 
+}

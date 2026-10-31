@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Chielo Fleet"			
+		naval_base = 4216
+		task_force = {
+			name = "Chielo Fleet"
+			location = 4216
+			
+						ship = { name = "Pontezione" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = YHI version_name = "Armanta Class" } }	}
+			ship = { name = "Merria" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = YHI version_name = "Armanta Class" } }	}
+			ship = { name = "Voce" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YHI version_name = "Lanyone Class" } }	}
+			ship = { name = "Sogna" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = YHI version_name = "Fiusce Class" } }	}
+			ship = { name = "Voce 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = YHI version_name = "Armanta Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

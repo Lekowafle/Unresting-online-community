@@ -1,0 +1,38 @@
+
+state={
+	id=564
+	name="STATE_564"
+	manpower = 1206380
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6245 2}
+		
+		owner = BAK
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BAK
+	}
+
+	provinces={
+		6244 6245 6246 6247 6248 6249 
+	}
+	local_supplies=0.0 
+}

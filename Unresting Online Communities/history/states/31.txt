@@ -1,0 +1,43 @@
+
+state={
+	id=31
+	name="STATE_31"
+	manpower = 1218844
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=6
+		chromium=6
+		oil=2
+		rubber=3
+		steel=0
+		tungsten=6
+		coal=15
+	}
+
+	history={
+		victory_points = { 331 1}
+		victory_points = { 333 1}
+		victory_points = { 334 1}
+		
+		owner = GUT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			330 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = GUT
+	}
+
+	provinces={
+		329 330 331 332 333 334 
+	}
+	local_supplies=0.0 
+}

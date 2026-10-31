@@ -1,0 +1,40 @@
+
+state={
+	id=958
+	name="STATE_958"
+	manpower = 2927094
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11101 1}
+		victory_points = { 11104 1}
+		victory_points = { 11109 1}
+		
+		owner = HAS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HAS
+	}
+
+	provinces={
+		11101 11102 11103 11104 11105 11106 11107 11108 11109 11110 11111 11112 11113 11114 11115 11116 11117 11118 11119 11120 
+	}
+	local_supplies=0.0 
+}

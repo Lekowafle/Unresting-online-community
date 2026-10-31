@@ -1,0 +1,43 @@
+
+state={
+	id=622
+	name="STATE_622"
+	manpower = 2722498
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6897 3}
+		victory_points = { 6898 3}
+		victory_points = { 6900 3}
+		
+		owner = XAA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			6893 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = XAA
+	}
+
+	provinces={
+		6890 6891 6892 6893 6894 6895 6896 6897 6898 6899 6900 6901 6902 6903 
+	}
+	local_supplies=0.0 
+}

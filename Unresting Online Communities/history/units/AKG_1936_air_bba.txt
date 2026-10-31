@@ -1,0 +1,20 @@
+air_wings = {
+		1145 = { 								
+		medium_plane_airframe_0 = { owner = "AKG" amount = 29 version_name = "Duvasane Mk 1" }
+
+	}
+	947 = { 								
+		small_plane_airframe_0 = { owner = "AKG" amount = 23 version_name = "Basarlis Mk 0" }
+
+	}
+	1128 = { 								
+		small_plane_cas_airframe_0 = { owner = "AKG" amount = 26 version_name = "Bahirlik Mk 1" }
+
+	}
+	1130 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "AKG" amount = 31 version_name = "Asim Mk 1" }
+
+	}
+
+
+}

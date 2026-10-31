@@ -1,0 +1,41 @@
+
+state={
+	id=677
+	name="STATE_677"
+	manpower = 1303006
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7558 3}
+		
+		owner = KAP
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			7563 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KAP
+	}
+
+	provinces={
+		7558 7559 7560 7561 7562 7563 7564 
+	}
+	local_supplies=0.0 
+}

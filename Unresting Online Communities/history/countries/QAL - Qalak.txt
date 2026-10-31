@@ -1,0 +1,640 @@
+capital = 161
+
+oob = "QAL_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "QAL_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "QAL_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	motorised_infantry= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	electronic_mechanical_engineering= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Yemen Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Qalak Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Diwa Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Nasra Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_medium_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "QAL_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Madrab Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Wadina Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Mawar Mk 1"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+
+	else = {
+		set_air_oob = "QAL_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			early_fighter = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	basic_carrier = 1
+	basic_heavy_cruiser = 1
+	basic_light_cruiser = 1
+	basic_submarine = 1
+	early_carrier = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "QAL_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Rawi Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Rabr Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Harq Class"
+			type = light_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Majr Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Madrab Class"
+			type = heavy_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Hajarda Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Hazn Class"
+			type = carrier_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Thal Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Qalak Class"
+			type = submarine_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_depth_charges = 1
+	basic_heavy_battery = 1
+	basic_light_battery = 1
+	basic_naval_mines = 1
+	basic_ship_hull_carrier = 1
+	basic_ship_hull_cruiser = 1
+	basic_ship_hull_light = 1
+	basic_ship_hull_submarine = 1
+	basic_torpedo = 1
+	damage_control_1 = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	fire_control_methods_1 = 1
+	improved_ship_torpedo_launcher = 1
+	magnetic_detonator = 1
+	mtg_transport = 1
+	sonar = 1
+	submarine_mine_laying = 1
+	
+	}
+	set_naval_oob = "QAL_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Rawi Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_depth_charge_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Rabr Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_mine_layer_1
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Harq Class"
+			type = ship_hull_cruiser_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_medium_battery_1
+				mid_2_custom_slot = ship_medium_battery_1
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Majr Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_mine_layer_1
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Madrab Class"
+			type = ship_hull_cruiser_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_torpedo_2
+				mid_2_custom_slot = ship_medium_battery_1
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Hajarda Class"
+			type = ship_hull_carrier_conversion_bb
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Hazn Class"
+			type = ship_hull_carrier_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = ship_armor_carrier_deck
+				mid_1_custom_slot = ship_deck_space
+			}
+		}
+		create_equipment_variant = {
+			name = "Thal Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Qalak Class"
+			type = ship_hull_submarine_2
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_2
+				fixed_ship_torpedo_slot = ship_torpedo_sub_2
+				rear_1_custom_slot = ship_torpedo_sub_2
+			}
+		}
+
+	}
+
+
+recruit_character = QAL_Kariq_Madi
+recruit_character = QAL_Imrah_Khaqafilm
+recruit_character = QAL_Rami_Ahlamarb
+recruit_character = QAL_Tarid_Shaqq
+recruit_character = QAL_Bilahya_Aman
+recruit_character = QAL_Omali_Qadi
+recruit_character = QAL_Faid_Doha
+recruit_character = QAL_Karim_Shirakta
+recruit_character = QAL_Zaid_Shajarq
+recruit_character = QAL_Bilah_Asat
+recruit_character = QAL_Jammed_Qaleeh
+recruit_character = QAL_Omali_Mufti
+recruit_character = QAL_Omariq_Hajarda
+recruit_character = QAL_Jami_Zamar
+recruit_character = QAL_Karid_Madrab
+recruit_character = QAL_Samal_Tarahr
+recruit_character = QAL_Hamza_Thaqq
+recruit_character = QAL_Abdullahya_Thajaria
+recruit_character = QAL_Samar_Maja
+recruit_character = QAL_Ramir_Madi
+recruit_character = QAL_Alid_Shajr
+recruit_character = QAL_Farim_Qaman
+recruit_character = QAL_Hamir_Qadi
+recruit_character = QAL_Nabil_Wadina
+recruit_character = QAL_Khamir_Raba
+recruit_character = QAL_Samar_Hafa
+recruit_character = QAL_Farim_Ahlamarb
+recruit_character = QAL_Saad_Rawi
+recruit_character = QAL_Zaisal_Manzim
+recruit_character = QAL_Kariq_Shajr
+recruit_character = QAL_Omal_Hajarda
+recruit_character = QAL_Ramir_Safilm
+recruit_character = QAL_Samir_Shayahreb
+recruit_character = QAL_Anwar_Mufti
+recruit_character = QAL_Ahmoud_Ahlamarb
+recruit_character = QAL_Mohalid_Qadi
+recruit_character = QAL_Majid_Majlis
+recruit_character = QAL_Samar_Khaqafilm
+recruit_character = QAL_Anwar_Manzim
+recruit_character = QAL_Jamarid_Hawi
+recruit_character = QAL_Karim_Sahaqafhal
+recruit_character = QAL_Alid_Kitaada
+recruit_character = QAL_Nabilahmoud_Aman
+recruit_character = QAL_Ahmad_Majlis
+recruit_character = QAL_Mahya_Mada
+recruit_character = QAL_Yahya_Safilm
+recruit_character = QAL_Faid_Qalb
+recruit_character = QAL_Nabilahmoud_Shurasr
+recruit_character = QAL_Zaid_Qaman
+recruit_character = QAL_Samar_Shayat
+recruit_character = QAL_Hassan_Madin
+recruit_character = QAL_Zaisal_Hazn
+recruit_character = QAL_Mahya_Saleej
+recruit_character = QAL_Faid_Shajr
+recruit_character = QAL_Anwariq_Thamaniyahre
+recruit_character = QAL_Kariq_Khar
+recruit_character = QAL_Alid_Rawi
+recruit_character = QAL_Sami_Sahra
+recruit_character = QAL_Jamarid_Zamar
+recruit_character = QAL_Majid_Khar
+recruit_character = QAL_Alid_Hikmah
+recruit_character = QAL_Zaisal_Sharyaleej
+recruit_character = QAL_Zaisan_Shirakta
+recruit_character = QAL_Sami_Majlis
+recruit_character = QAL_Saad_Doha
+recruit_character = QAL_Ibran_Ahlamarb
+recruit_character = QAL_Karim_Nasra
+recruit_character = QAL_Omali_Amarq
+recruit_character = QAL_Karim_Khajd
+recruit_character = QAL_Bilali_Shajarq
+recruit_character = QAL_Anwariq_Ahlamarb
+recruit_character = QAL_Bilali_Doha
+recruit_character = QAL_Abdullal_Shirakta
+recruit_character = QAL_Hassan_Thal
+recruit_character = QAL_Zaisal_Shajarq
+recruit_character = QAL_Hamir_Thajaria
+recruit_character = QAL_Alid_Hila
+recruit_character = QAL_Omal_Shayat
+recruit_character = QAL_Ibran_Hazn
+recruit_character = QAL_Nabilahmoud_Qalb
+recruit_character = QAL_Mohalid_Khaqafilm
+recruit_character = QAL_Abdullalid_Yemen
+recruit_character = QAL_Hamal_Nasr
+recruit_character = QAL_Abdullal_Maja
+recruit_character = QAL_Anwariq_Samamt
+recruit_character = QAL_Khammed_Saleej
+recruit_character = QAL_Bilahya_Thajaria
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 32
+set_stability = 0.74
+set_war_support = 0.61
+
+add_ideas = {
+volunteer_only
+partial_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1881.7.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 23
+	fascism = 18
+	communism = 33
+	neutrality = 26
+}
+
+
+
+
+

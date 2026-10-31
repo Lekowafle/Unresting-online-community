@@ -1,0 +1,42 @@
+
+state={
+	id=338
+	name="STATE_338"
+	manpower = 4311840
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=3
+	}
+
+	history={
+		victory_points = { 3797 2}
+		victory_points = { 3802 2}
+		victory_points = { 3806 2}
+		victory_points = { 3810 2}
+		victory_points = { 3812 2}
+		
+		owner = AME
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AME
+	}
+
+	provinces={
+		3795 3796 3797 3798 3799 3800 3801 3802 3803 3804 3805 3806 3807 3808 3809 3810 3811 3812 3813 3814 3815 3816 3817 3818 
+	}
+	local_supplies=0.0 
+}

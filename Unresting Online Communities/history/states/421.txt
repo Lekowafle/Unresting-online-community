@@ -1,0 +1,41 @@
+
+state={
+	id=421
+	name="STATE_421"
+	manpower = 916374
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4785 1}
+		
+		owner = RUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			4783 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = RUA
+	}
+
+	provinces={
+		4783 4784 4785 4786 4787 
+	}
+	local_supplies=0.0 
+}

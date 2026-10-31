@@ -1,0 +1,24 @@
+air_wings = {
+		471 = { 								
+		CAS_equipment_0 = { owner = "BAT" amount = 50 version_name = "Kadithanthi Mk 2" }
+
+	}
+	305 = { 								
+		strat_bomber_equipment_0 = { owner = "BAT" amount = 37 version_name = "Sangugal Mk 2" }
+
+	}
+	386 = { 								
+		CAS_equipment_0 = { owner = "BAT" amount = 50 version_name = "Kadithanthi Mk 2" }
+
+	}
+	593 = { 								
+		fighter_equipment_0 = { owner = "BAT" amount = 29 version_name = "Udakkal Mk 1" }
+
+	}
+	588 = { 								
+		tac_bomber_equipment_0 = { owner = "BAT" amount = 47 version_name = "Kuru Mk 1" }
+
+	}
+
+
+}

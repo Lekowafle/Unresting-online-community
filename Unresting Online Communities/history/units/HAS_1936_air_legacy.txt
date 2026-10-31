@@ -1,0 +1,16 @@
+air_wings = {
+		1099 = { 								
+		tac_bomber_equipment_0 = { owner = "HAS" amount = 50 version_name = "Strum Mk 1" }
+
+	}
+	1048 = { 								
+		tac_bomber_equipment_0 = { owner = "HAS" amount = 50 version_name = "Strum Mk 1" }
+
+	}
+	969 = { 								
+		tac_bomber_equipment_0 = { owner = "HAS" amount = 50 version_name = "Strum Mk 1" }
+
+	}
+
+
+}

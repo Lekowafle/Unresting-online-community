@@ -1,0 +1,38 @@
+
+state={
+	id=1215
+	name="STATE_1215"
+	manpower = 1490503
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=7
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14131 2}
+		
+		owner = XEN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = XEN
+	}
+
+	provinces={
+		14126 14127 14128 14129 14130 14131 14132 14133 14134 
+	}
+	local_supplies=0.0 
+}

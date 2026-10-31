@@ -1,0 +1,69 @@
+air_wings = {
+		419 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "BAK" amount = 50 version_name = "Talte Mk 2" }
+
+	}
+	88 = { 								
+		small_plane_airframe_0 = { owner = "BAK" amount = 50 version_name = "Luac Mk 0" }
+
+	}
+	277 = { 								
+		small_plane_cas_airframe_0 = { owner = "BAK" amount = 50 version_name = "Cais Mk 0" }
+
+	}
+	49 = { 								
+		medium_plane_airframe_0 = { owner = "BAK" amount = 50 version_name = "Buach Mk 1" }
+
+	}
+	68 = { 								
+		small_plane_cas_airframe_0 = { owner = "BAK" amount = 50 version_name = "Cais Mk 0" }
+
+	}
+	371 = { 								
+		large_plane_airframe_1 = { owner = "BAK" amount = 50 version_name = "Neacha Mk 1" }
+
+	}
+	33 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "BAK" amount = 50 version_name = "Talte Mk 2" }
+
+	}
+	38 = { 								
+		large_plane_airframe_1 = { owner = "BAK" amount = 50 version_name = "Neacha Mk 1" }
+large_plane_airframe_0 = { owner = "BAK" amount = 50 version_name = "Faileanamhti Mk 2" }
+
+	}
+	94 = { 								
+		large_plane_airframe_0 = { owner = "BAK" amount = 50 version_name = "Faileanamhti Mk 2" }
+
+	}
+	573 = { 								
+		medium_plane_airframe_0 = { owner = "BAK" amount = 50 version_name = "Buach Mk 1" }
+
+	}
+	243 = { 								
+		large_plane_airframe_1 = { owner = "BAK" amount = 50 version_name = "Neacha Mk 1" }
+
+	}
+	368 = { 								
+		small_plane_cas_airframe_0 = { owner = "BAK" amount = 50 version_name = "Cais Mk 0" }
+
+	}
+	1508 = { 								
+		medium_plane_airframe_0 = { owner = "BAK" amount = 50 version_name = "Buach Mk 1" }
+
+	}
+	436 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "BAK" amount = 50 version_name = "Talte Mk 2" }
+
+	}
+	504 = { 								
+		large_plane_airframe_0 = { owner = "BAK" amount = 50 version_name = "Faileanamhti Mk 2" }
+
+	}
+	163 = { 								
+		small_plane_airframe_0 = { owner = "BAK" amount = 50 version_name = "Luac Mk 0" }
+
+	}
+
+
+}

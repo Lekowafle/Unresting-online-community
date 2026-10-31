@@ -1,0 +1,40 @@
+
+state={
+	id=1363
+	name="STATE_1363"
+	manpower = 4800122
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=26
+		chromium=28
+		oil=0
+		rubber=0
+		steel=35
+		tungsten=27
+		coal=68
+	}
+
+	history={
+		victory_points = { 15739 5}
+		victory_points = { 15740 5}
+		victory_points = { 15744 4}
+		
+		owner = AGU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AGU
+	}
+
+	provinces={
+		15728 15729 15730 15731 15732 15733 15734 15735 15736 15737 15738 15739 15740 15741 15742 15743 15744 15745 15746 15747 15748 15749 15750 15751 15752 15753 15754 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=1134
+	name="STATE_1134"
+	manpower = 1556362
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13071 1}
+		victory_points = { 13072 1}
+		victory_points = { 13073 1}
+		victory_points = { 13078 1}
+		
+		owner = LIN
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = LIN
+	}
+
+	provinces={
+		13071 13072 13073 13074 13075 13076 13077 13078 
+	}
+	local_supplies=0.0 
+}

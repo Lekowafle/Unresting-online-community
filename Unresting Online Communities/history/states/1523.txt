@@ -1,0 +1,41 @@
+
+state={
+	id=1523
+	name="STATE_1523"
+	manpower = 39355
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17140 1}
+		
+		owner = UIN
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17140 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = UIN
+	}
+
+	provinces={
+		17140 
+	}
+	local_supplies=0.0 
+}

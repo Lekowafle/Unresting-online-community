@@ -1,0 +1,39 @@
+
+state={
+	id=321
+	name="STATE_321"
+	manpower = 1148445
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3621 1}
+		victory_points = { 3624 1}
+		
+		owner = FAI
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = FAI
+	}
+
+	provinces={
+		3620 3621 3622 3623 3624 3625 
+	}
+	local_supplies=0.0 
+}

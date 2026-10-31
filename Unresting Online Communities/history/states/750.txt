@@ -1,0 +1,37 @@
+
+state={
+	id=750
+	name="STATE_750"
+	manpower = 1220410
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = PAA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PAA
+	}
+
+	provinces={
+		8536 8537 8538 8539 8540 8541 
+	}
+	local_supplies=0.0 
+}

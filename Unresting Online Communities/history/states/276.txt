@@ -1,0 +1,43 @@
+
+state={
+	id=276
+	name="STATE_276"
+	manpower = 2573549
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=15
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3198 1}
+		victory_points = { 3201 1}
+		victory_points = { 3202 1}
+		
+		owner = BUA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			3191 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BUA
+	}
+
+	provinces={
+		3188 3189 3190 3191 3192 3193 3194 3195 3196 3197 3198 3199 3200 3201 3202 3203 
+	}
+	local_supplies=0.0 
+}

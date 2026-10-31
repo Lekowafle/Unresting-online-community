@@ -1,0 +1,40 @@
+
+state={
+	id=885
+	name="STATE_885"
+	manpower = 1631760
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10272 2}
+		victory_points = { 10277 1}
+		victory_points = { 10278 2}
+		
+		owner = OST
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = OST
+	}
+
+	provinces={
+		10271 10272 10273 10274 10275 10276 10277 10278 10279 
+	}
+	local_supplies=0.0 
+}

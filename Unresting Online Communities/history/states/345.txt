@@ -1,0 +1,39 @@
+
+state={
+	id=345
+	name="STATE_345"
+	manpower = 2124191
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3875 5}
+		victory_points = { 3877 1}
+		
+		owner = FAI
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FAI
+	}
+
+	provinces={
+		3875 3876 3877 3878 3879 3880 3881 3882 3883 3884 3885 3886 
+	}
+	local_supplies=0.0 
+}

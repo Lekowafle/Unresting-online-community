@@ -1,0 +1,40 @@
+
+state={
+	id=791
+	name="STATE_791"
+	manpower = 1964682
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9020 2}
+		victory_points = { 9023 4}
+		victory_points = { 9025 1}
+		
+		owner = XAA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XAA
+	}
+
+	provinces={
+		9018 9019 9020 9021 9022 9023 9024 9025 9026 9027 
+	}
+	local_supplies=0.0 
+}

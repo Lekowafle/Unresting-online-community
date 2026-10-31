@@ -1,0 +1,39 @@
+
+state={
+	id=54
+	name="STATE_54"
+	manpower = 4290700
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=101
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 645 3}
+		victory_points = { 658 3}
+		
+		owner = NAR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NAR
+	}
+
+	provinces={
+		634 635 636 637 638 639 640 641 642 643 644 645 646 647 648 649 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 
+	}
+	local_supplies=0.0 
+}

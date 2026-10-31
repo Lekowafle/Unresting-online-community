@@ -1,0 +1,40 @@
+
+state={
+	id=1145
+	name="STATE_1145"
+	manpower = 1539196
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13186 1}
+		victory_points = { 13188 2}
+		victory_points = { 13190 1}
+		
+		owner = AKG
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AKG
+	}
+
+	provinces={
+		13185 13186 13187 13188 13189 13190 13191 13192 
+	}
+	local_supplies=0.0 
+}

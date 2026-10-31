@@ -1,0 +1,31 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Ahkin Fleet"			
+		naval_base = 17138
+		task_force = {
+			name = "Ahkin Fleet"
+			location = 17138
+			
+						ship = { name = "Kate" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AHK version_name = "Bahuwen Class" } }	}
+			ship = { name = "Chunai" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AHK version_name = "Cobancue Class" } }	}
+			ship = { name = "Kate 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AHK version_name = "Tzikab Class" } }	}
+			ship = { name = "Uxul" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AHK version_name = "Cobancue Class" } }	}
+			ship = { name = "Ajtzamnamna" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AHK version_name = "Bahuwen Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

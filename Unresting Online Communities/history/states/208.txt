@@ -1,0 +1,40 @@
+
+state={
+	id=208
+	name="STATE_208"
+	manpower = 1747675
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2428 1}
+		victory_points = { 2430 4}
+		victory_points = { 2436 1}
+		
+		owner = BAT
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = BAT
+	}
+
+	provinces={
+		2428 2429 2430 2431 2432 2433 2434 2435 2436 
+	}
+	local_supplies=0.0 
+}

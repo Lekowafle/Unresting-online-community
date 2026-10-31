@@ -1,0 +1,42 @@
+
+state={
+	id=486
+	name="STATE_486"
+	manpower = 5141160
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=14
+		chromium=15
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=14
+		coal=36
+	}
+
+	history={
+		victory_points = { 5422 1}
+		victory_points = { 5426 3}
+		victory_points = { 5429 3}
+		victory_points = { 5438 1}
+		victory_points = { 5442 1}
+		
+		owner = BUI
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = BUI
+	}
+
+	provinces={
+		5411 5412 5413 5414 5415 5416 5417 5418 5419 5420 5421 5422 5423 5424 5425 5426 5427 5428 5429 5430 5431 5432 5433 5434 5435 5436 5437 5438 5439 5440 5441 5442 5443 
+	}
+	local_supplies=0.0 
+}

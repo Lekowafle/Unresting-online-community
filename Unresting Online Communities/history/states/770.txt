@@ -1,0 +1,45 @@
+
+state={
+	id=770
+	name="STATE_770"
+	manpower = 3538846
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=17
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8716 2}
+		victory_points = { 8717 1}
+		victory_points = { 8722 3}
+		victory_points = { 8726 1}
+		victory_points = { 8729 2}
+		
+		owner = XEN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			8712 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = XEN
+	}
+
+	provinces={
+		8711 8712 8713 8714 8715 8716 8717 8718 8719 8720 8721 8722 8723 8724 8725 8726 8727 8728 8729 8730 8731 
+	}
+	local_supplies=0.0 
+}

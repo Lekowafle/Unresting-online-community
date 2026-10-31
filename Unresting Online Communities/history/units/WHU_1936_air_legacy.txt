@@ -1,0 +1,13 @@
+air_wings = {
+		953 = { 								
+		fighter_equipment_0 = { owner = "WHU" amount = 50 version_name = "Cheng Mk 0" }
+
+	}
+	1112 = { 								
+		fighter_equipment_0 = { owner = "WHU" amount = 50 version_name = "Cheng Mk 0" }
+fighter_equipment_0 = { owner = "WHU" amount = 50 version_name = "Cheng Mk 0" }
+
+	}
+
+
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=167
+	name="STATE_167"
+	manpower = 1542172
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=7
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1939 1}
+		victory_points = { 1940 1}
+		victory_points = { 1943 1}
+		
+		owner = GUT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			1940 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = GUT
+	}
+
+	provinces={
+		1939 1940 1941 1942 1943 1944 1945 1946 1947 
+	}
+	local_supplies=0.0 
+}

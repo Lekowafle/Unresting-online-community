@@ -1,0 +1,39 @@
+
+state={
+	id=491
+	name="STATE_491"
+	manpower = 1376501
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5471 1}
+		victory_points = { 5477 1}
+		
+		owner = BAT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BAT
+	}
+
+	provinces={
+		5471 5472 5473 5474 5475 5476 5477 
+	}
+	local_supplies=0.0 
+}

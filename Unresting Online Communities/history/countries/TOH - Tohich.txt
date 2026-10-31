@@ -1,0 +1,560 @@
+capital = 858
+
+oob = "TOH_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "TOH_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "TOH_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	interwar_antiair= 1
+	interwar_artillery= 1
+	fuel_silos= 1
+	synth_oil_experiments= 1
+	basic_fire_control_system= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Kanil Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Kaax Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Canai Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Bakmul Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Oxib Mk 0"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Xbah Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "TOH_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			basic_small_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Uxmal Mk 0"
+			type = small_plane_cas_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Nojil Mk 2"
+			type = small_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Kaax Mk 2"
+			type = small_plane_naval_bomber_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Kanamna Mk 2"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Ajtz Mk 0"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Bahuatun Mk 1"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Nojil Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "TOH_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_carrier = 1
+	early_destroyer = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "TOH_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Chol Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Manjo Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Kukulkanilam Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_naval_mines = 1
+	basic_torpedo = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "TOH_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Chol Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_torpedo_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Manjo Class"
+			type = ship_hull_carrier_conversion_ca
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Kukulkanilam Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = TOH_Chil_Nacol
+recruit_character = TOH_Bacab_Ajtz
+recruit_character = TOH_Tecun_Manjo
+recruit_character = TOH_Pakanek_Canai
+recruit_character = TOH_Kanek_Tohich
+recruit_character = TOH_Tecun_Oxlakabalahu
+recruit_character = TOH_Acatl_Canilahlanab
+recruit_character = TOH_Ahkin_Aguatunil
+recruit_character = TOH_Nacab_Caracan
+recruit_character = TOH_Oxib_Cobahun
+recruit_character = TOH_Kukulkalam_Cobahun
+recruit_character = TOH_Chakal_Kana
+recruit_character = TOH_Kukulkan_Caracan
+recruit_character = TOH_Kukulkanek_Kaban
+recruit_character = TOH_Yaxkin_Uxmanil
+recruit_character = TOH_Bacom_Tzik
+recruit_character = TOH_Chak_Ajawak
+recruit_character = TOH_Chakal_Witzib
+recruit_character = TOH_Ekchak_Tzik
+recruit_character = TOH_Chakalam_Ajawaktun
+recruit_character = TOH_Chak_Uxman
+recruit_character = TOH_Pakalam_Caracan
+recruit_character = TOH_Kukulkalam_Ahcab
+recruit_character = TOH_Ekchakanek_Tzikin
+recruit_character = TOH_Chakalam_Ahakbal
+recruit_character = TOH_Kukulkalam_Ikalamnahpu
+recruit_character = TOH_Ekchua_Tzikalam
+recruit_character = TOH_Ekchak_Uxul
+recruit_character = TOH_Tecun_Yaxch
+recruit_character = TOH_Bacatl_Kanamna
+recruit_character = TOH_Ahkin_Balom
+recruit_character = TOH_Nacom_Uxmanil
+recruit_character = TOH_Chakanek_Nojil
+recruit_character = TOH_Tecun_Canque
+recruit_character = TOH_Ekchua_Nacol
+recruit_character = TOH_Kukulkanek_Bacabanilan
+recruit_character = TOH_Acatl_Agualuunil
+recruit_character = TOH_Balam_Tohich
+recruit_character = TOH_Bacatl_Zotz
+recruit_character = TOH_Chil_Canilahlanab
+recruit_character = TOH_Pakalam_Kukulkanilam
+recruit_character = TOH_Yaxkin_Imox
+recruit_character = TOH_Bacom_Chok
+recruit_character = TOH_Tecun_Sotz
+recruit_character = TOH_Ekchakanek_Tzikalam
+recruit_character = TOH_Nacatl_Akbe
+recruit_character = TOH_Chil_Agualuunil
+recruit_character = TOH_Pakalam_Cobalachel
+recruit_character = TOH_Nacatl_Coban
+recruit_character = TOH_Ahkin_Katunil
+recruit_character = TOH_Pakal_Katecana
+recruit_character = TOH_Chichen_Caracan
+recruit_character = TOH_Ekchak_Chau
+recruit_character = TOH_Ekchakanek_Kanamna
+recruit_character = TOH_Chakanek_Caracan
+recruit_character = TOH_Chichen_Tzikin
+recruit_character = TOH_Kukulkalam_Imox
+recruit_character = TOH_Pakalam_Tohilamancue
+recruit_character = TOH_Chakalam_Witzib
+recruit_character = TOH_Chakalam_Bakmul
+recruit_character = TOH_Tohichen_Katunil
+recruit_character = TOH_Yaxkin_Cobahun
+recruit_character = TOH_Pakan_Mutalom
+recruit_character = TOH_Kanek_Tohilamancue
+recruit_character = TOH_Bacatl_Kanil
+recruit_character = TOH_Acatl_Palah
+recruit_character = TOH_Kukulkalam_Katunilhau
+recruit_character = TOH_Nacab_Sotz
+recruit_character = TOH_Pakan_Nojil
+recruit_character = TOH_Chakalam_Oxlakabalahu
+recruit_character = TOH_Itzam_Tohok
+recruit_character = TOH_Pakal_Yaxunabal
+recruit_character = TOH_Chichen_Bakmul
+recruit_character = TOH_Bacab_Sotz
+recruit_character = TOH_Pakanek_Itznabalamna
+recruit_character = TOH_Kanek_Chau
+recruit_character = TOH_Bacab_Chau
+recruit_character = TOH_Chua_Itznabalamna
+recruit_character = TOH_Ekchak_Yaxchen
+recruit_character = TOH_Acab_Chakhak
+recruit_character = TOH_Ekchakanek_Ajtz
+recruit_character = TOH_Chil_Nojil
+recruit_character = TOH_Nacatl_Ikalamnahpu
+recruit_character = TOH_Chakal_Balom
+recruit_character = TOH_Moctez_Aguatunil
+recruit_character = TOH_Itzam_Tohich
+recruit_character = TOH_Chak_Yaxunabal
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 12
+set_stability = 0.90
+set_war_support = 0.61
+
+add_ideas = {
+limited_conscription
+partial_economic_mobilisation
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1908.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 32
+	fascism = 42
+	communism = 2
+	neutrality = 24
+}
+
+
+
+
+

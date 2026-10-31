@@ -1,0 +1,41 @@
+
+state={
+	id=744
+	name="STATE_744"
+	manpower = 1543983
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8458 1}
+		
+		owner = KAN
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			8457 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KAN
+	}
+
+	provinces={
+		8454 8455 8456 8457 8458 8459 8460 8461 8462 
+	}
+	local_supplies=0.0 
+}

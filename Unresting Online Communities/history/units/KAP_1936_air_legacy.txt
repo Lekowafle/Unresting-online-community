@@ -1,0 +1,33 @@
+air_wings = {
+		757 = { 								
+		fighter_equipment_0 = { owner = "KAP" amount = 50 version_name = "Vinja Mk 1" }
+
+	}
+	924 = { 								
+		fighter_equipment_0 = { owner = "KAP" amount = 50 version_name = "Vinja Mk 1" }
+strat_bomber_equipment_0 = { owner = "KAP" amount = 50 version_name = "Gvotican Mk 0" }
+
+	}
+	860 = { 								
+		strat_bomber_equipment_0 = { owner = "KAP" amount = 50 version_name = "Gvotican Mk 0" }
+
+	}
+	815 = { 								
+		nav_bomber_equipment_0 = { owner = "KAP" amount = 50 version_name = "Poljevina Mk 0" }
+
+	}
+	677 = { 								
+		nav_bomber_equipment_0 = { owner = "KAP" amount = 50 version_name = "Poljevina Mk 0" }
+
+	}
+	769 = { 								
+		CAS_equipment_0 = { owner = "KAP" amount = 50 version_name = "Ljubar Mk 2" }
+
+	}
+	822 = { 								
+		CAS_equipment_0 = { owner = "KAP" amount = 50 version_name = "Ljubar Mk 2" }
+
+	}
+
+
+}

@@ -1,0 +1,30 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Yuan Fleet"			
+		naval_base = 12086
+		task_force = {
+			name = "Yuan Fleet"
+			location = 12086
+			
+						ship = { name = "Jian" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = YUA version_name = "Xian Class" } }	}
+			ship = { name = "Feng" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = YUA version_name = "Xian Class" } }	}
+			ship = { name = "Shou" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = YUA version_name = "Xian Class" } }	}
+			ship = { name = "Niang" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = YUA version_name = "Xian Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

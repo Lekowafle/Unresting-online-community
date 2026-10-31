@@ -1,0 +1,40 @@
+
+state={
+	id=951
+	name="STATE_951"
+	manpower = 1403003
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11049 1}
+		victory_points = { 11050 1}
+		victory_points = { 11053 1}
+		
+		owner = GVA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = GVA
+	}
+
+	provinces={
+		11049 11050 11051 11052 11053 11054 11055 11056 
+	}
+	local_supplies=0.0 
+}

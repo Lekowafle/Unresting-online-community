@@ -1,0 +1,69 @@
+air_wings = {
+		419 = { 								
+		nav_bomber_equipment_0 = { owner = "BAK" amount = 50 version_name = "Talte Mk 2" }
+
+	}
+	88 = { 								
+		fighter_equipment_0 = { owner = "BAK" amount = 50 version_name = "Luac Mk 0" }
+
+	}
+	277 = { 								
+		CAS_equipment_0 = { owner = "BAK" amount = 50 version_name = "Cais Mk 0" }
+
+	}
+	49 = { 								
+		tac_bomber_equipment_0 = { owner = "BAK" amount = 50 version_name = "Buach Mk 1" }
+
+	}
+	68 = { 								
+		CAS_equipment_0 = { owner = "BAK" amount = 50 version_name = "Cais Mk 0" }
+
+	}
+	371 = { 								
+		strat_bomber_equipment_0 = { owner = "BAK" amount = 50 version_name = "Neacha Mk 1" }
+
+	}
+	33 = { 								
+		nav_bomber_equipment_0 = { owner = "BAK" amount = 50 version_name = "Talte Mk 2" }
+
+	}
+	38 = { 								
+		strat_bomber_equipment_0 = { owner = "BAK" amount = 50 version_name = "Neacha Mk 1" }
+strat_bomber_equipment_0 = { owner = "BAK" amount = 50 version_name = "Faileanamhti Mk 2" }
+
+	}
+	94 = { 								
+		strat_bomber_equipment_0 = { owner = "BAK" amount = 50 version_name = "Faileanamhti Mk 2" }
+
+	}
+	573 = { 								
+		tac_bomber_equipment_0 = { owner = "BAK" amount = 50 version_name = "Buach Mk 1" }
+
+	}
+	243 = { 								
+		strat_bomber_equipment_0 = { owner = "BAK" amount = 50 version_name = "Neacha Mk 1" }
+
+	}
+	368 = { 								
+		CAS_equipment_0 = { owner = "BAK" amount = 50 version_name = "Cais Mk 0" }
+
+	}
+	1508 = { 								
+		tac_bomber_equipment_0 = { owner = "BAK" amount = 50 version_name = "Buach Mk 1" }
+
+	}
+	436 = { 								
+		nav_bomber_equipment_0 = { owner = "BAK" amount = 50 version_name = "Talte Mk 2" }
+
+	}
+	504 = { 								
+		strat_bomber_equipment_0 = { owner = "BAK" amount = 50 version_name = "Faileanamhti Mk 2" }
+
+	}
+	163 = { 								
+		fighter_equipment_0 = { owner = "BAK" amount = 50 version_name = "Luac Mk 0" }
+
+	}
+
+
+}

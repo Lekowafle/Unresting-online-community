@@ -1,0 +1,39 @@
+
+state={
+	id=238
+	name="STATE_238"
+	manpower = 1730914
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2741 1}
+		victory_points = { 2745 2}
+		
+		owner = CUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CUA
+	}
+
+	provinces={
+		2736 2737 2738 2739 2740 2741 2742 2743 2744 2745 
+	}
+	local_supplies=0.0 
+}

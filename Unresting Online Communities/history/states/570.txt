@@ -1,0 +1,40 @@
+
+state={
+	id=570
+	name="STATE_570"
+	manpower = 733903
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=15
+		chromium=16
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=15
+		coal=37
+	}
+
+	history={
+		
+		owner = AME
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 0
+			
+			6315 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AME
+	}
+
+	provinces={
+		6314 6315 6316 6317 
+	}
+	local_supplies=0.0 
+}

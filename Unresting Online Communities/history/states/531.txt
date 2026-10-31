@@ -1,0 +1,44 @@
+
+state={
+	id=531
+	name="STATE_531"
+	manpower = 4475211
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=6
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5873 2}
+		victory_points = { 5878 2}
+		victory_points = { 5881 3}
+		victory_points = { 5884 3}
+		
+		owner = NAR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 2
+			5880 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NAR
+	}
+
+	provinces={
+		5869 5870 5871 5872 5873 5874 5875 5876 5877 5878 5879 5880 5881 5882 5883 5884 5885 5886 5887 5888 5889 5890 5891 5892 5893 5894 5895 
+	}
+	local_supplies=0.0 
+}

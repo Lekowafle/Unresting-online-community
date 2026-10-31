@@ -1,0 +1,40 @@
+
+state={
+	id=199
+	name="STATE_199"
+	manpower = 1413203
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2302 1}
+		victory_points = { 2303 1}
+		victory_points = { 2305 1}
+		
+		owner = FON
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = FON
+	}
+
+	provinces={
+		2301 2302 2303 2304 2305 2306 2307 
+	}
+	local_supplies=0.0 
+}

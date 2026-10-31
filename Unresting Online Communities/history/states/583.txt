@@ -1,0 +1,44 @@
+
+state={
+	id=583
+	name="STATE_583"
+	manpower = 2213960
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=11
+		steel=26
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6451 1}
+		victory_points = { 6452 1}
+		victory_points = { 6454 1}
+		victory_points = { 6459 1}
+		
+		owner = AHK
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			6448 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AHK
+	}
+
+	provinces={
+		6448 6449 6450 6451 6452 6453 6454 6455 6456 6457 6458 6459 6460 
+	}
+	local_supplies=0.0 
+}

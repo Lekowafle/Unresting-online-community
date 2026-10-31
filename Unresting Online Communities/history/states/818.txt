@@ -1,0 +1,38 @@
+
+state={
+	id=818
+	name="STATE_818"
+	manpower = 1919625
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=5
+		chromium=5
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=5
+		coal=13
+	}
+
+	history={
+		victory_points = { 9333 6}
+		
+		owner = VOD
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = VOD
+	}
+
+	provinces={
+		9332 9333 9334 9335 9336 9337 9338 9339 9340 9341 
+	}
+	local_supplies=0.0 
+}

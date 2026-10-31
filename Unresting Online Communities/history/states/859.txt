@@ -1,0 +1,42 @@
+
+state={
+	id=859
+	name="STATE_859"
+	manpower = 2281199
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9985 1}
+		victory_points = { 9987 1}
+		victory_points = { 9988 1}
+		victory_points = { 9989 1}
+		victory_points = { 9995 1}
+		
+		owner = VOD
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = VOD
+	}
+
+	provinces={
+		9985 9986 9987 9988 9989 9990 9991 9992 9993 9994 9995 9996 
+	}
+	local_supplies=0.0 
+}

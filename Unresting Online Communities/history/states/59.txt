@@ -1,0 +1,42 @@
+
+state={
+	id=59
+	name="STATE_59"
+	manpower = 3936976
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=7
+		steel=14
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 742 3}
+		victory_points = { 745 3}
+		victory_points = { 746 3}
+		victory_points = { 748 3}
+		victory_points = { 751 3}
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		737 738 739 740 741 742 743 744 745 746 747 748 749 750 751 752 753 754 755 756 757 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=123
+	name="STATE_123"
+	manpower = 2203149
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=27
+		chromium=29
+		oil=0
+		rubber=0
+		steel=17
+		tungsten=27
+		coal=69
+	}
+
+	history={
+		victory_points = { 1514 2}
+		victory_points = { 1526 1}
+		
+		owner = RUA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RUA
+	}
+
+	provinces={
+		1514 1515 1516 1517 1518 1519 1520 1521 1522 1523 1524 1525 1526 1527 
+	}
+	local_supplies=0.0 
+}

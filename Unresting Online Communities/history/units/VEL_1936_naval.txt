@@ -1,0 +1,42 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Velalam Fleet"			
+		naval_base = 17167
+		task_force = {
+			name = "Velalam Fleet"
+			location = 17167
+			
+						ship = { name = "Thozhunavam" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEL version_name = "Makku Class" } }	}
+			ship = { name = "Thakkal" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEL version_name = "Kazhar Class" } }	}
+			ship = { name = "Makku" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VEL version_name = "Thakku Class" } }	}
+			ship = { name = "Thakkal 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEL version_name = "Kazhar Class" } }	}
+			ship = { name = "Thozi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VEL version_name = "Kadutham Class" } }	}
+			ship = { name = "Thaikku" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VEL version_name = "Thakku Class" } }	}
+			ship = { name = "Thakkal 3" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEL version_name = "Kazhar Class" } }	}
+			ship = { name = "Thaganai" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VEL version_name = "Kadutham Class" } }	}
+			ship = { name = "Thaganai 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VEL version_name = "Thakku Class" } }	}
+			ship = { name = "Makku 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VEL version_name = "Thakku Class" } }	}
+			ship = { name = "Thakkal 4" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEL version_name = "Kazhar Class" } }	}
+			ship = { name = "Panai" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEL version_name = "Kazhar Class" } }	}
+			ship = { name = "Unaignai" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VEL version_name = "Thakku Class" } }	}
+			ship = { name = "Sanarai" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VEL version_name = "Thakku Class" } }	}
+			ship = { name = "Vanbu" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEL version_name = "Kazhar Class" } }	}
+			ship = { name = "Sirai" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VEL version_name = "Thakku Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

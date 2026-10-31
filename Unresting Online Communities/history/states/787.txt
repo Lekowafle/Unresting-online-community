@@ -1,0 +1,40 @@
+
+state={
+	id=787
+	name="STATE_787"
+	manpower = 4549044
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8966 8}
+		victory_points = { 8978 8}
+		victory_points = { 8983 6}
+		
+		owner = UXU
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 5
+			
+			
+		}
+		add_core_of = UXU
+	}
+
+	provinces={
+		8963 8964 8965 8966 8967 8968 8969 8970 8971 8972 8973 8974 8975 8976 8977 8978 8979 8980 8981 8982 8983 8984 
+	}
+	local_supplies=0.0 
+}

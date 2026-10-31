@@ -1,0 +1,40 @@
+
+state={
+	id=527
+	name="STATE_527"
+	manpower = 2397418
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=12
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5836 1}
+		victory_points = { 5839 1}
+		victory_points = { 5842 1}
+		
+		owner = CUA
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CUA
+	}
+
+	provinces={
+		5828 5829 5830 5831 5832 5833 5834 5835 5836 5837 5838 5839 5840 5841 5842 5843 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=785
+	name="STATE_785"
+	manpower = 980306
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8918 1}
+		victory_points = { 8919 1}
+		
+		owner = PAA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = PAA
+	}
+
+	provinces={
+		8918 8919 8920 8921 8922 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,24 @@
+air_wings = {
+		383 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "QAL" amount = 50 version_name = "Mawar Mk 1" }
+
+	}
+	376 = { 								
+		small_plane_cas_airframe_0 = { owner = "QAL" amount = 50 version_name = "Madrab Mk 1" }
+
+	}
+	146 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "QAL" amount = 50 version_name = "Mawar Mk 1" }
+
+	}
+	1559 = { 								
+		small_plane_cas_airframe_0 = { owner = "QAL" amount = 50 version_name = "Madrab Mk 1" }
+
+	}
+	270 = { 								
+		small_plane_airframe_0 = { owner = "QAL" amount = 46 version_name = "Wadina Mk 1" }
+
+	}
+
+
+}

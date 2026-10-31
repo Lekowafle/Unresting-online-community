@@ -1,0 +1,44 @@
+
+state={
+	id=207
+	name="STATE_207"
+	manpower = 1541105
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2420 2}
+		victory_points = { 2422 1}
+		victory_points = { 2423 2}
+		victory_points = { 2425 1}
+		
+		owner = BUA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			2422 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = BUA
+	}
+
+	provinces={
+		2420 2421 2422 2423 2424 2425 2426 2427 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,154 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Raja' Militia Division"
+		location = 14243
+		division_template = "Militia Division"
+		start_experience_factor = 0.810744
+		start_equipment_factor = 0.978466
+	}
+	division= {
+		name = "2nd 'Upacak' Militia Division"
+		location = 13615
+		division_template = "Militia Division"
+		start_experience_factor = 0.955501
+		start_equipment_factor = 0.834620
+	}
+	division= {
+		name = "3rd 'Wakmasjid' Militia Division"
+		location = 14490
+		division_template = "Militia Division"
+		start_experience_factor = 0.819886
+		start_equipment_factor = 0.900601
+	}
+	division= {
+		name = "4th 'Gerbu' Militia Division"
+		location = 14207
+		division_template = "Militia Division"
+		start_experience_factor = 0.860448
+		start_equipment_factor = 0.893571
+	}
+	division= {
+		name = "5th 'Nafas' Militia Division"
+		location = 14351
+		division_template = "Militia Division"
+		start_experience_factor = 0.156710
+		start_equipment_factor = 0.801589
+	}
+	division= {
+		name = "6th 'Upacak' Militia Division"
+		location = 13914
+		division_template = "Militia Division"
+		start_experience_factor = 0.394876
+		start_equipment_factor = 0.858547
+	}
+	division= {
+		name = "7th 'Suruh' Militia Division"
+		location = 14247
+		division_template = "Militia Division"
+		start_experience_factor = 0.120302
+		start_equipment_factor = 0.931097
+	}
+	division= {
+		name = "1st 'Alaka' Infantry Division"
+		location = 13971
+		division_template = "Infantry Division"
+		start_experience_factor = 0.049871
+		start_equipment_factor = 0.872661
+	}
+	division= {
+		name = "2nd 'Tarnahgung' Infantry Division"
+		location = 13605
+		division_template = "Infantry Division"
+		start_experience_factor = 0.414088
+		start_equipment_factor = 0.999190
+	}
+	division= {
+		name = "3rd 'Kerilau' Infantry Division"
+		location = 14078
+		division_template = "Infantry Division"
+		start_experience_factor = 0.452659
+		start_equipment_factor = 0.975462
+	}
+	division= {
+		name = "1st 'Pendelamhal' Cavalry Division"
+		location = 13253
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.935677
+		start_equipment_factor = 0.812002
+	}
+	division= {
+		name = "2nd 'Kampi' Cavalry Division"
+		location = 13973
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.810121
+		start_equipment_factor = 0.954073
+	}
+	division= {
+		name = "3rd 'Petawah' Cavalry Division"
+		location = 13506
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.634933
+		start_equipment_factor = 0.955575
+	}
+	division= {
+		name = "4th 'Jiwo' Cavalry Division"
+		location = 13923
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.532140
+		start_equipment_factor = 0.931247
+	}
+
+}

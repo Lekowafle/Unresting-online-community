@@ -1,0 +1,32 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Chuan Fleet"			
+		naval_base = 12830
+		task_force = {
+			name = "Chuan Fleet"
+			location = 12830
+			
+						ship = { name = "Guan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WHU version_name = "Nian Class" } }	}
+			ship = { name = "Guang" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WHU version_name = "Nian Class" } }	}
+			ship = { name = "Cheng" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WHU version_name = "Nian Class" } }	}
+			ship = { name = "Shun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WHU version_name = "Nian Class" } }	}
+			ship = { name = "Ping" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WHU version_name = "Nian Class" } }	}
+			ship = { name = "Ying" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WHU version_name = "Nian Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

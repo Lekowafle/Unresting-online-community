@@ -1,0 +1,16 @@
+air_wings = {
+		416 = { 								
+		small_plane_cas_airframe_0 = { owner = "TOR" amount = 15 version_name = "Ardan Mk 0" }
+
+	}
+	158 = { 								
+		small_plane_airframe_0 = { owner = "TOR" amount = 13 version_name = "Scathai Mk 2" }
+
+	}
+	539 = { 								
+		medium_plane_airframe_0 = { owner = "TOR" amount = 14 version_name = "Bunasam Mk 1" }
+
+	}
+
+
+}

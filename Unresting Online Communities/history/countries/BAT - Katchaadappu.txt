@@ -1,0 +1,661 @@
+capital = 181
+
+oob = "BAT_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "BAT_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "BAT_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	motorised_infantry= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	fuel_refining= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Mozhaadakku Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = expanded_fuel_tank
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Nool Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Udal Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Thulal Mk 1"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Kolamizhagav Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "BAT_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			aa_lmg = 1
+			early_bombs = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Kadithanthi Mk 2"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Udakkal Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Sangugal Mk 2"
+			type = large_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Kuru Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "BAT_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	basic_destroyer = 1
+	basic_heavy_cruiser = 1
+	basic_light_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	
+	}
+	set_naval_oob = "BAT_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Kadithangu Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Katpu Class"
+			type = destroyer_2
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Siraiarambu Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Natturam Class"
+			type = light_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Thulal Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Panaichar Class"
+			type = heavy_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Kizh Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Thogugavu Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_depth_charges = 1
+	basic_light_battery = 1
+	basic_naval_mines = 1
+	basic_ship_hull_cruiser = 1
+	basic_ship_hull_light = 1
+	basic_torpedo = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	fire_control_methods_1 = 1
+	improved_depth_charges = 1
+	magnetic_detonator = 1
+	mtg_transport = 1
+	smoke_generator = 1
+	sonar = 1
+	submarine_mine_laying = 1
+	
+	}
+	set_naval_oob = "BAT_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Kadithangu Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Katpu Class"
+			type = ship_hull_light_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_2
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = ship_depth_charge_2
+				rear_1_custom_slot = ship_depth_charge_2
+			}
+		}
+		create_equipment_variant = {
+			name = "Siraiarambu Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				mid_2_custom_slot = ship_medium_battery_1
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Natturam Class"
+			type = ship_hull_cruiser_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				mid_2_custom_slot = ship_secondaries_1
+				rear_1_custom_slot = ship_depth_charge_2
+			}
+		}
+		create_equipment_variant = {
+			name = "Thulal Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_mine_layer_1
+				mid_2_custom_slot = ship_medium_battery_1
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Panaichar Class"
+			type = ship_hull_cruiser_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_secondaries_1
+				mid_2_custom_slot = ship_secondaries_1
+				rear_1_custom_slot = ship_depth_charge_2
+			}
+		}
+		create_equipment_variant = {
+			name = "Kizh Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_bc_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Thogugavu Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_armor_slot = ship_armor_bb_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = BAT_Dinoj_Then
+recruit_character = BAT_Varun_Natturam
+recruit_character = BAT_Rajesh_Katram
+recruit_character = BAT_Navi_Kizhuranthil
+recruit_character = BAT_Rajeshna_Nadal
+recruit_character = BAT_Siddhavi_Thogugam
+recruit_character = BAT_Rajiv_Kuraiyanadal
+recruit_character = BAT_Suresh_Thinam
+recruit_character = BAT_Karun_Aasi
+recruit_character = BAT_Pran_Thangugam
+recruit_character = BAT_Raghavi_Kudhani
+recruit_character = BAT_Siddhav_Paganthi
+recruit_character = BAT_Naveepak_Payar
+recruit_character = BAT_Vijay_Isai
+recruit_character = BAT_Raveeshna_Merai
+recruit_character = BAT_Raghanesh_Kurugam
+recruit_character = BAT_Charthil_Thavar
+recruit_character = BAT_Jaghan_Theerku
+recruit_character = BAT_Arun_Mani
+recruit_character = BAT_Krish_Thangugam
+recruit_character = BAT_Harishna_Nunaignam
+recruit_character = BAT_Naveepakash_Thogugam
+recruit_character = BAT_Mohavi_Thinam
+recruit_character = BAT_Siddhav_Kaadam
+recruit_character = BAT_Moharun_Kizh
+recruit_character = BAT_Arun_Kavu
+recruit_character = BAT_Ragadeesh_Kattu
+recruit_character = BAT_Pranesh_Theerku
+recruit_character = BAT_Karthil_Mangavithai
+recruit_character = BAT_Sureshna_Panaichar
+recruit_character = BAT_Presh_Nattu
+recruit_character = BAT_Jaghan_Kadithanthi
+recruit_character = BAT_Mohav_Kadithanthi
+recruit_character = BAT_Presh_Thai
+recruit_character = BAT_Dinoj_Nunaignam
+recruit_character = BAT_Presh_Kanguppu
+recruit_character = BAT_Deesh_Thannoli
+recruit_character = BAT_Harishna_Siraiarambu
+recruit_character = BAT_Ganesh_Thunbu
+recruit_character = BAT_Harthil_Ooru
+recruit_character = BAT_Krish_Panaichar
+recruit_character = BAT_Vijay_Panaichar
+recruit_character = BAT_Raghav_Thangam
+recruit_character = BAT_Siddhar_Urchanguppu
+recruit_character = BAT_Siddhavi_Theerku
+recruit_character = BAT_Kumar_Veli
+recruit_character = BAT_Ganesh_Puyal
+recruit_character = BAT_Jaghan_Mozhaadakku
+recruit_character = BAT_Chan_Ooru
+recruit_character = BAT_Rajiv_Mani
+recruit_character = BAT_Hari_Aasirai
+recruit_character = BAT_Raghav_Urchanguppu
+recruit_character = BAT_Harishna_Merku
+recruit_character = BAT_Anil_Ariyal
+recruit_character = BAT_Varun_Sanam
+recruit_character = BAT_Raghav_Oosai
+recruit_character = BAT_Charthil_Thogugam
+recruit_character = BAT_Siddhav_Veli
+recruit_character = BAT_Charthil_Tham
+recruit_character = BAT_Chan_Nunaignam
+recruit_character = BAT_Raghanesh_Elicha
+recruit_character = BAT_Jaghan_Velamai
+recruit_character = BAT_Harishna_Aasirai
+recruit_character = BAT_Krish_Thannoli
+recruit_character = BAT_Vijay_Nadiyam
+recruit_character = BAT_Ragadeesh_Thinam
+recruit_character = BAT_Moharun_Paatpu
+recruit_character = BAT_Harthil_Kizhuranthil
+recruit_character = BAT_Kumarun_Udal
+recruit_character = BAT_Kumar_Merku
+recruit_character = BAT_Harthil_Thogugavu
+recruit_character = BAT_Navi_Then
+recruit_character = BAT_Rajiv_Ariyanthaiar
+recruit_character = BAT_Presh_Paganthi
+recruit_character = BAT_Mohav_Mangavithai
+recruit_character = BAT_Mohaveesh_Elicha
+recruit_character = BAT_Harthil_Udakkal
+recruit_character = BAT_Suresh_Sanar
+recruit_character = BAT_Karthil_Kazhakkir
+recruit_character = BAT_Suresh_Sirasu
+recruit_character = BAT_Karthil_Theerku
+recruit_character = BAT_Ragadeesh_Oosai
+recruit_character = BAT_Vijay_Ooru
+recruit_character = BAT_Karthil_Kudrappu
+recruit_character = BAT_Varthil_Sanam
+recruit_character = BAT_Mohavi_Magal
+recruit_character = BAT_Sureshna_Kudrappu
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 91
+set_stability = 0.30
+set_war_support = 0.61
+
+add_ideas = {
+disarmed_nation
+partial_economic_mobilisation
+closed_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1902.10.19"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 17
+	fascism = 28
+	communism = 51
+	neutrality = 4
+}
+
+
+create_faction_from_template = faction_template_anti_fascist
+add_to_faction = BAT
+

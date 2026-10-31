@@ -1,0 +1,43 @@
+
+state={
+	id=786
+	name="STATE_786"
+	manpower = 7015852
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=1
+	}
+
+	history={
+		victory_points = { 8935 4}
+		victory_points = { 8943 12}
+		victory_points = { 8947 8}
+		
+		owner = KHU
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+			8935 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KHU
+	}
+
+	provinces={
+		8923 8924 8925 8926 8927 8928 8929 8930 8931 8932 8933 8934 8935 8936 8937 8938 8939 8940 8941 8942 8943 8944 8945 8946 8947 8948 8949 8950 8951 8952 8953 8954 8955 8956 8957 8958 8959 8960 8961 8962 
+	}
+	local_supplies=0.0 
+}

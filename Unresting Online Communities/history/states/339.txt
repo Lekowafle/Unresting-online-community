@@ -1,0 +1,37 @@
+
+state={
+	id=339
+	name="STATE_339"
+	manpower = 478446
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=5
+		chromium=6
+		oil=4
+		rubber=0
+		steel=0
+		tungsten=5
+		coal=14
+	}
+
+	history={
+		
+		owner = GUT
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = GUT
+	}
+
+	provinces={
+		3819 3820 3821 
+	}
+	local_supplies=0.0 
+}

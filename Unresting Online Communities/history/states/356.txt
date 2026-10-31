@@ -1,0 +1,43 @@
+
+state={
+	id=356
+	name="STATE_356"
+	manpower = 3713897
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=21
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4022 1}
+		victory_points = { 4030 3}
+		victory_points = { 4033 3}
+		
+		owner = IMN
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			4036 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = IMN
+	}
+
+	provinces={
+		4022 4023 4024 4025 4026 4027 4028 4029 4030 4031 4032 4033 4034 4035 4036 4037 4038 4039 4040 4041 4042 4043 4044 
+	}
+	local_supplies=0.0 
+}

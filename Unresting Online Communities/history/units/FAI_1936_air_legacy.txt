@@ -1,0 +1,45 @@
+air_wings = {
+		400 = { 								
+		tac_bomber_equipment_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	321 = { 								
+		tac_bomber_equipment_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	107 = { 								
+		tac_bomber_equipment_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	201 = { 								
+		tac_bomber_equipment_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	532 = { 								
+		tac_bomber_equipment_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	524 = { 								
+		tac_bomber_equipment_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	271 = { 								
+		tac_bomber_equipment_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+tac_bomber_equipment_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	30 = { 								
+		tac_bomber_equipment_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	265 = { 								
+		tac_bomber_equipment_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+	519 = { 								
+		tac_bomber_equipment_0 = { owner = "FAI" amount = 50 version_name = "Laoc Mk 0" }
+
+	}
+
+
+}

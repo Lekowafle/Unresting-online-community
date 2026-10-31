@@ -1,0 +1,40 @@
+
+state={
+	id=733
+	name="STATE_733"
+	manpower = 2885408
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8324 1}
+		victory_points = { 8325 2}
+		victory_points = { 8329 2}
+		
+		owner = COB
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = COB
+	}
+
+	provinces={
+		8323 8324 8325 8326 8327 8328 8329 8330 8331 8332 8333 8334 8335 8336 8337 8338 8339 
+	}
+	local_supplies=0.0 
+}

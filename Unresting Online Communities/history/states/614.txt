@@ -1,0 +1,43 @@
+
+state={
+	id=614
+	name="STATE_614"
+	manpower = 1811507
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6789 2}
+		victory_points = { 6793 3}
+		victory_points = { 6797 1}
+		
+		owner = UXU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 2
+			industrial_complex = 0
+			
+			6791 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = UXU
+	}
+
+	provinces={
+		6789 6790 6791 6792 6793 6794 6795 6796 6797 
+	}
+	local_supplies=0.0 
+}

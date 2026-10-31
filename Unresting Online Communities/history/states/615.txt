@@ -1,0 +1,43 @@
+
+state={
+	id=615
+	name="STATE_615"
+	manpower = 1793056
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=4
+		chromium=5
+		oil=2
+		rubber=1
+		steel=0
+		tungsten=5
+		coal=11
+	}
+
+	history={
+		victory_points = { 6799 3}
+		victory_points = { 6800 1}
+		victory_points = { 6804 2}
+		
+		owner = VEL
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			6800 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = VEL
+	}
+
+	provinces={
+		6798 6799 6800 6801 6802 6803 6804 6805 6806 
+	}
+	local_supplies=0.0 
+}

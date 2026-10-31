@@ -1,0 +1,16 @@
+air_wings = {
+		1421 = { 								
+		medium_plane_airframe_0 = { owner = "VOC" amount = 41 version_name = "Arco Mk 0" }
+
+	}
+	1426 = { 								
+		small_plane_airframe_0 = { owner = "VOC" amount = 43 version_name = "Cava Mk 0" }
+
+	}
+	1413 = { 								
+		small_plane_cas_airframe_0 = { owner = "VOC" amount = 27 version_name = "Cappa Mk 0" }
+
+	}
+
+
+}

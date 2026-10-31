@@ -1,0 +1,40 @@
+
+state={
+	id=727
+	name="STATE_727"
+	manpower = 2052518
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=17
+		chromium=19
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=18
+		coal=45
+	}
+
+	history={
+		victory_points = { 8250 1}
+		victory_points = { 8252 1}
+		victory_points = { 8260 1}
+		
+		owner = UXU
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = UXU
+	}
+
+	provinces={
+		8250 8251 8252 8253 8254 8255 8256 8257 8258 8259 8260 8261 8262 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,34 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Kanneerku Fleet"			
+		naval_base = 9190
+		task_force = {
+			name = "Kanneerku Fleet"
+			location = 9190
+			
+						ship = { name = "Thozhi" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAN version_name = "Megam Class" } }	}
+			ship = { name = "Kadam" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAN version_name = "Kadutham Class" } }	}
+			ship = { name = "Theerai" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAN version_name = "Megam Class" } }	}
+			ship = { name = "Pesu" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAN version_name = "Megam Class" } }	}
+			ship = { name = "Kaadu" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KAN version_name = "Makku Class" } }	}
+			ship = { name = "Vidiyal" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAN version_name = "Megam Class" } }	}
+			ship = { name = "Thaiyanai" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KAN version_name = "Megam Class" } }	}
+			ship = { name = "Makku" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KAN version_name = "Kadutham Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

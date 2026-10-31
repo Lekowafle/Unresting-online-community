@@ -1,0 +1,41 @@
+
+state={
+	id=148
+	name="STATE_148"
+	manpower = 1482225
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=8
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1745 1}
+		
+		owner = LPO
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			1751 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = LPO
+	}
+
+	provinces={
+		1745 1746 1747 1748 1749 1750 1751 1752 1753 
+	}
+	local_supplies=0.0 
+}

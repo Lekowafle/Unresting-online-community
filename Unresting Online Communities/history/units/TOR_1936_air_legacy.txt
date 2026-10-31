@@ -1,0 +1,16 @@
+air_wings = {
+		416 = { 								
+		CAS_equipment_0 = { owner = "TOR" amount = 15 version_name = "Ardan Mk 0" }
+
+	}
+	158 = { 								
+		fighter_equipment_0 = { owner = "TOR" amount = 13 version_name = "Scathai Mk 2" }
+
+	}
+	539 = { 								
+		tac_bomber_equipment_0 = { owner = "TOR" amount = 14 version_name = "Bunasam Mk 1" }
+
+	}
+
+
+}

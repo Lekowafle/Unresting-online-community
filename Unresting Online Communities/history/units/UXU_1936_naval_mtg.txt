@@ -1,0 +1,45 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Uxul Fleet"			
+		naval_base = 10834
+		task_force = {
+			name = "Uxul Fleet"
+			location = 10834
+			
+						ship = { name = "Ajtz" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = UXU version_name = "Kukulkanilam Class" } }	}
+			ship = { name = "Bacabanilan" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = UXU version_name = "Cobalachel Class" } }	}
+			ship = { name = "Yaxkin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UXU version_name = "Tohok Class" } }	}
+			ship = { name = "Xbah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UXU version_name = "Tohok Class" } }	}
+			ship = { name = "Ahcanjo" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = UXU version_name = "Akbe Class" } }	}
+			ship = { name = "Nacol" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = UXU version_name = "Cobalachel Class" } }	}
+			ship = { name = "Akbe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UXU version_name = "Tohok Class" } }	}
+			ship = { name = "Tohilamancue" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = UXU version_name = "Cobalachel Class" } }	}
+			ship = { name = "Ahcab" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UXU version_name = "Tohok Class" } }	}
+			ship = { name = "Chichen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UXU version_name = "Tohok Class" } }	}
+			ship = { name = "Yaxch" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UXU version_name = "Tohok Class" } }	}
+			ship = { name = "Kanil" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = UXU version_name = "Cobalachel Class" } }	}
+			ship = { name = "Katunilhau" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = UXU version_name = "Cobalachel Class" } }	}
+			ship = { name = "Tohok" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UXU version_name = "Tohok Class" } }	}
+			ship = { name = "Bacabanilan 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = UXU version_name = "Cobalachel Class" } }	}
+			ship = { name = "Chichen 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = UXU version_name = "Cobalachel Class" } }	}
+			ship = { name = "Tzib" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UXU version_name = "Tohok Class" } }	}
+			ship = { name = "Tzikin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UXU version_name = "Tohok Class" } }	}
+			ship = { name = "Ahkin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UXU version_name = "Tohok Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

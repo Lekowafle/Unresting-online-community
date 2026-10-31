@@ -1,0 +1,41 @@
+
+state={
+	id=928
+	name="STATE_928"
+	manpower = 1507789
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10779 2}
+		victory_points = { 10780 1}
+		victory_points = { 10781 1}
+		victory_points = { 10782 1}
+		
+		owner = RIB
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = RIB
+	}
+
+	provinces={
+		10779 10780 10781 10782 10783 10784 10785 10786 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,19 @@
+air_wings = {
+		214 = { 								
+		fighter_equipment_0 = { owner = "CUA" amount = 50 version_name = "Gluais Mk 0" }
+nav_bomber_equipment_0 = { owner = "CUA" amount = 50 version_name = "Slas Mk 0" }
+
+	}
+	223 = { 								
+		CAS_equipment_0 = { owner = "CUA" amount = 50 version_name = "Faislinntarr Mk 1" }
+CAS_equipment_0 = { owner = "CUA" amount = 50 version_name = "Faislinntarr Mk 1" }
+
+	}
+	147 = { 								
+		nav_bomber_equipment_0 = { owner = "CUA" amount = 50 version_name = "Slas Mk 0" }
+tac_bomber_equipment_0 = { owner = "CUA" amount = 49 version_name = "Torcras Mk 0" }
+
+	}
+
+
+}

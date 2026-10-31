@@ -1,0 +1,43 @@
+
+state={
+	id=571
+	name="STATE_571"
+	manpower = 3170347
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=25
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6325 1}
+		victory_points = { 6327 1}
+		victory_points = { 6332 1}
+		
+		owner = NAD
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			6332 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NAD
+	}
+
+	provinces={
+		6318 6319 6320 6321 6322 6323 6324 6325 6326 6327 6328 6329 6330 6331 6332 6333 6334 6335 6336 6337 6338 
+	}
+	local_supplies=0.0 
+}

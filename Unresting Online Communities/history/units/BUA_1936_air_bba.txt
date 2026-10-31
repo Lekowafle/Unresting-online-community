@@ -1,0 +1,17 @@
+air_wings = {
+		244 = { 								
+		small_plane_cas_airframe_0 = { owner = "BUA" amount = 28 version_name = "Croith Mk 1" }
+
+	}
+	276 = { 								
+		medium_plane_airframe_0 = { owner = "BUA" amount = 19 version_name = "Rata Mk 2" }
+
+	}
+	102 = { 								
+		small_plane_airframe_0 = { owner = "BUA" amount = 17 version_name = "Tuailleanch Mk 2" }
+small_plane_naval_bomber_airframe_0 = { owner = "BUA" amount = 20 version_name = "Balas Mk 1" }
+
+	}
+
+
+}

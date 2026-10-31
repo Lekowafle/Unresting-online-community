@@ -1,0 +1,39 @@
+
+state={
+	id=158
+	name="STATE_158"
+	manpower = 1579217
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1819 4}
+		victory_points = { 1820 1}
+		
+		owner = TOR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TOR
+	}
+
+	provinces={
+		1818 1819 1820 1821 1822 1823 1824 1825 
+	}
+	local_supplies=0.0 
+}

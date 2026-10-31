@@ -1,0 +1,39 @@
+
+state={
+	id=957
+	name="STATE_957"
+	manpower = 1236461
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11097 1}
+		victory_points = { 11098 1}
+		
+		owner = TOP
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TOP
+	}
+
+	provinces={
+		11094 11095 11096 11097 11098 11099 11100 
+	}
+	local_supplies=0.0 
+}

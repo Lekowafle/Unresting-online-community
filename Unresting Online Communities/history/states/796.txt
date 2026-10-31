@@ -1,0 +1,40 @@
+
+state={
+	id=796
+	name="STATE_796"
+	manpower = 2648933
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9066 2}
+		victory_points = { 9072 5}
+		victory_points = { 9073 2}
+		
+		owner = RIB
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = RIB
+	}
+
+	provinces={
+		9063 9064 9065 9066 9067 9068 9069 9070 9071 9072 9073 9074 9075 9076 
+	}
+	local_supplies=0.0 
+}

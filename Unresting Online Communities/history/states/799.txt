@@ -1,0 +1,40 @@
+
+state={
+	id=799
+	name="STATE_799"
+	manpower = 1830582
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9098 2}
+		victory_points = { 9100 1}
+		victory_points = { 9103 2}
+		
+		owner = TOH
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TOH
+	}
+
+	provinces={
+		9095 9096 9097 9098 9099 9100 9101 9102 9103 9104 9105 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=870
+	name="STATE_870"
+	manpower = 648743
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10102 1}
+		victory_points = { 10103 1}
+		
+		owner = VOD
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			10103 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = VOD
+	}
+
+	provinces={
+		10101 10102 10103 
+	}
+	local_supplies=0.0 
+}

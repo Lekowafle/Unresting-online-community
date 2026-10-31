@@ -1,0 +1,43 @@
+
+state={
+	id=895
+	name="STATE_895"
+	manpower = 3416663
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10391 3}
+		victory_points = { 10392 3}
+		victory_points = { 10396 6}
+		
+		owner = TOH
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			10395 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TOH
+	}
+
+	provinces={
+		10387 10388 10389 10390 10391 10392 10393 10394 10395 10396 10397 10398 10399 10400 10401 10402 10403 
+	}
+	local_supplies=0.0 
+}

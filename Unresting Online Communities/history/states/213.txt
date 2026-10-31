@@ -1,0 +1,39 @@
+
+state={
+	id=213
+	name="STATE_213"
+	manpower = 2014624
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2484 2}
+		victory_points = { 2486 2}
+		
+		owner = FON
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = FON
+	}
+
+	provinces={
+		2479 2480 2481 2482 2483 2484 2485 2486 2487 2488 2489 2490 
+	}
+	local_supplies=0.0 
+}

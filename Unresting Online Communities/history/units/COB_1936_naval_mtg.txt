@@ -1,0 +1,46 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Coban Fleet"			
+		naval_base = 10449
+		task_force = {
+			name = "Coban Fleet"
+			location = 10449
+			
+						ship = { name = "Uxman" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COB version_name = "Ahakbal Class" } }	}
+			ship = { name = "Katunil" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = COB version_name = "Uxman Class" } }	}
+			ship = { name = "Agualuunil" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COB version_name = "Cozumel Class" } }	}
+			ship = { name = "Sotz" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = COB version_name = "Kancue Class" } }	}
+			ship = { name = "Nacomte" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = COB version_name = "Uxman Class" } }	}
+			ship = { name = "Chau" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = COB version_name = "Kancue Class" } }	}
+			ship = { name = "Bakmul" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COB version_name = "Cozumel Class" } }	}
+			ship = { name = "Uxul" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COB version_name = "Cozumel Class" } }	}
+			ship = { name = "Nacomte 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = COB version_name = "Uxman Class" } }	}
+			ship = { name = "Nacomte 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = COB version_name = "Kancue Class" } }	}
+			ship = { name = "Tzib" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COB version_name = "Cozumel Class" } }	}
+			ship = { name = "Kanamna" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = COB version_name = "Kancue Class" } }	}
+			ship = { name = "Nojil" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = COB version_name = "Kancue Class" } }	}
+			ship = { name = "Uxmal" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COB version_name = "Cozumel Class" } }	}
+			ship = { name = "Kancue" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COB version_name = "Cozumel Class" } }	}
+			ship = { name = "Canai" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = COB version_name = "Kancue Class" } }	}
+			ship = { name = "Chichen" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = COB version_name = "Kancue Class" } }	}
+			ship = { name = "Akbe" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COB version_name = "Cozumel Class" } }	}
+			ship = { name = "Cobahun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = COB version_name = "Uxman Class" } }	}
+			ship = { name = "Manjo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = COB version_name = "Uxman Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

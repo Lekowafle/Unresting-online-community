@@ -1,0 +1,38 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Makku Fleet"			
+		naval_base = 17154
+		task_force = {
+			name = "Makku Fleet"
+			location = 17154
+			
+						ship = { name = "Elimayambu" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MAK version_name = "Mozhai Class" } }	}
+			ship = { name = "Thozhi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MAK version_name = "Kurai Class" } }	}
+			ship = { name = "Kazhar" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MAK version_name = "Vadhuravai Class" } }	}
+			ship = { name = "Vizhcharai" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MAK version_name = "Vadhuravai Class" } }	}
+			ship = { name = "Karam" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MAK version_name = "Suvam Class" } }	}
+			ship = { name = "Thunporugava" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MAK version_name = "Suvam Class" } }	}
+			ship = { name = "Karam 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MAK version_name = "Kurai Class" } }	}
+			ship = { name = "Thanadilanai" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MAK version_name = "Vadhuravai Class" } }	}
+			ship = { name = "Siravu" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MAK version_name = "Suvam Class" } }	}
+			ship = { name = "Uyiran" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MAK version_name = "Kurai Class" } }	}
+			ship = { name = "Karam 3" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = MAK version_name = "Vadhuravai Class" } }	}
+			ship = { name = "Mozhai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MAK version_name = "Thaiyanai Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

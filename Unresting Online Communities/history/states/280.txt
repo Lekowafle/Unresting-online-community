@@ -1,0 +1,40 @@
+
+state={
+	id=280
+	name="STATE_280"
+	manpower = 1951183
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3243 1}
+		victory_points = { 3247 1}
+		victory_points = { 3251 1}
+		
+		owner = RUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RUA
+	}
+
+	provinces={
+		3242 3243 3244 3245 3246 3247 3248 3249 3250 3251 3252 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,163 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			artillery_brigade = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 2 y = 1 }
+			artillery_brigade = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+			recon = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Thakku' Supported Infantry Division"
+		location = 8348
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.226985
+		start_equipment_factor = 0.916128
+	}
+	division= {
+		name = "2nd 'Mchati' Supported Infantry Division"
+		location = 7079
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.103437
+		start_equipment_factor = 0.897402
+	}
+	division= {
+		name = "3rd 'Korefeka' Supported Infantry Division"
+		location = 8688
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.019742
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Kalai' Supported Infantry Division"
+		location = 10716
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.318294
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Tungo' Artillery Division"
+		location = 7086
+		division_template = "Artillery Division"
+		start_experience_factor = 0.166632
+		start_equipment_factor = 0.892611
+	}
+	division= {
+		name = "2nd 'Mchecharaluj' Artillery Division"
+		location = 10075
+		division_template = "Artillery Division"
+		start_experience_factor = 0.560699
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Thakku' Artillery Division"
+		location = 8680
+		division_template = "Artillery Division"
+		start_experience_factor = 0.995264
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Pesu' Artillery Division"
+		location = 8593
+		division_template = "Artillery Division"
+		start_experience_factor = 0.782913
+		start_equipment_factor = 1.000000
+	}
+
+}

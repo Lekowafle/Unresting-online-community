@@ -1,0 +1,54 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Nunat Fleet"			
+		naval_base = 16468
+		task_force = {
+			name = "Nunat Fleet"
+			location = 16468
+			
+						ship = { name = "Kimuviqtuk" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NUN version_name = "Anikigaaqpaq Class" } }	}
+			ship = { name = "Hayes" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NUN version_name = "Arvivikupaq Class" } }	}
+			ship = { name = "Kuvakak" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NUN version_name = "Saniq Class" } }	}
+			ship = { name = "Nuvigaq" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NUN version_name = "Sille Class" } }	}
+			ship = { name = "Upikigaq" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NUN version_name = "Upikigaq Class" } }	}
+			ship = { name = "Arvivikupaq" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NUN version_name = "Upikigaq Class" } }	}
+			ship = { name = "Napik" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NUN version_name = "Upikigaq Class" } }	}
+			ship = { name = "Nuvannupaaq" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NUN version_name = "Arvivikupaq Class" } }	}
+			ship = { name = "Iliak" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NUN version_name = "Saniq Class" } }	}
+			ship = { name = "Aglupak" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NUN version_name = "Arvivikupaq Class" } }	}
+			ship = { name = "Sikivalukon" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NUN version_name = "Arvivikupaq Class" } }	}
+			ship = { name = "Nulineq" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NUN version_name = "Upikigaq Class" } }	}
+			ship = { name = "Nulaqtuviq" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NUN version_name = "Upikigaq Class" } }	}
+			ship = { name = "Angmiak" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NUN version_name = "Arvivikupaq Class" } }	}
+			ship = { name = "Ikivanuk" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NUN version_name = "Arvivikupaq Class" } }	}
+			ship = { name = "Kimuviqtuk 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NUN version_name = "Sille Class" } }	}
+			ship = { name = "Nuvigaq 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NUN version_name = "Upikigaq Class" } }	}
+			ship = { name = "Tuktuuq" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NUN version_name = "Arvivikupaq Class" } }	}
+			ship = { name = "Aniq" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NUN version_name = "Upikigaq Class" } }	}
+			ship = { name = "Nulineq 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NUN version_name = "Arvivikupaq Class" } }	}
+			ship = { name = "Nunat" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NUN version_name = "Sille Class" } }	}
+			ship = { name = "Tuktuuq 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NUN version_name = "Upikigaq Class" } }	}
+			ship = { name = "Tikuq" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NUN version_name = "Sille Class" } }	}
+			ship = { name = "Amaq" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NUN version_name = "Saniq Class" } }	}
+			ship = { name = "Tikuq 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NUN version_name = "Sille Class" } }	}
+			ship = { name = "Pipagani" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NUN version_name = "Upikigaq Class" } }	}
+			ship = { name = "Qiku" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NUN version_name = "Sille Class" } }	}
+			ship = { name = "Napagutaktaq" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NUN version_name = "Arvivikupaq Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,68 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Katunabah Fleet"			
+		naval_base = 17168
+		task_force = {
+			name = "Katunabah Fleet"
+			location = 17168
+			
+						ship = { name = "Itzib" definition = carrier equipment = { carrier_1 = { amount = 1 owner = UAT version_name = "Nohichenque Class" } }	}
+			ship = { name = "Oxlanai" definition = battleship equipment = { battleship_2 = { amount = 1 owner = UAT version_name = "Katunikin Class" } }	}
+			ship = { name = "Katecab" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Nohichenque" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Agualam" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Chakmul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Tojil" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Ahcab" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Cobal" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Sayil" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Nohil" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Chilam" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Agualam 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Zamnah" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Tojil 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Ahcan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Imix" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Ajtzam" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Imix 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Canek" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Oxlanai 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Zamnah 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Zamnah 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Katunabah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Tzib" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Oxlanai 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Katecab 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Chakmul 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Tzam" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Chilahualah" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Nahlam" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Agualam 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Nohil 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Cobal 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Agualam 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Mutalahualam" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Chakmul 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Becab" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Katunabah 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UAT version_name = "Laman Class" } }	}
+			ship = { name = "Chilam 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Chilam 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+			ship = { name = "Mutalahualam 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UAT version_name = "Chakmul Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################
