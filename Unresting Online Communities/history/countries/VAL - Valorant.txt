@@ -22,7 +22,18 @@ set_technology = {
 	electronic_mechanical_engineering= 1
 	
 }
-
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 23
+	fascism = 77
+	communism = 0
+	neutrality = 0
+}
 ### ARMOR ###
 ### Vanilla Techs ###
 
@@ -32,7 +43,7 @@ set_stability = 0.52
 set_war_support = 0.43
 
 add_ideas = {
-eztensive_conscription
+extensive_conscription
 civilian_economy
 limited_exports
 }

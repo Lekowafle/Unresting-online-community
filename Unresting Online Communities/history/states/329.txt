@@ -19,7 +19,7 @@ state={
 	history={
 		victory_points = { 3725 2}
 		
-		owner = FAI
+		owner = PUB
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -28,7 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = FAI
+		add_core_of = PUB
 	}
 
 	provinces={

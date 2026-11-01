@@ -23,7 +23,7 @@ state={
 		victory_points = { 13268 1}
 		victory_points = { 13270 1}
 		
-		owner = XEN
+		owner = MLP
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -35,7 +35,7 @@ state={
 			}
 			
 		}
-		add_core_of = XEN
+		add_core_of = MLP
 	}
 
 	provinces={
@@ -43,3 +43,4 @@ state={
 	}
 	local_supplies=0.0 
 }
+

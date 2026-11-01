@@ -20,7 +20,7 @@ state={
 		victory_points = { 3875 5}
 		victory_points = { 3877 1}
 		
-		owner = FAI
+		owner = PUB
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -29,7 +29,7 @@ state={
 			
 			
 		}
-		add_core_of = FAI
+		add_core_of = PUB
 	}
 
 	provinces={
