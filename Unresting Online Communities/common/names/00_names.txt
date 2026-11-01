@@ -142089,7 +142089,7 @@ UAT = {
 	defensive_operation_suffix = o_strat_defensive_default
 	naval_operation_suffix = o_strat_naval_default
 }
-UIN = {
+FUR = {
 	male = {
 		names = { "Ekchichen" "Bacatl" "Bacom" "Yaxkin" "Acatl" "Tohichen" "Pakal" "Balam" "Tecun" "Ekchua" 
 			"Ekchil" "Kanek" "Chak" "Nacatl" "Itzam" "Moctez" "Nacab" "Nacom" "Oxib" "Kukulkal" 

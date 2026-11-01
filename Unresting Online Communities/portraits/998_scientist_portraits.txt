@@ -1318,7 +1318,7 @@ UAT = {
 		}
 	}
 }
-UIN = {
+FUR = {
 	scientist = {
 		female = {
 			"GFX_portrait_generic_africa_female_01"

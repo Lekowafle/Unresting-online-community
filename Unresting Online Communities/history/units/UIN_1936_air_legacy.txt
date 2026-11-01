@@ -1,36 +1,36 @@
 air_wings = {
 		1211 = { 								
-		fighter_equipment_0 = { owner = "UIN" amount = 50 version_name = "Kampi Mk 2" }
-fighter_equipment_0 = { owner = "UIN" amount = 50 version_name = "Kampi Mk 2" }
+		fighter_equipment_0 = { owner = "FUR" amount = 50 version_name = "Kampi Mk 2" }
+fighter_equipment_0 = { owner = "FUR" amount = 50 version_name = "Kampi Mk 2" }
 
 	}
 	1187 = { 								
-		tac_bomber_equipment_0 = { owner = "UIN" amount = 50 version_name = "Pendelamhal Mk 1" }
+		tac_bomber_equipment_0 = { owner = "FUR" amount = 50 version_name = "Pendelamhal Mk 1" }
 
 	}
 	1168 = { 								
-		nav_bomber_equipment_0 = { owner = "UIN" amount = 50 version_name = "Peran Mk 1" }
+		nav_bomber_equipment_0 = { owner = "FUR" amount = 50 version_name = "Peran Mk 1" }
 
 	}
 	1228 = { 								
-		tac_bomber_equipment_0 = { owner = "UIN" amount = 50 version_name = "Oraki Mk 2" }
+		tac_bomber_equipment_0 = { owner = "FUR" amount = 50 version_name = "Oraki Mk 2" }
 
 	}
 	1149 = { 								
-		nav_bomber_equipment_0 = { owner = "UIN" amount = 50 version_name = "Peran Mk 1" }
+		nav_bomber_equipment_0 = { owner = "FUR" amount = 50 version_name = "Peran Mk 1" }
 
 	}
 	1224 = { 								
-		tac_bomber_equipment_0 = { owner = "UIN" amount = 50 version_name = "Pendelamhal Mk 1" }
+		tac_bomber_equipment_0 = { owner = "FUR" amount = 50 version_name = "Pendelamhal Mk 1" }
 
 	}
 	1227 = { 								
-		tac_bomber_equipment_0 = { owner = "UIN" amount = 50 version_name = "Oraki Mk 2" }
-CAS_equipment_0 = { owner = "UIN" amount = 50 version_name = "Mulat Mk 0" }
+		tac_bomber_equipment_0 = { owner = "FUR" amount = 50 version_name = "Oraki Mk 2" }
+CAS_equipment_0 = { owner = "FUR" amount = 50 version_name = "Mulat Mk 0" }
 
 	}
 	1220 = { 								
-		CAS_equipment_0 = { owner = "UIN" amount = 50 version_name = "Mulat Mk 0" }
+		CAS_equipment_0 = { owner = "FUR" amount = 50 version_name = "Mulat Mk 0" }
 
 	}
 

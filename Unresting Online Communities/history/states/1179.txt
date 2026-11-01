@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = UIN
+		owner = FUR
 		buildings = {
 			infrastructure = 2
 			
@@ -27,7 +27,7 @@ state={
 			
 			
 		}
-		add_core_of = UIN
+		add_core_of = FUR
 	}
 
 	provinces={

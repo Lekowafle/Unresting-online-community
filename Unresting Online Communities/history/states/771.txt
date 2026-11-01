@@ -22,7 +22,7 @@ state={
 		victory_points = { 8757 2}
 		victory_points = { 8761 4}
 		
-		owner = MLP
+		owner = JJK
 		buildings = {
 			infrastructure = 5
 			

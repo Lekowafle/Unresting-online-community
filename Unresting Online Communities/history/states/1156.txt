@@ -7,13 +7,13 @@ state={
 	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
-		chromium=0
+		aluminium=6
+		chromium=13
 		oil=0
 		rubber=5
-		steel=0
-		tungsten=0
-		coal=0
+		steel=4
+		tungsten=2
+		coal=18
 	}
 
 	history={
@@ -23,7 +23,7 @@ state={
 		victory_points = { 13350 1}
 		victory_points = { 13357 1}
 		
-		owner = UIN
+		owner = FUR
 		buildings = {
 			infrastructure = 2
 			
@@ -32,7 +32,7 @@ state={
 			
 			
 		}
-		add_core_of = UIN
+		add_core_of = FUR
 	}
 
 	provinces={

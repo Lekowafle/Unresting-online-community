@@ -1,0 +1,57 @@
+capital = 1
+
+
+starting_train_buffer = 2
+set_fuel_ratio = 0.2
+starting_truck_buffer = 0.3
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	gw_artillery= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	basic_machine_tools= 1
+	construction1= 1
+	electronic_mechanical_engineering= 1
+	basic_fortification_tech= 1
+	
+}
+
+
+set_research_slots = 4
+set_convoys = 91
+set_stability = 0.64
+set_war_support = 0.67
+
+add_ideas = {
+extensive_conscription
+civilian_economy
+closed_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1990.1.2"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 43
+	fascism = 7
+	communism = 50
+	neutrality = 0
+}
+
+
+
+
+

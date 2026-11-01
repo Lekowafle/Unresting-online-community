@@ -1,19 +1,19 @@
 capital = 1178
 
-oob = "UIN_1936"
+oob = "FUR_1936"
 if = {
 	limit = {
 		NOT = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "UIN_1936"
+	set_oob = "FUR_1936"
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "UIN_1936_nsb"
+	set_oob = "FUR_1936_nsb"
 }
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -155,7 +155,7 @@ if = {
 ### AIRFORCE ###
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "UIN_1936_air_bba"
+		set_air_oob = "FUR_1936_air_bba"
 		set_technology = {
 			bba_early_transport_plane = 1
 			iw_small_airframe = 1
@@ -221,7 +221,7 @@ if = {
 		}
 
 	else = {
-		set_air_oob = "UIN_1936_air_legacy"
+		set_air_oob = "FUR_1936_air_legacy"
 		set_technology = {
 			early_transport_plane = 1
 			early_fighter = 1
@@ -253,7 +253,7 @@ if = {
 	early_submarine = 1
 	
 	}
-	set_naval_oob = "UIN_1936_naval"
+	set_naval_oob = "FUR_1936_naval"
 }
 
 ### Ship Variants ###
@@ -382,7 +382,7 @@ if = {
 	submarine_mine_laying = 1
 	
 	}
-	set_naval_oob = "UIN_1936_naval_mtg"
+	set_naval_oob = "FUR_1936_naval_mtg"
 }
 
 	if = {
@@ -526,93 +526,93 @@ if = {
 	}
 
 
-recruit_character = UIN_Ketut_Cerah
-recruit_character = UIN_Rizal_Bulat
-recruit_character = UIN_Fajario_Petawah
-recruit_character = UIN_Ketut_Anah
-recruit_character = UIN_Lutfi_Mimbah
-recruit_character = UIN_Agus_Bayi
-recruit_character = UIN_Fajario_Terahu
-recruit_character = UIN_Mario_Pohon
-recruit_character = UIN_Ramban_Takil
-recruit_character = UIN_Ketutfi_Senda
-recruit_character = UIN_Waya_Apintu
-recruit_character = UIN_Sakti_Kota
-recruit_character = UIN_Agus_Keradat
-recruit_character = UIN_Hari_Kebinta
-recruit_character = UIN_Ketut_Bulampisuan
-recruit_character = UIN_Hario_Matan
-recruit_character = UIN_Budi_Bapa
-recruit_character = UIN_Bamban_Desai
-recruit_character = UIN_Fajar_Sejan
-recruit_character = UIN_Fajario_Pohon
-recruit_character = UIN_Ramban_Gurgangitu
-recruit_character = UIN_Waya_Teruh
-recruit_character = UIN_Hario_Mudalagarana
-recruit_character = UIN_Andi_Pinda
-recruit_character = UIN_Sakti_Suruh
-recruit_character = UIN_Waya_Bahayaremu
-recruit_character = UIN_Waya_Dari
-recruit_character = UIN_Sakti_Gung
-recruit_character = UIN_Andi_Desai
-recruit_character = UIN_Ramban_Bahayaremu
-recruit_character = UIN_Putfi_Gerbu
-recruit_character = UIN_Agus_Petir
-recruit_character = UIN_Hari_Terejaan
-recruit_character = UIN_Putfi_Seni
-recruit_character = UIN_Hari_Jiwo
-recruit_character = UIN_Mario_Bapa
-recruit_character = UIN_Agus_Suci
-recruit_character = UIN_Waya_Penda
-recruit_character = UIN_Hari_Keraki
-recruit_character = UIN_Joko_Gerbu
-recruit_character = UIN_Wayan_Bulampisuan
-recruit_character = UIN_Rizal_Ritu
-recruit_character = UIN_Lutfi_Bulit
-recruit_character = UIN_Fajario_Tuah
-recruit_character = UIN_Sakti_Ritu
-recruit_character = UIN_Wayan_Apisununyi
-recruit_character = UIN_Ramban_Petawah
-recruit_character = UIN_Hari_Dari
-recruit_character = UIN_Surya_Wakmasjid
-recruit_character = UIN_Surya_Gurgangitu
-recruit_character = UIN_Ketutra_Penda
-recruit_character = UIN_Dewa_Mimbah
-recruit_character = UIN_Arjuna_Suarahas
-recruit_character = UIN_Fajar_Pinda
-recruit_character = UIN_Surya_Teruh
-recruit_character = UIN_Ketutfi_Punung
-recruit_character = UIN_Ketut_Suarahas
-recruit_character = UIN_Ketut_Tulaja
-recruit_character = UIN_Budi_Adan
-recruit_character = UIN_Suryang_Desai
-recruit_character = UIN_Wayan_Bulaut
-recruit_character = UIN_Lutra_Teruh
-recruit_character = UIN_Ketutfi_Petawah
-recruit_character = UIN_Ramban_Buka
-recruit_character = UIN_Arjuna_Musuhabanaut
-recruit_character = UIN_Bama_Raja
-recruit_character = UIN_Rizal_Gurgangitu
-recruit_character = UIN_Arjuna_Bapa
-recruit_character = UIN_Ketutra_Pindan
-recruit_character = UIN_Wayan_Pulapanaka
-recruit_character = UIN_Budi_Teruh
-recruit_character = UIN_Andi_Nafas
-recruit_character = UIN_Surya_Saki
-recruit_character = UIN_Andi_Sedis
-recruit_character = UIN_Hario_Tulaja
-recruit_character = UIN_Andi_Jemba
-recruit_character = UIN_Ketutra_Suarahas
-recruit_character = UIN_Ramban_Penda
-recruit_character = UIN_Lutfi_Seni
-recruit_character = UIN_Arjuna_Harnau
-recruit_character = UIN_Hario_Gurgangitu
-recruit_character = UIN_Fajario_Bulamah
-recruit_character = UIN_Surya_Nafas
-recruit_character = UIN_Wayang_Adan
-recruit_character = UIN_Ketutfi_Saki
-recruit_character = UIN_Lutfi_Hutri
-recruit_character = UIN_Ramban_Bulan
+recruit_character = FUR_Ketut_Cerah
+recruit_character = FUR_Rizal_Bulat
+recruit_character = FUR_Fajario_Petawah
+recruit_character = FUR_Ketut_Anah
+recruit_character = FUR_Lutfi_Mimbah
+recruit_character = FUR_Agus_Bayi
+recruit_character = FUR_Fajario_Terahu
+recruit_character = FUR_Mario_Pohon
+recruit_character = FUR_Ramban_Takil
+recruit_character = FUR_Ketutfi_Senda
+recruit_character = FUR_Waya_Apintu
+recruit_character = FUR_Sakti_Kota
+recruit_character = FUR_Agus_Keradat
+recruit_character = FUR_Hari_Kebinta
+recruit_character = FUR_Ketut_Bulampisuan
+recruit_character = FUR_Hario_Matan
+recruit_character = FUR_Budi_Bapa
+recruit_character = FUR_Bamban_Desai
+recruit_character = FUR_Fajar_Sejan
+recruit_character = FUR_Fajario_Pohon
+recruit_character = FUR_Ramban_Gurgangitu
+recruit_character = FUR_Waya_Teruh
+recruit_character = FUR_Hario_Mudalagarana
+recruit_character = FUR_Andi_Pinda
+recruit_character = FUR_Sakti_Suruh
+recruit_character = FUR_Waya_Bahayaremu
+recruit_character = FUR_Waya_Dari
+recruit_character = FUR_Sakti_Gung
+recruit_character = FUR_Andi_Desai
+recruit_character = FUR_Ramban_Bahayaremu
+recruit_character = FUR_Putfi_Gerbu
+recruit_character = FUR_Agus_Petir
+recruit_character = FUR_Hari_Terejaan
+recruit_character = FUR_Putfi_Seni
+recruit_character = FUR_Hari_Jiwo
+recruit_character = FUR_Mario_Bapa
+recruit_character = FUR_Agus_Suci
+recruit_character = FUR_Waya_Penda
+recruit_character = FUR_Hari_Keraki
+recruit_character = FUR_Joko_Gerbu
+recruit_character = FUR_Wayan_Bulampisuan
+recruit_character = FUR_Rizal_Ritu
+recruit_character = FUR_Lutfi_Bulit
+recruit_character = FUR_Fajario_Tuah
+recruit_character = FUR_Sakti_Ritu
+recruit_character = FUR_Wayan_Apisununyi
+recruit_character = FUR_Ramban_Petawah
+recruit_character = FUR_Hari_Dari
+recruit_character = FUR_Surya_Wakmasjid
+recruit_character = FUR_Surya_Gurgangitu
+recruit_character = FUR_Ketutra_Penda
+recruit_character = FUR_Dewa_Mimbah
+recruit_character = FUR_Arjuna_Suarahas
+recruit_character = FUR_Fajar_Pinda
+recruit_character = FUR_Surya_Teruh
+recruit_character = FUR_Ketutfi_Punung
+recruit_character = FUR_Ketut_Suarahas
+recruit_character = FUR_Ketut_Tulaja
+recruit_character = FUR_Budi_Adan
+recruit_character = FUR_Suryang_Desai
+recruit_character = FUR_Wayan_Bulaut
+recruit_character = FUR_Lutra_Teruh
+recruit_character = FUR_Ketutfi_Petawah
+recruit_character = FUR_Ramban_Buka
+recruit_character = FUR_Arjuna_Musuhabanaut
+recruit_character = FUR_Bama_Raja
+recruit_character = FUR_Rizal_Gurgangitu
+recruit_character = FUR_Arjuna_Bapa
+recruit_character = FUR_Ketutra_Pindan
+recruit_character = FUR_Wayan_Pulapanaka
+recruit_character = FUR_Budi_Teruh
+recruit_character = FUR_Andi_Nafas
+recruit_character = FUR_Surya_Saki
+recruit_character = FUR_Andi_Sedis
+recruit_character = FUR_Hario_Tulaja
+recruit_character = FUR_Andi_Jemba
+recruit_character = FUR_Ketutra_Suarahas
+recruit_character = FUR_Ramban_Penda
+recruit_character = FUR_Lutfi_Seni
+recruit_character = FUR_Arjuna_Harnau
+recruit_character = FUR_Hario_Gurgangitu
+recruit_character = FUR_Fajario_Bulamah
+recruit_character = FUR_Surya_Nafas
+recruit_character = FUR_Wayang_Adan
+recruit_character = FUR_Ketutfi_Saki
+recruit_character = FUR_Lutfi_Hutri
+recruit_character = FUR_Ramban_Bulan
 
 
 if = {

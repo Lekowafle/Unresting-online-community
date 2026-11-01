@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = MLP
+		owner = JJK
 		buildings = {
 			infrastructure = 1
 			
@@ -30,7 +30,7 @@ state={
 			}
 			
 		}
-		add_core_of = MLP
+		add_core_of = JJK
 	}
 
 	provinces={

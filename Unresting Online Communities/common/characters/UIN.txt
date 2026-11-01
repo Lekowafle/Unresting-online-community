@@ -1,5 +1,5 @@
 characters = {
-	UIN_Ketut_Cerah={
+	FUR_Ketut_Cerah={
 		name="Ketut Cerah"
 
 		
@@ -11,12 +11,12 @@ characters = {
 		}
 
 	}
-	UIN_Rizal_Bulat={
+	FUR_Rizal_Bulat={
 		name="Rizal Bulat"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Rizal_Bulat
+			idea_token = FUR_Rizal_Bulat
 			traits = {	noble_beurocrat 	}
 		}
 		portraits = {
@@ -27,12 +27,12 @@ characters = {
 
 
 	}
-	UIN_Fajario_Petawah={
+	FUR_Fajario_Petawah={
 		name="Fajario Petawah"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Fajario_Petawah
+			idea_token = FUR_Fajario_Petawah
 			traits = {	noble_beurocrat 	}
 		}
 		portraits = {
@@ -43,12 +43,12 @@ characters = {
 
 
 	}
-	UIN_Ketut_Anah={
+	FUR_Ketut_Anah={
 		name="Ketut Anah"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Ketut_Anah
+			idea_token = FUR_Ketut_Anah
 			traits = {	noble_beurocrat 	}
 		}
 		portraits = {
@@ -59,12 +59,12 @@ characters = {
 
 
 	}
-	UIN_Lutfi_Mimbah={
+	FUR_Lutfi_Mimbah={
 		name="Lutfi Mimbah"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Lutfi_Mimbah
+			idea_token = FUR_Lutfi_Mimbah
 			traits = {	gentle_scholar 	}
 		}
 		portraits = {
@@ -75,12 +75,12 @@ characters = {
 
 
 	}
-	UIN_Agus_Bayi={
+	FUR_Agus_Bayi={
 		name="Agus Bayi"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Agus_Bayi
+			idea_token = FUR_Agus_Bayi
 			traits = {	right_industrialist 	}
 		}
 		portraits = {
@@ -91,12 +91,12 @@ characters = {
 
 
 	}
-	UIN_Fajario_Terahu={
+	FUR_Fajario_Terahu={
 		name="Fajario Terahu"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Fajario_Terahu
+			idea_token = FUR_Fajario_Terahu
 			traits = {	right_industrialist 	}
 		}
 		portraits = {
@@ -107,161 +107,161 @@ characters = {
 
 
 	}
-	UIN_Mario_Pohon={
+	FUR_Mario_Pohon={
 		name="Mario Pohon"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Mario_Pohon
+			idea_token = FUR_Mario_Pohon
 			traits = {	army_chief_planning_1 	}
 		}
 
 
 	}
-	UIN_Ramban_Takil={
+	FUR_Ramban_Takil={
 		name="Ramban Takil"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Ramban_Takil
+			idea_token = FUR_Ramban_Takil
 			traits = {	army_chief_offensive_1 	}
 		}
 
 
 	}
-	UIN_Ketutfi_Senda={
+	FUR_Ketutfi_Senda={
 		name="Ketutfi Senda"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Ketutfi_Senda
+			idea_token = FUR_Ketutfi_Senda
 			traits = {	army_chief_defensive_2 	}
 		}
 
 
 	}
-	UIN_Waya_Apintu={
+	FUR_Waya_Apintu={
 		name="Waya Apintu"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Waya_Apintu
+			idea_token = FUR_Waya_Apintu
 			traits = {	army_chief_planning_2 	}
 		}
 
 
 	}
-	UIN_Sakti_Kota={
+	FUR_Sakti_Kota={
 		name="Sakti Kota"
 
 		advisor={
 			slot = navy_chief
-			idea_token = UIN_Sakti_Kota
+			idea_token = FUR_Sakti_Kota
 			traits = {	navy_chief_maneuver_2 	}
 		}
 
 
 	}
-	UIN_Agus_Keradat={
+	FUR_Agus_Keradat={
 		name="Agus Keradat"
 
 		advisor={
 			slot = navy_chief
-			idea_token = UIN_Agus_Keradat
+			idea_token = FUR_Agus_Keradat
 			traits = {	navy_chief_reform_1 	}
 		}
 
 
 	}
-	UIN_Hari_Kebinta={
+	FUR_Hari_Kebinta={
 		name="Hari Kebinta"
 
 		advisor={
 			slot = air_chief
-			idea_token = UIN_Hari_Kebinta
+			idea_token = FUR_Hari_Kebinta
 			traits = {	air_chief_all_weather_1 	}
 		}
 
 
 	}
-	UIN_Ketut_Bulampisuan={
+	FUR_Ketut_Bulampisuan={
 		name="Ketut Bulampisuan"
 
 		advisor={
 			slot = air_chief
-			idea_token = UIN_Ketut_Bulampisuan
+			idea_token = FUR_Ketut_Bulampisuan
 			traits = {	air_chief_safety_1 	}
 		}
 
 
 	}
-	UIN_Hario_Matan={
+	FUR_Hario_Matan={
 		name="Hario Matan"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Hario_Matan
+			idea_token = FUR_Hario_Matan
 			traits = {	army_armored_2 	}
 		}
 
 
 	}
-	UIN_Budi_Bapa={
+	FUR_Budi_Bapa={
 		name="Budi Bapa"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Budi_Bapa
+			idea_token = FUR_Budi_Bapa
 			traits = {	army_cavalry_1 	}
 		}
 
 
 	}
-	UIN_Bamban_Desai={
+	FUR_Bamban_Desai={
 		name="Bamban Desai"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Bamban_Desai
+			idea_token = FUR_Bamban_Desai
 			traits = {	army_commando_1 	}
 		}
 
 
 	}
-	UIN_Fajar_Sejan={
+	FUR_Fajar_Sejan={
 		name="Fajar Sejan"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Fajar_Sejan
+			idea_token = FUR_Fajar_Sejan
 			traits = {	air_air_combat_training_2 	}
 		}
 
 
 	}
-	UIN_Fajario_Pohon={
+	FUR_Fajario_Pohon={
 		name="Fajario Pohon"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Fajario_Pohon
+			idea_token = FUR_Fajario_Pohon
 			traits = {	air_naval_strike_2 	}
 		}
 
 
 	}
-	UIN_Ramban_Gurgangitu={
+	FUR_Ramban_Gurgangitu={
 		name="Ramban Gurgangitu"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Ramban_Gurgangitu
+			idea_token = FUR_Ramban_Gurgangitu
 			traits = {	navy_fleet_logistics_2 	}
 		}
 
 
 	}
-	UIN_Waya_Teruh={
+	FUR_Waya_Teruh={
 		name="Waya Teruh"
 
 		
@@ -273,12 +273,12 @@ characters = {
 		}
 
 	}
-	UIN_Hario_Mudalagarana={
+	FUR_Hario_Mudalagarana={
 		name="Hario Mudalagarana"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Hario_Mudalagarana
+			idea_token = FUR_Hario_Mudalagarana
 			traits = {	basileus 	}
 		}
 		portraits = {
@@ -289,12 +289,12 @@ characters = {
 
 
 	}
-	UIN_Andi_Pinda={
+	FUR_Andi_Pinda={
 		name="Andi Pinda"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Andi_Pinda
+			idea_token = FUR_Andi_Pinda
 			traits = {	collaborator_king 	}
 		}
 		portraits = {
@@ -305,12 +305,12 @@ characters = {
 
 
 	}
-	UIN_Sakti_Suruh={
+	FUR_Sakti_Suruh={
 		name="Sakti Suruh"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Sakti_Suruh
+			idea_token = FUR_Sakti_Suruh
 			traits = {	collaborator_king 	}
 		}
 		portraits = {
@@ -321,12 +321,12 @@ characters = {
 
 
 	}
-	UIN_Waya_Bahayaremu={
+	FUR_Waya_Bahayaremu={
 		name="Waya Bahayaremu"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Waya_Bahayaremu
+			idea_token = FUR_Waya_Bahayaremu
 			traits = {	autocratic_imperialist 	}
 		}
 		portraits = {
@@ -337,12 +337,12 @@ characters = {
 
 
 	}
-	UIN_Waya_Dari={
+	FUR_Waya_Dari={
 		name="Waya Dari"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Waya_Dari
+			idea_token = FUR_Waya_Dari
 			traits = {	celebrity_junta_leader 	}
 		}
 		portraits = {
@@ -353,12 +353,12 @@ characters = {
 
 
 	}
-	UIN_Sakti_Gung={
+	FUR_Sakti_Gung={
 		name="Sakti Gung"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Sakti_Gung
+			idea_token = FUR_Sakti_Gung
 			traits = {	basileus 	}
 		}
 		portraits = {
@@ -369,161 +369,161 @@ characters = {
 
 
 	}
-	UIN_Andi_Desai={
+	FUR_Andi_Desai={
 		name="Andi Desai"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Andi_Desai
+			idea_token = FUR_Andi_Desai
 			traits = {	army_chief_morale_1 	}
 		}
 
 
 	}
-	UIN_Ramban_Bahayaremu={
+	FUR_Ramban_Bahayaremu={
 		name="Ramban Bahayaremu"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Ramban_Bahayaremu
+			idea_token = FUR_Ramban_Bahayaremu
 			traits = {	army_chief_defensive_1 	}
 		}
 
 
 	}
-	UIN_Putfi_Gerbu={
+	FUR_Putfi_Gerbu={
 		name="Putfi Gerbu"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Putfi_Gerbu
+			idea_token = FUR_Putfi_Gerbu
 			traits = {	army_chief_planning_1 	}
 		}
 
 
 	}
-	UIN_Agus_Petir={
+	FUR_Agus_Petir={
 		name="Agus Petir"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Agus_Petir
+			idea_token = FUR_Agus_Petir
 			traits = {	army_chief_morale_2 	}
 		}
 
 
 	}
-	UIN_Hari_Terejaan={
+	FUR_Hari_Terejaan={
 		name="Hari Terejaan"
 
 		advisor={
 			slot = navy_chief
-			idea_token = UIN_Hari_Terejaan
+			idea_token = FUR_Hari_Terejaan
 			traits = {	navy_chief_maneuver_2 	}
 		}
 
 
 	}
-	UIN_Putfi_Seni={
+	FUR_Putfi_Seni={
 		name="Putfi Seni"
 
 		advisor={
 			slot = navy_chief
-			idea_token = UIN_Putfi_Seni
+			idea_token = FUR_Putfi_Seni
 			traits = {	navy_chief_old_guard 	}
 		}
 
 
 	}
-	UIN_Hari_Jiwo={
+	FUR_Hari_Jiwo={
 		name="Hari Jiwo"
 
 		advisor={
 			slot = air_chief
-			idea_token = UIN_Hari_Jiwo
+			idea_token = FUR_Hari_Jiwo
 			traits = {	air_chief_ground_support_2 	}
 		}
 
 
 	}
-	UIN_Mario_Bapa={
+	FUR_Mario_Bapa={
 		name="Mario Bapa"
 
 		advisor={
 			slot = air_chief
-			idea_token = UIN_Mario_Bapa
+			idea_token = FUR_Mario_Bapa
 			traits = {	air_chief_all_weather_1 	}
 		}
 
 
 	}
-	UIN_Agus_Suci={
+	FUR_Agus_Suci={
 		name="Agus Suci"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Agus_Suci
+			idea_token = FUR_Agus_Suci
 			traits = {	air_bomber_interception_2 	}
 		}
 
 
 	}
-	UIN_Waya_Penda={
+	FUR_Waya_Penda={
 		name="Waya Penda"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Waya_Penda
+			idea_token = FUR_Waya_Penda
 			traits = {	air_air_superiority_2 	}
 		}
 
 
 	}
-	UIN_Hari_Keraki={
+	FUR_Hari_Keraki={
 		name="Hari Keraki"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Hari_Keraki
+			idea_token = FUR_Hari_Keraki
 			traits = {	air_bomber_interception_1 	}
 		}
 
 
 	}
-	UIN_Joko_Gerbu={
+	FUR_Joko_Gerbu={
 		name="Joko Gerbu"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Joko_Gerbu
+			idea_token = FUR_Joko_Gerbu
 			traits = {	air_naval_strike_2 	}
 		}
 
 
 	}
-	UIN_Wayan_Bulampisuan={
+	FUR_Wayan_Bulampisuan={
 		name="Wayan Bulampisuan"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Wayan_Bulampisuan
+			idea_token = FUR_Wayan_Bulampisuan
 			traits = {	air_close_air_support_2 	}
 		}
 
 
 	}
-	UIN_Rizal_Ritu={
+	FUR_Rizal_Ritu={
 		name="Rizal Ritu"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Rizal_Ritu
+			idea_token = FUR_Rizal_Ritu
 			traits = {	air_airborne_1 	}
 		}
 
 
 	}
-	UIN_Lutfi_Bulit={
+	FUR_Lutfi_Bulit={
 		name="Lutfi Bulit"
 
 		
@@ -535,12 +535,12 @@ characters = {
 		}
 
 	}
-	UIN_Fajario_Tuah={
+	FUR_Fajario_Tuah={
 		name="Fajario Tuah"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Fajario_Tuah
+			idea_token = FUR_Fajario_Tuah
 			traits = {	political_dancer 	}
 		}
 		portraits = {
@@ -551,12 +551,12 @@ characters = {
 
 
 	}
-	UIN_Sakti_Ritu={
+	FUR_Sakti_Ritu={
 		name="Sakti Ritu"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Sakti_Ritu
+			idea_token = FUR_Sakti_Ritu
 			traits = {	mastermind_code_cracker 	}
 		}
 		portraits = {
@@ -567,12 +567,12 @@ characters = {
 
 
 	}
-	UIN_Wayan_Apisununyi={
+	FUR_Wayan_Apisununyi={
 		name="Wayan Apisununyi"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Wayan_Apisununyi
+			idea_token = FUR_Wayan_Apisununyi
 			traits = {	mastermind_code_cracker 	}
 		}
 		portraits = {
@@ -583,12 +583,12 @@ characters = {
 
 
 	}
-	UIN_Ramban_Petawah={
+	FUR_Ramban_Petawah={
 		name="Ramban Petawah"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Ramban_Petawah
+			idea_token = FUR_Ramban_Petawah
 			traits = {	anti_bolshevik_leftist 	}
 		}
 		portraits = {
@@ -599,12 +599,12 @@ characters = {
 
 
 	}
-	UIN_Hari_Dari={
+	FUR_Hari_Dari={
 		name="Hari Dari"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Hari_Dari
+			idea_token = FUR_Hari_Dari
 			traits = {	anti_bolshevik_leftist 	}
 		}
 		portraits = {
@@ -615,12 +615,12 @@ characters = {
 
 
 	}
-	UIN_Surya_Wakmasjid={
+	FUR_Surya_Wakmasjid={
 		name="Surya Wakmasjid"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Surya_Wakmasjid
+			idea_token = FUR_Surya_Wakmasjid
 			traits = {	indomitable_perseverance 	}
 		}
 		portraits = {
@@ -631,161 +631,161 @@ characters = {
 
 
 	}
-	UIN_Surya_Gurgangitu={
+	FUR_Surya_Gurgangitu={
 		name="Surya Gurgangitu"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Surya_Gurgangitu
+			idea_token = FUR_Surya_Gurgangitu
 			traits = {	army_chief_organizational_2 	}
 		}
 
 
 	}
-	UIN_Ketutra_Penda={
+	FUR_Ketutra_Penda={
 		name="Ketutra Penda"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Ketutra_Penda
+			idea_token = FUR_Ketutra_Penda
 			traits = {	army_chief_planning_1 	}
 		}
 
 
 	}
-	UIN_Dewa_Mimbah={
+	FUR_Dewa_Mimbah={
 		name="Dewa Mimbah"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Dewa_Mimbah
+			idea_token = FUR_Dewa_Mimbah
 			traits = {	army_chief_drill_2 	}
 		}
 
 
 	}
-	UIN_Arjuna_Suarahas={
+	FUR_Arjuna_Suarahas={
 		name="Arjuna Suarahas"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Arjuna_Suarahas
+			idea_token = FUR_Arjuna_Suarahas
 			traits = {	army_chief_morale_2 	}
 		}
 
 
 	}
-	UIN_Fajar_Pinda={
+	FUR_Fajar_Pinda={
 		name="Fajar Pinda"
 
 		advisor={
 			slot = navy_chief
-			idea_token = UIN_Fajar_Pinda
+			idea_token = FUR_Fajar_Pinda
 			traits = {	navy_chief_naval_aviation_2 	}
 		}
 
 
 	}
-	UIN_Surya_Teruh={
+	FUR_Surya_Teruh={
 		name="Surya Teruh"
 
 		advisor={
 			slot = navy_chief
-			idea_token = UIN_Surya_Teruh
+			idea_token = FUR_Surya_Teruh
 			traits = {	navy_chief_commerce_raiding_1 	}
 		}
 
 
 	}
-	UIN_Ketutfi_Punung={
+	FUR_Ketutfi_Punung={
 		name="Ketutfi Punung"
 
 		advisor={
 			slot = air_chief
-			idea_token = UIN_Ketutfi_Punung
+			idea_token = FUR_Ketutfi_Punung
 			traits = {	air_chief_reform_2 	}
 		}
 
 
 	}
-	UIN_Ketut_Suarahas={
+	FUR_Ketut_Suarahas={
 		name="Ketut Suarahas"
 
 		advisor={
 			slot = air_chief
-			idea_token = UIN_Ketut_Suarahas
+			idea_token = FUR_Ketut_Suarahas
 			traits = {	air_chief_reform_1 	}
 		}
 
 
 	}
-	UIN_Ketut_Tulaja={
+	FUR_Ketut_Tulaja={
 		name="Ketut Tulaja"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Ketut_Tulaja
+			idea_token = FUR_Ketut_Tulaja
 			traits = {	army_infantry_1 	}
 		}
 
 
 	}
-	UIN_Budi_Adan={
+	FUR_Budi_Adan={
 		name="Budi Adan"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Budi_Adan
+			idea_token = FUR_Budi_Adan
 			traits = {	navy_screen_2 	}
 		}
 
 
 	}
-	UIN_Suryang_Desai={
+	FUR_Suryang_Desai={
 		name="Suryang Desai"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Suryang_Desai
+			idea_token = FUR_Suryang_Desai
 			traits = {	navy_capital_ship_2 	}
 		}
 
 
 	}
-	UIN_Wayan_Bulaut={
+	FUR_Wayan_Bulaut={
 		name="Wayan Bulaut"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Wayan_Bulaut
+			idea_token = FUR_Wayan_Bulaut
 			traits = {	air_airborne_1 	}
 		}
 
 
 	}
-	UIN_Lutra_Teruh={
+	FUR_Lutra_Teruh={
 		name="Lutra Teruh"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Lutra_Teruh
+			idea_token = FUR_Lutra_Teruh
 			traits = {	air_naval_strike_1 	}
 		}
 
 
 	}
-	UIN_Ketutfi_Petawah={
+	FUR_Ketutfi_Petawah={
 		name="Ketutfi Petawah"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Ketutfi_Petawah
+			idea_token = FUR_Ketutfi_Petawah
 			traits = {	air_tactical_bombing_1 	}
 		}
 
 
 	}
-	UIN_Ramban_Buka={
+	FUR_Ramban_Buka={
 		name="Ramban Buka"
 
 		
@@ -797,12 +797,12 @@ characters = {
 		}
 
 	}
-	UIN_Arjuna_Musuhabanaut={
+	FUR_Arjuna_Musuhabanaut={
 		name="Arjuna Musuhabanaut"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Arjuna_Musuhabanaut
+			idea_token = FUR_Arjuna_Musuhabanaut
 			traits = {	the_statist 	}
 		}
 		portraits = {
@@ -813,12 +813,12 @@ characters = {
 
 
 	}
-	UIN_Bama_Raja={
+	FUR_Bama_Raja={
 		name="Bama Raja"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Bama_Raja
+			idea_token = FUR_Bama_Raja
 			traits = {	staunch_constitutionalist 	}
 		}
 		portraits = {
@@ -829,12 +829,12 @@ characters = {
 
 
 	}
-	UIN_Rizal_Gurgangitu={
+	FUR_Rizal_Gurgangitu={
 		name="Rizal Gurgangitu"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Rizal_Gurgangitu
+			idea_token = FUR_Rizal_Gurgangitu
 			traits = {	leftist_legionary 	}
 		}
 		portraits = {
@@ -845,12 +845,12 @@ characters = {
 
 
 	}
-	UIN_Arjuna_Bapa={
+	FUR_Arjuna_Bapa={
 		name="Arjuna Bapa"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Arjuna_Bapa
+			idea_token = FUR_Arjuna_Bapa
 			traits = {	the_statist 	}
 		}
 		portraits = {
@@ -861,12 +861,12 @@ characters = {
 
 
 	}
-	UIN_Ketutra_Pindan={
+	FUR_Ketutra_Pindan={
 		name="Ketutra Pindan"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Ketutra_Pindan
+			idea_token = FUR_Ketutra_Pindan
 			traits = {	the_banker 	}
 		}
 		portraits = {
@@ -877,12 +877,12 @@ characters = {
 
 
 	}
-	UIN_Wayan_Pulapanaka={
+	FUR_Wayan_Pulapanaka={
 		name="Wayan Pulapanaka"
 
 		advisor={
 			slot = political_advisor
-			idea_token = UIN_Wayan_Pulapanaka
+			idea_token = FUR_Wayan_Pulapanaka
 			traits = {	rearmer 	}
 		}
 		portraits = {
@@ -893,188 +893,188 @@ characters = {
 
 
 	}
-	UIN_Budi_Teruh={
+	FUR_Budi_Teruh={
 		name="Budi Teruh"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Budi_Teruh
+			idea_token = FUR_Budi_Teruh
 			traits = {	army_chief_entrenchment_1 	}
 		}
 
 
 	}
-	UIN_Andi_Nafas={
+	FUR_Andi_Nafas={
 		name="Andi Nafas"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Andi_Nafas
+			idea_token = FUR_Andi_Nafas
 			traits = {	army_chief_entrenchment_1 	}
 		}
 
 
 	}
-	UIN_Surya_Saki={
+	FUR_Surya_Saki={
 		name="Surya Saki"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Surya_Saki
+			idea_token = FUR_Surya_Saki
 			traits = {	army_chief_maneuver_1 	}
 		}
 
 
 	}
-	UIN_Andi_Sedis={
+	FUR_Andi_Sedis={
 		name="Andi Sedis"
 
 		advisor={
 			slot = army_chief
-			idea_token = UIN_Andi_Sedis
+			idea_token = FUR_Andi_Sedis
 			traits = {	army_chief_maneuver_1 	}
 		}
 
 
 	}
-	UIN_Hario_Tulaja={
+	FUR_Hario_Tulaja={
 		name="Hario Tulaja"
 
 		advisor={
 			slot = navy_chief
-			idea_token = UIN_Hario_Tulaja
+			idea_token = FUR_Hario_Tulaja
 			traits = {	navy_chief_naval_aviation_2 	}
 		}
 
 
 	}
-	UIN_Andi_Jemba={
+	FUR_Andi_Jemba={
 		name="Andi Jemba"
 
 		advisor={
 			slot = navy_chief
-			idea_token = UIN_Andi_Jemba
+			idea_token = FUR_Andi_Jemba
 			traits = {	navy_chief_decisive_battle_1 	}
 		}
 
 
 	}
-	UIN_Ketutra_Suarahas={
+	FUR_Ketutra_Suarahas={
 		name="Ketutra Suarahas"
 
 		advisor={
 			slot = air_chief
-			idea_token = UIN_Ketutra_Suarahas
+			idea_token = FUR_Ketutra_Suarahas
 			traits = {	air_chief_night_operations_2 	}
 		}
 
 
 	}
-	UIN_Ramban_Penda={
+	FUR_Ramban_Penda={
 		name="Ramban Penda"
 
 		advisor={
 			slot = air_chief
-			idea_token = UIN_Ramban_Penda
+			idea_token = FUR_Ramban_Penda
 			traits = {	air_chief_safety_1 	}
 		}
 
 
 	}
-	UIN_Lutfi_Seni={
+	FUR_Lutfi_Seni={
 		name="Lutfi Seni"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Lutfi_Seni
+			idea_token = FUR_Lutfi_Seni
 			traits = {	army_artillery_2 	}
 		}
 
 
 	}
-	UIN_Arjuna_Harnau={
+	FUR_Arjuna_Harnau={
 		name="Arjuna Harnau"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Arjuna_Harnau
+			idea_token = FUR_Arjuna_Harnau
 			traits = {	army_regrouping_1 	}
 		}
 
 
 	}
-	UIN_Hario_Gurgangitu={
+	FUR_Hario_Gurgangitu={
 		name="Hario Gurgangitu"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Hario_Gurgangitu
+			idea_token = FUR_Hario_Gurgangitu
 			traits = {	navy_anti_submarine_1 	}
 		}
 
 
 	}
-	UIN_Fajario_Bulamah={
+	FUR_Fajario_Bulamah={
 		name="Fajario Bulamah"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Fajario_Bulamah
+			idea_token = FUR_Fajario_Bulamah
 			traits = {	navy_screen_2 	}
 		}
 
 
 	}
-	UIN_Surya_Nafas={
+	FUR_Surya_Nafas={
 		name="Surya Nafas"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Surya_Nafas
+			idea_token = FUR_Surya_Nafas
 			traits = {	navy_submarine_2 	}
 		}
 
 
 	}
-	UIN_Wayang_Adan={
+	FUR_Wayang_Adan={
 		name="Wayang Adan"
 
 		advisor={
 			slot = high_command
-			idea_token = UIN_Wayang_Adan
+			idea_token = FUR_Wayang_Adan
 			traits = {	army_radio_intelligence_1 	}
 		}
 
 
 	}
-	UIN_Ketutfi_Saki={
+	FUR_Ketutfi_Saki={
 		name="Ketutfi Saki"
 
 		advisor={
 			slot = theorist
-			idea_token = UIN_Ketutfi_Saki
+			idea_token = FUR_Ketutfi_Saki
 			traits = {	military_theorist 	}
 		}
 
 
 	}
-	UIN_Lutfi_Hutri={
+	FUR_Lutfi_Hutri={
 		name="Lutfi Hutri"
 
 		advisor={
 			slot = theorist
-			idea_token = UIN_Lutfi_Hutri
+			idea_token = FUR_Lutfi_Hutri
 			traits = {	naval_theorist 	}
 		}
 
 
 	}
-	UIN_Ramban_Bulan={
+	FUR_Ramban_Bulan={
 		name="Ramban Bulan"
 
 		advisor={
 			slot = theorist
-			idea_token = UIN_Ramban_Bulan
+			idea_token = FUR_Ramban_Bulan
 			traits = {	air_warfare_theorist 	}
 		}
 

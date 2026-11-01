@@ -7,13 +7,13 @@ state={
 	state_category = large_town
 	#impassable = yes
 	resources={
-		aluminium=0
-		chromium=0
-		oil=0
-		rubber=17
-		steel=0
-		tungsten=0
-		coal=0
+		aluminium=2
+		chromium=13
+		oil=18
+		rubber=0
+		steel=5
+		tungsten=1
+		coal=9
 	}
 
 	history={
@@ -23,7 +23,7 @@ state={
 		victory_points = { 8726 1}
 		victory_points = { 8729 2}
 		
-		owner = MLP
+		owner = JJK
 		buildings = {
 			infrastructure = 2
 			
@@ -35,12 +35,12 @@ state={
 			}
 			
 		}
-		add_core_of = MLP
+		add_core_of = JJK
 	}
 
 	provinces={
 		8711 8712 8713 8714 8715 8716 8717 8718 8719 8720 8721 8722 8723 8724 8725 8726 8727 8728 8729 8730 8731 
 	}
-	local_supplies=0.0 
+	local_supplies=0.1
 }
 
