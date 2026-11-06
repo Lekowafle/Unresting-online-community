@@ -8,7 +8,7 @@ state={
 	#impassable = yes
 	resources={
 		aluminium=0
-		chromium=0
+		chromium=1
 		oil=0
 		rubber=0
 		steel=0
@@ -20,7 +20,7 @@ state={
 		victory_points = { 16425 1}
 		victory_points = { 16427 1}
 		
-		owner = VOC
+		owner = BLE
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -32,7 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = VOC
+		add_core_of = BLE
 	}
 
 	provinces={

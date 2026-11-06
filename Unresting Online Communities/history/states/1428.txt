@@ -9,18 +9,18 @@ state={
 	resources={
 		aluminium=0
 		chromium=0
-		oil=0
+		oil=6
 		rubber=0
 		steel=0
-		tungsten=0
-		coal=0
+		tungsten=4
+		coal=3
 	}
 
 	history={
 		victory_points = { 16376 2}
 		victory_points = { 16379 1}
 		
-		owner = VOC
+		owner = BLE
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -32,7 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = VOC
+		add_core_of = BLE
 	}
 
 	provinces={

@@ -10,7 +10,7 @@ state={
 		aluminium=1
 		chromium=1
 		oil=0
-		rubber=16
+		rubber=6
 		steel=0
 		tungsten=1
 		coal=3
@@ -21,7 +21,7 @@ state={
 		victory_points = { 2382 1}
 		victory_points = { 2383 1}
 		
-		owner = IMN
+		owner = PVZ
 		buildings = {
 			infrastructure = 2
 			
@@ -33,7 +33,7 @@ state={
 			}
 			
 		}
-		add_core_of = IMN
+		add_core_of = PVZ
 	}
 
 	provinces={

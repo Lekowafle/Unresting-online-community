@@ -21,7 +21,7 @@ state={
 		victory_points = { 15928 2}
 		victory_points = { 15937 2}
 		
-		owner = VOC
+		owner = BLE
 		buildings = {
 			infrastructure = 3
 			
@@ -33,7 +33,7 @@ state={
 			}
 			
 		}
-		add_core_of = VOC
+		add_core_of = BLE
 	}
 
 	provinces={

@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = VOC
+		owner = BLE
 		buildings = {
 			infrastructure = 1
 			
@@ -27,7 +27,7 @@ state={
 			
 			
 		}
-		add_core_of = VOC
+		add_core_of = BLE
 	}
 
 	provinces={

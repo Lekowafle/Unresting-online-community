@@ -19,7 +19,7 @@ state={
 	history={
 		victory_points = { 13171 1}
 		
-		owner = LIN
+		owner = EGG
 		buildings = {
 			infrastructure = 2
 			
@@ -28,7 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = LIN
+		add_core_of = EGG
 	}
 
 	provinces={

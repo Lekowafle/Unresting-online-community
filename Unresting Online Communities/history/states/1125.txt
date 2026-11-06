@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = LIN
+		owner = EGG
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -27,7 +27,7 @@ state={
 			
 			
 		}
-		add_core_of = LIN
+		add_core_of = EGG
 	}
 
 	provinces={
