@@ -20,7 +20,7 @@ state={
 		victory_points = { 9803 4}
 		victory_points = { 9809 4}
 		
-		owner = OST
+		owner = HOK
 		buildings = {
 			infrastructure = 2
 			
@@ -32,7 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = OST
+		add_core_of = HOK
 	}
 
 	provinces={

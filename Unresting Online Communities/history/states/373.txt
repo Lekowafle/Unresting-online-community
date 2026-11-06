@@ -20,7 +20,7 @@ state={
 		victory_points = { 4240 1}
 		victory_points = { 4241 1}
 		
-		owner = AME
+		owner = PVZ
 		buildings = {
 			infrastructure = 2
 			air_base = 1

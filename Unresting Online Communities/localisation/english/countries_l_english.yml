@@ -1,4 +1,12 @@
 ﻿l_english:
+ OTO_neutrality:0 "Otome"
+ OTO_fascism:0 "Otome"
+ OTO_communism:0 "Otome"
+ OTO_democratic:0 "Otome"
+ HOK_fascism:0 "Honor of Kings"
+ HOK_communism:0 "Honor of People"
+ HOK_neutrality:0 "Honor of Kingdom"
+ HOK_democratic:0 "Honor of Parliament"
  SAU_neutrality:0 "Sausage Man"
  SAU_democratic:0 "Sausage Mens"
  SAU_fascism:0 "Sausage People"

@@ -22,7 +22,7 @@ state={
 		victory_points = { 7316 5}
 		victory_points = { 7319 4}
 		
-		owner = MAK
+		owner = OTO
 		buildings = {
 			infrastructure = 4
 			
@@ -31,7 +31,7 @@ state={
 			
 			
 		}
-		add_core_of = MAK
+		add_core_of = OTO
 	}
 
 	provinces={
