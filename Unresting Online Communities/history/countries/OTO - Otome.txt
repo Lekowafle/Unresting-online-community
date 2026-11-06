@@ -1,0 +1,45 @@
+capital = 1
+
+
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	
+}
+
+
+
+
+set_research_slots = 3
+set_convoys = 170
+set_stability = 0.06
+set_war_support = 0.54
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1931.7.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+
+
+
+

@@ -1,4 +1,5 @@
 ﻿AGU = "countries/Aguatecab.txt"
+OTO = "countries/Otome.txt"
 HOK = "countries/Honorofkings.txt"
 SAU = "countries/Sausageman.txt"
 EGG = "countries/Eggparty.txt"
