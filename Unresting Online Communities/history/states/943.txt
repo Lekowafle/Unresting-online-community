@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = KHU
+		owner = OTO
 		buildings = {
 			infrastructure = 1
 			air_base = 2
@@ -30,7 +30,7 @@ state={
 			}
 			
 		}
-		add_core_of = KHU
+		add_core_of = OTO
 	}
 
 	provinces={

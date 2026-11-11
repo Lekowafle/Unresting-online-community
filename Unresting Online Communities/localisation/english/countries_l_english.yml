@@ -1,4 +1,8 @@
 ﻿l_english:
+ VOL_democratic:0 "Volicoid"
+ VOL_neutrality:0 "Volicoid"
+ VOL_fascism:0 "Volicoid"
+ VOL_communism:0 "Volicoid"
  OTO_neutrality:0 "Otome"
  OTO_fascism:0 "Otome"
  OTO_communism:0 "Otome"

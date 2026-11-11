@@ -19,7 +19,7 @@ state={
 	history={
 		victory_points = { 10444 2}
 		
-		owner = KHU
+		owner = VOL
 		buildings = {
 			infrastructure = 1
 			air_base = 3
@@ -31,7 +31,7 @@ state={
 			}
 			
 		}
-		add_core_of = KHU
+		add_core_of = VOL
 	}
 
 	provinces={
